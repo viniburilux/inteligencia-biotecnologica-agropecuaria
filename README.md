@@ -1,11 +1,18 @@
-# Inteligência Biotecnológica Agropecuária — O Laboratório de Fronteira
+# Inteligência Biotecnológica Agropecuária
 
-> "Não estamos esperando as condições perfeitas. Estamos mapeando a evidência."
+> **Uma infraestrutura aberta para enxergar onde a biotecnologia está indo.**
 
-## A História por trás do Código
-A biotecnologia agrícola e industrial avança em ritmos vertiginosos, mas a maior parte do conhecimento global está enterrada em milhões de patentes opacas e literatura fragmentada. Este laboratório nasceu para resolver esse problema. Usando agentes autônomos e motores de busca semântica, mapeamos em tempo real o que as gigantes internacionais e as instituições de ponta estão construindo — da proteção de cultivos ao aproveitamento de biorreatores.
+Este repositório é a parte pública de um laboratório em construção. A proposta não é apenas reunir patentes ou artigos, mas criar uma capacidade contínua para coletar sinais dispersos, organizar relações, formular novas perguntas e tornar o caminho da investigação visível para outras pessoas.
 
-Para quem busca entender a soberania biológica brasileira, este repositório é a porta de entrada.
+## Entre pela visão
+
+A [GitHub Pages do projeto](https://viniburilux.github.io/inteligencia-biotecnologica-agropecuaria/) apresenta a visão, as camadas da infraestrutura, o ciclo de investigação e alguns pontos de acesso aos achados. Este README é a ponte para dentro: aqui ficam o registro de origem, o estado atual da construção e os artefatos que permitem acompanhar o trabalho de verdade.
+
+## O que este projeto quer tornar possível
+
+Patentes, literatura, atores, instituições, tecnologias e aplicações costumam aparecer separados. A infraestrutura pretende colocá-los em um mesmo campo investigável, sem esconder a origem dos dados e sem transformar uma primeira hipótese em certeza. O resultado esperado é uma base para **descobrir, comparar, acompanhar movimentos e abrir novas trilhas**.
+
+> **Construir. Perguntar. Documentar. Mostrar.**
 
 ---
 

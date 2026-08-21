@@ -1,156 +1,289 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inteligência Biotecnológica Agropecuária | Laboratório de Fronteira</title>
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --accent: #38bdf8;
-            --accent-glow: rgba(56, 189, 248, 0.15);
-            --border: #334155;
-        }
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            line-height: 1.6;
-            padding: 2rem 1rem;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-            padding: 2rem 0;
-            border-bottom: 1px solid var(--border);
-        }
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(to right, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        header p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-        }
-        section {
-            margin-bottom: 3rem;
-        }
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--accent);
-            border-left: 4px solid var(--accent);
-            padding-left: 0.75rem;
-        }
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 4px 6px -1px var(--accent-glow);
-        }
-        .card h3 {
-            margin-bottom: 0.75rem;
-            font-size: 1.2rem;
-        }
-        .card p {
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-        }
-        .badge {
-            display: inline-block;
-            background: rgba(56, 189, 248, 0.1);
-            color: var(--accent);
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-        }
-        footer {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border);
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Uma infraestrutura aberta para transformar conhecimento biotecnológico disperso em inteligência investigável.">
+  <title>Inteligência Biotecnológica Agropecuária — Infraestrutura aberta</title>
+  <style>
+    :root {
+      --ink: #17211f;
+      --muted: #65736d;
+      --paper: #f5f6f1;
+      --paper-2: #e9eee7;
+      --line: #cdd7cf;
+      --deep: #123b35;
+      --green: #1c6b58;
+      --lime: #c9dd82;
+      --orange: #df774c;
+      --white: #fffefa;
+      --shadow: 0 18px 50px rgba(18, 59, 53, .09);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(245, 246, 241, .88);
+      border-bottom: 1px solid rgba(205, 215, 207, .85);
+      backdrop-filter: blur(14px);
+    }
+    .nav { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; letter-spacing: -.02em; }
+    .mark { width: 24px; height: 24px; display: grid; place-items: center; color: var(--paper); background: var(--deep); border-radius: 7px; font-size: 12px; font-weight: 900; }
+    .navlinks { display: flex; align-items: center; gap: 22px; color: var(--muted); font-size: 13px; font-weight: 650; }
+    .navlinks a { text-decoration: none; }
+    .navlinks a:hover { color: var(--green); }
+    .nav-cta { color: var(--deep) !important; border: 1px solid var(--deep); border-radius: 999px; padding: 8px 14px; }
+    .hero { padding: 88px 0 82px; background: radial-gradient(circle at 78% 18%, rgba(201, 221, 130, .38), transparent 30%), linear-gradient(135deg, var(--paper) 0%, #edf3e9 100%); border-bottom: 1px solid var(--line); }
+    .eyebrow { display: inline-flex; align-items: center; gap: 8px; color: var(--green); text-transform: uppercase; letter-spacing: .14em; font-size: 11px; font-weight: 850; }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: var(--orange); }
+    h1 { max-width: 880px; margin: 20px 0 22px; color: var(--deep); font-size: clamp(44px, 7vw, 82px); line-height: .98; letter-spacing: -.065em; font-weight: 840; }
+    .hero-lede { max-width: 700px; margin: 0; color: #40514a; font-size: clamp(19px, 2.4vw, 25px); line-height: 1.35; letter-spacing: -.025em; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 999px; text-decoration: none; font-size: 14px; font-weight: 800; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(18, 59, 53, .13); }
+    .button-primary { color: var(--paper); background: var(--deep); }
+    .button-secondary { color: var(--deep); border: 1px solid var(--deep); background: transparent; }
+    .hero-note { margin-top: 26px; color: var(--muted); font-size: 13px; }
+    .section { padding: 86px 0; }
+    .section + .section { border-top: 1px solid var(--line); }
+    .section-head { display: grid; grid-template-columns: minmax(240px, .7fr) minmax(0, 1.3fr); gap: 44px; align-items: start; margin-bottom: 42px; }
+    .section-kicker { color: var(--orange); text-transform: uppercase; letter-spacing: .15em; font-size: 11px; font-weight: 850; }
+    h2 { margin: 10px 0 0; color: var(--deep); font-size: clamp(30px, 4vw, 48px); line-height: 1.02; letter-spacing: -.05em; }
+    .section-intro { max-width: 630px; margin: 0; color: #4a5b54; font-size: 18px; line-height: 1.55; }
+    .statement { padding: 34px; border: 1px solid var(--deep); border-radius: var(--radius); color: var(--paper); background: var(--deep); box-shadow: var(--shadow); }
+    .statement p { max-width: 820px; margin: 0; font-size: clamp(24px, 3.2vw, 38px); line-height: 1.15; letter-spacing: -.04em; }
+    .statement strong { color: var(--lime); font-weight: 800; }
+    .layers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .layer { min-height: 210px; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: rgba(255, 254, 250, .72); }
+    .layer:nth-child(2) { transform: translateY(16px); }
+    .layer:nth-child(3) { transform: translateY(32px); background: #eef3d9; }
+    .layer:nth-child(4) { transform: translateY(48px); color: var(--paper); border-color: var(--deep); background: var(--green); }
+    .number { color: var(--orange); font-size: 13px; font-weight: 900; }
+    .layer h3 { margin: 38px 0 10px; color: inherit; font-size: 21px; line-height: 1.1; letter-spacing: -.025em; }
+    .layer p { margin: 0; color: var(--muted); font-size: 14px; }
+    .layer:nth-child(4) p { color: #d2e0d4; }
+    .cycle { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; border-top: 1px solid var(--deep); border-bottom: 1px solid var(--deep); }
+    .cycle-step { position: relative; min-height: 170px; padding: 24px 22px 20px; border-right: 1px solid var(--line); }
+    .cycle-step:last-child { border-right: 0; }
+    .cycle-step::after { content: "→"; position: absolute; right: -10px; top: 22px; z-index: 1; width: 19px; height: 19px; color: var(--paper); background: var(--orange); border-radius: 50%; text-align: center; line-height: 18px; font-size: 12px; }
+    .cycle-step:last-child::after { display: none; }
+    .cycle-step strong { display: block; margin: 42px 0 8px; color: var(--deep); font-size: 19px; letter-spacing: -.03em; }
+    .cycle-step span { color: var(--muted); font-size: 13px; }
+    .proof-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }
+    .proof-card { padding: 30px; border-radius: var(--radius); background: var(--white); border: 1px solid var(--line); box-shadow: var(--shadow); }
+    .proof-card h3 { margin: 0 0 12px; color: var(--deep); font-size: 23px; letter-spacing: -.03em; }
+    .proof-card p { margin: 0; color: var(--muted); }
+    .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 24px; }
+    .stat { padding: 16px; border-radius: 12px; background: var(--paper-2); }
+    .stat b { display: block; color: var(--deep); font-size: 28px; line-height: 1; letter-spacing: -.05em; }
+    .stat span { display: block; margin-top: 7px; color: var(--muted); font-size: 12px; }
+    .manifest { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px; }
+    .manifest a { display: block; padding: 13px 15px; border: 1px solid var(--line); border-radius: 11px; color: var(--green); background: var(--paper); text-decoration: none; font-size: 13px; font-weight: 750; }
+    .manifest a:hover { border-color: var(--green); background: #eff5e9; }
+    .access-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .access { display: flex; flex-direction: column; min-height: 270px; padding: 25px; border-top: 4px solid var(--orange); border-radius: 0 0 var(--radius) var(--radius); background: var(--paper-2); }
+    .access small { color: var(--orange); text-transform: uppercase; letter-spacing: .12em; font-size: 10px; font-weight: 900; }
+    .access h3 { margin: 28px 0 9px; color: var(--deep); font-size: 22px; line-height: 1.08; letter-spacing: -.03em; }
+    .access p { margin: 0; color: var(--muted); font-size: 14px; }
+    .access a { margin-top: auto; padding-top: 22px; color: var(--green); font-size: 13px; font-weight: 850; text-decoration: none; }
+    .timeline { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .timeline::before { content: ""; position: absolute; top: 10px; left: 0; right: 0; height: 1px; background: var(--line); }
+    .moment { position: relative; padding-top: 32px; }
+    .moment::before { content: ""; position: absolute; top: 4px; left: 0; width: 13px; height: 13px; border: 3px solid var(--paper); border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 1px var(--orange); }
+    .moment time { color: var(--orange); font-size: 11px; font-weight: 900; letter-spacing: .05em; }
+    .moment h3 { margin: 12px 0 7px; color: var(--deep); font-size: 18px; letter-spacing: -.025em; }
+    .moment p { margin: 0; color: var(--muted); font-size: 13px; }
+    .invite { padding: 58px 42px; border-radius: 24px; color: var(--paper); background: var(--green); }
+    .invite h2 { max-width: 720px; color: var(--paper); }
+    .invite p { max-width: 670px; color: #d7e5d9; font-size: 17px; }
+    .invite .button-primary { color: var(--deep); background: var(--lime); }
+    footer { padding: 30px 0 46px; color: var(--muted); font-size: 13px; }
+    .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 1px solid var(--line); padding-top: 22px; }
+    @media (max-width: 820px) {
+      .navlinks a:not(.nav-cta) { display: none; }
+      .hero { padding: 64px 0; }
+      .section { padding: 64px 0; }
+      .section-head, .proof-grid { grid-template-columns: 1fr; gap: 18px; }
+      .layers { grid-template-columns: repeat(2, 1fr); }
+      .layer:nth-child(2), .layer:nth-child(3), .layer:nth-child(4) { transform: none; }
+      .cycle { grid-template-columns: 1fr; border-bottom: 0; }
+      .cycle-step { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+      .cycle-step::after { content: "↓"; top: auto; bottom: -10px; right: 50%; }
+      .cycle-step strong { margin-top: 18px; }
+      .access-grid, .timeline { grid-template-columns: 1fr; }
+      .timeline::before { left: 5px; top: 0; bottom: 0; width: 1px; height: auto; }
+      .moment { padding: 0 0 26px 28px; }
+      .moment::before { top: 2px; left: 0; }
+      .invite { padding: 38px 26px; }
+    }
+    @media (max-width: 520px) {
+      .wrap { width: min(100% - 28px, 1120px); }
+      h1 { font-size: 49px; }
+      .layers, .stats, .manifest { grid-template-columns: 1fr; }
+      .footer-row { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Inteligência Biotecnológica</h1>
-            <p>Laboratório autônomo de investigação de patentes, literatura e soberania biológica.</p>
-        </header>
+  <div class="topbar">
+    <nav class="nav wrap" aria-label="Navegação principal">
+      <a class="brand" href="#top"><span class="mark">IB</span><span>Inteligência Biotecnológica</span></a>
+      <div class="navlinks">
+        <a href="#visao">Visão</a>
+        <a href="#infraestrutura">Infraestrutura</a>
+        <a href="#pontos-de-acesso">Pontos de acesso</a>
+        <a class="nav-cta" href="https://github.com/viniburilux/inteligencia-biotecnologica-agropecuaria" target="_blank" rel="noreferrer">Entrar no GitHub</a>
+      </div>
+    </nav>
+  </div>
 
-        <section>
-            <h2>A Filosofia</h2>
-            <div class="card">
-                <h3>Não estamos esperando as condições perfeitas.</h3>
-                <p>Este laboratório utiliza agentes autônomos e busca semântica para varrer milhares de registros globais, transformando dados dispersos de patentes (Google Patents) e literatura científica (OpenAlex) em inteligência acionável e verificável.</p>
-                <span class="badge">763 Obras Catalogadas</span>
-                <span class="badge">Corpus Cumulativo V2</span>
+  <main id="top">
+    <header class="hero">
+      <div class="wrap">
+        <span class="eyebrow">Laboratório aberto · Salvador, Bahia</span>
+        <h1>Uma infraestrutura para enxergar onde a biotecnologia está indo.</h1>
+        <p class="hero-lede">Este projeto transforma conhecimento disperso — patentes, literatura, atores, tecnologias e aplicações — em um ambiente público para formular perguntas melhores, acompanhar movimentos e encontrar caminhos que ainda não estão óbvios.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#infraestrutura">Conhecer a infraestrutura</a>
+          <a class="button button-secondary" href="https://github.com/viniburilux/inteligencia-biotecnologica-agropecuaria" target="_blank" rel="noreferrer">Abrir o repositório</a>
+        </div>
+        <p class="hero-note">Não é um dashboard pronto. É uma capacidade de investigação sendo construída em público.</p>
+      </div>
+    </header>
+
+    <section class="section" id="visao">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="section-kicker">A visão</span><h2>O que está sendo construído é maior que uma coleção de achados.</h2></div>
+          <p class="section-intro">A maior parte da inteligência biotecnológica não aparece em um único lugar. Ela se encontra espalhada entre documentos, organizações, inventores, organismos, aplicações e sinais de mercado. A visão deste laboratório é construir a infraestrutura que permite conectar essas coisas sem depender de uma única narrativa pronta.</p>
+        </div>
+        <div class="statement">
+          <p>Em vez de publicar apenas uma resposta, criar uma máquina aberta para <strong>perguntar, conectar, testar e mostrar</strong> — de novo e de novo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="infraestrutura">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="section-kicker">A infraestrutura</span><h2>Quatro camadas que transformam dispersão em campo de visão.</h2></div>
+          <p class="section-intro">A infraestrutura não é apenas o código. Ela combina fontes públicas, organização dos registros, memória das perguntas e uma forma de tornar o caminho da investigação legível para outras pessoas.</p>
+        </div>
+        <div class="layers">
+          <article class="layer"><span class="number">01 / ENTRADA</span><h3>Coletar</h3><p>Trazer para o mesmo campo registros públicos que normalmente ficam separados.</p></article>
+          <article class="layer"><span class="number">02 / ORDEM</span><h3>Organizar</h3><p>Normalizar obras, atores, instituições, relações e aplicações sem apagar a proveniência.</p></article>
+          <article class="layer"><span class="number">03 / PERGUNTA</span><h3>Investigar</h3><p>Deixar o próprio corpus sugerir novos caminhos, contrastes e perguntas de expansão.</p></article>
+          <article class="layer"><span class="number">04 / SAÍDA</span><h3>Mostrar</h3><p>Publicar mapas, métodos, artefatos e descobertas em uma forma que outras pessoas possam acompanhar.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="section-kicker">O movimento</span><h2>O laboratório aprende com cada rodada.</h2></div>
+          <p class="section-intro">A investigação não começa com um mapa perfeito. Ela começa com uma pergunta, registra o que encontra e usa os sinais encontrados para decidir a próxima pergunta.</p>
+        </div>
+        <div class="cycle" aria-label="Ciclo de investigação">
+          <div class="cycle-step"><span>01</span><strong>Corpus</strong><span>Reunir registros e fontes públicas.</span></div>
+          <div class="cycle-step"><span>02</span><strong>Radiografia</strong><span>Ver quem aparece e o que se repete.</span></div>
+          <div class="cycle-step"><span>03</span><strong>Pergunta</strong><span>Escolher a próxima trilha.</span></div>
+          <div class="cycle-step"><span>04</span><strong>Expansão</strong><span>Buscar além do primeiro resultado.</span></div>
+          <div class="cycle-step"><span>05</span><strong>Memória</strong><span>Registrar o caminho para poder voltar.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="o-que-existe">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="section-kicker">O que já existe</span><h2>Uma primeira infraestrutura pública, em movimento.</h2></div>
+          <p class="section-intro">Abaixo está um retrato do snapshot publicado. Os números não são o produto final; são sinais de que o sistema já consegue coletar, organizar, relacionar e devolver novas perguntas.</p>
+        </div>
+        <div class="proof-grid">
+          <article class="proof-card">
+            <h3>O estado atual da construção</h3>
+            <p>O corpus cumulativo publicado reúne fontes de literatura, patentes e contexto regulatório, com proveniência, deduplicação conservadora e artefatos que tornam o caminho da investigação visível.</p>
+            <div class="stats">
+              <div class="stat"><b>763</b><span>obras e registros</span></div>
+              <div class="stat"><b>195</b><span>registros patentários</span></div>
+              <div class="stat"><b>2.680</b><span>atores identificados</span></div>
+              <div class="stat"><b>4.045</b><span>relações observadas</span></div>
             </div>
-        </section>
-
-        <section>
-            <h2>Achados em Destaque</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>O Corredor Trichoderma</h3>
-                    <p>Como o organismo mais recorrente do corpus (175 obras) funciona como uma ponte crítica entre biocontrole radicular na soja e biossurfactantes industriais.</p>
-                </div>
-                <div class="card">
-                    <h3>Revolução On-farm</h3>
-                    <p>A infraestrutura técnica e patentária que sustenta a descentralização da produção de bioinsumos diretamente na propriedade rural brasileira.</p>
-                </div>
-                <div class="card">
-                    <h3>Sinal Petrobras-Microalgas</h3>
-                    <p>O elo estreito entre biofixação de CO2 industrial, aproveitamento de resíduos e fertilizantes organominerais no Brasil.</p>
-                </div>
+          </article>
+          <article class="proof-card">
+            <h3>Comece pela trilha, não pela planilha</h3>
+            <p>Os artefatos abaixo são as melhores portas de entrada para entender a construção por dentro.</p>
+            <div class="manifest">
+              <a href="INVENTORY_V0.md">Inventário inicial</a>
+              <a href="SIGNAL_MAP_V0.md">Mapa de sinais</a>
+              <a href="EXPLORATORY_RADIOGRAPHY_V1.md">Radiografia V1</a>
+              <a href="RADIOGRAPHY_METHOD_V1.md">Método da radiografia</a>
+              <a href="normalized_v2/">Corpus cumulativo</a>
+              <a href="EXPLORATION_CYCLE_V1_SUMMARY.md">Resumo da exploração</a>
             </div>
-        </section>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <h2>Explorar o Ecossistema</h2>
-            <div class="card">
-                <h3>Repositório Oficial</h3>
-                <p>Todo o código, os parsers em Python, os JSONLs normalizados e as radiografias metodológicas estão abertos e disponíveis no GitHub.</p>
-                <a href="https://github.com/viniburilux/inteligencia-biotecnologica-agropecuaria" target="_blank">Acessar Repositório →</a>
-            </div>
-        </section>
+    <section class="section" id="pontos-de-acesso">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="section-kicker">Pontos de acesso</span><h2>Os achados são janelas para a infraestrutura.</h2></div>
+          <p class="section-intro">Trichoderma, produção on-farm e microalgas não são a tese inteira. São pontos de entrada: exemplos concretos de como uma pergunta se transforma em uma trilha investigável dentro do sistema.</p>
+        </div>
+        <div class="access-grid">
+          <article class="access"><small>Trilha 01 · Organismos e aplicações</small><h3>O corredor Trichoderma</h3><p>Uma porta de entrada para acompanhar como um mesmo organismo aparece em contextos de biocontrole, raízes, enzimas e bioprocessos.</p><a href="EXPLORATORY_RADIOGRAPHY_V1.md">Ver a radiografia →</a></article>
+          <article class="access"><small>Trilha 02 · Produção e território</small><h3>O movimento on-farm</h3><p>Uma janela para investigar a passagem do bioinsumo como produto centralizado para infraestruturas de produção e controle mais próximas do campo.</p><a href="EXPANSION_PATENT_FINDINGS_V1.md">Ver os registros →</a></article>
+          <article class="access"><small>Trilha 03 · Indústria e transição</small><h3>O sinal Petrobras–microalgas</h3><p>Uma trilha que conecta biofixação, resíduos, CO₂ e fertilizantes — útil para entender como o sistema encontra relações entre domínios.</p><a href="SIGNAL_MAP_V0.md">Entrar pelo mapa →</a></article>
+        </div>
+      </div>
+    </section>
 
-        <footer>
-            <p>Construído pela LuxVerso Research Initiative • Salvador, Bahia</p>
-        </footer>
-    </div>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="section-kicker">A jornada</span><h2>Construído em público, sem fingir que já terminou.</h2></div>
+          <p class="section-intro">A história importa porque permite distinguir uma obra acabada de uma capacidade que está crescendo. Cada rodada deixa uma marca, uma pergunta nova e um próximo passo.</p>
+        </div>
+        <div class="timeline">
+          <article class="moment"><time>21 AGO 2026</time><h3>Dia zero</h3><p>O laboratório nasce com a decisão de investigar olhando para os dados.</p></article>
+          <article class="moment"><time>PRIMEIRA RODADA</time><h3>O primeiro campo de visão</h3><p>OpenAlex, Crossref e Google Patents entram no mesmo inventário.</p></article>
+          <article class="moment"><time>EXPANSÃO</time><h3>O corpus começa a perguntar</h3><p>Atores, organismos, tecnologias e lacunas passam a orientar novas consultas.</p></article>
+          <article class="moment"><time>AGORA</time><h3>Infraestrutura em movimento</h3><p>O ciclo continua: corpus, radiografia, pergunta, ingestão e nova radiografia.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="invite">
+          <span class="eyebrow" style="color: var(--lime);">Entre pela porta que fizer sentido</span>
+          <h2>Se você quer entender um movimento, pode começar acompanhando como este laboratório constrói o campo de visão.</h2>
+          <p>Pesquisadores, fundadores, cooperativas, instituições públicas e pessoas curiosas podem explorar os artefatos, contestar uma trilha, sugerir uma fonte ou abrir uma conversa.</p>
+          <div class="hero-actions"><a class="button button-primary" href="https://github.com/viniburilux/inteligencia-biotecnologica-agropecuaria" target="_blank" rel="noreferrer">Abrir o repositório</a><a class="button button-secondary" style="color: var(--paper); border-color: var(--paper);" href="#top">Voltar ao início</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row"><span>Inteligência Biotecnológica Agropecuária · LuxVerso Research Initiative</span><span>Uma infraestrutura aberta em construção.</span></div>
+  </footer>
 </body>
 </html>
