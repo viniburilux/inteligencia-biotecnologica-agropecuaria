@@ -1,0 +1,4617 @@
+{
+  "source": "OpenAlex",
+  "metadata_only": true,
+  "queries": [
+    {
+      "query": "\"Bacillus velezensis\" Universidade Estadual de Londrina Instituto Agronômico do Paraná",
+      "url": "https://api.openalex.org/works?search=%22Bacillus+velezensis%22+Universidade+Estadual+de+Londrina+Instituto+Agron%C3%B4mico+do+Paran%C3%A1&per-page=25&mailto=viniburilux%40gmail.com",
+      "fetched_at": "2026-08-21T19:00:56.431800+00:00",
+      "status_code": 200,
+      "response_sha256": "1beacc9607e145c54bc4dbd50e8a5471a7636ad58931bf098032f9b744c83eae",
+      "meta": {
+        "count": 9,
+        "db_response_time_ms": 122,
+        "page": 1,
+        "per_page": 25,
+        "groups_count": null,
+        "x_query": {
+          "oql": "works where full text has (Bacillus velezensis Universidade Estadual de Londrina Instituto Agronômico do Paraná)",
+          "oqo": {
+            "get_rows": "works",
+            "filter_rows": [
+              {
+                "column_id": "fulltext.search",
+                "value": "\"Bacillus velezensis\" Universidade Estadual de Londrina Instituto Agronômico do Paraná",
+                "operator": "has"
+              }
+            ]
+          },
+          "url": "/works?filter=fulltext.search:%22Bacillus velezensis%22 Universidade Estadual de Londrina Instituto Agron%C3%B4mico do Paran%C3%A1&per_page=25"
+        },
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W7120299393",
+          "doi": null,
+          "title": "Bioestimulantes em tomateiro : efeitos em parâmetros agronômicos e indução de resistência",
+          "publication_year": 2024,
+          "type": "dissertation",
+          "authorships": [
+            {
+              "author": "Marco dos Reis Brugnerotto",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "pmh:oai:repositorio.uel.br:123456789/9397",
+            "is_oa": true,
+            "landing_page_url": "https://repositorio.uel.br/handle/123456789/9397",
+            "pdf_url": "https://repositorio.uel.br/bitstreams/947beb51-6d9e-4efc-aa28-12f7e2c79a72/download",
+            "source": {
+              "id": "https://openalex.org/S4306402641",
+              "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/I4383465926",
+              "host_organization_name": "LA Referencia",
+              "host_organization_lineage": [
+                "https://openalex.org/I4383465926"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "instacron:UEL",
+            "raw_type": "info:eu-repo/semantics/doctoralThesis"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7120402019",
+          "doi": null,
+          "title": "Bacillus spp. as plant growth promoting bacteria in cotton culture.",
+          "publication_year": 2018,
+          "type": "dissertation",
+          "authorships": [
+            {
+              "author": "Paola Andrea Escobar Diaz",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "pmh:oai:repositorio.unesp.br:11449/153201",
+            "is_oa": true,
+            "landing_page_url": "http://hdl.handle.net/11449/153201",
+            "pdf_url": "http://hdl.handle.net/11449/153201",
+            "source": {
+              "id": "https://openalex.org/S4306402641",
+              "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/I4383465926",
+              "host_organization_name": "LA Referencia",
+              "host_organization_lineage": [
+                "https://openalex.org/I4383465926"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "instacron:UNESP",
+            "raw_type": "info:eu-repo/semantics/masterThesis"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7120650984",
+          "doi": null,
+          "title": "Inoculation via foliar of diazotrophic bacteria in corn cultivated under different soil management",
+          "publication_year": 2018,
+          "type": "dissertation",
+          "authorships": [
+            {
+              "author": "Tatiana da Silva Santos",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "pmh:oai:repositorio.unesp.br:11449/180597",
+            "is_oa": true,
+            "landing_page_url": "http://hdl.handle.net/11449/180597",
+            "pdf_url": "http://hdl.handle.net/11449/180597",
+            "source": {
+              "id": "https://openalex.org/S4306402641",
+              "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/I4383465926",
+              "host_organization_name": "LA Referencia",
+              "host_organization_lineage": [
+                "https://openalex.org/I4383465926"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "instacron:UNESP",
+            "raw_type": "info:eu-repo/semantics/masterThesis"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7154835613",
+          "doi": "https://doi.org/10.54033/stebook.978-65-83309-56-3_6",
+          "title": "TECHNOLOGICAL PROSPECTING OF PYROLIGNONEOUS EXTRACT AS AN ANTIFUNGAL AGENT",
+          "publication_year": 2026,
+          "type": "book-chapter",
+          "authorships": [
+            {
+              "author": "Keityane de Oliveira e Silva",
+              "institutions": []
+            },
+            {
+              "author": "Pierre Barnabé Escodro",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.54033/stebook.978-65-83309-56-3_6",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.54033/stebook.978-65-83309-56-3_6",
+            "pdf_url": "https://doi.org/10.54033/stebook.978-65-83309-56-3_6",
+            "source": {
+              "id": "https://openalex.org/S4306487000",
+              "display_name": "Editora Studies Publicações eBooks",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "ebook platform"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Resources and Technologies in Agricultural Sciences",
+            "raw_type": "book-chapter"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7154853215",
+          "doi": "https://doi.org/10.54033/stebook.978-65-83309-56-3_7",
+          "title": "EVALUATION OF NORMALIZED DIFFERENCE FRACTION INDEX IMAGE-NDFI IN MONITORING THE STATE FOREST CONCESSION OF AMAPA, BRAZIL",
+          "publication_year": 2026,
+          "type": "book-chapter",
+          "authorships": [
+            {
+              "author": "André Luiz Silva Monteiro",
+              "institutions": []
+            },
+            {
+              "author": "Marcos Renato de Almeida",
+              "institutions": []
+            },
+            {
+              "author": "Nair Cristina de Sousa Martel",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.54033/stebook.978-65-83309-56-3_7",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.54033/stebook.978-65-83309-56-3_7",
+            "pdf_url": "https://doi.org/10.54033/stebook.978-65-83309-56-3_7",
+            "source": {
+              "id": "https://openalex.org/S4306487000",
+              "display_name": "Editora Studies Publicações eBooks",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "ebook platform"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Resources and Technologies in Agricultural Sciences",
+            "raw_type": "book-chapter"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7154839798",
+          "doi": "https://doi.org/10.54033/stebook.978-65-83309-56-3_5",
+          "title": "AGRONOMIC PERFORMANCE OF IRRIGATED RICE UNDER INOCULATION WITH AZOSPIRILLUM BRASILENSE AND NITROGEN FERTILIZATION",
+          "publication_year": 2026,
+          "type": "book-chapter",
+          "authorships": [
+            {
+              "author": "Daniele Pacheco da Silva",
+              "institutions": []
+            },
+            {
+              "author": "Joice Fernanda Lübke Bonow",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.54033/stebook.978-65-83309-56-3_5",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.54033/stebook.978-65-83309-56-3_5",
+            "pdf_url": "https://doi.org/10.54033/stebook.978-65-83309-56-3_5",
+            "source": {
+              "id": "https://openalex.org/S4306487000",
+              "display_name": "Editora Studies Publicações eBooks",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "ebook platform"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Resources and Technologies in Agricultural Sciences",
+            "raw_type": "book-chapter"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7164462362",
+          "doi": null,
+          "title": "Resumos expandidos...",
+          "publication_year": 2026,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "REUNIÃO DE PESQUISA DE SOJA, 40., 2026, Londrina.",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "pmh:oai:www.infoteca.cnptia.embrapa.br:doc/1187406",
+            "is_oa": true,
+            "landing_page_url": "http://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1187406",
+            "pdf_url": "http://www.infoteca.cnptia.embrapa.br/bitstream/doc/1187406/1/ETC-7-RPSoja-2026.pdf",
+            "source": {
+              "id": "https://openalex.org/S4377196555",
+              "display_name": "infoteca-e (Brazilian Agricultural Research Corporation)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/I199691007",
+              "host_organization_name": "Brazilian Agricultural Research Corporation",
+              "host_organization_lineage": [
+                "https://openalex.org/I199691007"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Anais e Proceedings de eventos"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W2803293841",
+          "doi": null,
+          "title": "Bacillus spp. como promotores de crescimento na cultura do algodão.",
+          "publication_year": 2018,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Paola Andrea Escobar Diaz",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "pmh:oai:repositorio.unesp.br:11449/153201",
+            "is_oa": true,
+            "landing_page_url": "http://hdl.handle.net/11449/153201",
+            "pdf_url": "http://hdl.handle.net/11449/153201",
+            "source": {
+              "id": "https://openalex.org/S4306402641",
+              "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/I4383465926",
+              "host_organization_name": "LA Referencia",
+              "host_organization_lineage": [
+                "https://openalex.org/I4383465926"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "reponame:Repositório Institucional da UNESP",
+            "raw_type": "info:eu-repo/semantics/publishedVersion"
+          },
+          "cited_by_count": 0
+        },
+        {
+          "id": "https://openalex.org/W7167236429",
+          "doi": "https://doi.org/10.55905/edicon.978-65-83115-40-9_9",
+          "title": "QUALITY OF INSECTICIDE APPLICATION BY DRONE IN CORN CROP",
+          "publication_year": 2026,
+          "type": "book-chapter",
+          "authorships": [
+            {
+              "author": "Thiago Martins Machado",
+              "institutions": []
+            },
+            {
+              "author": "Juliano Villanie Almeida",
+              "institutions": []
+            },
+            {
+              "author": "Francisco Cezar Dias",
+              "institutions": []
+            },
+            {
+              "author": "Daniele Stephane Costa de Jesus",
+              "institutions": []
+            },
+            {
+              "author": "Windilson Cesar Pereira Moraes",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.55905/edicon.978-65-83115-40-9_9",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.55905/edicon.978-65-83115-40-9_9",
+            "pdf_url": "https://revistacontribuciones.com/wp/wp-content/uploads/2026/03/CONTRIBUCIONES-Paths-of-the-Rural-Sector-7.pdf",
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "PATHS OF THE RURAL SECTOR",
+            "raw_type": "book-chapter"
+          },
+          "cited_by_count": 0
+        }
+      ]
+    },
+    {
+      "query": "\"Bacillus velezensis\" phosphate solubilization biocontrol maize soybean Brazil",
+      "url": "https://api.openalex.org/works?search=%22Bacillus+velezensis%22+phosphate+solubilization+biocontrol+maize+soybean+Brazil&per-page=25&mailto=viniburilux%40gmail.com",
+      "fetched_at": "2026-08-21T19:00:59.354143+00:00",
+      "status_code": 200,
+      "response_sha256": "6135a730d72e2d707be7593e308b904d82655685b34dd393661439bf262fed89",
+      "meta": {
+        "count": 262,
+        "db_response_time_ms": 221,
+        "page": 1,
+        "per_page": 25,
+        "groups_count": null,
+        "x_query": {
+          "oql": "works where full text has (Bacillus velezensis phosphate solubilization biocontrol maize soybean Brazil)",
+          "oqo": {
+            "get_rows": "works",
+            "filter_rows": [
+              {
+                "column_id": "fulltext.search",
+                "value": "\"Bacillus velezensis\" phosphate solubilization biocontrol maize soybean Brazil",
+                "operator": "has"
+              }
+            ]
+          },
+          "url": "/works?filter=fulltext.search:%22Bacillus velezensis%22 phosphate solubilization biocontrol maize soybean Brazil&per_page=25"
+        },
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4295394560",
+          "doi": "https://doi.org/10.1038/s41598-022-19515-8",
+          "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+          "publication_year": 2022,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Galdino Andrade",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Luana Rainieri Massucato",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Suelen Regina de Araújo Almeida",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renato Barros de Lima Filho",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Douglas Mariani Zeffa",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1038/s41598-022-19515-8",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41598-022-19515-8",
+            "pdf_url": "https://www.nature.com/articles/s41598-022-19515-8.pdf",
+            "source": {
+              "id": "https://openalex.org/S196734849",
+              "display_name": "Scientific Reports",
+              "issn_l": "2045-2322",
+              "issn": [
+                "2045-2322"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319908",
+              "host_organization_name": "Nature Portfolio",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319908",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Nature Portfolio",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific Reports",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 61
+        },
+        {
+          "id": "https://openalex.org/W3119218898",
+          "doi": "https://doi.org/10.1038/s41598-020-80231-2",
+          "title": "Characterization of Bacillus velezensis AK-0 as a biocontrol agent against apple bitter rot caused by Colletotrichum gloeosporioides",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Young Soo Kim",
+              "institutions": [
+                "Gyeongguk National University",
+                "Jusung Engineering (South Korea)"
+              ]
+            },
+            {
+              "author": "Younmi Lee",
+              "institutions": [
+                "Gyeongguk National University"
+              ]
+            },
+            {
+              "author": "Wonsu Cheon",
+              "institutions": [
+                "Gyeongguk National University"
+              ]
+            },
+            {
+              "author": "Jungwook Park",
+              "institutions": [
+                "Pusan National University"
+              ]
+            },
+            {
+              "author": "Hyeok-Tae Kwon",
+              "institutions": [
+                "Gyeongguk National University"
+              ]
+            },
+            {
+              "author": "Kotnala Balaraju",
+              "institutions": [
+                "Gyeongguk National University"
+              ]
+            },
+            {
+              "author": "Jungyeon Kim",
+              "institutions": [
+                "Gyeongguk National University"
+              ]
+            },
+            {
+              "author": "Yeo Jun Yoon",
+              "institutions": []
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1038/s41598-020-80231-2",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41598-020-80231-2",
+            "pdf_url": "https://www.nature.com/articles/s41598-020-80231-2.pdf",
+            "source": {
+              "id": "https://openalex.org/S196734849",
+              "display_name": "Scientific Reports",
+              "issn_l": "2045-2322",
+              "issn": [
+                "2045-2322"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319908",
+              "host_organization_name": "Nature Portfolio",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319908",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Nature Portfolio",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific Reports",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 88
+        },
+        {
+          "id": "https://openalex.org/W4387003915",
+          "doi": "https://doi.org/10.26599/fshw.2022.9250148",
+          "title": "Research advance of Bacillus velezensis: bioinformatics, characteristics, and applications",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Ting Su",
+              "institutions": [
+                "Ningbo University"
+              ]
+            },
+            {
+              "author": "Biao Shen",
+              "institutions": [
+                "Zhoushan Hospital"
+              ]
+            },
+            {
+              "author": "Xingjuan Hu",
+              "institutions": [
+                "Zhoushan Hospital"
+              ]
+            },
+            {
+              "author": "Yue Teng",
+              "institutions": [
+                "Zhoushan Hospital"
+              ]
+            },
+            {
+              "author": "Peifang Weng",
+              "institutions": [
+                "Ningbo University"
+              ]
+            },
+            {
+              "author": "Zufang Wu",
+              "institutions": [
+                "Ningbo University"
+              ]
+            },
+            {
+              "author": "Lianliang Liu",
+              "institutions": [
+                "Ningbo University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.26599/fshw.2022.9250148",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.26599/fshw.2022.9250148",
+            "pdf_url": "https://file.sciopen.com/sciopen_public/1702205266303922178.pdf",
+            "source": {
+              "id": "https://openalex.org/S2764902628",
+              "display_name": "Food Science and Human Wellness",
+              "issn_l": "2097-0765",
+              "issn": [
+                "2097-0765",
+                "2213-4530"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Food Science and Human Wellness",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 44
+        },
+        {
+          "id": "https://openalex.org/W3137370641",
+          "doi": "https://doi.org/10.3390/microorganisms9030614",
+          "title": "A Review on the Biotechnological Applications of the Operational Group Bacillus amyloliquefaciens",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Mohamad Syazwan Ngalimat",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Radin Shafierul Radin Yahaya",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Mohamad Malik Al-adil Baharudin",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Syafiqah Mohd. Yaminudin",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Murni Karim",
+              "institutions": [
+                "INTI International University",
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Siti Aqlima Ahmad",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Suriana Sabri",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/microorganisms9030614",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/microorganisms9030614",
+            "pdf_url": "https://www.mdpi.com/2076-2607/9/3/614/pdf?version=1615968429",
+            "source": {
+              "id": "https://openalex.org/S4210222090",
+              "display_name": "Microorganisms",
+              "issn_l": "2076-2607",
+              "issn": [
+                "2076-2607"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microorganisms",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 209
+        },
+        {
+          "id": "https://openalex.org/W2809454424",
+          "doi": "https://doi.org/10.1094/phyto-02-18-0048-r",
+          "title": "Enhanced Control of Plant Wilt Disease by a Xylose-Inducible <i>degQ</i> Gene Engineered into <i>Bacillus velezensis</i> Strain SQR9XYQ",
+          "publication_year": 2018,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Zhihui Xu",
+              "institutions": [
+                "Nanjing Agricultural University"
+              ]
+            },
+            {
+              "author": "Jiyu Xie",
+              "institutions": [
+                "Nanjing Agricultural University"
+              ]
+            },
+            {
+              "author": "Huihui Zhang",
+              "institutions": [
+                "Nanjing Agricultural University"
+              ]
+            },
+            {
+              "author": "Dandan Wang",
+              "institutions": [
+                "Nanjing Agricultural University"
+              ]
+            },
+            {
+              "author": "Qirong Shen",
+              "institutions": [
+                "Nanjing Agricultural University"
+              ]
+            },
+            {
+              "author": "Ruifu Zhang",
+              "institutions": [
+                "Nanjing Agricultural University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1094/phyto-02-18-0048-r",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1094/phyto-02-18-0048-r",
+            "pdf_url": "https://apsjournals.apsnet.org/doi/pdf/10.1094/PHYTO-02-18-0048-R",
+            "source": {
+              "id": "https://openalex.org/S85201822",
+              "display_name": "Phytopathology",
+              "issn_l": "0031-949X",
+              "issn": [
+                "0031-949X",
+                "1943-7684"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320276",
+              "host_organization_name": "American Phytopathological Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320276"
+              ],
+              "host_organization_lineage_names": [
+                "American Phytopathological Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Phytopathology®",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 50
+        },
+        {
+          "id": "https://openalex.org/W4381308174",
+          "doi": "https://doi.org/10.1094/pdis-12-22-2829-re",
+          "title": "<i>Bacillus velezensis</i> K-9 as a Potential Biocontrol Agent for Managing Potato Scab",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Shuang Ma",
+              "institutions": [
+                "Heilongjiang Bayi Agricultural University"
+              ]
+            },
+            {
+              "author": "Yanjie Wang",
+              "institutions": [
+                "Heilongjiang Bayi Agricultural University"
+              ]
+            },
+            {
+              "author": "Wang Teng",
+              "institutions": [
+                "Heilongjiang Bayi Agricultural University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1094/pdis-12-22-2829-re",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1094/pdis-12-22-2829-re",
+            "pdf_url": "https://apsjournals.apsnet.org/doi/pdf/10.1094/PDIS-12-22-2829-RE?download=true",
+            "source": {
+              "id": "https://openalex.org/S135458494",
+              "display_name": "Plant Disease",
+              "issn_l": "0191-2917",
+              "issn": [
+                "0191-2917",
+                "1943-7692"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320276",
+              "host_organization_name": "American Phytopathological Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320276"
+              ],
+              "host_organization_lineage_names": [
+                "American Phytopathological Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Plant Disease",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 23
+        },
+        {
+          "id": "https://openalex.org/W4380998121",
+          "doi": "https://doi.org/10.3390/biology12060856",
+          "title": "Bacillus velezensis Strain HN-Q-8 Induced Resistance to Alternaria solani and Stimulated Growth of Potato Plant",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Xuefei Bai",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Qian Li",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Dai Zhang",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Yi Zhao",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Dongmei Zhao",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Yang Pan",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Jinhui Wang",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            },
+            {
+              "author": "Zhihui Yang",
+              "institutions": [
+                "Hebei Agricultural University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/biology12060856",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/biology12060856",
+            "pdf_url": "https://www.mdpi.com/2079-7737/12/6/856/pdf?version=1686732633",
+            "source": {
+              "id": "https://openalex.org/S153489431",
+              "display_name": "Biology",
+              "issn_l": "2079-7737",
+              "issn": [
+                "2079-7737"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Biology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 22
+        },
+        {
+          "id": "https://openalex.org/W2896401771",
+          "doi": "https://doi.org/10.3389/fpls.2018.01502",
+          "title": "Identification of Soil Bacterial Isolates Suppressing Different Phytophthora spp. and Promoting Plant Growth",
+          "publication_year": 2018,
+          "type": "book-review",
+          "authorships": [
+            {
+              "author": "Sharifah Farhana Syed-Ab-Rahman",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Lília C. Carvalhais",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Elvis T. Chua",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Yawen Xiao",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Taylor J. Wass",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Peer M. Schenk",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fpls.2018.01502",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fpls.2018.01502",
+            "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2018.01502/pdf",
+            "source": {
+              "id": "https://openalex.org/S2493613807",
+              "display_name": "Frontiers in Plant Science",
+              "issn_l": "1664-462X",
+              "issn": [
+                "1664-462X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Plant Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 101
+        },
+        {
+          "id": "https://openalex.org/W4401811244",
+          "doi": "https://doi.org/10.3389/fpls.2024.1433828",
+          "title": "Effect of a Bacillus velezensis and Lysinibacillus fusiformis-based biofertilizer on phosphorus acquisition and grain yield of soybean",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Luciana Cristina Vitorino",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            },
+            {
+              "author": "Elias José da Silva",
+              "institutions": []
+            },
+            {
+              "author": "Marilene Silva Oliveira",
+              "institutions": []
+            },
+            {
+              "author": "Isabella de Oliveira Silva",
+              "institutions": []
+            },
+            {
+              "author": "Lorraine da Silva Santos",
+              "institutions": []
+            },
+            {
+              "author": "Maria Andréia Corrêa Mendonça",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            },
+            {
+              "author": "Thais Cristina Sousa de Oliveira",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            },
+            {
+              "author": "Layara Alexandre Bessa",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fpls.2024.1433828",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fpls.2024.1433828",
+            "pdf_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1433828/pdf",
+            "source": {
+              "id": "https://openalex.org/S2493613807",
+              "display_name": "Frontiers in Plant Science",
+              "issn_l": "1664-462X",
+              "issn": [
+                "1664-462X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Plant Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 15
+        },
+        {
+          "id": "https://openalex.org/W4206273762",
+          "doi": "https://doi.org/10.1515/bmc-2021-0019",
+          "title": "Plant growth-promoting properties of bacterial endophytes isolated from roots of <i>Thymus vulgaris</i> L. and investigate their role as biofertilizers to enhance the essential oil contents",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Mahmoud Soliman Abdel-Hamid",
+              "institutions": [
+                "Desert Research Center"
+              ]
+            },
+            {
+              "author": "Amr Fouda",
+              "institutions": [
+                "Desert Research Center"
+              ]
+            },
+            {
+              "author": "Hesham Kamal Abo El-Ela",
+              "institutions": [
+                "Desert Research Center"
+              ]
+            },
+            {
+              "author": "A.A. El-Ghamry",
+              "institutions": [
+                "Al-Azhar University"
+              ]
+            },
+            {
+              "author": "Saad S. M. Hassan",
+              "institutions": [
+                "Al-Azhar University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1515/bmc-2021-0019",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1515/bmc-2021-0019",
+            "pdf_url": "https://www.degruyter.com/document/doi/10.1515/bmc-2021-0019/pdf",
+            "source": {
+              "id": "https://openalex.org/S191756739",
+              "display_name": "BioMolecular Concepts",
+              "issn_l": "1868-5021",
+              "issn": [
+                "1868-5021",
+                "1868-503X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310313990",
+              "host_organization_name": "De Gruyter",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310313990"
+              ],
+              "host_organization_lineage_names": [
+                "De Gruyter"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Biomolecular Concepts",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 39
+        },
+        {
+          "id": "https://openalex.org/W4220972346",
+          "doi": "https://doi.org/10.15835/nbha50112590",
+          "title": "Characterization of broad-spectrum biocontrol efficacy of Bacillus velezensis against Fusarium oxysporum in Triticum aestivum L.",
+          "publication_year": 2022,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Syed Inayatullah Agha",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Nusrat Jahan",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Saba Azeem",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Samia PARVEEN",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Bushra Tabassum",
+              "institutions": [
+                "University of the Punjab"
+              ]
+            },
+            {
+              "author": "Asif Raheem",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Hamid Ullah",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Anwar Khan",
+              "institutions": [
+                "University of Edinburgh"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.15835/nbha50112590",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.15835/nbha50112590",
+            "pdf_url": "https://www.notulaebotanicae.ro/index.php/nbha/article/download/12590/9321",
+            "source": {
+              "id": "https://openalex.org/S117084390",
+              "display_name": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
+              "issn_l": "0255-965X",
+              "issn": [
+                "0255-965X",
+                "1842-4309"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319955",
+              "host_organization_name": "Academic Press",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319955",
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Academic Press",
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 12
+        },
+        {
+          "id": "https://openalex.org/W4399441291",
+          "doi": "https://doi.org/10.1186/s12866-024-03282-9",
+          "title": "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Andressa Cristina Zamboni Machado",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Rodrigo Thibes Hoshino",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gabriel Danilo Shimizu",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1186/s12866-024-03282-9",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1186/s12866-024-03282-9",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S128543880",
+              "display_name": "BMC Microbiology",
+              "issn_l": "1471-2180",
+              "issn": [
+                "1471-2180"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320256",
+              "host_organization_name": "BioMed Central",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320256",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "BioMed Central",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "BMC Microbiology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 13
+        },
+        {
+          "id": "https://openalex.org/W4403467359",
+          "doi": "https://doi.org/10.3389/fmicb.2024.1462992",
+          "title": "Bacillus velezensis B105-8, a potential and efficient biocontrol agent in control of maize stalk rot caused by Fusarium graminearum",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Shuang Wang",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Xinjiang Institute of Ecology and Geography",
+                "Heilongjiang Academy of Forestry"
+              ]
+            },
+            {
+              "author": "Pinjiao Jin",
+              "institutions": [
+                "Heilongjiang Academy of Forestry"
+              ]
+            },
+            {
+              "author": "Yanyan Zheng",
+              "institutions": [
+                "Northeast Agricultural University"
+              ]
+            },
+            {
+              "author": "Kangkang Wang",
+              "institutions": [
+                "Heilongjiang Academy of Forestry"
+              ]
+            },
+            {
+              "author": "Jiaxin Chen",
+              "institutions": [
+                "Heilongjiang Academy of Forestry"
+              ]
+            },
+            {
+              "author": "Jiansheng Liu",
+              "institutions": []
+            },
+            {
+              "author": "Yonggang Li",
+              "institutions": [
+                "Northeast Agricultural University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fmicb.2024.1462992",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fmicb.2024.1462992",
+            "pdf_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1462992/pdf",
+            "source": {
+              "id": "https://openalex.org/S2484704948",
+              "display_name": "Frontiers in Microbiology",
+              "issn_l": "1664-302X",
+              "issn": [
+                "1664-302X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Microbiology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 13
+        },
+        {
+          "id": "https://openalex.org/W4362698938",
+          "doi": "https://doi.org/10.3390/app13084653",
+          "title": "Screening and Optimization of Fermentation Medium for Bacillus velezensis BP-1 and Its Biocontrol Effects against Peyronellaea arachidicola",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Taswar Ahsan",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Chunhao Liang",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Shuyi Yu",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Xue Pei",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Jinhui Xie",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Lin Ying",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Xiaozhou Liu",
+              "institutions": [
+                "Institute of Plant Protection",
+                "Liaoning Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Muhammad Umair",
+              "institutions": [
+                "Zhejiang Normal University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/app13084653",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/app13084653",
+            "pdf_url": "https://www.mdpi.com/2076-3417/13/8/4653/pdf?version=1681898374",
+            "source": {
+              "id": "https://openalex.org/S4210205812",
+              "display_name": "Applied Sciences",
+              "issn_l": "2076-3417",
+              "issn": [
+                "2076-3417"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Applied Sciences",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 12
+        },
+        {
+          "id": "https://openalex.org/W4393229152",
+          "doi": "https://doi.org/10.3389/fpls.2024.1367862",
+          "title": "Multiple omics revealed the growth-promoting mechanism of Bacillus velezensis strains on ramie",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Xin Wang",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Yanzhou Wang",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Yafen Fu",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Yang Zhai",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Xuehua Bai",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Tongying Liu",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Guang Li",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Liangbin Zeng",
+              "institutions": [
+                "Institute of Bast Fiber Crops",
+                "Chinese Academy of Agricultural Sciences"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fpls.2024.1367862",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fpls.2024.1367862",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2493613807",
+              "display_name": "Frontiers in Plant Science",
+              "issn_l": "1664-462X",
+              "issn": [
+                "1664-462X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Plant Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 8
+        },
+        {
+          "id": "https://openalex.org/W4366774321",
+          "doi": "https://doi.org/10.3390/microorganisms11041085",
+          "title": "Screening for Multifarious Plant Growth Promoting and Biocontrol Attributes in Bacillus Strains Isolated from Indo Gangetic Soil for Enhancing Growth of Rice Crops",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Shikha Devi",
+              "institutions": [
+                "Himachal Pradesh University"
+              ]
+            },
+            {
+              "author": "Shivesh Sharma",
+              "institutions": [
+                "Motilal Nehru National Institute of Technology"
+              ]
+            },
+            {
+              "author": "Ashish Tiwari",
+              "institutions": [
+                "Motilal Nehru National Institute of Technology"
+              ]
+            },
+            {
+              "author": "Arvind Kumar Bhatt",
+              "institutions": [
+                "Himachal Pradesh University"
+              ]
+            },
+            {
+              "author": "Nand Kumar Singh",
+              "institutions": [
+                "Motilal Nehru National Institute of Technology"
+              ]
+            },
+            {
+              "author": "Monika Singh",
+              "institutions": [
+                "Uttaranchal University"
+              ]
+            },
+            {
+              "author": "Kaushalendra Kaushalendra",
+              "institutions": [
+                "Mizoram University"
+              ]
+            },
+            {
+              "author": "Ajay Kumar",
+              "institutions": [
+                "Banaras Hindu University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/microorganisms11041085",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/microorganisms11041085",
+            "pdf_url": "https://www.mdpi.com/2076-2607/11/4/1085/pdf?version=1682050339",
+            "source": {
+              "id": "https://openalex.org/S4210222090",
+              "display_name": "Microorganisms",
+              "issn_l": "2076-2607",
+              "issn": [
+                "2076-2607"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microorganisms",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 28
+        },
+        {
+          "id": "https://openalex.org/W4388792894",
+          "doi": "https://doi.org/10.1080/23311932.2023.2276561",
+          "title": "<i>Bacillus velezensis</i> AR1 mediated plant nourishing through solubilization of hardly soluble phosphorus nutrient sources",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Regassa Ayana Bayisa",
+              "institutions": [
+                "Arsi University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1080/23311932.2023.2276561",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1080/23311932.2023.2276561",
+            "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/23311932.2023.2276561?needAccess=true",
+            "source": {
+              "id": "https://openalex.org/S2764637833",
+              "display_name": "Cogent Food & Agriculture",
+              "issn_l": "2331-1932",
+              "issn": [
+                "2331-1932"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310311767",
+              "host_organization_name": "Cogent OA",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311767"
+              ],
+              "host_organization_lineage_names": [
+                "Cogent OA"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Cogent Food &amp; Agriculture",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 7
+        },
+        {
+          "id": "https://openalex.org/W4391931190",
+          "doi": "https://doi.org/10.3390/jof10020158",
+          "title": "A New Biocontrol Agent Bacillus velezensis SF334 against Rubber Tree Fungal Leaf Anthracnose and Its Genome Analysis of Versatile Plant Probiotic Traits",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Muyuan Wang",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Yikun Zhang",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Haibin Cai",
+              "institutions": [
+                "Chinese Academy of Tropical Agricultural Sciences",
+                "Rubber Research Institute"
+              ]
+            },
+            {
+              "author": "Xinyang Zhao",
+              "institutions": [
+                "Yangtze University"
+              ]
+            },
+            {
+              "author": "Zhongfeng Zhu",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Yichao Yan",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Ke Yin",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Guanyun Cheng",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/jof10020158",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/jof10020158",
+            "pdf_url": "https://www.mdpi.com/2309-608X/10/2/158/pdf?version=1708336801",
+            "source": {
+              "id": "https://openalex.org/S2737643958",
+              "display_name": "Journal of Fungi",
+              "issn_l": "2309-608X",
+              "issn": [
+                "2309-608X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Fungi",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 10
+        },
+        {
+          "id": "https://openalex.org/W3122909378",
+          "doi": "https://doi.org/10.3390/agronomy11020219",
+          "title": "Plant Growth Stimulation by Microbial Consortia",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Gustavo Santoyo",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo",
+                "Instituto de Investigaciones Químico Biológicas"
+              ]
+            },
+            {
+              "author": "Paulina Guzmán-Guzmán",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo",
+                "Instituto de Investigaciones Químico Biológicas"
+              ]
+            },
+            {
+              "author": "Fannie Isela Parra-Cota",
+              "institutions": [
+                "Sonora Institute of Technology",
+                "Instituto Nacional de Investigaciones Forestales Agrícolas y Pecuarias"
+              ]
+            },
+            {
+              "author": "Sergio de los Santos‐Villalobos",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ]
+            },
+            {
+              "author": "Ma. del Carmen Orozco-Mosqueda",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo"
+              ]
+            },
+            {
+              "author": "Bernard R. Glick",
+              "institutions": [
+                "University of Waterloo"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/agronomy11020219",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/agronomy11020219",
+            "pdf_url": "https://www.mdpi.com/2073-4395/11/2/219/pdf?version=1611479475",
+            "source": {
+              "id": "https://openalex.org/S2738977497",
+              "display_name": "Agronomy",
+              "issn_l": "2073-4395",
+              "issn": [
+                "2073-4395"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Agronomy",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 345
+        },
+        {
+          "id": "https://openalex.org/W4400486151",
+          "doi": "https://doi.org/10.1016/j.heliyon.2024.e34377",
+          "title": "Response of sweet potato cultivars to Bacillus velezensis T149-19 and Bacillus safensis T052-76 used as biofertilizers",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Matheus Barbosa Bernardes",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "author": "Isabella Dal’Rio",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "author": "Márcia Reed Rodrigues Coelho",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Lucy Seldin",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1016/j.heliyon.2024.e34377",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.heliyon.2024.e34377",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2898612692",
+              "display_name": "Heliyon",
+              "issn_l": "2405-8440",
+              "issn": [
+                "2405-8440"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Heliyon",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 4
+        },
+        {
+          "id": "https://openalex.org/W4391224820",
+          "doi": "https://doi.org/10.20944/preprints202401.1818.v1",
+          "title": "A New Biocontrol Agent Bacillus velezensis SF334 Against Fungal Leaf Anthracnose of Rubber Tree and Its Genome Analysis for Versatile Plant Probiotic Traits",
+          "publication_year": 2024,
+          "type": "preprint",
+          "authorships": [
+            {
+              "author": "Muyuan Wang",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Yikun Zhang",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Xinyang Zhao",
+              "institutions": [
+                "Yangtze University"
+              ]
+            },
+            {
+              "author": "Haibin Cai",
+              "institutions": [
+                "Chinese Academy of Tropical Agricultural Sciences",
+                "Rubber Research Institute"
+              ]
+            },
+            {
+              "author": "Zhongfeng Zhu",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Yichao Yan",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Ke Yin",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "author": "Guanyun Cheng",
+              "institutions": [
+                "Shanghai Jiao Tong University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.20944/preprints202401.1818.v1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.20944/preprints202401.1818.v1",
+            "pdf_url": "https://www.preprints.org/manuscript/202401.1818/v1/download",
+            "source": {
+              "id": "https://openalex.org/S6309402219",
+              "display_name": "Preprints.org",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          "cited_by_count": 6
+        },
+        {
+          "id": "https://openalex.org/W3177526786",
+          "doi": "https://doi.org/10.3389/fsufs.2021.667546",
+          "title": "PGPR in Agriculture: A Sustainable Approach to Increasing Climate Change Resilience",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Ateeq Shah",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Mahtab Nazari",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Mohammed Antar",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Levini A. Msimbira",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Judith Naamala",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Dongmei Lyu",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Mahamoud Rabileh",
+              "institutions": [
+                "McGill University"
+              ]
+            },
+            {
+              "author": "Jonathan Zajonc",
+              "institutions": [
+                "McGill University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fsufs.2021.667546",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fsufs.2021.667546",
+            "pdf_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2021.667546/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210212157",
+              "display_name": "Frontiers in Sustainable Food Systems",
+              "issn_l": "2571-581X",
+              "issn": [
+                "2571-581X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Sustainable Food Systems",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 346
+        },
+        {
+          "id": "https://openalex.org/W4390265718",
+          "doi": "https://doi.org/10.1007/s00248-023-02329-0",
+          "title": "Insights into Endophytic and Rhizospheric Bacteria of Five Sugar Beet Hybrids in Terms of Their Diversity, Plant-Growth Promoting, and Biocontrol Properties",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Marija Petrović",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Tamara Janakiev",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Milica Ljaljević Grbić",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Nikola Unković",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Tatjana Stević",
+              "institutions": [
+                "Institute for Plant Protection and Environment"
+              ]
+            },
+            {
+              "author": "Slavoljub Vukićević",
+              "institutions": []
+            },
+            {
+              "author": "Ivica Dimkić",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1007/s00248-023-02329-0",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1007/s00248-023-02329-0",
+            "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00248-023-02329-0.pdf",
+            "source": {
+              "id": "https://openalex.org/S97758720",
+              "display_name": "Microbial Ecology",
+              "issn_l": "0095-3628",
+              "issn": [
+                "0095-3628",
+                "1432-184X"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319900",
+              "host_organization_name": "Springer Science+Business Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319900",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Springer Science+Business Media",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microbial Ecology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 39
+        },
+        {
+          "id": "https://openalex.org/W4306392761",
+          "doi": "https://doi.org/10.3389/fmicb.2022.933017",
+          "title": "Endophytes and their potential in biotic stress management and crop production",
+          "publication_year": 2022,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Parul Chaudhary",
+              "institutions": [
+                "Govind Ballabh Pant University of Agriculture and Technology"
+              ]
+            },
+            {
+              "author": "Upasana Agri",
+              "institutions": [
+                "Govind Ballabh Pant University of Agriculture and Technology"
+              ]
+            },
+            {
+              "author": "Anuj Chaudhary",
+              "institutions": [
+                "Shobhit University"
+              ]
+            },
+            {
+              "author": "Ashish Kumar",
+              "institutions": [
+                "Govind Ballabh Pant University of Agriculture and Technology"
+              ]
+            },
+            {
+              "author": "Govind Kumar",
+              "institutions": [
+                "Indian Council of Agricultural Research",
+                "Central Institute For Subtropical Horticulture"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fmicb.2022.933017",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fmicb.2022.933017",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2484704948",
+              "display_name": "Frontiers in Microbiology",
+              "issn_l": "1664-302X",
+              "issn": [
+                "1664-302X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Microbiology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 270
+        },
+        {
+          "id": "https://openalex.org/W3156486718",
+          "doi": "https://doi.org/10.3390/microorganisms9040817",
+          "title": "Biofertilizers and Biocontrol Agents for Agriculture: How to Identify and Develop New Potent Microbial Strains and Traits",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Anna Maria Pirttilä",
+              "institutions": [
+                "University of Oulu"
+              ]
+            },
+            {
+              "author": "Habibollah Mohammad Parast Tabas",
+              "institutions": [
+                "University of Oulu"
+              ]
+            },
+            {
+              "author": "Namrata Baruah",
+              "institutions": [
+                "University of Oulu"
+              ]
+            },
+            {
+              "author": "Janne J. Koskimäki",
+              "institutions": [
+                "University of Oulu"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/microorganisms9040817",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/microorganisms9040817",
+            "pdf_url": "https://www.mdpi.com/2076-2607/9/4/817/pdf?version=1618304819",
+            "source": {
+              "id": "https://openalex.org/S4210222090",
+              "display_name": "Microorganisms",
+              "issn_l": "2076-2607",
+              "issn": [
+                "2076-2607"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microorganisms",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 220
+        }
+      ]
+    },
+    {
+      "query": "\"Bacillus velezensis\" nematode biocontrol Brazil",
+      "url": "https://api.openalex.org/works?search=%22Bacillus+velezensis%22+nematode+biocontrol+Brazil&per-page=25&mailto=viniburilux%40gmail.com",
+      "fetched_at": "2026-08-21T19:01:02.703462+00:00",
+      "status_code": 200,
+      "response_sha256": "2d94dd5157310a323b376ab211a15c8a144cacef6d79fa1720fe6c308c6075b6",
+      "meta": {
+        "count": 366,
+        "db_response_time_ms": 102,
+        "page": 1,
+        "per_page": 25,
+        "groups_count": null,
+        "x_query": {
+          "oql": "works where full text has (Bacillus velezensis nematode biocontrol Brazil)",
+          "oqo": {
+            "get_rows": "works",
+            "filter_rows": [
+              {
+                "column_id": "fulltext.search",
+                "value": "\"Bacillus velezensis\" nematode biocontrol Brazil",
+                "operator": "has"
+              }
+            ]
+          },
+          "url": "/works?filter=fulltext.search:%22Bacillus velezensis%22 nematode biocontrol Brazil&per_page=25"
+        },
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W3129456847",
+          "doi": "https://doi.org/10.3390/pathogens10020209",
+          "title": "Antifungal Activity of Cyclic Tetrapeptide from Bacillus velezensis CE 100 against Plant Pathogen Colletotrichum gloeosporioides",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Vantha Choub",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Chaw Ei Htwe Maung",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Sang‐Jae Won",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Jae‐Hyun Moon",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Kil Yong Kim",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Yeon Soo Han",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Jeong‐Yong Cho",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Young Sang Ahn",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/pathogens10020209",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/pathogens10020209",
+            "pdf_url": "https://www.mdpi.com/2076-0817/10/2/209/pdf?version=1613409131",
+            "source": {
+              "id": "https://openalex.org/S4210239906",
+              "display_name": "Pathogens",
+              "issn_l": "2076-0817",
+              "issn": [
+                "2076-0817"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Pathogens",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 45
+        },
+        {
+          "id": "https://openalex.org/W3137370641",
+          "doi": "https://doi.org/10.3390/microorganisms9030614",
+          "title": "A Review on the Biotechnological Applications of the Operational Group Bacillus amyloliquefaciens",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Mohamad Syazwan Ngalimat",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Radin Shafierul Radin Yahaya",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Mohamad Malik Al-adil Baharudin",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Syafiqah Mohd. Yaminudin",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Murni Karim",
+              "institutions": [
+                "INTI International University",
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Siti Aqlima Ahmad",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            },
+            {
+              "author": "Suriana Sabri",
+              "institutions": [
+                "Universiti Putra Malaysia"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/microorganisms9030614",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/microorganisms9030614",
+            "pdf_url": "https://www.mdpi.com/2076-2607/9/3/614/pdf?version=1615968429",
+            "source": {
+              "id": "https://openalex.org/S4210222090",
+              "display_name": "Microorganisms",
+              "issn_l": "2076-2607",
+              "issn": [
+                "2076-2607"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microorganisms",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 209
+        },
+        {
+          "id": "https://openalex.org/W4399441291",
+          "doi": "https://doi.org/10.1186/s12866-024-03282-9",
+          "title": "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Andressa Cristina Zamboni Machado",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Rodrigo Thibes Hoshino",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gabriel Danilo Shimizu",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1186/s12866-024-03282-9",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1186/s12866-024-03282-9",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S128543880",
+              "display_name": "BMC Microbiology",
+              "issn_l": "1471-2180",
+              "issn": [
+                "1471-2180"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320256",
+              "host_organization_name": "BioMed Central",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320256",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "BioMed Central",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "BMC Microbiology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 13
+        },
+        {
+          "id": "https://openalex.org/W3207834162",
+          "doi": "https://doi.org/10.3390/ijms222011296",
+          "title": "Biological Control of Leaf Blight Disease Caused by Pestalotiopsis maculans and Growth Promotion of Quercus acutissima Carruth Container Seedlings Using Bacillus velezensis CE 100",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Sang‐Jae Won",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Jae‐Hyun Moon",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Henry B. Ajuna",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Su‐In Choi",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Chaw Ei Htwe Maung",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            },
+            {
+              "author": "Sang‐Tae Lee",
+              "institutions": [
+                "Korea Forest Service"
+              ]
+            },
+            {
+              "author": "Young Sang Ahn",
+              "institutions": [
+                "Chonnam National University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/ijms222011296",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/ijms222011296",
+            "pdf_url": "https://www.mdpi.com/1422-0067/22/20/11296/pdf?version=1634722301",
+            "source": {
+              "id": "https://openalex.org/S10623703",
+              "display_name": "International Journal of Molecular Sciences",
+              "issn_l": "1422-0067",
+              "issn": [
+                "1422-0067",
+                "1661-6596"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "International Journal of Molecular Sciences",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 47
+        },
+        {
+          "id": "https://openalex.org/W4382138316",
+          "doi": "https://doi.org/10.3390/genes14071335",
+          "title": "Antagonistic Bacteria Bacillus velezensis VB7 Possess Nematicidal Action and Induce an Immune Response to Suppress the Infection of Root-Knot Nematode (RKN) in Tomato",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Vinothini Kamalanathan",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "author": "S. Nakkeeran",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "author": "Saranya Nallusamy",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/genes14071335",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/genes14071335",
+            "pdf_url": "https://www.mdpi.com/2073-4425/14/7/1335/pdf?version=1687687309",
+            "source": {
+              "id": "https://openalex.org/S194631498",
+              "display_name": "Genes",
+              "issn_l": "2073-4425",
+              "issn": [
+                "2073-4425"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Genes",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 26
+        },
+        {
+          "id": "https://openalex.org/W4229028939",
+          "doi": "https://doi.org/10.3389/fmicb.2022.860009",
+          "title": "Antibacterial Activity of Two Metabolites Isolated From Endophytic Bacteria Bacillus velezensis Ea73 in Ageratina adenophora",
+          "publication_year": 2022,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Zhihua Ren",
+              "institutions": [
+                "Sichuan Agricultural University"
+              ]
+            },
+            {
+              "author": "Lei Xie",
+              "institutions": [
+                "Sichuan Agricultural University"
+              ]
+            },
+            {
+              "author": "Samuel Kumi Okyere",
+              "institutions": [
+                "Sichuan Agricultural University"
+              ]
+            },
+            {
+              "author": "Juan Wen",
+              "institutions": [
+                "Sichuan Agricultural University"
+              ]
+            },
+            {
+              "author": "Yinan Ran",
+              "institutions": [
+                "Sichuan Agricultural University"
+              ]
+            },
+            {
+              "author": "Xiang Nong",
+              "institutions": [
+                "Leshan Normal University"
+              ]
+            },
+            {
+              "author": "Yanchun Hu",
+              "institutions": [
+                "Sichuan Agricultural University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fmicb.2022.860009",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fmicb.2022.860009",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2484704948",
+              "display_name": "Frontiers in Microbiology",
+              "issn_l": "1664-302X",
+              "issn": [
+                "1664-302X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Microbiology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 17
+        },
+        {
+          "id": "https://openalex.org/W4388977114",
+          "doi": "https://doi.org/10.3390/ijms242316694",
+          "title": "Antifungal Effect of Bacillus velezensis ZN-S10 against Plant Pathogen Colletotrichum changpingense and Its Inhibition Mechanism",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Q.F. Ye",
+              "institutions": [
+                "Zhejiang A & F University"
+              ]
+            },
+            {
+              "author": "Zhupeiqi Zhong",
+              "institutions": [
+                "Zhejiang A & F University"
+              ]
+            },
+            {
+              "author": "Shufeng Chao",
+              "institutions": [
+                "Zhejiang A & F University"
+              ]
+            },
+            {
+              "author": "Lu Liu",
+              "institutions": [
+                "Zhejiang A & F University"
+              ]
+            },
+            {
+              "author": "Mengli Chen",
+              "institutions": [
+                "Zhejiang A & F University"
+              ]
+            },
+            {
+              "author": "Xiaoxiao Feng",
+              "institutions": [
+                "Zhejiang University"
+              ]
+            },
+            {
+              "author": "Huiming Wu",
+              "institutions": [
+                "Zhejiang A & F University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/ijms242316694",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/ijms242316694",
+            "pdf_url": "https://www.mdpi.com/1422-0067/24/23/16694/pdf?version=1700807939",
+            "source": {
+              "id": "https://openalex.org/S10623703",
+              "display_name": "International Journal of Molecular Sciences",
+              "issn_l": "1422-0067",
+              "issn": [
+                "1422-0067",
+                "1661-6596"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "International Journal of Molecular Sciences",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 19
+        },
+        {
+          "id": "https://openalex.org/W2896401771",
+          "doi": "https://doi.org/10.3389/fpls.2018.01502",
+          "title": "Identification of Soil Bacterial Isolates Suppressing Different Phytophthora spp. and Promoting Plant Growth",
+          "publication_year": 2018,
+          "type": "book-review",
+          "authorships": [
+            {
+              "author": "Sharifah Farhana Syed-Ab-Rahman",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Lília C. Carvalhais",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Elvis T. Chua",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Yawen Xiao",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Taylor J. Wass",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            },
+            {
+              "author": "Peer M. Schenk",
+              "institutions": [
+                "The University of Queensland",
+                "Agriculture and Food"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fpls.2018.01502",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fpls.2018.01502",
+            "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2018.01502/pdf",
+            "source": {
+              "id": "https://openalex.org/S2493613807",
+              "display_name": "Frontiers in Plant Science",
+              "issn_l": "1664-462X",
+              "issn": [
+                "1664-462X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Plant Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 101
+        },
+        {
+          "id": "https://openalex.org/W4401811244",
+          "doi": "https://doi.org/10.3389/fpls.2024.1433828",
+          "title": "Effect of a Bacillus velezensis and Lysinibacillus fusiformis-based biofertilizer on phosphorus acquisition and grain yield of soybean",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Luciana Cristina Vitorino",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            },
+            {
+              "author": "Elias José da Silva",
+              "institutions": []
+            },
+            {
+              "author": "Marilene Silva Oliveira",
+              "institutions": []
+            },
+            {
+              "author": "Isabella de Oliveira Silva",
+              "institutions": []
+            },
+            {
+              "author": "Lorraine da Silva Santos",
+              "institutions": []
+            },
+            {
+              "author": "Maria Andréia Corrêa Mendonça",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            },
+            {
+              "author": "Thais Cristina Sousa de Oliveira",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            },
+            {
+              "author": "Layara Alexandre Bessa",
+              "institutions": [
+                "Instituto Federal Goiano"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fpls.2024.1433828",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fpls.2024.1433828",
+            "pdf_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1433828/pdf",
+            "source": {
+              "id": "https://openalex.org/S2493613807",
+              "display_name": "Frontiers in Plant Science",
+              "issn_l": "1664-462X",
+              "issn": [
+                "1664-462X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Plant Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 15
+        },
+        {
+          "id": "https://openalex.org/W4206273762",
+          "doi": "https://doi.org/10.1515/bmc-2021-0019",
+          "title": "Plant growth-promoting properties of bacterial endophytes isolated from roots of <i>Thymus vulgaris</i> L. and investigate their role as biofertilizers to enhance the essential oil contents",
+          "publication_year": 2021,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Mahmoud Soliman Abdel-Hamid",
+              "institutions": [
+                "Desert Research Center"
+              ]
+            },
+            {
+              "author": "Amr Fouda",
+              "institutions": [
+                "Desert Research Center"
+              ]
+            },
+            {
+              "author": "Hesham Kamal Abo El-Ela",
+              "institutions": [
+                "Desert Research Center"
+              ]
+            },
+            {
+              "author": "A.A. El-Ghamry",
+              "institutions": [
+                "Al-Azhar University"
+              ]
+            },
+            {
+              "author": "Saad S. M. Hassan",
+              "institutions": [
+                "Al-Azhar University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1515/bmc-2021-0019",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1515/bmc-2021-0019",
+            "pdf_url": "https://www.degruyter.com/document/doi/10.1515/bmc-2021-0019/pdf",
+            "source": {
+              "id": "https://openalex.org/S191756739",
+              "display_name": "BioMolecular Concepts",
+              "issn_l": "1868-5021",
+              "issn": [
+                "1868-5021",
+                "1868-503X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310313990",
+              "host_organization_name": "De Gruyter",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310313990"
+              ],
+              "host_organization_lineage_names": [
+                "De Gruyter"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Biomolecular Concepts",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 39
+        },
+        {
+          "id": "https://openalex.org/W4220972346",
+          "doi": "https://doi.org/10.15835/nbha50112590",
+          "title": "Characterization of broad-spectrum biocontrol efficacy of Bacillus velezensis against Fusarium oxysporum in Triticum aestivum L.",
+          "publication_year": 2022,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Syed Inayatullah Agha",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Nusrat Jahan",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Saba Azeem",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Samia PARVEEN",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Bushra Tabassum",
+              "institutions": [
+                "University of the Punjab"
+              ]
+            },
+            {
+              "author": "Asif Raheem",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Hamid Ullah",
+              "institutions": [
+                "Balochistan University of Information Technology, Engineering and Management Sciences"
+              ]
+            },
+            {
+              "author": "Anwar Khan",
+              "institutions": [
+                "University of Edinburgh"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.15835/nbha50112590",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.15835/nbha50112590",
+            "pdf_url": "https://www.notulaebotanicae.ro/index.php/nbha/article/download/12590/9321",
+            "source": {
+              "id": "https://openalex.org/S117084390",
+              "display_name": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
+              "issn_l": "0255-965X",
+              "issn": [
+                "0255-965X",
+                "1842-4309"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319955",
+              "host_organization_name": "Academic Press",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319955",
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Academic Press",
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 12
+        },
+        {
+          "id": "https://openalex.org/W4205788604",
+          "doi": "https://doi.org/10.3390/plants11030275",
+          "title": "Bacillusvelezensis Strains for Protecting Cucumber Plants from Root-Knot Nematode Meloidogyne incognita in a Greenhouse",
+          "publication_year": 2022,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "А. М. Асатурова",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "Ludmila N. Bugaeva",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "Anna Homyak",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "Galina A. Slobodyanyuk",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "Evgeninya V. Kashutina",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "Larisa V. Yasyuk",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "Н.М. Сидоров",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "author": "V. D. Nadykta",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/plants11030275",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/plants11030275",
+            "pdf_url": "https://www.mdpi.com/2223-7747/11/3/275/pdf?version=1642986255",
+            "source": {
+              "id": "https://openalex.org/S4210230202",
+              "display_name": "Plants",
+              "issn_l": "2223-7747",
+              "issn": [
+                "2223-7747"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Plants",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 31
+        },
+        {
+          "id": "https://openalex.org/W4399178142",
+          "doi": "https://doi.org/10.3390/jof10060390",
+          "title": "Control of Fusarium Head Blight of Wheat with Bacillus velezensis E2 and Potential Mechanisms of Action",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Jianing Ma",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            },
+            {
+              "author": "Chen Gao",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            },
+            {
+              "author": "Meiwei Lin",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            },
+            {
+              "author": "Zhenzhong Sun",
+              "institutions": []
+            },
+            {
+              "author": "Yuhao Zhao",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            },
+            {
+              "author": "Xin Li",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            },
+            {
+              "author": "Tianyuan Zhao",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            },
+            {
+              "author": "Xingang Xu",
+              "institutions": [
+                "Jiangsu University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/jof10060390",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/jof10060390",
+            "pdf_url": "https://www.mdpi.com/2309-608X/10/6/390/pdf?version=1717059935",
+            "source": {
+              "id": "https://openalex.org/S2737643958",
+              "display_name": "Journal of Fungi",
+              "issn_l": "2309-608X",
+              "issn": [
+                "2309-608X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Fungi",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 8
+        },
+        {
+          "id": "https://openalex.org/W4381888634",
+          "doi": "https://doi.org/10.3389/fpls.2023.1194887",
+          "title": "Two plant-associated Bacillus velezensis strains selected after genome analysis, metabolite profiling, and with proved biocontrol potential, were enhancing harvest yield of coffee and black pepper in large field trials",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Le Thi Tam",
+              "institutions": [
+                "Vietnam Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Jennifer Jähne",
+              "institutions": [
+                "Robert Koch Institute"
+              ]
+            },
+            {
+              "author": "Pham Thi Luong",
+              "institutions": [
+                "Vietnam Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Lê Thị Phương Thảo",
+              "institutions": [
+                "Vietnam Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Le Mai Nhat",
+              "institutions": [
+                "Vietnam Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Christian Blumenscheit",
+              "institutions": [
+                "Robert Koch Institute"
+              ]
+            },
+            {
+              "author": "Andy Schneider",
+              "institutions": [
+                "Robert Koch Institute"
+              ]
+            },
+            {
+              "author": "Jochen Blom",
+              "institutions": [
+                "Justus-Liebig-Universität Gießen"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fpls.2023.1194887",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fpls.2023.1194887",
+            "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2023.1194887/pdf",
+            "source": {
+              "id": "https://openalex.org/S2493613807",
+              "display_name": "Frontiers in Plant Science",
+              "issn_l": "1664-462X",
+              "issn": [
+                "1664-462X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Plant Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 18
+        },
+        {
+          "id": "https://openalex.org/W4406023012",
+          "doi": "https://doi.org/10.1038/s41598-024-77926-1",
+          "title": "In vitro and In silico investigation deciphering novel antifungal activity of endophyte Bacillus velezensis CBMB205 against Fusarium oxysporum",
+          "publication_year": 2025,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Vibha Rani",
+              "institutions": [
+                "Nitte University"
+              ]
+            },
+            {
+              "author": "Daniela Loaiza Granada",
+              "institutions": [
+                "Politécnico Colombiano Jaime Isaza Cadavid"
+              ]
+            },
+            {
+              "author": "Sinosh Skariyachan",
+              "institutions": []
+            },
+            {
+              "author": "P. Ujwal",
+              "institutions": [
+                "Nitte University"
+              ]
+            },
+            {
+              "author": "K. Sandesh",
+              "institutions": [
+                "Nitte University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1038/s41598-024-77926-1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41598-024-77926-1",
+            "pdf_url": "https://www.nature.com/articles/s41598-024-77926-1.pdf",
+            "source": {
+              "id": "https://openalex.org/S196734849",
+              "display_name": "Scientific Reports",
+              "issn_l": "2045-2322",
+              "issn": [
+                "2045-2322"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319908",
+              "host_organization_name": "Nature Portfolio",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319908",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Nature Portfolio",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific Reports",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 8
+        },
+        {
+          "id": "https://openalex.org/W4393097374",
+          "doi": "https://doi.org/10.1371/journal.pone.0301139",
+          "title": "Plant growth-promoting bacteria potentiate antifungal and plant-beneficial responses of Trichoderma atroviride by upregulating its effector functions",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Paulina Guzmán-Guzmán",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo"
+              ]
+            },
+            {
+              "author": "Eduardo Valencia‐Cantero",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo"
+              ]
+            },
+            {
+              "author": "Gustavo Santoyo",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1371/journal.pone.0301139",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1371/journal.pone.0301139",
+            "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301139&type=printable",
+            "source": {
+              "id": "https://openalex.org/S202381698",
+              "display_name": "PLoS ONE",
+              "issn_l": "1932-6203",
+              "issn": [
+                "1932-6203"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310315706",
+              "host_organization_name": "Public Library of Science",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310315706"
+              ],
+              "host_organization_lineage_names": [
+                "Public Library of Science"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "PLOS ONE",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 33
+        },
+        {
+          "id": "https://openalex.org/W7125775226",
+          "doi": "https://doi.org/10.3390/plants15030387",
+          "title": "Bacillus velezensis S141: A Soybean Growth-Promoting Rhizosphere Bacterium",
+          "publication_year": 2026,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Ken-ichi Yoshida",
+              "institutions": [
+                "Kobe University"
+              ]
+            },
+            {
+              "author": "Neung Teaumroong",
+              "institutions": [
+                "Suranaree University of Technology"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/plants15030387",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/plants15030387",
+            "pdf_url": "https://www.mdpi.com/2223-7747/15/3/387/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210230202",
+              "display_name": "Plants",
+              "issn_l": "2223-7747",
+              "issn": [
+                "2223-7747"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Plants",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 2
+        },
+        {
+          "id": "https://openalex.org/W4400486151",
+          "doi": "https://doi.org/10.1016/j.heliyon.2024.e34377",
+          "title": "Response of sweet potato cultivars to Bacillus velezensis T149-19 and Bacillus safensis T052-76 used as biofertilizers",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Matheus Barbosa Bernardes",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "author": "Isabella Dal’Rio",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "author": "Márcia Reed Rodrigues Coelho",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Lucy Seldin",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1016/j.heliyon.2024.e34377",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.heliyon.2024.e34377",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2898612692",
+              "display_name": "Heliyon",
+              "issn_l": "2405-8440",
+              "issn": [
+                "2405-8440"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Heliyon",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 4
+        },
+        {
+          "id": "https://openalex.org/W4390265718",
+          "doi": "https://doi.org/10.1007/s00248-023-02329-0",
+          "title": "Insights into Endophytic and Rhizospheric Bacteria of Five Sugar Beet Hybrids in Terms of Their Diversity, Plant-Growth Promoting, and Biocontrol Properties",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Marija Petrović",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Tamara Janakiev",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Milica Ljaljević Grbić",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Nikola Unković",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            },
+            {
+              "author": "Tatjana Stević",
+              "institutions": [
+                "Institute for Plant Protection and Environment"
+              ]
+            },
+            {
+              "author": "Slavoljub Vukićević",
+              "institutions": []
+            },
+            {
+              "author": "Ivica Dimkić",
+              "institutions": [
+                "University of Belgrade"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1007/s00248-023-02329-0",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1007/s00248-023-02329-0",
+            "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00248-023-02329-0.pdf",
+            "source": {
+              "id": "https://openalex.org/S97758720",
+              "display_name": "Microbial Ecology",
+              "issn_l": "0095-3628",
+              "issn": [
+                "0095-3628",
+                "1432-184X"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319900",
+              "host_organization_name": "Springer Science+Business Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319900",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Springer Science+Business Media",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microbial Ecology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 39
+        },
+        {
+          "id": "https://openalex.org/W4321600302",
+          "doi": "https://doi.org/10.3389/fmicb.2023.1085387",
+          "title": "Research progress and hotspot analysis of rhizosphere microorganisms based on bibliometrics from 2012 to 2021",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Shangsheng Sun",
+              "institutions": [
+                "Shanghai Ocean University"
+              ]
+            },
+            {
+              "author": "Ruipeng Xue",
+              "institutions": [
+                "Shanghai Ocean University"
+              ]
+            },
+            {
+              "author": "Mengyue Liu",
+              "institutions": [
+                "Shanghai Ocean University"
+              ]
+            },
+            {
+              "author": "Liqing Wang",
+              "institutions": [
+                "Shanghai Ocean University"
+              ]
+            },
+            {
+              "author": "Wei Zhang",
+              "institutions": [
+                "Shanghai Ocean University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fmicb.2023.1085387",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fmicb.2023.1085387",
+            "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2023.1085387/pdf",
+            "source": {
+              "id": "https://openalex.org/S2484704948",
+              "display_name": "Frontiers in Microbiology",
+              "issn_l": "1664-302X",
+              "issn": [
+                "1664-302X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Microbiology",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 15
+        },
+        {
+          "id": "https://openalex.org/W4389339250",
+          "doi": "https://doi.org/10.1002/ps.7919",
+          "title": "Biocontrol of almond canker diseases caused by <scp><i>Botryosphaeriaceae</i></scp> fungi",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Laura Romero‐Cuadrado",
+              "institutions": [
+                "Andalusian Institute of Agricultural and Fisheries Research and Training"
+              ]
+            },
+            {
+              "author": "María Cinta Picos",
+              "institutions": [
+                "Andalusian Institute of Agricultural and Fisheries Research and Training"
+              ]
+            },
+            {
+              "author": "Marı́a Camacho",
+              "institutions": [
+                "Andalusian Institute of Agricultural and Fisheries Research and Training"
+              ]
+            },
+            {
+              "author": "Francisco Javier Ollero",
+              "institutions": [
+                "Universidad de Sevilla"
+              ]
+            },
+            {
+              "author": "Nieves Capote",
+              "institutions": [
+                "Andalusian Institute of Agricultural and Fisheries Research and Training"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1002/ps.7919",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1002/ps.7919",
+            "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ps.7919",
+            "source": {
+              "id": "https://openalex.org/S31777576",
+              "display_name": "Pest Management Science",
+              "issn_l": "1526-498X",
+              "issn": [
+                "1526-498X",
+                "1526-4998"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320595",
+              "host_organization_name": "Wiley",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320595"
+              ],
+              "host_organization_lineage_names": [
+                "Wiley"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Pest Management Science",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 15
+        },
+        {
+          "id": "https://openalex.org/W4388339756",
+          "doi": "https://doi.org/10.1038/s41598-023-46672-1",
+          "title": "Genome mining conformance to metabolite profile of Bacillus strains to control potato pathogens",
+          "publication_year": 2023,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Arezoo Lagzian",
+              "institutions": [
+                "Vali Asr University of Rafsanjan"
+              ]
+            },
+            {
+              "author": "Roohallah Saberi Riseh",
+              "institutions": [
+                "Vali Asr University of Rafsanjan"
+              ]
+            },
+            {
+              "author": "Sajjad Sarikhan",
+              "institutions": [
+                "Academic Center for Education, Culture and Research"
+              ]
+            },
+            {
+              "author": "Abozar Ghorbani",
+              "institutions": [
+                "Atomic Energy Organization of Iran",
+                "Nuclear Science and Technology Research Institute"
+              ]
+            },
+            {
+              "author": "Pejman Khodaygan",
+              "institutions": [
+                "Vali Asr University of Rafsanjan"
+              ]
+            },
+            {
+              "author": "Rainer Borriss",
+              "institutions": [
+                "Humboldt-Universität zu Berlin"
+              ]
+            },
+            {
+              "author": "Pietro Hiram Guzzi",
+              "institutions": [
+                "Magna Graecia University"
+              ]
+            },
+            {
+              "author": "Pierangelo Veltri",
+              "institutions": [
+                "University of Calabria"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1038/s41598-023-46672-1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41598-023-46672-1",
+            "pdf_url": "https://www.nature.com/articles/s41598-023-46672-1.pdf",
+            "source": {
+              "id": "https://openalex.org/S196734849",
+              "display_name": "Scientific Reports",
+              "issn_l": "2045-2322",
+              "issn": [
+                "2045-2322"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319908",
+              "host_organization_name": "Nature Portfolio",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319908",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Nature Portfolio",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific Reports",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 20
+        },
+        {
+          "id": "https://openalex.org/W4414069690",
+          "doi": "https://doi.org/10.3390/microorganisms13092084",
+          "title": "Identification and Genomic Insights into the Biological Control and Growth-Promoting Mechanism of Bacillus velezensis L11-7, a Potential Biocontrol Agent of Passion Fruit Stem Basal Rot",
+          "publication_year": 2025,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Ming Jin",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "author": "Yuanfeng Tang",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "author": "Rui Yang",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "author": "Quan Zeng",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "author": "Ming Duan",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "author": "Jieqiu Li",
+              "institutions": [
+                "Guangxi University",
+                "Guangxi Veterinary Research Institute"
+              ]
+            },
+            {
+              "author": "Jiaorong Meng",
+              "institutions": [
+                "Guangxi University"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3390/microorganisms13092084",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/microorganisms13092084",
+            "pdf_url": "https://www.mdpi.com/2076-2607/13/9/2084/pdf?version=1757219308",
+            "source": {
+              "id": "https://openalex.org/S4210222090",
+              "display_name": "Microorganisms",
+              "issn_l": "2076-2607",
+              "issn": [
+                "2076-2607"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Microorganisms",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 3
+        },
+        {
+          "id": "https://openalex.org/W4411058503",
+          "doi": "https://doi.org/10.1038/s41598-025-05523-x",
+          "title": "Biocontrol efficacy of formulated probiotic bacteria against Meloidogyne incognita in Kiwifruit under greenhouse and field conditions",
+          "publication_year": 2025,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Seyedeh Negin Mirghasemi",
+              "institutions": [
+                "University of Guilan"
+              ]
+            },
+            {
+              "author": "Pejman Khodaygan",
+              "institutions": [
+                "Vali Asr University of Rafsanjan"
+              ]
+            },
+            {
+              "author": "Azam Taheri",
+              "institutions": [
+                "University of Guilan"
+              ]
+            },
+            {
+              "author": "Salar Jamali",
+              "institutions": [
+                "University of Guilan"
+              ]
+            },
+            {
+              "author": "Seyedeh Najmeh Banihashemian",
+              "institutions": [
+                "Agricultural Research & Education Organization"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.1038/s41598-025-05523-x",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41598-025-05523-x",
+            "pdf_url": "https://www.nature.com/articles/s41598-025-05523-x.pdf",
+            "source": {
+              "id": "https://openalex.org/S196734849",
+              "display_name": "Scientific Reports",
+              "issn_l": "2045-2322",
+              "issn": [
+                "2045-2322"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319908",
+              "host_organization_name": "Nature Portfolio",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319908",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Nature Portfolio",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific Reports",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 15
+        },
+        {
+          "id": "https://openalex.org/W4403513501",
+          "doi": "https://doi.org/10.3389/fagro.2024.1462323",
+          "title": "Efficacy of microbiological nematicides in controlling root-knot nematodes in tomato",
+          "publication_year": 2024,
+          "type": "article",
+          "authorships": [
+            {
+              "author": "Karoline Barbosa Pontes",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Andressa Cristina Zamboni Machado",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Daniel Fernando Viana Fagundes",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renato Barros de Lima Filho",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Débora Cristina Santiago",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "primary_location": {
+            "id": "doi:10.3389/fagro.2024.1462323",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3389/fagro.2024.1462323",
+            "pdf_url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2024.1462323/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210220257",
+              "display_name": "Frontiers in Agronomy",
+              "issn_l": "2673-3218",
+              "issn": [
+                "2673-3218"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310320527",
+              "host_organization_name": "Frontiers Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320527"
+              ],
+              "host_organization_lineage_names": [
+                "Frontiers Media"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frontiers in Agronomy",
+            "raw_type": "journal-article"
+          },
+          "cited_by_count": 12
+        }
+      ]
+    }
+  ]
+}

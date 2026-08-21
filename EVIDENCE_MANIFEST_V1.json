@@ -1,0 +1,86 @@
+{
+  "artifact_set": "AUTONOMOUS_INVESTIGATION_V1",
+  "generated_at": "2026-08-21T19:08:47.981960+00:00",
+  "scope": "public metadata-only autonomous investigation",
+  "private_boundary": "No adaptive engine, prioritization policy, private memory, OI state or LuxMemory data included.",
+  "sources": [
+    "OpenAlex",
+    "Google Patents rendered pages",
+    "Crossref",
+    "UEL public repository"
+  ],
+  "entries": [
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1.md",
+      "sha256": "19a1758ef76e25f14dc9477fab4c15831f79e858a130e7d32edee4c645364053",
+      "bytes": 6086,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1.jsonl",
+      "sha256": "888809a3a6b57bb12b9190d788686f60cd98ca1dd35cf30dc2b0a94ea70513cc",
+      "bytes": 9114,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "STATE_TRANSITIONS_V1.jsonl",
+      "sha256": "b8c413bcb9efc6dd01e7dcbc90496bd3129d67a6639141cefde4414bb9cbb7cc",
+      "bytes": 5554,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "QUESTION_EVOLUTION_V1.md",
+      "sha256": "638d4e333a9fa16abe3b77096bbcc12223e49fdd1e57b130eaa0a84b82937b7c",
+      "bytes": 1928,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "NEXT_FRONTIER_V1.json",
+      "sha256": "57a987e9e53b385dc5b3e9feddd32b471923537ef671346cf0be312d9ebf632a",
+      "bytes": 1120,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1_STATE_0.json",
+      "sha256": "c907033f59ed939e70ca0a8176ae7260df3156d981c077a031289806d78cd039",
+      "bytes": 3286,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1_FRONTIER_0.md",
+      "sha256": "4aec75d7039a710fbc0caa0880cf58708cec2e2d929e971a3eeef0af2c0d8bf5",
+      "bytes": 3319,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1_CYCLE_01_EVIDENCE.md",
+      "sha256": "8f98f51d82c374113502f8082631908a0197b72c6ed6c858e13576e5839e8dc2",
+      "bytes": 7531,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "raw_v4/autonomous_cycle_01_openalex.json",
+      "sha256": "1c755dbde293e95b31a97e9417b33c4a0bbb2adc2d27264614b05ac85fbac97b",
+      "bytes": 145911,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "raw_v4/autonomous_cycle_01_reformulation_openalex.json",
+      "sha256": "42513daffe6b363de08106927679ef5df7279c1481f5e818b55e5aaf56afd72d",
+      "bytes": 165126,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "raw_v4/autonomous_cycle_02_openalex.json",
+      "sha256": "c96ec144bb3725d93fe63b702557e62ca5a649e06cd6bf2cc09fbbbe80b9f9b0",
+      "bytes": 78544,
+      "classification": "public_metadata_or_documentation"
+    },
+    {
+      "path": "raw_v4/autonomous_cycle_03_openalex.json",
+      "sha256": "4ff51fab28af680d80825a947755ba7adb9208f8a9d593d78c8707c586390070",
+      "bytes": 268726,
+      "classification": "public_metadata_or_documentation"
+    }
+  ]
+}

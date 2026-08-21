@@ -1,0 +1,72 @@
+{
+  "experiment": "AUTONOMOUS_INVESTIGATION_V1",
+  "created_at": "2026-08-21",
+  "domain": "agricultural biotechnology intelligence",
+  "state_before": {
+    "repository": "viniburilux/inteligencia-biotecnologica-agropecuaria",
+    "repository_commit": "fabfbc1f033531318b3e66cd9e36dd031f14547a",
+    "corpus_version": "normalized_v2",
+    "corpus_hashes": {
+      "normalization_summary_v2.json": "31144a6e2e48f88c77b9edff47b98e58697d9d8e62fe24cc6423a18015cb58b3",
+      "EXPLORATORY_RADIOGRAPHY_V1.md": "eb19ef119427e1541ffc4ba19bcc6039eaf262302347f14f16800d357bda89e3",
+      "EXPLORATION_CYCLE_V1_SUMMARY.md": "82af8bba3e6460938d5862a9f39a286ee4011fe029f67cd66d384a2eab1436d2",
+      "next_queries_v1.json": "3825b2a2dd30c4b3b7e05bcede996d073347054068fc87cd6768ca1dde0eb96a",
+      "ENTITY_RESOLUTION_V1.json": "09ead7c4df22485bc8df3279af726feead6dd4683be3c82b8508c25bce50fba6"
+    },
+    "corpus_counts": {
+      "works": 763,
+      "actors": 2680,
+      "institutions": 767,
+      "relations": 4045,
+      "application_signals": 536
+    },
+    "source_mix": {
+      "openalex": 422,
+      "crossref": 146,
+      "google_patents": 195
+    },
+    "metadata_only": true,
+    "private_authority_commits": {
+      "oi_discovery_core": "797c66ebed6191db29daf06471d56e687c75c6b3",
+      "lux_lab": "59e7a2600080db691cee72d2b5b6e25fac6a8e84"
+    }
+  },
+  "available_sources": [
+    "OpenAlex metadata API",
+    "Crossref metadata already ingested",
+    "Google Patents public result metadata via browser",
+    "MAPA official public regulatory/application sources",
+    "current corpus and prior provenance artifacts"
+  ],
+  "initial_frontier": {
+    "selection_rule": "candidate paths are generated from observed density, co-occurrence, negative evidence, source gaps and prior query outcomes; no technology is preselected",
+    "candidate_signals": [
+      "dense organism/application intersections in the normalized corpus",
+      "bridges between agricultural use and industrial bioprocess terms",
+      "co-occurrences with weak source coverage or unresolved entity linkage",
+      "prior queries that died, returned noise, or produced an identifier/entity capable of a narrower follow-up",
+      "application/regulatory signals without a corresponding technical chain"
+    ]
+  },
+  "budget": {
+    "max_cycles": 6,
+    "max_external_query_calls": 18,
+    "max_queries_per_cycle": 3,
+    "reformulation_allowed": true,
+    "new_broad_corpus_ingestion": false,
+    "full_text_or_scientific_data_download": false,
+    "notebooks_execution": false
+  },
+  "stop_policy": [
+    "stop after six cycles",
+    "stop a branch after two consecutive no-gain results",
+    "stop when a result cannot produce a more specific or decision-relevant next question",
+    "stop if the next action would require private data, full text, or a source outside the declared boundary",
+    "preserve parked and blocked branches as results"
+  ],
+  "privacy_boundary": {
+    "public_outputs_allowed": ["sanitized results", "metadata", "provenance", "state deltas", "trajectory logs", "evidence manifest"],
+    "private_only": ["adaptive code", "internal prioritization policy", "private memory", "private raw data"],
+    "repositories_not_to_modify": ["OI Intelligence", "LuxMemory", "TraceFoundry core"]
+  }
+}
