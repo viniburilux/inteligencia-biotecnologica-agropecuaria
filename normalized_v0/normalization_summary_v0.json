@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-08-21T04:50:22.275892+00:00",
+  "generated_at": "2026-08-21T05:14:03.343984+00:00",
   "metadata_only": true,
   "source_manifest": "ingestion_manifest_v0.jsonl",
   "counts": {
-    "works": 379,
-    "actors": 1345,
-    "institutions": 353,
-    "relations": 1854,
-    "application_signals": 270
+    "works": 429,
+    "actors": 1499,
+    "institutions": 381,
+    "relations": 2093,
+    "application_signals": 313
   },
   "duplicates_removed": {
-    "works": 17,
-    "actors": 112,
-    "institutions": 578,
-    "relations": 570,
-    "application_signals": 6
+    "works": 18,
+    "actors": 129,
+    "institutions": 699,
+    "relations": 656,
+    "application_signals": 7
   },
   "source_mix": {
-    "openalex": 162,
+    "openalex": 186,
     "crossref": 146,
-    "google_patents": 71
+    "google_patents": 97
   },
   "application_term_counts": {
-    "bioinsumo": 52,
-    "biocontrole": 78,
-    "milho": 8,
-    "fungo": 52,
-    "nematoide": 14,
-    "soja": 11,
-    "inoculante": 40,
-    "biofertilizante": 13,
-    "biopesticida": 45,
-    "promocao_crescimento": 38,
-    "solubilizacao_fosfato": 4,
-    "fixacao_nitrogenio": 5,
-    "saude_radicular": 4,
+    "bioinsumo": 62,
+    "biocontrole": 80,
+    "milho": 9,
+    "fungo": 72,
+    "nematoide": 15,
+    "soja": 12,
+    "inoculante": 42,
+    "biofertilizante": 15,
+    "biopesticida": 47,
+    "promocao_crescimento": 39,
+    "solubilizacao_fosfato": 10,
+    "fixacao_nitrogenio": 15,
+    "fermentacao_bioprocesso": 18,
+    "saude_radicular": 10,
     "monitoramento_qualidade": 5,
-    "fermentacao_bioprocesso": 4,
     "sequestro_carbono": 2
   },
   "work_source_status": {
-    "openalex": 175,
+    "openalex": 200,
     "crossref": 150,
-    "google_patents": 71
+    "google_patents": 97
   },
   "notes": [
     "No PDFs, full-text patent documents, sequences, or scientific data files were downloaded.",

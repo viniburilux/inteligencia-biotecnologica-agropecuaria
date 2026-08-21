@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-21T05:12:01.083076+00:00",
+  "query_id": "NQ14",
+  "query": "Brazilian bioinput fermentation agriculture",
+  "source": "openalex",
+  "metadata_only": true,
+  "status": "captured",
+  "total_results": 140,
+  "returned_items": 25,
+  "saved_path": "raw_v0/openalex_second_round/brazilian_bioinput_fermentation_agriculture.json",
+  "provenance": {
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "Brazilian bioinput fermentation agriculture",
+      "filter": "from_publication_date:2010-01-01,to_publication_date:2026-12-31",
+      "per-page": 25
+    },
+    "retrieved_at": "2026-08-21T05:11:56.406410+00:00"
+  }
+}

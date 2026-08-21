@@ -1,0 +1,881 @@
+{
+  "generated_at": "2026-08-21T05:08:13.832374+00:00",
+  "work_count": 379,
+  "membership_count": 681,
+  "cluster_counts": {
+    "C00_unclassified_current_rules": 31,
+    "C01_biocontrol_biopesticide": 141,
+    "C02_bioinputs_nutrition": 188,
+    "C03_nitrogen_platform": 47,
+    "C04_formulation_quality": 9,
+    "C05_trichoderma_cross_context": 53,
+    "C06_scientific_crop_context": 212
+  },
+  "source_counts": {
+    "openalex": 162,
+    "crossref": 146,
+    "google_patents": 71
+  },
+  "origin_counts_patents": {
+    "origin_unresolved": 33,
+    "brazilian_signal_observed": 6,
+    "international_presence_in_BR": 32
+  },
+  "cross_layer_actor_count": 24,
+  "organism_contexts": {
+    "trichoderma": {
+      "work_count": 21,
+      "cluster_count": 5,
+      "sources": {
+        "openalex": 4,
+        "crossref": 5,
+        "google_patents": 12
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W3201023522",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "openalex",
+          "title": "Potencial de biocontrole de Trichodermaspp. contra Macrophomina phaseolina do Feijão-caupi"
+        },
+        {
+          "work_id": "https://openalex.org/W1541240643",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "openalex",
+          "title": "Presença de Trichoderma spp em composto e suas características para o controle de fitopatógenos."
+        },
+        {
+          "work_id": "https://openalex.org/W2106854637",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Trichoderma-based Products and their Widespread Use in Agriculture"
+        },
+        {
+          "work_id": "https://openalex.org/W3158345945",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "openalex",
+          "title": "Trichoderma as biocontrol agent against pests: New uses for a mycoparasite"
+        },
+        {
+          "work_id": "https://doi.org/10.48021/978-65-252-0866-4-c1",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C05_trichoderma_cross_context",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Trichoderma no biocontrole de fitonematoides"
+        },
+        {
+          "work_id": "https://doi.org/10.28998/rca.v16i3.4818",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "crossref",
+          "title": "Biocontrole in vitro de Colletotrichum siamense utilizando Trichoderma spp. e Bacillus thuringiensis var. kurstaki"
+        },
+        {
+          "work_id": "https://doi.org/10.1201/9781003284055-2",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Trichoderma: An Eco-Friendly Biopesticide for Sustainable Agriculture"
+        },
+        {
+          "work_id": "https://doi.org/10.58905/demeter.v3i3.694",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Application of Trichoderma Biopesticide on Chili Plants (Capsicum frutescens L.) Catas Variety"
+        },
+        {
+          "work_id": "https://doi.org/10.3897/ia.2025.145975",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Trichoderma to the rescue: Overcoming bacterial wilt in eggplants with a natural biopesticide"
+        },
+        {
+          "work_id": "patent:BR102023023945A2",
+          "clusters": [
+            "C04_formulation_quality",
+            "C02_bioinputs_nutrition",
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "google_patents",
+          "title": "composição bioherbicida dessecante de contato. Os snippets indicam aplicações em nutrição microbiana, biocondicionamento de solo, biofertilizantes, biopesticidas, fermentação de Trichoderma, produção na propriedade rural e monitoramento físico-químico. Estes são sinais de conteúdo de patente, não confirmação de produto comercial"
+        },
+        {
+          "work_id": "patent:BR112020013023B1",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "google_patents",
+          "title": "compostos heterocíclicos para controle de artrópodes"
+        },
+        {
+          "work_id": "patent:BR112020022659A2",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "google_patents",
+          "title": "métodos de aplicação de heteroaril-triazóis e tetrazóis"
+        }
+      ]
+    },
+    "rhizobium": {
+      "work_count": 12,
+      "cluster_count": 6,
+      "sources": {
+        "openalex": 2,
+        "crossref": 1,
+        "google_patents": 9
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W2900704415",
+          "clusters": [
+            "C02_bioinputs_nutrition"
+          ],
+          "source": "openalex",
+          "title": "RESPOSTA DO FEIJÃO-CAUPI À INOCULAÇÃO DE Bradyrhizobium japonicum, ADUBAÇÃO NITROGENADA E NITROGÊNIO DO SOLO"
+        },
+        {
+          "work_id": "https://openalex.org/W2049394240",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "AVALIAÇÃO DA SOBREVIVÊNCIA DE BRADYRHIZOBIUM SPP EM SEMENTES DE SOJA TRATADAS COM FUNGICIDAS, PROTETOR CELULAR E INOCULANTE"
+        },
+        {
+          "work_id": "https://doi.org/10.30972/agr.0252471",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Bradyrhizobium sp. Per 3.61: un aporte promisorio para su uso como inoculante en el cultivo de soja"
+        },
+        {
+          "work_id": "patent:BR112021005052A2",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C03_nitrogen_platform"
+          ],
+          "source": "google_patents",
+          "title": "Methods and compositions to improve phosphate solubilization"
+        },
+        {
+          "work_id": "patent:BR112021010947A2",
+          "clusters": [
+            "C03_nitrogen_platform",
+            "C02_bioinputs_nutrition",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "google_patents",
+          "title": "Polymer compositions with improved stability for microbial nitrogen-fixing products"
+        },
+        {
+          "work_id": "patent:BR112016000299B1",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "google_patents",
+          "title": "composições para fungos fitopatogênicos"
+        },
+        {
+          "work_id": "patent:BR112020018646A2",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "Methods for plant transformation"
+        },
+        {
+          "work_id": "patent:BR112020013023B1",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "google_patents",
+          "title": "compostos heterocíclicos para controle de artrópodes"
+        },
+        {
+          "work_id": "patent:BRPI0817934B1",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "composição para melhorar rendimento vegetal com Rhizobium leguminosarum"
+        },
+        {
+          "work_id": "patent:BR112016029884B1",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "método para aumentar parâmetro de crescimento de planta leguminosa"
+        },
+        {
+          "work_id": "patent:BRPI0711672A2",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "uso de espécies bacterianas não Agrobacterium para transformação vegetal"
+        },
+        {
+          "work_id": "patent:BR112017000877B1",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C03_nitrogen_platform"
+          ],
+          "source": "google_patents",
+          "title": "intensificação sinérgica do crescimento vegetal. Os excertos conectam Rhizobium/rizóbios a solubilização de fosfato, fixação simbiótica de nitrogênio, rendimento de leguminosas, transformação vegetal e combinações microbianas. As facetas exibiram Monsanto Technology, Bayer, Dow AgroSciences"
+        }
+      ]
+    },
+    "bacillus thuringiensis": {
+      "work_count": 9,
+      "cluster_count": 6,
+      "sources": {
+        "openalex": 1,
+        "crossref": 1,
+        "google_patents": 7
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W3214628111",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C05_trichoderma_cross_context",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Adoption of Bacillus thuringiensis-based biopesticides in agricultural systems and new approaches to improve their use in Brazil"
+        },
+        {
+          "work_id": "https://doi.org/10.28998/rca.v16i3.4818",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "crossref",
+          "title": "Biocontrole in vitro de Colletotrichum siamense utilizando Trichoderma spp. e Bacillus thuringiensis var. kurstaki"
+        },
+        {
+          "work_id": "patent:BR112021010947A2",
+          "clusters": [
+            "C03_nitrogen_platform",
+            "C02_bioinputs_nutrition",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "google_patents",
+          "title": "Polymer compositions with improved stability for microbial nitrogen-fixing products"
+        },
+        {
+          "work_id": "patent:BR112020013023B1",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "google_patents",
+          "title": "compostos heterocíclicos para controle de artrópodes"
+        },
+        {
+          "work_id": "patent:BR112021007399A2",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "pesticidally active azole-amide compounds"
+        },
+        {
+          "work_id": "patent:BR112020022659A2",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "google_patents",
+          "title": "métodos de aplicação de heteroaril-triazóis e tetrazóis"
+        },
+        {
+          "work_id": "patent:BR112021008675A2",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "pesticide active azole-amide compounds"
+        },
+        {
+          "work_id": "patent:BR112021011372A2",
+          "clusters": [
+            "C00_unclassified_current_rules"
+          ],
+          "source": "google_patents",
+          "title": "novos sistemas CRISPR-Cas para edição genômica"
+        },
+        {
+          "work_id": "patent:BR112019020253B1",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "google_patents",
+          "title": "composições fungicidas e controle de doenças fitopatogênicas, Thomas James Hoffman / Syngenta, cujo excerto lista Bacillus thuringiensis, baculovírus, bactérias entomopatogênicas, vírus e fungos como agentes biológicos. As facetas exibiram Syngenta, Bayer, Bayer Cropscience, BASF e Monsanto Technology. A semente apresenta grande recall, mas baixa precisão lexical na primeira página; será útil para relações entre organismos, agentes de controle, tecnologias de edição e formulações, desde que o normalizador preserve o contexto do termo"
+        }
+      ]
+    },
+    "bacillus": {
+      "work_count": 23,
+      "cluster_count": 6,
+      "sources": {
+        "openalex": 7,
+        "crossref": 5,
+        "google_patents": 11
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W2943093195",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Actividad antagonista de bacillus sp frente a fusarium oxysporum: un aporte a la agricultura sostenible"
+        },
+        {
+          "work_id": "https://openalex.org/W4318173973",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "&lt;em&gt;Bacillus amyloliquefaciens, Microbacterium Resistens&lt;/em&gt; e &lt;em&gt;Stenotrophomonas Maltophilia&lt;/em&gt; no biocontrole de &lt;em&gt;Corynespora Cassiicola&lt;/em&gt; na cultura do tomate"
+        },
+        {
+          "work_id": "https://openalex.org/W7120286473",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "Potencial de bactérias do gênero Bacillus para o biocontrole de fitopatógenos de interesse agrícola."
+        },
+        {
+          "work_id": "https://openalex.org/W3204464130",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "Eficiência de inoculante contendo Bacillus megaterium (B119) e Bacillus subitilis (B2084) para a cultura do milho, associado à fertilização fosfatada"
+        },
+        {
+          "work_id": "https://openalex.org/W3214628111",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C05_trichoderma_cross_context",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Adoption of Bacillus thuringiensis-based biopesticides in agricultural systems and new approaches to improve their use in Brazil"
+        },
+        {
+          "work_id": "https://openalex.org/W2753705152",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "Bacillus: A Biological Tool for Crop Improvement through Bio-Molecular Changes in Adverse Environments"
+        },
+        {
+          "work_id": "https://openalex.org/W4295394560",
+          "clusters": [
+            "C06_scientific_crop_context",
+            "C01_biocontrol_biopesticide",
+            "C02_bioinputs_nutrition",
+            "C03_nitrogen_platform",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops"
+        },
+        {
+          "work_id": "https://doi.org/10.48021/978-65-252-0866-4-c5",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C05_trichoderma_cross_context",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Bacillus spp. Como agentes de biocontrole de fitonematoides"
+        },
+        {
+          "work_id": "https://doi.org/10.28998/rca.v16i3.4818",
+          "clusters": [
+            "C05_trichoderma_cross_context",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "crossref",
+          "title": "Biocontrole in vitro de Colletotrichum siamense utilizando Trichoderma spp. e Bacillus thuringiensis var. kurstaki"
+        },
+        {
+          "work_id": "https://doi.org/10.51189/rema/1338",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C06_scientific_crop_context",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "crossref",
+          "title": "USO DO BACILLUS SUBTILIS COMO AGENTE DE BIOCONTROLE DE FITOPATÓGENOS DA CULTURA DE SOJA"
+        },
+        {
+          "work_id": "https://doi.org/10.33448/rsd-v12i6.42019",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "crossref",
+          "title": "Inoculante líquido contendo Bacillus megaterium e B. subitilis é eficiente em promover crescimento e disponibilizar fósforo para a para soja"
+        },
+        {
+          "work_id": "https://doi.org/10.1007/978-981-13-5862-3_11",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C03_nitrogen_platform",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "crossref",
+          "title": "Bacillus spp.: As Plant Growth-Promoting Bacteria"
+        }
+      ]
+    },
+    "pseudomonas": {
+      "work_count": 4,
+      "cluster_count": 4,
+      "sources": {
+        "openalex": 1,
+        "crossref": 2,
+        "google_patents": 1
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W1528890864",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Plant growth promotion induced by phosphate solubilizing endophytic Pseudomonas isolates"
+        },
+        {
+          "work_id": "https://doi.org/10.1016/b978-0-444-63987-5.00010-4",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C02_bioinputs_nutrition",
+            "C03_nitrogen_platform",
+            "C06_scientific_crop_context"
+          ],
+          "source": "crossref",
+          "title": "Pseudomonas fluorescens : A Plant-Growth-Promoting Rhizobacterium (PGPR) With Potential Role in Biocontrol of Pests of Crops"
+        },
+        {
+          "work_id": "https://doi.org/10.1079/9781789249200.0006",
+          "clusters": [
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "crossref",
+          "title": "The Gram-negative Side of Microbial Biocontrol Agents:<i>Pseudomonas</i>spp."
+        },
+        {
+          "work_id": "patent:BR112020002388A2",
+          "clusters": [
+            "C02_bioinputs_nutrition"
+          ],
+          "source": "google_patents",
+          "title": "microbial inoculant compositions and methods com espécies aquáticas de Pseudomonas e Clostridium"
+        }
+      ]
+    },
+    "clostridium": {
+      "work_count": 1,
+      "cluster_count": 1,
+      "sources": {
+        "google_patents": 1
+      },
+      "examples": [
+        {
+          "work_id": "patent:BR112020002388A2",
+          "clusters": [
+            "C02_bioinputs_nutrition"
+          ],
+          "source": "google_patents",
+          "title": "microbial inoculant compositions and methods com espécies aquáticas de Pseudomonas e Clostridium"
+        }
+      ]
+    },
+    "metarhizium": {
+      "work_count": 1,
+      "cluster_count": 2,
+      "sources": {
+        "openalex": 1
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W3091992678",
+          "clusters": [
+            "C06_scientific_crop_context",
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "openalex",
+          "title": "Potencial de isolados de &gt;i&lt;Metarhizium&gt;/i&lt; spp. no controle alternativo da ferrugem-asiática da soja"
+        }
+      ]
+    },
+    "rhizobacteria": {
+      "work_count": 8,
+      "cluster_count": 4,
+      "sources": {
+        "openalex": 3,
+        "crossref": 5
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W2033221700",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C01_biocontrol_biopesticide",
+            "C03_nitrogen_platform",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Plant growth-promoting rhizobacteria (PGPR): their potential as antagonists and biocontrol agents"
+        },
+        {
+          "work_id": "https://openalex.org/W2130396703",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "MECHANISMS AND PRACTICAL CONSIDERATIONS INVOLVED IN PLANT GROWTH PROMOTION BY RHIZOBACTERIA"
+        },
+        {
+          "work_id": "https://openalex.org/W1981735533",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Screening of Brazilian cacti rhizobacteria for plant growth promotion under drought"
+        },
+        {
+          "work_id": "https://doi.org/10.1007/978-3-642-13612-2_7",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C01_biocontrol_biopesticide",
+            "C03_nitrogen_platform"
+          ],
+          "source": "crossref",
+          "title": "Role of Plant Growth Promoting Rhizobacteria in Biocontrol of Plant Diseases and Sustainable Agriculture"
+        },
+        {
+          "work_id": "https://doi.org/10.3390/bacteria3020005",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C03_nitrogen_platform"
+          ],
+          "source": "crossref",
+          "title": "Role of Plant Growth Promoting Rhizobacteria (PGPR) as a Plant Growth Enhancer for Sustainable Agriculture: A Review"
+        },
+        {
+          "work_id": "https://doi.org/10.1007/978-981-97-3473-3_9",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C03_nitrogen_platform"
+          ],
+          "source": "crossref",
+          "title": "Plant Growth-Promoting Rhizobacteria and Sustainable Agriculture"
+        },
+        {
+          "work_id": "https://doi.org/10.3390/bacteria3040030",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C03_nitrogen_platform"
+          ],
+          "source": "crossref",
+          "title": "Utilizing Plant Growth-Promoting Rhizobacteria (PGPR) to Advance Sustainable Agriculture"
+        },
+        {
+          "work_id": "https://doi.org/10.1201/b18892-19",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context",
+            "C03_nitrogen_platform",
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "crossref",
+          "title": "Plant Growth-Promoting Rhizobacteria as a Tool to Combat Plant Pathogenic Bacteria"
+        }
+      ]
+    },
+    "yeast": {
+      "work_count": 4,
+      "cluster_count": 4,
+      "sources": {
+        "openalex": 2,
+        "google_patents": 2
+      },
+      "examples": [
+        {
+          "work_id": "https://openalex.org/W3156929405",
+          "clusters": [
+            "C02_bioinputs_nutrition",
+            "C01_biocontrol_biopesticide",
+            "C06_scientific_crop_context"
+          ],
+          "source": "openalex",
+          "title": "Culturable Yeasts as Biofertilizers and Biopesticides for a Sustainable Agriculture: A Comprehensive Review"
+        },
+        {
+          "work_id": "https://openalex.org/W2978213080",
+          "clusters": [
+            "C01_biocontrol_biopesticide"
+          ],
+          "source": "openalex",
+          "title": "Biocontrol yeasts: mechanisms and applications"
+        },
+        {
+          "work_id": "patent:BR112021001282A2",
+          "clusters": [
+            "C05_trichoderma_cross_context"
+          ],
+          "source": "google_patents",
+          "title": "yeast expressing enzymes for ethanol production"
+        },
+        {
+          "work_id": "patent:BR112021010332A2",
+          "clusters": [
+            "C01_biocontrol_biopesticide",
+            "C02_bioinputs_nutrition",
+            "C06_scientific_crop_context"
+          ],
+          "source": "google_patents",
+          "title": "yeast-based compositions to improve rhizosphere and plant health properties"
+        }
+      ]
+    }
+  },
+  "technology_crossings": [
+    {
+      "term": "promocao_crescimento",
+      "cluster_count": 3,
+      "clusters": [
+        "C02_bioinputs_nutrition",
+        "C03_nitrogen_platform",
+        "C06_scientific_crop_context"
+      ],
+      "work_count": 38
+    },
+    {
+      "term": "fixacao_nitrogenio",
+      "cluster_count": 2,
+      "clusters": [
+        "C02_bioinputs_nutrition",
+        "C03_nitrogen_platform"
+      ],
+      "work_count": 4
+    },
+    {
+      "term": "nematoide",
+      "cluster_count": 2,
+      "clusters": [
+        "C01_biocontrol_biopesticide",
+        "C06_scientific_crop_context"
+      ],
+      "work_count": 14
+    },
+    {
+      "term": "solubilizacao_fosfato",
+      "cluster_count": 2,
+      "clusters": [
+        "C02_bioinputs_nutrition",
+        "C03_nitrogen_platform"
+      ],
+      "work_count": 4
+    }
+  ],
+  "query_diagnostics": [
+    {
+      "query": "bioinsumo + BR",
+      "observed_result_count": 50,
+      "captured": 9,
+      "unique_in_inventory": 9,
+      "signal_bearing_works": 6,
+      "signal_rate_in_inventory": 0.667,
+      "recall_to_capture_ratio": 5.6,
+      "source_url": "https://patents.google.com/?q=(bioinsumo)&country=BR",
+      "raw_path": "raw_v0/google_patents/bioinsumo_br.jsonl"
+    },
+    {
+      "query": "biocontrole + BR",
+      "observed_result_count": 1186,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 5,
+      "signal_rate_in_inventory": 0.714,
+      "recall_to_capture_ratio": 169.4,
+      "source_url": "https://patents.google.com/?q=(biocontrole)&country=BR",
+      "raw_path": "raw_v0/google_patents/biocontrole_br.jsonl"
+    },
+    {
+      "query": "inoculante + BR",
+      "observed_result_count": 889,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 5,
+      "signal_rate_in_inventory": 0.714,
+      "recall_to_capture_ratio": 127.0,
+      "source_url": "https://patents.google.com/?q=(inoculante)&country=BR",
+      "raw_path": "raw_v0/google_patents/inoculante_br.jsonl"
+    },
+    {
+      "query": "biopesticida + BR",
+      "observed_result_count": 6712,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 3,
+      "signal_rate_in_inventory": 0.429,
+      "recall_to_capture_ratio": 958.9,
+      "source_url": "https://patents.google.com/?q=(biopesticida)&country=BR",
+      "raw_path": "raw_v0/google_patents/biopesticida_br.jsonl"
+    },
+    {
+      "query": "biofertilizante + BR",
+      "observed_result_count": 6633,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 4,
+      "signal_rate_in_inventory": 0.571,
+      "recall_to_capture_ratio": 947.6,
+      "source_url": "https://patents.google.com/?q=(biofertilizante)&country=BR",
+      "raw_path": "raw_v0/google_patents/biofertilizante_br.jsonl"
+    },
+    {
+      "query": "Rhizobium + BR",
+      "observed_result_count": 3402,
+      "captured": 9,
+      "unique_in_inventory": 9,
+      "signal_bearing_works": 4,
+      "signal_rate_in_inventory": 0.444,
+      "recall_to_capture_ratio": 378.0,
+      "source_url": "https://patents.google.com/?q=(Rhizobium)&country=BR",
+      "raw_path": "raw_v0/google_patents/rhizobium_br.jsonl"
+    },
+    {
+      "query": "Bacillus thuringiensis + BR",
+      "observed_result_count": 14887,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 2,
+      "signal_rate_in_inventory": 0.286,
+      "recall_to_capture_ratio": 2126.7,
+      "source_url": "https://patents.google.com/?q=(Bacillus+thuringiensis)&country=BR",
+      "raw_path": "raw_v0/google_patents/bacillus_thuringiensis_br.jsonl"
+    },
+    {
+      "query": "Trichoderma + BR",
+      "observed_result_count": 6524,
+      "captured": 10,
+      "unique_in_inventory": 10,
+      "signal_bearing_works": 6,
+      "signal_rate_in_inventory": 0.6,
+      "recall_to_capture_ratio": 652.4,
+      "source_url": "https://patents.google.com/?q=(Trichoderma)&country=BR",
+      "raw_path": "raw_v0/google_patents/trichoderma_br.jsonl"
+    },
+    {
+      "query": "fixação de nitrogênio + BR",
+      "observed_result_count": 8956,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 4,
+      "signal_rate_in_inventory": 0.571,
+      "recall_to_capture_ratio": 1279.4,
+      "source_url": "https://patents.google.com/?q=(fixa%C3%A7%C3%A3o+de+nitrog%C3%AAnio)&country=BR",
+      "raw_path": "raw_v0/google_patents/fixa_o_de_nitrog_nio_br.jsonl"
+    },
+    {
+      "query": "biological control + BR",
+      "observed_result_count": 56223,
+      "captured": 7,
+      "unique_in_inventory": 7,
+      "signal_bearing_works": 5,
+      "signal_rate_in_inventory": 0.714,
+      "recall_to_capture_ratio": 8031.9,
+      "source_url": "https://patents.google.com/?q=(biological+control)&country=BR",
+      "raw_path": "raw_v0/google_patents/biological_control_br.jsonl"
+    },
+    {
+      "query": "bioinput + BR",
+      "observed_result_count": 49,
+      "captured": 9,
+      "unique_in_inventory": 9,
+      "signal_bearing_works": 6,
+      "signal_rate_in_inventory": 0.667,
+      "recall_to_capture_ratio": 5.4,
+      "source_url": "https://patents.google.com/?q=(bioinput)&country=BR",
+      "raw_path": "raw_v0/google_patents/bioinput_br.jsonl"
+    },
+    {
+      "query": "microbial inoculant + BR",
+      "observed_result_count": 4975,
+      "captured": 10,
+      "unique_in_inventory": 10,
+      "signal_bearing_works": 7,
+      "signal_rate_in_inventory": 0.7,
+      "recall_to_capture_ratio": 497.5,
+      "source_url": "https://patents.google.com/?q=(microbial+inoculant)&country=BR",
+      "raw_path": "raw_v0/google_patents/microbial_inoculant_br.jsonl"
+    }
+  ],
+  "next_query_count": 20,
+  "next_query_blocks": {
+    "B1_trichoderma_transversal": 4,
+    "B2_nitrogen_platform": 5,
+    "B3_local_production_quality": 8,
+    "B4_organisms_and_application": 3
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "generated_at": "2026-08-21T05:08:42.180933+00:00",
+  "source": "next_queries_v0.json",
+  "decision": "execute_selected_blocks_without_waiting",
+  "selection_rule": "Top evidence-linked queries from B1/B2/B3; include one literature contrast query to test whether the patent signals have a scientific counterpart.",
+  "execution_order": [
+    "B1_trichoderma_transversal",
+    "B2_nitrogen_platform",
+    "B3_local_production_quality"
+  ],
+  "blocks": {
+    "B1_trichoderma_transversal": {
+      "decision": "executar_primeiro",
+      "why": "Organismo com presença em cinco clusters operacionais; precisa separar produção, biocontrole e carbono.",
+      "queries": [
+        "NQ01",
+        "NQ02"
+      ]
+    },
+    "B2_nitrogen_platform": {
+      "decision": "executar_primeiro",
+      "why": "Cluster concentrado com fixação, liberação, formulação e fosfato; maior chance de revelar uma plataforma tecnológica coerente.",
+      "queries": [
+        "NQ04",
+        "NQ06",
+        "NQ05"
+      ]
+    },
+    "B3_local_production_quality": {
+      "decision": "executar_primeiro",
+      "why": "Sinal mais diretamente ligado à hipótese de capacidade brasileira: biorreatores, fermentação, produção on-farm e controle de qualidade.",
+      "queries": [
+        "NQ07",
+        "NQ08",
+        "NQ10",
+        "NQ09",
+        "NQ14"
+      ]
+    }
+  },
+  "selected_query_ids": [
+    "NQ01",
+    "NQ02",
+    "NQ04",
+    "NQ06",
+    "NQ05",
+    "NQ07",
+    "NQ08",
+    "NQ10",
+    "NQ09",
+    "NQ14"
+  ],
+  "selected_queries": [
+    {
+      "query_id": "NQ01",
+      "query": "Trichoderma fermentation BR",
+      "source": "google_patents",
+      "block": "B1_trichoderma_transversal",
+      "priority_score": 98,
+      "status": "executed",
+      "purpose": "Separar a trilha de produção/fermentação da trilha de biocontrole.",
+      "expected_signal": "processo, escala, fermentação e formulação",
+      "ambiguity_to_resolve": "o termo pode recuperar aplicações alimentícias e industriais fora do agro",
+      "evidence_record_ids": [
+        "https://openalex.org/W3201023522",
+        "https://openalex.org/W1541240643",
+        "https://openalex.org/W2106854637",
+        "https://openalex.org/W3158345945",
+        "https://doi.org/10.48021/978-65-252-0866-4-c1",
+        "https://doi.org/10.28998/rca.v16i3.4818",
+        "https://doi.org/10.1201/9781003284055-2",
+        "https://doi.org/10.58905/demeter.v3i3.694",
+        "https://doi.org/10.3897/ia.2025.145975",
+        "patent:BR102023023945A2",
+        "patent:BR112020013023B1",
+        "patent:BR112020022659A2"
+      ],
+      "evidence": "Trichoderma apareceu em 21 registros e 5 clusters operacionais.",
+      "rank": 1
+    },
+    {
+      "query_id": "NQ02",
+      "query": "Trichoderma biocontrol BR",
+      "source": "google_patents",
+      "block": "B1_trichoderma_transversal",
+      "priority_score": 94,
+      "status": "executed",
+      "purpose": "Medir o núcleo agronômico do organismo em biocontrole.",
+      "expected_signal": "agente de controle biológico e fitopatógenos",
+      "ambiguity_to_resolve": "o recall pode misturar química agrícola que apenas menciona o organismo",
+      "evidence_record_ids": [
+        "https://openalex.org/W3201023522",
+        "https://openalex.org/W1541240643",
+        "https://openalex.org/W2106854637",
+        "https://openalex.org/W3158345945",
+        "https://doi.org/10.48021/978-65-252-0866-4-c1",
+        "https://doi.org/10.28998/rca.v16i3.4818",
+        "https://doi.org/10.1201/9781003284055-2",
+        "https://doi.org/10.58905/demeter.v3i3.694",
+        "https://doi.org/10.3897/ia.2025.145975",
+        "patent:BR102023023945A2",
+        "patent:BR112020013023B1",
+        "patent:BR112020022659A2"
+      ],
+      "evidence": "A presença de Trichoderma atravessa o cluster de biocontrole e outros contextos.",
+      "rank": 5
+    },
+    {
+      "query_id": "NQ04",
+      "query": "microbial nitrogen fixation formulation BR",
+      "source": "google_patents",
+      "block": "B2_nitrogen_platform",
+      "priority_score": 97,
+      "status": "executed",
+      "purpose": "Aprofundar a relação entre microrganismo fixador, formulação e estabilidade.",
+      "expected_signal": "formulação, estabilidade e desempenho de micróbios fixadores",
+      "ambiguity_to_resolve": "pode concentrar novamente famílias da Pivot Bio",
+      "evidence_record_ids": [
+        "https://openalex.org/W2033221700",
+        "https://openalex.org/W4295394560",
+        "https://openalex.org/W3091536924",
+        "https://openalex.org/W2237531247",
+        "https://openalex.org/W2764166391",
+        "https://openalex.org/W3033643525",
+        "https://openalex.org/W2162307791",
+        "https://openalex.org/W3114972437",
+        "https://openalex.org/W2792190312",
+        "https://openalex.org/W2952319663",
+        "https://openalex.org/W3083542903",
+        "https://openalex.org/W2781993320"
+      ],
+      "evidence": "Fixação de nitrogênio formou um cluster concentrado na primeira página observada.",
+      "rank": 2
+    },
+    {
+      "query_id": "NQ06",
+      "query": "phosphate solubilization microbial BR",
+      "source": "google_patents",
+      "block": "B2_nitrogen_platform",
+      "priority_score": 92,
+      "status": "executed",
+      "purpose": "Completar o eixo de nutrição microbiana além do nitrogênio.",
+      "expected_signal": "solubilização de fosfato e aquisição de nutrientes",
+      "ambiguity_to_resolve": "pode misturar fertilizantes sem componente biológico",
+      "evidence_record_ids": [
+        "https://openalex.org/W2033221700",
+        "https://openalex.org/W4295394560",
+        "https://openalex.org/W3091536924",
+        "https://openalex.org/W2237531247",
+        "https://openalex.org/W2764166391",
+        "https://openalex.org/W3033643525",
+        "https://openalex.org/W2162307791",
+        "https://openalex.org/W3114972437",
+        "https://openalex.org/W2792190312",
+        "https://openalex.org/W2952319663",
+        "https://openalex.org/W3083542903",
+        "https://openalex.org/W2781993320"
+      ],
+      "evidence": "Solubilização de fosfato apareceu como sinal técnico distinto.",
+      "rank": 7
+    },
+    {
+      "query_id": "NQ05",
+      "query": "nitrogen fixation microbial release BR",
+      "source": "google_patents",
+      "block": "B2_nitrogen_platform",
+      "priority_score": 90,
+      "status": "executed",
+      "purpose": "Investigar a ponte entre fixação e liberação temporal/espacial de nitrogênio.",
+      "expected_signal": "liberação dinâmica e aplicação agrícola",
+      "ambiguity_to_resolve": "termos amplos podem recuperar patentes de genética vegetal",
+      "evidence_record_ids": [
+        "https://openalex.org/W2033221700",
+        "https://openalex.org/W4295394560",
+        "https://openalex.org/W3091536924",
+        "https://openalex.org/W2237531247",
+        "https://openalex.org/W2764166391",
+        "https://openalex.org/W3033643525",
+        "https://openalex.org/W2162307791",
+        "https://openalex.org/W3114972437",
+        "https://openalex.org/W2792190312",
+        "https://openalex.org/W2952319663",
+        "https://openalex.org/W3083542903",
+        "https://openalex.org/W2781993320"
+      ],
+      "evidence": "A captura atual mostrou linguagem de liberação dinâmica de nitrogênio.",
+      "rank": 9
+    },
+    {
+      "query_id": "NQ07",
+      "query": "bioinput bioreactor BR",
+      "source": "google_patents",
+      "block": "B3_local_production_quality",
+      "priority_score": 96,
+      "status": "executed",
+      "purpose": "Mapear equipamentos e arquitetura de produção de bioinputs.",
+      "expected_signal": "biorreator, módulo, fermentação e produção local",
+      "ambiguity_to_resolve": "o vocabulário pode recuperar equipamentos não agrícolas",
+      "evidence_record_ids": [
+        "https://openalex.org/W3134803042",
+        "https://openalex.org/W4402856727",
+        "https://openalex.org/W4293801436",
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W2269798405",
+        "https://openalex.org/W4320917824",
+        "https://openalex.org/W4402699137",
+        "https://openalex.org/W4388339317",
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W7125699480",
+        "https://openalex.org/W4388578801",
+        "https://openalex.org/W4402311110"
+      ],
+      "evidence": "Bioinput apareceu junto de biorreator e sistemas de produção.",
+      "rank": 3
+    },
+    {
+      "query_id": "NQ08",
+      "query": "bioinput fermentation BR",
+      "source": "google_patents",
+      "block": "B3_local_production_quality",
+      "priority_score": 95,
+      "status": "executed",
+      "purpose": "Aprofundar o processo de fermentação e sua escala.",
+      "expected_signal": "fermentação sólida/líquida e produção de microrganismos",
+      "ambiguity_to_resolve": "pode recuperar bioprocessos alimentícios",
+      "evidence_record_ids": [
+        "https://openalex.org/W3134803042",
+        "https://openalex.org/W4402856727",
+        "https://openalex.org/W4293801436",
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W2269798405",
+        "https://openalex.org/W4320917824",
+        "https://openalex.org/W4402699137",
+        "https://openalex.org/W4388339317",
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W7125699480",
+        "https://openalex.org/W4388578801",
+        "https://openalex.org/W4402311110"
+      ],
+      "evidence": "Fermentação e produção foram observadas como sinais de processo.",
+      "rank": 4
+    },
+    {
+      "query_id": "NQ10",
+      "query": "bioinput rural property production BR",
+      "source": "google_patents",
+      "block": "B3_local_production_quality",
+      "priority_score": 93,
+      "status": "executed",
+      "purpose": "Testar a hipótese de produção descentralizada na propriedade rural.",
+      "expected_signal": "produção on-farm e aplicação direta no sulco",
+      "ambiguity_to_resolve": "a expressão pode recuperar máquinas ou modelos de serviço",
+      "evidence_record_ids": [
+        "https://openalex.org/W3134803042",
+        "https://openalex.org/W4402856727",
+        "https://openalex.org/W4293801436",
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W2269798405",
+        "https://openalex.org/W4320917824",
+        "https://openalex.org/W4402699137",
+        "https://openalex.org/W4388339317",
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W7125699480",
+        "https://openalex.org/W4388578801",
+        "https://openalex.org/W4402311110"
+      ],
+      "evidence": "A captura atual incluiu sistema de produção para propriedades rurais.",
+      "rank": 6
+    },
+    {
+      "query_id": "NQ09",
+      "query": "bioinput quality monitoring spectrometry BR",
+      "source": "google_patents",
+      "block": "B3_local_production_quality",
+      "priority_score": 91,
+      "status": "executed",
+      "purpose": "Verificar se monitoramento de qualidade constitui uma subtrilha própria.",
+      "expected_signal": "espectrometria, termocromia e parâmetros físico-químicos",
+      "ambiguity_to_resolve": "poucas ocorrências podem ser um nicho ou ruído lexical",
+      "evidence_record_ids": [
+        "https://openalex.org/W3134803042",
+        "https://openalex.org/W4402856727",
+        "https://openalex.org/W4293801436",
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W2269798405",
+        "https://openalex.org/W4320917824",
+        "https://openalex.org/W4402699137",
+        "https://openalex.org/W4388339317",
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W7125699480",
+        "https://openalex.org/W4388578801",
+        "https://openalex.org/W4402311110"
+      ],
+      "evidence": "Monitoramento de qualidade apareceu como sinal separado no mapa.",
+      "rank": 8
+    },
+    {
+      "query_id": "NQ14",
+      "query": "Brazilian bioinput fermentation agriculture",
+      "source": "openalex",
+      "block": "B3_local_production_quality",
+      "priority_score": 89,
+      "status": "executed",
+      "purpose": "Verificar se a literatura acompanha a infraestrutura patentária brasileira de produção.",
+      "expected_signal": "artigos, teses ou revisões sobre fermentação e bioinsumos no Brasil",
+      "ambiguity_to_resolve": "a consulta pode trazer literatura geral de bioprocessos",
+      "evidence_record_ids": [
+        "patent:BR102024014113A2",
+        "patent:BR102023003698A2",
+        "patent:BR102021017152A2",
+        "patent:BRPI0811002B1",
+        "patent:BR202022014268U2",
+        "patent:BR112020022643A2"
+      ],
+      "evidence": "Patentes com sinais brasileiros concentraram produção, fermentação e monitoramento.",
+      "rank": 10
+    }
+  ],
+  "not_selected_now": [
+    "NQ13",
+    "NQ16",
+    "NQ11",
+    "NQ18",
+    "NQ15",
+    "NQ12",
+    "NQ03",
+    "NQ19",
+    "NQ17",
+    "NQ20"
+  ],
+  "execution": {
+    "status": "completed",
+    "executed_at": "2026-08-21",
+    "patent_queries_executed": [
+      "NQ01",
+      "NQ02",
+      "NQ04",
+      "NQ06",
+      "NQ05",
+      "NQ07",
+      "NQ08",
+      "NQ10",
+      "NQ09"
+    ],
+    "literature_queries_executed": [
+      "NQ14"
+    ],
+    "patent_parser_summary": "second_round_patent_parser_summary_v0.json",
+    "literature_summary": "second_round_openalex_summary_v0.json",
+    "patent_records_captured_across_queries": 76,
+    "patent_records_unique_across_queries": 50,
+    "literature_records_captured": 25,
+    "normalization_summary": "normalized_v0/normalization_summary_v0.json",
+    "unexpected_signals": [
+      "Trichoderma fermentation connected to industrial cellulase/ethanol and Novozymes.",
+      "Bioinput quality monitoring surfaced a CO2 biofixation/algae signal linked to Petrobras.",
+      "Brazilian on-farm production, aseptic fermentation and bioreactor signals formed a compact local cluster."
+    ]
+  }
+}

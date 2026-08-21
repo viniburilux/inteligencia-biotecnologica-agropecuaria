@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-08-21T05:13:57.635399+00:00",
+  "metadata_only": true,
+  "source": "google_patents",
+  "round": "second_round",
+  "queries": {
+    "NQ01": {
+      "query": "Trichoderma fermentation",
+      "observed_result_count": 1907,
+      "unique_records": 10,
+      "saved_path": "raw_v0/google_patents/second_round_nq01_trichoderma_fermentation.jsonl"
+    },
+    "NQ02": {
+      "query": "Trichoderma biocontrol",
+      "observed_result_count": 446,
+      "unique_records": 10,
+      "saved_path": "raw_v0/google_patents/second_round_nq02_trichoderma_biocontrol.jsonl"
+    },
+    "NQ04": {
+      "query": "microbial nitrogen fixation formulation",
+      "observed_result_count": 3415,
+      "unique_records": 7,
+      "saved_path": "raw_v0/google_patents/second_round_nq04_microbial_nitrogen_fixation_formulation.jsonl"
+    },
+    "NQ06": {
+      "query": "phosphate solubilization microbial",
+      "observed_result_count": 12970,
+      "unique_records": 6,
+      "saved_path": "raw_v0/google_patents/second_round_nq06_phosphate_solubilization_microbial.jsonl"
+    },
+    "NQ05": {
+      "query": "nitrogen fixation microbial release",
+      "observed_result_count": 2791,
+      "unique_records": 10,
+      "saved_path": "raw_v0/google_patents/second_round_nq05_nitrogen_fixation_microbial_release.jsonl"
+    },
+    "NQ07": {
+      "query": "bioinput bioreactor",
+      "observed_result_count": 13,
+      "unique_records": 10,
+      "saved_path": "raw_v0/google_patents/second_round_nq07_bioinput_bioreactor.jsonl"
+    },
+    "NQ08": {
+      "query": "bioinput fermentation",
+      "observed_result_count": 19,
+      "unique_records": 9,
+      "saved_path": "raw_v0/google_patents/second_round_nq08_bioinput_fermentation.jsonl"
+    },
+    "NQ10": {
+      "query": "bioinput rural property production",
+      "observed_result_count": 34,
+      "unique_records": 9,
+      "saved_path": "raw_v0/google_patents/second_round_nq10_bioinput_rural_property_production.jsonl"
+    },
+    "NQ09": {
+      "query": "bioinput quality monitoring spectrometry",
+      "observed_result_count": 5,
+      "unique_records": 5,
+      "saved_path": "raw_v0/google_patents/second_round_nq09_bioinput_quality_monitoring_spectrometry.jsonl"
+    }
+  },
+  "unique_records_across_queries": 50,
+  "query_count": 9
+}
