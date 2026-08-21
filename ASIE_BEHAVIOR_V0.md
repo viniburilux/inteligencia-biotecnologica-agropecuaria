@@ -68,7 +68,9 @@ A parte ainda fraca é a formalização. As decisões foram reproduzíveis por a
 
 O teste encontrou evidência **positiva, mas não definitiva**, de que a exploração adaptativa abre caminhos que uma estratégia fixa provavelmente não abriria: o salto para a família BR112019020483A2 veio de uma reformulação linguística; o salto para *Trichoderma citrinoviride* e *Meloidogyne incognita* veio de um título bibliográfico retornado pela própria busca; a consulta Trichoderma–fosfato separou Locus de Pivot Bio; e a trilha de carbono foi estacionada após uma busca independente não acrescentar a ponte esperada.
 
-Isso ainda não é um benchmark contra uma estratégia fixa. Não foram medidos, neste V0, tempo, falsos candidatos, recall de uma estratégia fixa, retrabalho ou taxa de decisões bloqueadas. O próximo teste arquitetural informativo é comparar, no mesmo estado congelado, **perguntas fixas pré-definidas** contra **perguntas adaptadas pelos resultados**, mantendo fontes e orçamento comparáveis.
+O replay comparável posterior usou o mesmo estado congelado, o mesmo prefixo de quatro perguntas e quatro passos pós-prefixo em cada braço. A continuação fixa produziu 3 âncoras estáveis, 2 transições acionáveis, nenhuma reformulação e nenhuma decisão explícita de estacionamento/bloqueio. A continuação adaptativa produziu 6 âncoras estáveis, 7 transições acionáveis, 5 reformulações, 2 decisões explícitas de estacionamento/bloqueio e 4 decisões específicas por ramo. O resultado favorece o comportamento adaptativo em **especificidade da fila de investigação e produção de decisões**, dentro desse replay.
+
+Isso ainda não é um benchmark randomizado nem uma prova geral de superioridade. O replay usa uma lista fixa histórica e uma trilha adaptativa já observada; os dois braços não respondem exatamente às mesmas perguntas semânticas. Ainda não foram medidos, com critérios previamente congelados, tempo, falsos candidatos, recall, completude de provenance ou qualidade da resposta final. O próximo teste deve executar esses critérios com o mesmo orçamento e registro paralelo.
 
 ## Referências
 
@@ -83,3 +85,5 @@ Isso ainda não é um benchmark contra uma estratégia fixa. Não foram medidos,
 [5]: https://api.openalex.org/works?search=Trichoderma%20citrinoviride%20Meloidogyne%20incognita "OpenAlex — Trichoderma citrinoviride / Meloidogyne incognita"
 
 [6]: https://patents.google.com/?q=(Trichoderma+citrinoviride+Meloidogyne+incognita+Brazil)&country=BR "Google Patents — espécie/pathógeno com filtro BR"
+
+[7]: ASIE_FIXED_ADAPTIVE_REPLAY_V0.md "Replay fixo versus adaptativo V0"

@@ -98,11 +98,25 @@ Há também dois resultados negativos importantes. A consulta específica da esp
 
 O comportamento observado é **promissor como processo de exploração**, porque a próxima pergunta mudou com base no resultado anterior e porque diferentes ramos terminaram em decisões diferentes. A evidência é **insuficiente para afirmar vantagem mensurável sobre estratégia fixa**, pois este V0 não executou uma condição-controle com o mesmo orçamento, nem mediu tempo, falsos candidatos, recall, retrabalho ou completude de provenance em comparação direta.
 
-A conclusão operacional é clara: **não construir o ASIE ainda**. O próximo experimento informativo é um teste A/B de estratégia fixa contra estratégia adaptativa, usando o mesmo snapshot de 763 obras, o mesmo orçamento de fontes e o mesmo formato de log. O ASIE só deve virar módulo depois de sabermos se as decisões adaptativas reduzem consultas inúteis, aumentam caminhos novos ou melhoram o tempo até uma próxima ação justificável.
+A conclusão operacional permanece: **não construir o ASIE ainda**. O replay já mostrou uma diferença de processo favorável à adaptação, mas não mediu ainda tempo, falsos candidatos, recall, completude de provenance ou qualidade de resposta. O próximo passo é um A/B pré-congelado com esses critérios e orçamento comparável.
+
+## Replay fixo versus adaptativo
+
+Depois da exploração autônoma, foi executado um replay comparável no mesmo snapshot congelado. Os dois braços receberam o mesmo prefixo de quatro perguntas e quatro passos posteriores. O braço fixo seguiu uma continuação pré-comprometida do pool histórico; o braço adaptativo seguiu transições dependentes dos resultados já capturados.
+
+| Métrica | Fixo | Adaptativo |
+|---|---:|---:|
+| Âncoras estáveis | 3 | 6 |
+| Transições acionáveis | 2 | 7 |
+| Reformulações | 0 | 5 |
+| Decisões explícitas de estacionamento/bloqueio | 0 | 2 |
+| Decisões específicas por ramo | 0 | 4 |
+
+O resultado não prova que a estratégia adaptativa sempre vence. Ele mostra que, neste estado e neste replay, a política adaptativa mudou a unidade de investigação — idioma, identificador, espécie/pathógeno, contexto experimental e portfólio — enquanto a política fixa continuou consumindo consultas amplas. O artefato completo está em [`ASIE_FIXED_ADAPTIVE_REPLAY_V0.md`](ASIE_FIXED_ADAPTIVE_REPLAY_V0.md) e [`ASIE_FIXED_ADAPTIVE_REPLAY_V0.json`](ASIE_FIXED_ADAPTIVE_REPLAY_V0.json).
 
 ## Proveniência e artefatos
 
-O registro computável completo está em [`ASIE_CYCLE_LOG_V0.jsonl`](ASIE_CYCLE_LOG_V0.jsonl). O estado usado para seleção está em [`asie_autonomy_state_v0.json`](asie_autonomy_state_v0.json). As capturas patentárias estão em [`asie_autonomous_browser_findings_v0.md`](asie_autonomous_browser_findings_v0.md). As respostas OpenAlex estão em [`asie_autonomous_openalex_findings_v0.md`](asie_autonomous_openalex_findings_v0.md) e [`asie_autonomous_openalex_reformulations_findings_v0.md`](asie_autonomous_openalex_reformulations_findings_v0.md). Os resultados brutos autônomos permanecem sob `raw_v3/asie_autonomous/`.
+O registro computável completo está em [`ASIE_CYCLE_LOG_V0.jsonl`](ASIE_CYCLE_LOG_V0.jsonl). O replay fixo versus adaptativo está em [`ASIE_FIXED_ADAPTIVE_REPLAY_V0.md`](ASIE_FIXED_ADAPTIVE_REPLAY_V0.md) e [`ASIE_FIXED_ADAPTIVE_REPLAY_V0.json`](ASIE_FIXED_ADAPTIVE_REPLAY_V0.json). O estado usado para seleção está em [`asie_autonomy_state_v0.json`](asie_autonomy_state_v0.json). As capturas patentárias estão em [`asie_autonomous_browser_findings_v0.md`](asie_autonomous_browser_findings_v0.md). As respostas OpenAlex estão em [`asie_autonomous_openalex_findings_v0.md`](asie_autonomous_openalex_findings_v0.md) e [`asie_autonomous_openalex_reformulations_findings_v0.md`](asie_autonomous_openalex_reformulations_findings_v0.md). Os resultados brutos autônomos permanecem sob `raw_v3/asie_autonomous/`.
 
 ## Referências
 

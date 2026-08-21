@@ -1,0 +1,157 @@
+{
+  "artifact": "ASIE_FIXED_ADAPTIVE_REPLAY_V0",
+  "generated_at": "2026-08-21T07:15:28.991476+00:00",
+  "metadata_only": true,
+  "design": "same frozen baseline + same four seed queries + four post-seed queries per arm",
+  "interpretation": "The fixed arm follows a pre-committed historical query list; the adaptive arm follows result-dependent transitions already captured in the autonomous experiment.",
+  "limits": [
+    "This is not randomized.",
+    "The fixed and adaptive post-seed queries are not semantically identical; the comparison concerns process behavior, not scientific answer quality.",
+    "Observed counts are metadata retrieval counts, not relevance or efficacy.",
+    "No full texts were downloaded.",
+    "The replay uses already captured evidence; it does not claim a fresh independent trial."
+  ],
+  "fixed_arm": {
+    "arm": "fixed",
+    "initial_seed_queries": [
+      "fungal biocontrol nematode soybean (Google Patents BR)",
+      "microbial nitrogen fixation root health maize (Google Patents BR)",
+      "Trichoderma phosphate solubilization root health (Google Patents BR)",
+      "microalgae drilling waste biofixation fertilizer (OpenAlex)"
+    ],
+    "post_seed_queries": [
+      {
+        "query": "Trichoderma fermentation",
+        "observed_count": 10
+      },
+      {
+        "query": "Trichoderma biocontrol",
+        "observed_count": 5
+      },
+      {
+        "query": "microbial nitrogen fixation formulation",
+        "observed_count": 1
+      },
+      {
+        "query": "phosphate solubilization microbial",
+        "observed_count": 1
+      }
+    ],
+    "policy": "Continue the pre-committed list in order; do not reformulate from returned titles, identifiers or negative results.",
+    "stable_anchors": [
+      "Locus",
+      "Pivot Bio",
+      "generic CCUS/algae literature"
+    ],
+    "actionable_transitions": [
+      "contrast Locus and Pivot Bio",
+      "keep carbon as a generic CCUS signal"
+    ],
+    "negative_or_park_decisions": 0,
+    "reformulations": 0
+  },
+  "adaptive_arm": {
+    "arm": "adaptive",
+    "initial_seed_queries": [
+      "fungal biocontrol nematode soybean (Google Patents BR)",
+      "microbial nitrogen fixation root health maize (Google Patents BR)",
+      "Trichoderma phosphate solubilization root health (Google Patents BR)",
+      "microalgae drilling waste biofixation fertilizer (OpenAlex)"
+    ],
+    "post_seed_queries": [
+      {
+        "query": "fungo biocontrole nematoide soja",
+        "transition": "reformulation from noisy English patent query"
+      },
+      {
+        "query": "BR112019020483A2",
+        "transition": "identifier-level family inspection"
+      },
+      {
+        "query": "Trichoderma citrinoviride Meloidogyne incognita",
+        "transition": "species/pathogen extracted from OpenAlex title"
+      },
+      {
+        "query": "PGPR nitrogen fixation maize greenhouse",
+        "transition": "narrowing of generic rhizosphere result"
+      }
+    ],
+    "policy": "Read each result, repair or branch when the result provides a better anchor, preserve negative evidence, and stop a branch when the next query is not justified.",
+    "stable_anchors": [
+      "BR112019020483A2",
+      "Trichoderma citrinoviride",
+      "Meloidogyne incognita",
+      "BR112020022643A2",
+      "Locus",
+      "Pivot Bio"
+    ],
+    "actionable_transitions": [
+      "inspect BR112019020483A2",
+      "compare species/pathogen literature with the surfaced family",
+      "park the Brazil-specific species/pathogen patent branch",
+      "narrow PGPR/nitrogen/maize by greenhouse context",
+      "contrast Locus and Pivot portfolios",
+      "deepen Trichoderma/root-knot-nematode literature",
+      "park the carbon bridge after independent literature failure"
+    ],
+    "negative_or_park_decisions": 2,
+    "reformulations": 5
+  },
+  "metrics": {
+    "same_frozen_baseline": {
+      "works": 763,
+      "actors": 2680,
+      "institutions": 767,
+      "relations": 4045,
+      "application_signals": 536,
+      "state_sha256": "b00ad658717e07efe941483a07748dd324f7390b8f03b560695ae7dfcac47e1b"
+    },
+    "same_seed_prefix": true,
+    "fixed": {
+      "seed_queries": 4,
+      "post_seed_queries": 4,
+      "total_queries_in_replay": 8,
+      "stable_anchor_count": 3,
+      "actionable_transition_count": 2,
+      "negative_or_park_decision_count": 0,
+      "reformulation_count": 0,
+      "branch_specific_decisions": 0
+    },
+    "adaptive": {
+      "seed_queries": 4,
+      "post_seed_queries": 4,
+      "total_queries_in_replay": 8,
+      "stable_anchor_count": 6,
+      "actionable_transition_count": 7,
+      "negative_or_park_decision_count": 2,
+      "reformulation_count": 5,
+      "branch_specific_decisions": 4
+    }
+  },
+  "evidence": [
+    {
+      "path": "asie_autonomy_state_v0.json",
+      "sha256": "b00ad658717e07efe941483a07748dd324f7390b8f03b560695ae7dfcac47e1b"
+    },
+    {
+      "path": "ASIE_CYCLE_LOG_V0.jsonl",
+      "sha256": "0a083536913cd45f7a479cf9b6ebea2d80e26227d830d331100c91d39246a85b"
+    },
+    {
+      "path": "next_queries_v1.json",
+      "sha256": "3825b2a2dd30c4b3b7e05bcede996d073347054068fc87cd6768ca1dde0eb96a"
+    },
+    {
+      "path": "asie_autonomous_browser_findings_v0.md",
+      "sha256": "dac005717bb13220769ed191f69d40102bbbd2d6b164b9f1823b1cb40b309042"
+    },
+    {
+      "path": "asie_autonomous_openalex_findings_v0.md",
+      "sha256": "490349a5886853d1f116ded2ef634818136f6c0256f8aa138a1b31d7e0198d31"
+    },
+    {
+      "path": "asie_autonomous_openalex_reformulations_findings_v0.md",
+      "sha256": "b67564e1b1213807c6bbdca0a12ad42a5c448cf93f317d41417778c1fd7f9cf3"
+    }
+  ]
+}
