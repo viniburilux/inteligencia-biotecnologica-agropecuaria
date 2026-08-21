@@ -2,13 +2,19 @@
 
 ## Início:
 
-**21 de agosto de 2026.**
+**21 DE AGOSTO DE 2026.**
+DIA ZERO
 
-Este repositório nasceu para construir inteligência sobre patentes, ciência e tecnologia e entender para onde está indo a biotecnologia agropecuária.
+Começamos.
 
-Ainda não temos todas as respostas. Temos uma pergunta — e decidimos começar.
+Não sabemos ainda onde a investigação vai chegar.
 
-> **Construir. Documentar. Mostrar. Deixar o mundo verificar.**
+Já sabemos que vamos descobrir olhando para os dados.
+
+379 → 429 registros em dois ciclos.
+Patentes · Ciência · Atores · Tecnologias · Aplicações
+
+> **Construir. Perguntar. Documentar. Mostrar.**
 
 ## O problema
 
