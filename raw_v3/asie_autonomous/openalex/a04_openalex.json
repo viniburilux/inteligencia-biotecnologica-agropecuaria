@@ -1,0 +1,4458 @@
+{
+  "query_id": "A04",
+  "block": "algae_industrial_residue",
+  "query": "microalgae drilling waste biofixation fertilizer",
+  "source_signal": "The carbon/algae trail survived one identifier-specific patent reformulation but remains narrow and needs independent literature contrast.",
+  "why": "Test whether the Petrobras-related family sits inside a broader research corridor or is an isolated patent signal.",
+  "source": "openalex",
+  "request_url": "https://api.openalex.org/works?search=microalgae+drilling+waste+biofixation+fertilizer&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31&per-page=25&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cpublication_year%2Ctype%2Ccited_by_count%2Clanguage%2Cauthorships%2Cprimary_location%2Cconcepts%2Crelated_works",
+  "captured_at": "2026-08-21T07:05:24.087829+00:00",
+  "metadata_only": true,
+  "http_status": 200,
+  "count": 18,
+  "results": [
+    {
+      "id": "https://openalex.org/W4220809139",
+      "doi": "https://doi.org/10.3390/su14073801",
+      "title": "Industrial CO2 Capture by Algae: A Review and Recent Advances",
+      "publication_date": "2022-03-23",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 137,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5059629452",
+            "display_name": "Tatyana Iglina",
+            "orcid": "https://orcid.org/0000-0002-0140-6825"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I3123529209",
+              "display_name": "Samara State Technical University",
+              "ror": "https://ror.org/05t58bx13",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I3123529209"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Tatyana Iglina",
+          "raw_affiliation_strings": [
+            "Heat Power Engineering Department, Samara State Technical University, 443100 Samara, Russia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-0140-6825",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Heat Power Engineering Department, Samara State Technical University, 443100 Samara, Russia",
+              "institution_ids": [
+                "https://openalex.org/I3123529209"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5041964890",
+            "display_name": "Pavel Iglin",
+            "orcid": "https://orcid.org/0000-0003-3731-7864"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I3123529209",
+              "display_name": "Samara State Technical University",
+              "ror": "https://ror.org/05t58bx13",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I3123529209"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Pavel Iglin",
+          "raw_affiliation_strings": [
+            "Heat Power Engineering Department, Samara State Technical University, 443100 Samara, Russia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-3731-7864",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Heat Power Engineering Department, Samara State Technical University, 443100 Samara, Russia",
+              "institution_ids": [
+                "https://openalex.org/I3123529209"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5038524718",
+            "display_name": "Dmitry Pashchenko",
+            "orcid": "https://orcid.org/0000-0003-0249-6137"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I3123529209",
+              "display_name": "Samara State Technical University",
+              "ror": "https://ror.org/05t58bx13",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I3123529209"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Dmitry Pashchenko",
+          "raw_affiliation_strings": [
+            "Heat Power Engineering Department, Samara State Technical University, 443100 Samara, Russia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-0249-6137",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Heat Power Engineering Department, Samara State Technical University, 443100 Samara, Russia",
+              "institution_ids": [
+                "https://openalex.org/I3123529209"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.3390/su14073801",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/su14073801",
+        "pdf_url": "https://www.mdpi.com/2071-1050/14/7/3801/pdf?version=1648090121",
+        "source": {
+          "id": "https://openalex.org/S10134376",
+          "display_name": "Sustainability",
+          "issn_l": "2071-1050",
+          "issn": [
+            "2071-1050"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sustainability",
+        "raw_type": "journal-article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C167206829",
+          "wikidata": "https://www.wikidata.org/wiki/Q2556360",
+          "display_name": "Flue gas",
+          "level": 2,
+          "score": 0.7576607465744019
+        },
+        {
+          "id": "https://openalex.org/C53991642",
+          "wikidata": "https://www.wikidata.org/wiki/Q128991",
+          "display_name": "Biofuel",
+          "level": 2,
+          "score": 0.7197660207748413
+        },
+        {
+          "id": "https://openalex.org/C47737302",
+          "wikidata": "https://www.wikidata.org/wiki/Q167336",
+          "display_name": "Greenhouse gas",
+          "level": 2,
+          "score": 0.6917711496353149
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.6395989060401917
+        },
+        {
+          "id": "https://openalex.org/C559758991",
+          "wikidata": "https://www.wikidata.org/wiki/Q37868",
+          "display_name": "Algae",
+          "level": 2,
+          "score": 0.6378092765808105
+        },
+        {
+          "id": "https://openalex.org/C115540264",
+          "wikidata": "https://www.wikidata.org/wiki/Q2945560",
+          "display_name": "Biomass (ecology)",
+          "level": 2,
+          "score": 0.6366033554077148
+        },
+        {
+          "id": "https://openalex.org/C156380964",
+          "wikidata": "https://www.wikidata.org/wiki/Q18556",
+          "display_name": "Bioenergy",
+          "level": 3,
+          "score": 0.44264310598373413
+        },
+        {
+          "id": "https://openalex.org/C188573790",
+          "wikidata": "https://www.wikidata.org/wiki/Q12705",
+          "display_name": "Renewable energy",
+          "level": 2,
+          "score": 0.4251784086227417
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.3744587004184723
+        },
+        {
+          "id": "https://openalex.org/C87717796",
+          "wikidata": "https://www.wikidata.org/wiki/Q146326",
+          "display_name": "Environmental engineering",
+          "level": 1,
+          "score": 0.34108680486679077
+        },
+        {
+          "id": "https://openalex.org/C528095902",
+          "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+          "display_name": "Pulp and paper industry",
+          "level": 1,
+          "score": 0.32593971490859985
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.16261884570121765
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.15937462449073792
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.10278767347335815
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2138827640",
+        "https://openalex.org/W2105704738",
+        "https://openalex.org/W2086880108",
+        "https://openalex.org/W2348021796",
+        "https://openalex.org/W1996990176",
+        "https://openalex.org/W2474431918",
+        "https://openalex.org/W928407058",
+        "https://openalex.org/W1518817075",
+        "https://openalex.org/W4210282826",
+        "https://openalex.org/W2969907553"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4387217428",
+      "doi": "https://doi.org/10.59720/20-024",
+      "title": "Effect of Different Growth Media on Algae’s Ability for Carbon Dioxide Biofixation",
+      "publication_date": "2020-01-01",
+      "publication_year": 2020,
+      "type": "article",
+      "cited_by_count": 2,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5102561941",
+            "display_name": "Shreya Chaudhuri",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Shreya Chaudhuri",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5092974860",
+            "display_name": "Kara Pezzi",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Kara Pezzi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.59720/20-024",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.59720/20-024",
+        "pdf_url": "https://emerginginvestigators.org/articles/20-024/pdf",
+        "source": {
+          "id": "https://openalex.org/S5407015684",
+          "display_name": "Journal of Emerging Investigators",
+          "issn_l": "2638-0870",
+          "issn": [
+            "2638-0870"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Emerging Investigators",
+        "raw_type": "journal-article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2992619708",
+          "wikidata": "https://www.wikidata.org/wiki/Q309972",
+          "display_name": "Chlorella vulgaris",
+          "level": 3,
+          "score": 0.8242104053497314
+        },
+        {
+          "id": "https://openalex.org/C530467964",
+          "wikidata": "https://www.wikidata.org/wiki/Q1997",
+          "display_name": "Carbon dioxide",
+          "level": 2,
+          "score": 0.8215988874435425
+        },
+        {
+          "id": "https://openalex.org/C559758991",
+          "wikidata": "https://www.wikidata.org/wiki/Q37868",
+          "display_name": "Algae",
+          "level": 2,
+          "score": 0.7788175344467163
+        },
+        {
+          "id": "https://openalex.org/C2779429693",
+          "wikidata": "https://www.wikidata.org/wiki/Q274959",
+          "display_name": "Distilled water",
+          "level": 2,
+          "score": 0.6739840507507324
+        },
+        {
+          "id": "https://openalex.org/C2780838361",
+          "wikidata": "https://www.wikidata.org/wiki/Q271844",
+          "display_name": "Green algae",
+          "level": 3,
+          "score": 0.6144506931304932
+        },
+        {
+          "id": "https://openalex.org/C59822182",
+          "wikidata": "https://www.wikidata.org/wiki/Q441",
+          "display_name": "Botany",
+          "level": 1,
+          "score": 0.4382646083831787
+        },
+        {
+          "id": "https://openalex.org/C195048187",
+          "wikidata": "https://www.wikidata.org/wiki/Q4468919",
+          "display_name": "Carbon dioxide in Earth's atmosphere",
+          "level": 3,
+          "score": 0.4170495867729187
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.4059111475944519
+        },
+        {
+          "id": "https://openalex.org/C107872376",
+          "wikidata": "https://www.wikidata.org/wiki/Q321355",
+          "display_name": "Environmental chemistry",
+          "level": 1,
+          "score": 0.39175722002983093
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.2623487710952759
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.17658475041389465
+        },
+        {
+          "id": "https://openalex.org/C43617362",
+          "wikidata": "https://www.wikidata.org/wiki/Q170050",
+          "display_name": "Chromatography",
+          "level": 1,
+          "score": 0.09552174806594849
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2004417920",
+        "https://openalex.org/W1994941722",
+        "https://openalex.org/W2028373465",
+        "https://openalex.org/W1968698717",
+        "https://openalex.org/W3161844454",
+        "https://openalex.org/W4249854410",
+        "https://openalex.org/W2414782964",
+        "https://openalex.org/W4387217428",
+        "https://openalex.org/W4293115565",
+        "https://openalex.org/W2462395074"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3080647710",
+      "doi": "https://doi.org/10.1016/j.ceja.2020.100013",
+      "title": "Carbon dioxide utilization: A paradigm shift with CO2 economy",
+      "publication_date": "2020-08-22",
+      "publication_year": 2020,
+      "type": "article",
+      "cited_by_count": 126,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5022861149",
+            "display_name": "Arif Gulzar",
+            "orcid": "https://orcid.org/0000-0002-2794-3872"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I8778637",
+              "display_name": "National Institute of Technology Srinagar",
+              "ror": "https://ror.org/03sfwvw54",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210152752",
+                "https://openalex.org/I8778637"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Arif Gulzar",
+          "raw_affiliation_strings": [
+            "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+              "institution_ids": [
+                "https://openalex.org/I8778637"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5022861149",
+            "display_name": "Arif Gulzar",
+            "orcid": "https://orcid.org/0000-0002-2794-3872"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I8778637",
+              "display_name": "National Institute of Technology Srinagar",
+              "ror": "https://ror.org/03sfwvw54",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210152752",
+                "https://openalex.org/I8778637"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "IN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Arif Gulzar",
+          "raw_affiliation_strings": [
+            "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+              "institution_ids": [
+                "https://openalex.org/I8778637"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5109533326",
+            "display_name": "Aanisa Gulzar",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210135984",
+              "display_name": "Saudi Arabia Basic Industries (Saudi Arabia)",
+              "ror": "https://ror.org/03nqwhd11",
+              "country_code": "SA",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210135984"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I8778637",
+              "display_name": "National Institute of Technology Srinagar",
+              "ror": "https://ror.org/03sfwvw54",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210152752",
+                "https://openalex.org/I8778637"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "IN",
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Aanisa Gulzar",
+          "raw_affiliation_strings": [
+            "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+            "SABIC Technology & Innovation Centre, Saudi Basic Industries Corporation (SABIC), Riyadh 11551, Saudi Arabia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+              "institution_ids": [
+                "https://openalex.org/I8778637"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            },
+            {
+              "raw_affiliation_string": "SABIC Technology & Innovation Centre, Saudi Basic Industries Corporation (SABIC), Riyadh 11551, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I4210135984"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5109533326",
+            "display_name": "Aanisa Gulzar",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I8778637",
+              "display_name": "National Institute of Technology Srinagar",
+              "ror": "https://ror.org/03sfwvw54",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210152752",
+                "https://openalex.org/I8778637"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "IN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Aanisa Gulzar",
+          "raw_affiliation_strings": [
+            "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physics, National Institute of technology Srinagar J&K, 190006, India",
+              "institution_ids": [
+                "https://openalex.org/I8778637"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5067721904",
+            "display_name": "Mohd Bismillah Ansari",
+            "orcid": "https://orcid.org/0000-0001-7853-7949"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210135984",
+              "display_name": "Saudi Arabia Basic Industries (Saudi Arabia)",
+              "ror": "https://ror.org/03nqwhd11",
+              "country_code": "SA",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210135984"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Mohd Bismillah Ansari",
+          "raw_affiliation_strings": [
+            "SABIC Technology & Innovation Centre, Saudi Basic Industries Corporation (SABIC), Riyadh 11551, Saudi Arabia",
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "SABIC Technology & Innovation Centre, Saudi Basic Industries Corporation (SABIC), Riyadh 11551, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I4210135984"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5073722575",
+            "display_name": "Fei He",
+            "orcid": "https://orcid.org/0000-0001-5917-9533"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fei He",
+          "raw_affiliation_strings": [
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5068723280",
+            "display_name": "Shili Gai",
+            "orcid": "https://orcid.org/0000-0001-9653-4944"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shili Gai",
+          "raw_affiliation_strings": [
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5062571272",
+            "display_name": "Piaoping Yang",
+            "orcid": "https://orcid.org/0000-0002-9555-1803"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I151727225",
+              "display_name": "Harbin Engineering University",
+              "ror": "https://ror.org/03x80pn82",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Piaoping Yang",
+          "raw_affiliation_strings": [
+            "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Key Laboratory of Superlight Materials and Surface Technology, Ministry of Education, Harbin Engineering University, Harbin 150001, PR China",
+              "institution_ids": [
+                "https://openalex.org/I151727225"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.1016/j.ceja.2020.100013",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.ceja.2020.100013",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666821120300132/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210233595",
+          "display_name": "Chemical Engineering Journal Advances",
+          "issn_l": "2666-8211",
+          "issn": [
+            "2666-8211"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Chemical Engineering Journal Advances",
+        "raw_type": "journal-article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C530467964",
+          "wikidata": "https://www.wikidata.org/wiki/Q1997",
+          "display_name": "Carbon dioxide",
+          "level": 2,
+          "score": 0.6263428926467896
+        },
+        {
+          "id": "https://openalex.org/C22884784",
+          "wikidata": "https://www.wikidata.org/wiki/Q15305550",
+          "display_name": "Carbon sequestration",
+          "level": 3,
+          "score": 0.593510091304779
+        },
+        {
+          "id": "https://openalex.org/C206139338",
+          "wikidata": "https://www.wikidata.org/wiki/Q192355",
+          "display_name": "Raw material",
+          "level": 2,
+          "score": 0.5720731616020203
+        },
+        {
+          "id": "https://openalex.org/C115540264",
+          "wikidata": "https://www.wikidata.org/wiki/Q2945560",
+          "display_name": "Biomass (ecology)",
+          "level": 2,
+          "score": 0.48808300495147705
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.4827629625797272
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.47732099890708923
+        },
+        {
+          "id": "https://openalex.org/C2777093003",
+          "wikidata": "https://www.wikidata.org/wiki/Q6508345",
+          "display_name": "Lead (geology)",
+          "level": 2,
+          "score": 0.4604087769985199
+        },
+        {
+          "id": "https://openalex.org/C183696295",
+          "wikidata": "https://www.wikidata.org/wiki/Q2487696",
+          "display_name": "Biochemical engineering",
+          "level": 1,
+          "score": 0.3759608268737793
+        },
+        {
+          "id": "https://openalex.org/C21880701",
+          "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+          "display_name": "Process engineering",
+          "level": 1,
+          "score": 0.34846365451812744
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.21605351567268372
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.15236929059028625
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111368507",
+          "wikidata": "https://www.wikidata.org/wiki/Q43518",
+          "display_name": "Oceanography",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C114793014",
+          "wikidata": "https://www.wikidata.org/wiki/Q52109",
+          "display_name": "Geomorphology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W4255463199",
+        "https://openalex.org/W4281691423",
+        "https://openalex.org/W2411039299",
+        "https://openalex.org/W1856410221",
+        "https://openalex.org/W2318949977",
+        "https://openalex.org/W2334139353",
+        "https://openalex.org/W4243014959",
+        "https://openalex.org/W2415764305",
+        "https://openalex.org/W4254613272",
+        "https://openalex.org/W3158725635"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4316371659",
+      "doi": "https://doi.org/10.3390/app13021169",
+      "title": "A Review of Recent Progress of Carbon Capture, Utilization, and Storage (CCUS) in China",
+      "publication_date": "2023-01-15",
+      "publication_year": 2023,
+      "type": "article",
+      "cited_by_count": 132,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5088706068",
+            "display_name": "Jia Yao",
+            "orcid": "https://orcid.org/0000-0002-9903-8708"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12834331",
+              "display_name": "University of Wyoming",
+              "ror": "https://ror.org/01485tq96",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12834331"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Jia Yao",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, University of Wyoming, Laramie, WY 82071, USA"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-9903-8708",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, University of Wyoming, Laramie, WY 82071, USA",
+              "institution_ids": [
+                "https://openalex.org/I12834331"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5111643053",
+            "display_name": "Hongdou Han",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210162687",
+              "display_name": "Second Hospital of Liaohe Oilfield",
+              "ror": "https://ror.org/018w5ms25",
+              "country_code": "CN",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162687"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hongdou Han",
+          "raw_affiliation_strings": [
+            "Research Institute of Exploration and Development, Liaohe Oilfield Company, CNPC, Panjin 124010, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Research Institute of Exploration and Development, Liaohe Oilfield Company, CNPC, Panjin 124010, China",
+              "institution_ids": [
+                "https://openalex.org/I4210162687"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100397750",
+            "display_name": "Yang Yang",
+            "orcid": "https://orcid.org/0000-0003-1742-7193"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Yang Yang",
+          "raw_affiliation_strings": [
+            "CNOOC Research Institute Co., Ltd., Beijing 100028, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CNOOC Research Institute Co., Ltd., Beijing 100028, China",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5049590969",
+            "display_name": "Yiming Song",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210162687",
+              "display_name": "Second Hospital of Liaohe Oilfield",
+              "ror": "https://ror.org/018w5ms25",
+              "country_code": "CN",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162687"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yiming Song",
+          "raw_affiliation_strings": [
+            "Research Institute of Exploration and Development, Liaohe Oilfield Company, CNPC, Panjin 124010, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Research Institute of Exploration and Development, Liaohe Oilfield Company, CNPC, Panjin 124010, China",
+              "institution_ids": [
+                "https://openalex.org/I4210162687"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5072902438",
+            "display_name": "Guihe Li",
+            "orcid": "https://orcid.org/0000-0001-9724-157X"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12834331",
+              "display_name": "University of Wyoming",
+              "ror": "https://ror.org/01485tq96",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12834331"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Guihe Li",
+          "raw_affiliation_strings": [
+            "Department of Chemical Engineering, University of Wyoming, Laramie, WY 82071, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Chemical Engineering, University of Wyoming, Laramie, WY 82071, USA",
+              "institution_ids": [
+                "https://openalex.org/I12834331"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.3390/app13021169",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/app13021169",
+        "pdf_url": "https://www.mdpi.com/2076-3417/13/2/1169/pdf?version=1673835149",
+        "source": {
+          "id": "https://openalex.org/S4210205812",
+          "display_name": "Applied Sciences",
+          "issn_l": "2076-3417",
+          "issn": [
+            "2076-3417"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Sciences",
+        "raw_type": "journal-article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C191935318",
+          "wikidata": "https://www.wikidata.org/wiki/Q148",
+          "display_name": "China",
+          "level": 2,
+          "score": 0.7098249793052673
+        },
+        {
+          "id": "https://openalex.org/C136197465",
+          "wikidata": "https://www.wikidata.org/wiki/Q1729295",
+          "display_name": "Variety (cybernetics)",
+          "level": 2,
+          "score": 0.4673512279987335
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.43618810176849365
+        },
+        {
+          "id": "https://openalex.org/C175605778",
+          "wikidata": "https://www.wikidata.org/wiki/Q3299701",
+          "display_name": "Natural resource economics",
+          "level": 1,
+          "score": 0.34600937366485596
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.3219490647315979
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.1918674111366272
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.18132901191711426
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.09612080454826355
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W4391375266",
+        "https://openalex.org/W2032233321",
+        "https://openalex.org/W3121970507",
+        "https://openalex.org/W2350270224",
+        "https://openalex.org/W2110028391",
+        "https://openalex.org/W2354620178",
+        "https://openalex.org/W54497855",
+        "https://openalex.org/W600967366",
+        "https://openalex.org/W217960748",
+        "https://openalex.org/W3125814499"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4411787285",
+      "doi": "https://doi.org/10.3390/fermentation11070371",
+      "title": "Microalgal Valorization of CO2: A Sustainable Pathway to Biofuels and High-Value Chemicals",
+      "publication_date": "2025-06-27",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 11,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5082861019",
+            "display_name": "Shutong Wu",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204983213",
+              "display_name": "Harbin Institute of Technology",
+              "ror": "https://ror.org/01yqg2h08",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shutong Wu",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China",
+              "institution_ids": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005644034",
+            "display_name": "K. Ye",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204983213",
+              "display_name": "Harbin Institute of Technology",
+              "ror": "https://ror.org/01yqg2h08",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kaiyin Ye",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China",
+              "institution_ids": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Xiaochuan Zheng",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204983213",
+              "display_name": "Harbin Institute of Technology",
+              "ror": "https://ror.org/01yqg2h08",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Xiaochuan Zheng",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China",
+              "institution_ids": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5083284087",
+            "display_name": "Lei Zhao",
+            "orcid": "https://orcid.org/0000-0002-1779-4711"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204983213",
+              "display_name": "Harbin Institute of Technology",
+              "ror": "https://ror.org/01yqg2h08",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Lei Zhao",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Urban-Rural Water Resources & Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China",
+              "institution_ids": [
+                "https://openalex.org/I204983213"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.3390/fermentation11070371",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/fermentation11070371",
+        "pdf_url": "https://www.mdpi.com/2311-5637/11/7/371/pdf?version=1751113261",
+        "source": {
+          "id": "https://openalex.org/S2739076822",
+          "display_name": "Fermentation",
+          "issn_l": "2311-5637",
+          "issn": [
+            "2311-5637"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Fermentation",
+        "raw_type": "journal-article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C53991642",
+          "wikidata": "https://www.wikidata.org/wiki/Q128991",
+          "display_name": "Biofuel",
+          "level": 2,
+          "score": 0.7936078310012817
+        },
+        {
+          "id": "https://openalex.org/C2776291640",
+          "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+          "display_name": "Value (mathematics)",
+          "level": 2,
+          "score": 0.5266233086585999
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.46197405457496643
+        },
+        {
+          "id": "https://openalex.org/C66204764",
+          "wikidata": "https://www.wikidata.org/wiki/Q219416",
+          "display_name": "Sustainability",
+          "level": 2,
+          "score": 0.453416645526886
+        },
+        {
+          "id": "https://openalex.org/C183696295",
+          "wikidata": "https://www.wikidata.org/wiki/Q2487696",
+          "display_name": "Biochemical engineering",
+          "level": 1,
+          "score": 0.43179312348365784
+        },
+        {
+          "id": "https://openalex.org/C175605778",
+          "wikidata": "https://www.wikidata.org/wiki/Q3299701",
+          "display_name": "Natural resource economics",
+          "level": 1,
+          "score": 0.41364532709121704
+        },
+        {
+          "id": "https://openalex.org/C150903083",
+          "wikidata": "https://www.wikidata.org/wiki/Q7108",
+          "display_name": "Biotechnology",
+          "level": 1,
+          "score": 0.41233211755752563
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.3831157982349396
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.3066564202308655
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.21708634495735168
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.18691980838775635
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.12750694155693054
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.08644029498100281
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W1498090503",
+        "https://openalex.org/W4206396619",
+        "https://openalex.org/W3156041323",
+        "https://openalex.org/W3032739460",
+        "https://openalex.org/W1637431971",
+        "https://openalex.org/W1544681840",
+        "https://openalex.org/W1508729763",
+        "https://openalex.org/W4214885392",
+        "https://openalex.org/W2143804594",
+        "https://openalex.org/W4223425174"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W99685673",
+      "doi": "https://doi.org/10.15368/theses.2011.223",
+      "title": "Bioflocculation and CO2 Supplementation in Wastewater Treatment by Algal High-Rate Ponds",
+      "publication_date": "2011-12-01",
+      "publication_year": 2011,
+      "type": "dissertation",
+      "cited_by_count": 3,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5025765791",
+            "display_name": "Paul Eugene Ward",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I149919469",
+              "display_name": "California Polytechnic State University",
+              "ror": "https://ror.org/001gpfp45",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I149919469"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Paul Eugene Ward",
+          "raw_affiliation_strings": [
+            "California Polytechnic State University - San Luis Obispo"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "California Polytechnic State University - San Luis Obispo",
+              "institution_ids": [
+                "https://openalex.org/I149919469"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.15368/theses.2011.223",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.15368/theses.2011.223",
+        "pdf_url": "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1709&context=theses",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "California Polytechnic State University",
+        "raw_type": "dissertation"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C147455438",
+          "wikidata": "https://www.wikidata.org/wiki/Q1057706",
+          "display_name": "Effluent",
+          "level": 2,
+          "score": 0.787468671798706
+        },
+        {
+          "id": "https://openalex.org/C94061648",
+          "wikidata": "https://www.wikidata.org/wiki/Q336191",
+          "display_name": "Wastewater",
+          "level": 2,
+          "score": 0.7000277638435364
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.6776434183120728
+        },
+        {
+          "id": "https://openalex.org/C142796444",
+          "wikidata": "https://www.wikidata.org/wiki/Q181394",
+          "display_name": "Nutrient",
+          "level": 2,
+          "score": 0.6425200700759888
+        },
+        {
+          "id": "https://openalex.org/C2777428582",
+          "wikidata": "https://www.wikidata.org/wiki/Q17050939",
+          "display_name": "Clarifier",
+          "level": 2,
+          "score": 0.6177799701690674
+        },
+        {
+          "id": "https://openalex.org/C57442070",
+          "wikidata": "https://www.wikidata.org/wiki/Q221275",
+          "display_name": "Sewage treatment",
+          "level": 2,
+          "score": 0.5273481607437134
+        },
+        {
+          "id": "https://openalex.org/C87717796",
+          "wikidata": "https://www.wikidata.org/wiki/Q146326",
+          "display_name": "Environmental engineering",
+          "level": 1,
+          "score": 0.5208647847175598
+        },
+        {
+          "id": "https://openalex.org/C2779283343",
+          "wikidata": "https://www.wikidata.org/wiki/Q10315777",
+          "display_name": "Stabilization pond",
+          "level": 3,
+          "score": 0.45731279253959656
+        },
+        {
+          "id": "https://openalex.org/C115540264",
+          "wikidata": "https://www.wikidata.org/wiki/Q2945560",
+          "display_name": "Biomass (ecology)",
+          "level": 2,
+          "score": 0.4423186779022217
+        },
+        {
+          "id": "https://openalex.org/C528095902",
+          "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+          "display_name": "Pulp and paper industry",
+          "level": 1,
+          "score": 0.3851296305656433
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.2088821828365326
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.17604199051856995
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2738332923",
+        "https://openalex.org/W2187788620",
+        "https://openalex.org/W161324229",
+        "https://openalex.org/W2841594860",
+        "https://openalex.org/W4285578642",
+        "https://openalex.org/W2725420826",
+        "https://openalex.org/W2573294711",
+        "https://openalex.org/W2794467456",
+        "https://openalex.org/W2183360200",
+        "https://openalex.org/W2768626418"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4285821395",
+      "doi": "https://doi.org/10.4236/jwarp.2022.147027",
+      "title": "Aerobic Degradation Process in Palm Oil Mill— Issues, Challenges and Upsurging Its Efficiency through Bioremediation",
+      "publication_date": "2022-01-01",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 6,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5036649659",
+            "display_name": "Ili Bazilah Abd Razak",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ili Bazilah Abd Razak",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5018254041",
+            "display_name": "Nor Hidayah Bohari",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I82724352",
+              "display_name": "Universiti Teknologi MARA",
+              "ror": "https://ror.org/05n8tts92",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Nor Hidayah Bohari",
+          "raw_affiliation_strings": [
+            "Crop Protection and Biosolution Department , FGV R&D Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Crop Protection and Biosolution Department , FGV R&D Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5036623834",
+            "display_name": "Elya Masya Mohd Fishal",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Elya Masya Mohd Fishal",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5113572803",
+            "display_name": "Nurul Lina Mohamad",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210156952",
+              "display_name": "Malaysia Theological Seminary",
+              "ror": "https://ror.org/05jhctt84",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210156952"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Nurul Lina Mohamad",
+          "raw_affiliation_strings": [
+            "Feed and Industrial Technology , FGV Applied Technologies Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Feed and Industrial Technology , FGV Applied Technologies Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I4210156952"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5046620591",
+            "display_name": "Muhamad Nurfikri Azmi",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210156952",
+              "display_name": "Malaysia Theological Seminary",
+              "ror": "https://ror.org/05jhctt84",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210156952"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Muhamad Nurfikri Azmi",
+          "raw_affiliation_strings": [
+            "Feed and Industrial Technology , FGV Applied Technologies Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Feed and Industrial Technology , FGV Applied Technologies Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I4210156952"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5071245377",
+            "display_name": "Muhammad Firdaus Fahmi Mohd Razali",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Muhammad Firdaus Fahmi Mohd Razali",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5089933224",
+            "display_name": "Hamdan Ibrahim",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I82724352",
+              "display_name": "Universiti Teknologi MARA",
+              "ror": "https://ror.org/05n8tts92",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hamdan Ibrahim",
+          "raw_affiliation_strings": [
+            "Crop Protection and Biosolution Department , FGV R&D Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Crop Protection and Biosolution Department , FGV R&D Sdn Bhd , Lengkuk Teknologi , Bandar Enstek , Negeri Sembilan , Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.4236/jwarp.2022.147027",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4236/jwarp.2022.147027",
+        "pdf_url": "https://content.scirp.org/pdf/jwarp_2022071914090293.pdf",
+        "source": {
+          "id": "https://openalex.org/S175274235",
+          "display_name": "Journal of Water Resource and Protection",
+          "issn_l": "1945-3094",
+          "issn": [
+            "1945-3094",
+            "1945-3108"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320480",
+          "host_organization_name": "Scientific Research Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320480"
+          ],
+          "host_organization_lineage_names": [
+            "Scientific Research Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Water Resource and Protection",
+        "raw_type": "journal-article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2124996",
+          "wikidata": "https://www.wikidata.org/wiki/Q816441",
+          "display_name": "Bioremediation",
+          "level": 3,
+          "score": 0.7984460592269897
+        },
+        {
+          "id": "https://openalex.org/C143108565",
+          "wikidata": "https://www.wikidata.org/wiki/Q41274",
+          "display_name": "Pome",
+          "level": 2,
+          "score": 0.7642390727996826
+        },
+        {
+          "id": "https://openalex.org/C55399452",
+          "wikidata": "https://www.wikidata.org/wiki/Q7227734",
+          "display_name": "Ponding",
+          "level": 3,
+          "score": 0.6766716241836548
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.671412467956543
+        },
+        {
+          "id": "https://openalex.org/C188287460",
+          "wikidata": "https://www.wikidata.org/wiki/Q555857",
+          "display_name": "Chemical oxygen demand",
+          "level": 3,
+          "score": 0.5749019980430603
+        },
+        {
+          "id": "https://openalex.org/C2779679103",
+          "wikidata": "https://www.wikidata.org/wiki/Q5251805",
+          "display_name": "Degradation (telecommunications)",
+          "level": 2,
+          "score": 0.5376715660095215
+        },
+        {
+          "id": "https://openalex.org/C82685317",
+          "wikidata": "https://www.wikidata.org/wiki/Q19829510",
+          "display_name": "Pollutant",
+          "level": 2,
+          "score": 0.5244758129119873
+        },
+        {
+          "id": "https://openalex.org/C198302294",
+          "wikidata": "https://www.wikidata.org/wiki/Q215624",
+          "display_name": "Biochemical oxygen demand",
+          "level": 4,
+          "score": 0.5214480757713318
+        },
+        {
+          "id": "https://openalex.org/C528095902",
+          "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+          "display_name": "Pulp and paper industry",
+          "level": 1,
+          "score": 0.467856228351593
+        },
+        {
+          "id": "https://openalex.org/C147455438",
+          "wikidata": "https://www.wikidata.org/wiki/Q1057706",
+          "display_name": "Effluent",
+          "level": 2,
+          "score": 0.4341810643672943
+        },
+        {
+          "id": "https://openalex.org/C2988237154",
+          "wikidata": "https://www.wikidata.org/wiki/Q231458",
+          "display_name": "Palm oil",
+          "level": 2,
+          "score": 0.42676037549972534
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.4192870557308197
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.41693320870399475
+        },
+        {
+          "id": "https://openalex.org/C87717796",
+          "wikidata": "https://www.wikidata.org/wiki/Q146326",
+          "display_name": "Environmental engineering",
+          "level": 1,
+          "score": 0.33314210176467896
+        },
+        {
+          "id": "https://openalex.org/C94061648",
+          "wikidata": "https://www.wikidata.org/wiki/Q336191",
+          "display_name": "Wastewater",
+          "level": 2,
+          "score": 0.3056730628013611
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.2169106900691986
+        },
+        {
+          "id": "https://openalex.org/C112570922",
+          "wikidata": "https://www.wikidata.org/wiki/Q60528603",
+          "display_name": "Contamination",
+          "level": 2,
+          "score": 0.17717239260673523
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.10943993926048279
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.09916815161705017
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.06189289689064026
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C54286561",
+          "wikidata": "https://www.wikidata.org/wiki/Q397350",
+          "display_name": "Agroforestry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C67592535",
+          "wikidata": "https://www.wikidata.org/wiki/Q7481320",
+          "display_name": "Drainage",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2660078548",
+        "https://openalex.org/W3207864831",
+        "https://openalex.org/W2347757946",
+        "https://openalex.org/W2138542115",
+        "https://openalex.org/W2116493921",
+        "https://openalex.org/W2368853056",
+        "https://openalex.org/W167936449",
+        "https://openalex.org/W2887738246",
+        "https://openalex.org/W2034367512",
+        "https://openalex.org/W2350363074"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391045384",
+      "doi": "https://doi.org/10.22533/at.ed.9102419011",
+      "title": "PRETREATMENT METHODS OF MICROALGAE BIOMASS FOR BIOGAS PRODUCTION",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5015754974",
+            "display_name": "Maria Clara de Oliveira",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Maria Clara de Oliveira",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5023901615",
+            "display_name": "Magali Christe Cammarota",
+            "orcid": "https://orcid.org/0000-0002-0637-9707"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Magali Christe Cammarota",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5078658114",
+            "display_name": "Isabelli Dias Bassin",
+            "orcid": "https://orcid.org/0000-0001-5639-9346"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Isabelli Dias Bassin",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419011",
+        "is_oa": true,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419011",
+        "pdf_url": "https://atenaeditora.com.br/catalogo/download-file/6779",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C115540264",
+          "wikidata": "https://www.wikidata.org/wiki/Q2945560",
+          "display_name": "Biomass (ecology)",
+          "level": 2,
+          "score": 0.7786598205566406
+        },
+        {
+          "id": "https://openalex.org/C75212476",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas",
+          "level": 2,
+          "score": 0.7250560522079468
+        },
+        {
+          "id": "https://openalex.org/C2994333036",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas production",
+          "level": 4,
+          "score": 0.6766902208328247
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.5673140287399292
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.5551775693893433
+        },
+        {
+          "id": "https://openalex.org/C53991642",
+          "wikidata": "https://www.wikidata.org/wiki/Q128991",
+          "display_name": "Biofuel",
+          "level": 2,
+          "score": 0.5478248000144958
+        },
+        {
+          "id": "https://openalex.org/C156380964",
+          "wikidata": "https://www.wikidata.org/wiki/Q18556",
+          "display_name": "Bioenergy",
+          "level": 3,
+          "score": 0.5067823529243469
+        },
+        {
+          "id": "https://openalex.org/C528095902",
+          "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+          "display_name": "Pulp and paper industry",
+          "level": 1,
+          "score": 0.3901013731956482
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.34228336811065674
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.19269448518753052
+        },
+        {
+          "id": "https://openalex.org/C6557445",
+          "wikidata": "https://www.wikidata.org/wiki/Q173113",
+          "display_name": "Agronomy",
+          "level": 1,
+          "score": 0.17608115077018738
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.13295486569404602
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.10902401804924011
+        },
+        {
+          "id": "https://openalex.org/C499616599",
+          "wikidata": "https://www.wikidata.org/wiki/Q555853",
+          "display_name": "Anaerobic digestion",
+          "level": 3,
+          "score": 0.10522323846817017
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.060492753982543945
+        },
+        {
+          "id": "https://openalex.org/C516920438",
+          "wikidata": "https://www.wikidata.org/wiki/Q37129",
+          "display_name": "Methane",
+          "level": 2,
+          "score": 0.04104849696159363
+        },
+        {
+          "id": "https://openalex.org/C139719470",
+          "wikidata": "https://www.wikidata.org/wiki/Q39680",
+          "display_name": "Macroeconomics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2494059827",
+        "https://openalex.org/W2363763552",
+        "https://openalex.org/W4256306423",
+        "https://openalex.org/W928407058",
+        "https://openalex.org/W4236794281",
+        "https://openalex.org/W1411463225",
+        "https://openalex.org/W1518817075",
+        "https://openalex.org/W2118082495",
+        "https://openalex.org/W4210282826",
+        "https://openalex.org/W4387810629"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7127614480",
+      "doi": "https://doi.org/10.21533/pen.v4.i1.1810",
+      "title": "Potential of Algae for Biofuel Production",
+      "publication_date": "2016-02-26",
+      "publication_year": 2016,
+      "type": "article",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5000795792",
+            "display_name": "Camil Durakovic",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Duraković, Ćamil",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5124398100",
+            "display_name": "Abdulrezzak Memon",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Memon, Abdulrezzak",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "pmh:oai:ojs2.pen.ius.edu.ba:article/1810",
+        "is_oa": true,
+        "landing_page_url": "https://pen.ius.edu.ba/index.php/pen/article/view/1810",
+        "pdf_url": "https://pen.ius.edu.ba/index.php/pen/article/download/1810/1284",
+        "source": {
+          "id": "https://openalex.org/S4306402136",
+          "display_name": "Periodicals of Engineering and Natural Sciences (International University of Sarajevo)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I157703844",
+          "host_organization_name": "International University of Sarajevo",
+          "host_organization_lineage": [
+            "https://openalex.org/I157703844"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "10.21533/pen.v4.i1",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C52896960",
+          "wikidata": "https://www.wikidata.org/wiki/Q167947",
+          "display_name": "Biodiesel",
+          "level": 3,
+          "score": 0.7563999891281128
+        },
+        {
+          "id": "https://openalex.org/C53991642",
+          "wikidata": "https://www.wikidata.org/wiki/Q128991",
+          "display_name": "Biofuel",
+          "level": 2,
+          "score": 0.692300021648407
+        },
+        {
+          "id": "https://openalex.org/C2780625559",
+          "wikidata": "https://www.wikidata.org/wiki/Q5152592",
+          "display_name": "Commercialization",
+          "level": 2,
+          "score": 0.6830999851226807
+        },
+        {
+          "id": "https://openalex.org/C188573790",
+          "wikidata": "https://www.wikidata.org/wiki/Q12705",
+          "display_name": "Renewable energy",
+          "level": 2,
+          "score": 0.5544000267982483
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.5450999736785889
+        },
+        {
+          "id": "https://openalex.org/C47737302",
+          "wikidata": "https://www.wikidata.org/wiki/Q167336",
+          "display_name": "Greenhouse gas",
+          "level": 2,
+          "score": 0.5447999835014343
+        },
+        {
+          "id": "https://openalex.org/C66910140",
+          "wikidata": "https://www.wikidata.org/wiki/Q905957",
+          "display_name": "Biodiesel production",
+          "level": 4,
+          "score": 0.5285999774932861
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.5270000100135803
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.4733000099658966
+        },
+        {
+          "id": "https://openalex.org/C115540264",
+          "wikidata": "https://www.wikidata.org/wiki/Q2945560",
+          "display_name": "Biomass (ecology)",
+          "level": 2,
+          "score": 0.46209999918937683
+        },
+        {
+          "id": "https://openalex.org/C52208190",
+          "wikidata": "https://www.wikidata.org/wiki/Q7313121",
+          "display_name": "Renewable fuels",
+          "level": 3,
+          "score": 0.45910000801086426
+        },
+        {
+          "id": "https://openalex.org/C206139338",
+          "wikidata": "https://www.wikidata.org/wiki/Q192355",
+          "display_name": "Raw material",
+          "level": 2,
+          "score": 0.4507000148296356
+        },
+        {
+          "id": "https://openalex.org/C67679573",
+          "wikidata": "https://www.wikidata.org/wiki/Q4828692",
+          "display_name": "Aviation biofuel",
+          "level": 4,
+          "score": 0.41499999165534973
+        },
+        {
+          "id": "https://openalex.org/C175605778",
+          "wikidata": "https://www.wikidata.org/wiki/Q3299701",
+          "display_name": "Natural resource economics",
+          "level": 1,
+          "score": 0.38850000500679016
+        },
+        {
+          "id": "https://openalex.org/C2776650193",
+          "wikidata": "https://www.wikidata.org/wiki/Q264661",
+          "display_name": "Obstacle",
+          "level": 2,
+          "score": 0.3869999945163727
+        },
+        {
+          "id": "https://openalex.org/C68189081",
+          "wikidata": "https://www.wikidata.org/wiki/Q12748",
+          "display_name": "Fossil fuel",
+          "level": 2,
+          "score": 0.37929999828338623
+        },
+        {
+          "id": "https://openalex.org/C206345919",
+          "wikidata": "https://www.wikidata.org/wiki/Q20380951",
+          "display_name": "Resource (disambiguation)",
+          "level": 2,
+          "score": 0.36820000410079956
+        },
+        {
+          "id": "https://openalex.org/C143517461",
+          "wikidata": "https://www.wikidata.org/wiki/Q1138571",
+          "display_name": "Renewable resource",
+          "level": 3,
+          "score": 0.3594000041484833
+        },
+        {
+          "id": "https://openalex.org/C156380964",
+          "wikidata": "https://www.wikidata.org/wiki/Q18556",
+          "display_name": "Bioenergy",
+          "level": 3,
+          "score": 0.3537999987602234
+        },
+        {
+          "id": "https://openalex.org/C548895740",
+          "wikidata": "https://www.wikidata.org/wiki/Q22656",
+          "display_name": "Petroleum",
+          "level": 2,
+          "score": 0.3522999882698059
+        },
+        {
+          "id": "https://openalex.org/C115343472",
+          "wikidata": "https://www.wikidata.org/wiki/Q7942",
+          "display_name": "Global warming",
+          "level": 3,
+          "score": 0.3418999910354614
+        },
+        {
+          "id": "https://openalex.org/C183696295",
+          "wikidata": "https://www.wikidata.org/wiki/Q2487696",
+          "display_name": "Biochemical engineering",
+          "level": 1,
+          "score": 0.3368000090122223
+        },
+        {
+          "id": "https://openalex.org/C126172416",
+          "wikidata": "https://www.wikidata.org/wiki/Q1774424",
+          "display_name": "Carbon neutrality",
+          "level": 3,
+          "score": 0.32280001044273376
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.31790000200271606
+        },
+        {
+          "id": "https://openalex.org/C32198211",
+          "wikidata": "https://www.wikidata.org/wiki/Q165044",
+          "display_name": "Greenhouse",
+          "level": 2,
+          "score": 0.28940001130104065
+        },
+        {
+          "id": "https://openalex.org/C526734887",
+          "wikidata": "https://www.wikidata.org/wiki/Q832237",
+          "display_name": "Environmental protection",
+          "level": 1,
+          "score": 0.2768999934196472
+        },
+        {
+          "id": "https://openalex.org/C66341344",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297743",
+          "display_name": "Integrated production",
+          "level": 3,
+          "score": 0.26739999651908875
+        },
+        {
+          "id": "https://openalex.org/C159403789",
+          "wikidata": "https://www.wikidata.org/wiki/Q1342552",
+          "display_name": "Algae fuel",
+          "level": 4,
+          "score": 0.2653999924659729
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.2630000114440918
+        },
+        {
+          "id": "https://openalex.org/C552854447",
+          "wikidata": "https://www.wikidata.org/wiki/Q131201",
+          "display_name": "Sustainable development",
+          "level": 2,
+          "score": 0.2623000144958496
+        },
+        {
+          "id": "https://openalex.org/C559758991",
+          "wikidata": "https://www.wikidata.org/wiki/Q37868",
+          "display_name": "Algae",
+          "level": 2,
+          "score": 0.2581000030040741
+        },
+        {
+          "id": "https://openalex.org/C137851953",
+          "wikidata": "https://www.wikidata.org/wiki/Q41560",
+          "display_name": "Greenhouse effect",
+          "level": 4,
+          "score": 0.25369998812675476
+        }
+      ],
+      "related_works": []
+    },
+    {
+      "id": "https://openalex.org/W2529796322",
+      "doi": null,
+      "title": "A review of the existing and prospective methods for the reuse and CO2 collected with carbon capture technology",
+      "publication_date": "2016-05-05",
+      "publication_year": 2016,
+      "type": "report",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5087120696",
+            "display_name": "Michelle Lempert",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Michelle Lempert",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "pmh:oai:repository.lib.ncsu.edu:1840.4/8998",
+        "is_oa": true,
+        "landing_page_url": "http://www.lib.ncsu.edu/resolver/1840.4/8998",
+        "pdf_url": "http://www.lib.ncsu.edu/resolver/1840.4/8998",
+        "source": {
+          "id": "https://openalex.org/S4306402468",
+          "display_name": "NCSU Libraries Repository (North Carolina State University Libraries)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I137902535",
+          "host_organization_name": "North Carolina State University",
+          "host_organization_lineage": [
+            "https://openalex.org/I137902535"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Technical Report"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C206588197",
+          "wikidata": "https://www.wikidata.org/wiki/Q846574",
+          "display_name": "Reuse",
+          "level": 2,
+          "score": 0.6953725814819336
+        },
+        {
+          "id": "https://openalex.org/C140205800",
+          "wikidata": "https://www.wikidata.org/wiki/Q5860",
+          "display_name": "Carbon fibers",
+          "level": 3,
+          "score": 0.4598584473133087
+        },
+        {
+          "id": "https://openalex.org/C21880701",
+          "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+          "display_name": "Process engineering",
+          "level": 1,
+          "score": 0.3907432556152344
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.35059139132499695
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.34769779443740845
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.20728647708892822
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.20034003257751465
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.0594332218170166
+        },
+        {
+          "id": "https://openalex.org/C104779481",
+          "wikidata": "https://www.wikidata.org/wiki/Q50707",
+          "display_name": "Composite number",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2755280777",
+        "https://openalex.org/W2476015660",
+        "https://openalex.org/W2485774719",
+        "https://openalex.org/W2490147159",
+        "https://openalex.org/W2932472524",
+        "https://openalex.org/W3017006287",
+        "https://openalex.org/W2990378972",
+        "https://openalex.org/W2054563522",
+        "https://openalex.org/W2313086905",
+        "https://openalex.org/W2590778311",
+        "https://openalex.org/W2167629488",
+        "https://openalex.org/W3211798308",
+        "https://openalex.org/W3182733802",
+        "https://openalex.org/W1991438949",
+        "https://openalex.org/W2524205883",
+        "https://openalex.org/W3122956462",
+        "https://openalex.org/W1590021407",
+        "https://openalex.org/W2773694056",
+        "https://openalex.org/W3184490154",
+        "https://openalex.org/W3210110419"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391017704",
+      "doi": "https://doi.org/10.22533/at.ed.9102419017",
+      "title": "HYDROGEN PRODUCTION THROUGH REFORMING OF BIOGAS",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5074482710",
+            "display_name": "André L.A. Marinho",
+            "orcid": "https://orcid.org/0000-0003-0798-0315"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "André Luiz Alvarenga Marinho",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5055757308",
+            "display_name": "Raimundo C. Rabelo‐Neto",
+            "orcid": "https://orcid.org/0000-0001-8159-1241"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Raimundo Crisóstomo Rabelo-Neto",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5026096591",
+            "display_name": "Fabio Souza Toniolo",
+            "orcid": "https://orcid.org/0000-0002-3387-4543"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Fabio Souza Toniolo",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5030104413",
+            "display_name": "Fábio B. Noronha",
+            "orcid": "https://orcid.org/0000-0003-1008-1265"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Fabio Bellot Noronha",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419017",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419017",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C202189072",
+          "wikidata": "https://www.wikidata.org/wiki/Q1929999",
+          "display_name": "Hydrogen production",
+          "level": 3,
+          "score": 0.73265141248703
+        },
+        {
+          "id": "https://openalex.org/C75212476",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas",
+          "level": 2,
+          "score": 0.5996600389480591
+        },
+        {
+          "id": "https://openalex.org/C2994333036",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas production",
+          "level": 4,
+          "score": 0.5632205605506897
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.5376407504081726
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.42892706394195557
+        },
+        {
+          "id": "https://openalex.org/C512968161",
+          "wikidata": "https://www.wikidata.org/wiki/Q556",
+          "display_name": "Hydrogen",
+          "level": 2,
+          "score": 0.32643288373947144
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.3228696882724762
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.21866056323051453
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.2124875783920288
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.15615013241767883
+        },
+        {
+          "id": "https://openalex.org/C516920438",
+          "wikidata": "https://www.wikidata.org/wiki/Q37129",
+          "display_name": "Methane",
+          "level": 2,
+          "score": 0.11472928524017334
+        },
+        {
+          "id": "https://openalex.org/C499616599",
+          "wikidata": "https://www.wikidata.org/wiki/Q555853",
+          "display_name": "Anaerobic digestion",
+          "level": 3,
+          "score": 0.04790776968002319
+        },
+        {
+          "id": "https://openalex.org/C175444787",
+          "wikidata": "https://www.wikidata.org/wiki/Q39072",
+          "display_name": "Microeconomics",
+          "level": 1,
+          "score": 0.047391265630722046
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.034078389406204224
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2363763552",
+        "https://openalex.org/W1411463225",
+        "https://openalex.org/W4385879843",
+        "https://openalex.org/W2074149019",
+        "https://openalex.org/W2352961151",
+        "https://openalex.org/W3208552873",
+        "https://openalex.org/W1977619380",
+        "https://openalex.org/W2774085342",
+        "https://openalex.org/W3085441628",
+        "https://openalex.org/W364918070"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391045577",
+      "doi": "https://doi.org/10.22533/at.ed.9102419014",
+      "title": "THERMODYNAMICALLY AND ENVIRONMENTALLY EFFICIENT OFFSHORE GAS-TO-WIRE FROM CO2-RICH NATURAL GAS WITH CARBON CAPTURE",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5081933308",
+            "display_name": "Alessandra de Carvalho Reis",
+            "orcid": "https://orcid.org/0000-0002-1658-8107"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Alessandra de Carvalho Reis",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005281241",
+            "display_name": "Ofélia de Queiroz Fernandes Araújo",
+            "orcid": "https://orcid.org/0000-0003-4041-7161"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ofélia de Queiroz Fernandes Araújo",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5004811368",
+            "display_name": "José Luiz de Medeiros",
+            "orcid": "https://orcid.org/0000-0001-9099-4288"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "José Luiz de Medeiros",
+          "raw_affiliation_strings": [
+            "comercializa em seu site, sites parceiros, plataformas de e-commerce, ou qualquer outro meio virtual ou físico, portanto, está isenta de repasses de direitos autorais aos autores;"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "comercializa em seu site, sites parceiros, plataformas de e-commerce, ou qualquer outro meio virtual ou físico, portanto, está isenta de repasses de direitos autorais aos autores;",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419014",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419014",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C59427239",
+          "wikidata": "https://www.wikidata.org/wiki/Q40858",
+          "display_name": "Natural gas",
+          "level": 2,
+          "score": 0.7212464809417725
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.5537753701210022
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.516632616519928
+        },
+        {
+          "id": "https://openalex.org/C162284963",
+          "wikidata": "https://www.wikidata.org/wiki/Q17106102",
+          "display_name": "Submarine pipeline",
+          "level": 2,
+          "score": 0.4853278696537018
+        },
+        {
+          "id": "https://openalex.org/C140205800",
+          "wikidata": "https://www.wikidata.org/wiki/Q5860",
+          "display_name": "Carbon fibers",
+          "level": 3,
+          "score": 0.4345536231994629
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.4223436117172241
+        },
+        {
+          "id": "https://openalex.org/C171534860",
+          "wikidata": "https://www.wikidata.org/wiki/Q655870",
+          "display_name": "Environmentally friendly",
+          "level": 2,
+          "score": 0.41907668113708496
+        },
+        {
+          "id": "https://openalex.org/C2776608160",
+          "wikidata": "https://www.wikidata.org/wiki/Q4785462",
+          "display_name": "Natural (archaeology)",
+          "level": 2,
+          "score": 0.4108823239803314
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.3545690178871155
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.23035946488380432
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.13702768087387085
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.06651261448860168
+        },
+        {
+          "id": "https://openalex.org/C187320778",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+          "display_name": "Geotechnical engineering",
+          "level": 1,
+          "score": 0.04731133580207825
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.043463945388793945
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.03759026527404785
+        },
+        {
+          "id": "https://openalex.org/C104779481",
+          "wikidata": "https://www.wikidata.org/wiki/Q50707",
+          "display_name": "Composite number",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W1577087430",
+        "https://openalex.org/W2368072971",
+        "https://openalex.org/W186863808",
+        "https://openalex.org/W2348242304",
+        "https://openalex.org/W3173132437",
+        "https://openalex.org/W2352189277",
+        "https://openalex.org/W2351585432",
+        "https://openalex.org/W2377270209",
+        "https://openalex.org/W2364874348",
+        "https://openalex.org/W2353320871"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391018110",
+      "doi": "https://doi.org/10.22533/at.ed.910241901",
+      "title": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5005281241",
+            "display_name": "Ofélia de Queiroz Fernandes Araújo",
+            "orcid": "https://orcid.org/0000-0003-4041-7161"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ofélia de Queiroz Fernandes Araújo",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5023901615",
+            "display_name": "Magali Christe Cammarota",
+            "orcid": "https://orcid.org/0000-0002-0637-9707"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Magali Christe Cammarota",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.910241901",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.910241901",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "edited-book"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C59427239",
+          "wikidata": "https://www.wikidata.org/wiki/Q40858",
+          "display_name": "Natural gas",
+          "level": 2,
+          "score": 0.7380164861679077
+        },
+        {
+          "id": "https://openalex.org/C75212476",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas",
+          "level": 2,
+          "score": 0.6942609548568726
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.5205241441726685
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.5122343897819519
+        },
+        {
+          "id": "https://openalex.org/C74078090",
+          "wikidata": "https://www.wikidata.org/wiki/Q2287558",
+          "display_name": "Natural-gas processing",
+          "level": 3,
+          "score": 0.468558132648468
+        },
+        {
+          "id": "https://openalex.org/C174575960",
+          "wikidata": "https://www.wikidata.org/wiki/Q2622192",
+          "display_name": "Renewable natural gas",
+          "level": 4,
+          "score": 0.4467683732509613
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.3851519823074341
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.2976990044116974
+        },
+        {
+          "id": "https://openalex.org/C26625249",
+          "wikidata": "https://www.wikidata.org/wiki/Q909363",
+          "display_name": "Fuel gas",
+          "level": 3,
+          "score": 0.2508086562156677
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.17877042293548584
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.055903851985931396
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.052180320024490356
+        },
+        {
+          "id": "https://openalex.org/C139719470",
+          "wikidata": "https://www.wikidata.org/wiki/Q39680",
+          "display_name": "Macroeconomics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C105923489",
+          "wikidata": "https://www.wikidata.org/wiki/Q133235",
+          "display_name": "Combustion",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2490732643",
+        "https://openalex.org/W953842060",
+        "https://openalex.org/W2485651577",
+        "https://openalex.org/W2356495675",
+        "https://openalex.org/W2359247593",
+        "https://openalex.org/W2895066219",
+        "https://openalex.org/W2469105013",
+        "https://openalex.org/W4308221372",
+        "https://openalex.org/W4211137632",
+        "https://openalex.org/W3039363945"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391017691",
+      "doi": "https://doi.org/10.22533/at.ed.9102419016",
+      "title": "ANALYSIS OF OPERATIONAL PERFORMANCE OF CHEMICAL PRODUCTION FROM BIOGAS",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5004606447",
+            "display_name": "Matheus Calheiros Fernandes Cadorini",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Matheus Calheiros Fernandes Cadorini",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5066478695",
+            "display_name": "Rafael Oliveira dos Santos",
+            "orcid": "https://orcid.org/0000-0002-0493-6784"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Rafael Oliveira dos Santos",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5013542448",
+            "display_name": "Argimiro R. Secchi",
+            "orcid": "https://orcid.org/0000-0001-7297-3571"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Argimiro Resende Secchi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5017505053",
+            "display_name": "Prı́amo A. Melo",
+            "orcid": "https://orcid.org/0000-0002-4041-9282"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Príamo Albuquerque Melo",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419016",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419016",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2994333036",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas production",
+          "level": 4,
+          "score": 0.7738867998123169
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.6717450618743896
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.4857245087623596
+        },
+        {
+          "id": "https://openalex.org/C75212476",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas",
+          "level": 2,
+          "score": 0.4840961694717407
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.29293256998062134
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.21338757872581482
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.12055617570877075
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.1118689775466919
+        },
+        {
+          "id": "https://openalex.org/C499616599",
+          "wikidata": "https://www.wikidata.org/wiki/Q555853",
+          "display_name": "Anaerobic digestion",
+          "level": 3,
+          "score": 0.06398674845695496
+        },
+        {
+          "id": "https://openalex.org/C175444787",
+          "wikidata": "https://www.wikidata.org/wiki/Q39072",
+          "display_name": "Microeconomics",
+          "level": 1,
+          "score": 0.035612553358078
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C516920438",
+          "wikidata": "https://www.wikidata.org/wiki/Q37129",
+          "display_name": "Methane",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2363763552",
+        "https://openalex.org/W1411463225",
+        "https://openalex.org/W4385879843",
+        "https://openalex.org/W2074149019",
+        "https://openalex.org/W2352961151",
+        "https://openalex.org/W3208552873",
+        "https://openalex.org/W2774085342",
+        "https://openalex.org/W364918070",
+        "https://openalex.org/W2348780851",
+        "https://openalex.org/W2590509061"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391017896",
+      "doi": "https://doi.org/10.22533/at.ed.9102419013",
+      "title": "DEVELOPMENT AND CONSTRUCTION OF BIOREACTORS OPERATING IN CSTR OR CONTINUOUS SYSTEM FOR BIOGAS PRODUCTION",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5067713027",
+            "display_name": "Claudinei de Souza Guimarães",
+            "orcid": "https://orcid.org/0000-0001-6994-1333"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Claudinei de Souza Guimarães",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419013",
+        "is_oa": true,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419013",
+        "pdf_url": "https://cdn.atenaeditora.com.br/atenaeditora/documentos/ebook/202401/HvwCURPbtZM2sF4Oqtl94CiXxrohIQlvuSUlDmT9.pdf",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C67334161",
+          "wikidata": "https://www.wikidata.org/wiki/Q457904",
+          "display_name": "Continuous stirred-tank reactor",
+          "level": 2,
+          "score": 0.8310181498527527
+        },
+        {
+          "id": "https://openalex.org/C2994333036",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas production",
+          "level": 4,
+          "score": 0.7423858046531677
+        },
+        {
+          "id": "https://openalex.org/C168170006",
+          "wikidata": "https://www.wikidata.org/wiki/Q864699",
+          "display_name": "Bioreactor",
+          "level": 2,
+          "score": 0.6100245118141174
+        },
+        {
+          "id": "https://openalex.org/C75212476",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas",
+          "level": 2,
+          "score": 0.5188183188438416
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.48480597138404846
+        },
+        {
+          "id": "https://openalex.org/C21880701",
+          "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+          "display_name": "Process engineering",
+          "level": 1,
+          "score": 0.442987322807312
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.4073624312877655
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.3737401068210602
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.37373051047325134
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.16722291707992554
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.15515285730361938
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.13667511940002441
+        },
+        {
+          "id": "https://openalex.org/C499616599",
+          "wikidata": "https://www.wikidata.org/wiki/Q555853",
+          "display_name": "Anaerobic digestion",
+          "level": 3,
+          "score": 0.09167078137397766
+        },
+        {
+          "id": "https://openalex.org/C516920438",
+          "wikidata": "https://www.wikidata.org/wiki/Q37129",
+          "display_name": "Methane",
+          "level": 2,
+          "score": 0.08897367119789124
+        },
+        {
+          "id": "https://openalex.org/C175444787",
+          "wikidata": "https://www.wikidata.org/wiki/Q39072",
+          "display_name": "Microeconomics",
+          "level": 1,
+          "score": 0.046563535928726196
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2059231583",
+        "https://openalex.org/W2363763552",
+        "https://openalex.org/W1411463225",
+        "https://openalex.org/W4385879843",
+        "https://openalex.org/W2074149019",
+        "https://openalex.org/W2352961151",
+        "https://openalex.org/W3208552873",
+        "https://openalex.org/W2774085342",
+        "https://openalex.org/W364918070",
+        "https://openalex.org/W2348780851"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391017799",
+      "doi": "https://doi.org/10.22533/at.ed.9102419015",
+      "title": "BIOENERGY WITH CARBON CAPTURE AND STORAGE VIA LANDFILL GAS OXY-COMBUSTION",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5054167313",
+            "display_name": "George Victor Brigagão",
+            "orcid": "https://orcid.org/0000-0003-3936-6264"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "George Victor Brigagão",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5004811368",
+            "display_name": "José Luiz de Medeiros",
+            "orcid": "https://orcid.org/0000-0001-9099-4288"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "José Luiz de Medeiros",
+          "raw_affiliation_strings": [
+            "comercializa em seu site, sites parceiros, plataformas de e-commerce, ou qualquer outro meio virtual ou físico, portanto, está isenta de repasses de direitos autorais aos autores;"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "comercializa em seu site, sites parceiros, plataformas de e-commerce, ou qualquer outro meio virtual ou físico, portanto, está isenta de repasses de direitos autorais aos autores;",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5005281241",
+            "display_name": "Ofélia de Queiroz Fernandes Araújo",
+            "orcid": "https://orcid.org/0000-0003-4041-7161"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ofélia de Queiroz Fernandes Araújo",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419015",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419015",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C156380964",
+          "wikidata": "https://www.wikidata.org/wiki/Q18556",
+          "display_name": "Bioenergy",
+          "level": 3,
+          "score": 0.6984266638755798
+        },
+        {
+          "id": "https://openalex.org/C105923489",
+          "wikidata": "https://www.wikidata.org/wiki/Q133235",
+          "display_name": "Combustion",
+          "level": 2,
+          "score": 0.6773353815078735
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.6443009376525879
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.5601311922073364
+        },
+        {
+          "id": "https://openalex.org/C2778379663",
+          "wikidata": "https://www.wikidata.org/wiki/Q5037942",
+          "display_name": "Carbon capture and storage (timeline)",
+          "level": 3,
+          "score": 0.5076631307601929
+        },
+        {
+          "id": "https://openalex.org/C140205800",
+          "wikidata": "https://www.wikidata.org/wiki/Q5860",
+          "display_name": "Carbon fibers",
+          "level": 3,
+          "score": 0.44628238677978516
+        },
+        {
+          "id": "https://openalex.org/C53991642",
+          "wikidata": "https://www.wikidata.org/wiki/Q128991",
+          "display_name": "Biofuel",
+          "level": 2,
+          "score": 0.23140808939933777
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.17666301131248474
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.1650954782962799
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.13743948936462402
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.11349579691886902
+        },
+        {
+          "id": "https://openalex.org/C132651083",
+          "wikidata": "https://www.wikidata.org/wiki/Q7942",
+          "display_name": "Climate change",
+          "level": 2,
+          "score": 0.03343197703361511
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.03278806805610657
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111368507",
+          "wikidata": "https://www.wikidata.org/wiki/Q43518",
+          "display_name": "Oceanography",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C104779481",
+          "wikidata": "https://www.wikidata.org/wiki/Q50707",
+          "display_name": "Composite number",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W1951117186",
+        "https://openalex.org/W2890807338",
+        "https://openalex.org/W2748561967",
+        "https://openalex.org/W4244556537",
+        "https://openalex.org/W2585332334",
+        "https://openalex.org/W4389685797",
+        "https://openalex.org/W2793352967",
+        "https://openalex.org/W2366410997",
+        "https://openalex.org/W2891092536",
+        "https://openalex.org/W2077206348"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391017874",
+      "doi": "https://doi.org/10.22533/at.ed.9102419012",
+      "title": "PRETREATMENT OF SECONDARY SLUDGE WITH COMMERCIAL ENZYMES AND MULTIENZYME EXTRACT FROM SOLID-STATE FERMENTATION BEFORE ANAEROBIC DIGESTION",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5081523978",
+            "display_name": "Victória Pedrosa Souza da Silva",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Victória Pedrosa Souza da Silva",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5023901615",
+            "display_name": "Magali Christe Cammarota",
+            "orcid": "https://orcid.org/0000-0002-0637-9707"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Magali Christe Cammarota",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5011035825",
+            "display_name": "Melissa Limoeiro Estrada Gutarra",
+            "orcid": "https://orcid.org/0000-0003-2480-7223"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Melissa Limoeiro Estrada Gutarra",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419012",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419012",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2779942233",
+          "wikidata": "https://www.wikidata.org/wiki/Q7557796",
+          "display_name": "Solid-state fermentation",
+          "level": 3,
+          "score": 0.7549352645874023
+        },
+        {
+          "id": "https://openalex.org/C499616599",
+          "wikidata": "https://www.wikidata.org/wiki/Q555853",
+          "display_name": "Anaerobic digestion",
+          "level": 3,
+          "score": 0.7527820467948914
+        },
+        {
+          "id": "https://openalex.org/C100544194",
+          "wikidata": "https://www.wikidata.org/wiki/Q41760",
+          "display_name": "Fermentation",
+          "level": 2,
+          "score": 0.6945942640304565
+        },
+        {
+          "id": "https://openalex.org/C2781357212",
+          "wikidata": "https://www.wikidata.org/wiki/Q5275608",
+          "display_name": "Digestion (alchemy)",
+          "level": 2,
+          "score": 0.5271995663642883
+        },
+        {
+          "id": "https://openalex.org/C528095902",
+          "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+          "display_name": "Pulp and paper industry",
+          "level": 1,
+          "score": 0.49861907958984375
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.45687001943588257
+        },
+        {
+          "id": "https://openalex.org/C5140985",
+          "wikidata": "https://www.wikidata.org/wiki/Q483866",
+          "display_name": "Anaerobic exercise",
+          "level": 2,
+          "score": 0.455204039812088
+        },
+        {
+          "id": "https://openalex.org/C181199279",
+          "wikidata": "https://www.wikidata.org/wiki/Q8047",
+          "display_name": "Enzyme",
+          "level": 2,
+          "score": 0.441881388425827
+        },
+        {
+          "id": "https://openalex.org/C31903555",
+          "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+          "display_name": "Food science",
+          "level": 1,
+          "score": 0.4282100796699524
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.36860302090644836
+        },
+        {
+          "id": "https://openalex.org/C150903083",
+          "wikidata": "https://www.wikidata.org/wiki/Q7108",
+          "display_name": "Biotechnology",
+          "level": 1,
+          "score": 0.32225683331489563
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.3200620710849762
+        },
+        {
+          "id": "https://openalex.org/C55493867",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094",
+          "display_name": "Biochemistry",
+          "level": 1,
+          "score": 0.238417387008667
+        },
+        {
+          "id": "https://openalex.org/C43617362",
+          "wikidata": "https://www.wikidata.org/wiki/Q170050",
+          "display_name": "Chromatography",
+          "level": 1,
+          "score": 0.19696539640426636
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.15433666110038757
+        },
+        {
+          "id": "https://openalex.org/C516920438",
+          "wikidata": "https://www.wikidata.org/wiki/Q37129",
+          "display_name": "Methane",
+          "level": 2,
+          "score": 0.14964064955711365
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.09893569350242615
+        },
+        {
+          "id": "https://openalex.org/C42407357",
+          "wikidata": "https://www.wikidata.org/wiki/Q521",
+          "display_name": "Physiology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2057502126",
+        "https://openalex.org/W2473666014",
+        "https://openalex.org/W2183232762",
+        "https://openalex.org/W2267458162",
+        "https://openalex.org/W2033278188",
+        "https://openalex.org/W3146623608",
+        "https://openalex.org/W2033446982",
+        "https://openalex.org/W3126361995",
+        "https://openalex.org/W2183253559",
+        "https://openalex.org/W2736404443"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391017852",
+      "doi": "https://doi.org/10.22533/at.ed.9102419018",
+      "title": "SUSTAINABILITY ANALYSIS OF BIOGAS PRODUCTION AND ITS BARRIERS WITHIN THE BRAZILIAN LEGISLATIVE FRAMEWORK",
+      "publication_date": "2024-01-19",
+      "publication_year": 2024,
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "language": "en",
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5065032715",
+            "display_name": "Ana María Naranjo Herrera",
+            "orcid": "https://orcid.org/0000-0001-6618-9641"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ana María Naranjo Herrera",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5035444645",
+            "display_name": "Elisa Maria Mano Esteves",
+            "orcid": "https://orcid.org/0000-0002-5767-1329"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Elisa Maria Mano Esteves",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5036368323",
+            "display_name": "Cláudia do Rosário Vaz Morgado",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Cláudia do Rosário Vaz Morgado",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "primary_location": {
+        "id": "doi:10.22533/at.ed.9102419018",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.22533/at.ed.9102419018",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "raw_type": "book-chapter"
+      },
+      "concepts": [
+        {
+          "id": "https://openalex.org/C66204764",
+          "wikidata": "https://www.wikidata.org/wiki/Q219416",
+          "display_name": "Sustainability",
+          "level": 2,
+          "score": 0.7645101547241211
+        },
+        {
+          "id": "https://openalex.org/C83009810",
+          "wikidata": "https://www.wikidata.org/wiki/Q11204",
+          "display_name": "Legislature",
+          "level": 2,
+          "score": 0.7555900812149048
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.6807312965393066
+        },
+        {
+          "id": "https://openalex.org/C2994333036",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas production",
+          "level": 4,
+          "score": 0.6223948001861572
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.5092772245407104
+        },
+        {
+          "id": "https://openalex.org/C2994087729",
+          "wikidata": "https://www.wikidata.org/wiki/Q7649686",
+          "display_name": "Sustainable production",
+          "level": 3,
+          "score": 0.4653732478618622
+        },
+        {
+          "id": "https://openalex.org/C75212476",
+          "wikidata": "https://www.wikidata.org/wiki/Q171076",
+          "display_name": "Biogas",
+          "level": 2,
+          "score": 0.46522921323776245
+        },
+        {
+          "id": "https://openalex.org/C91375879",
+          "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+          "display_name": "Environmental planning",
+          "level": 1,
+          "score": 0.39574724435806274
+        },
+        {
+          "id": "https://openalex.org/C134560507",
+          "wikidata": "https://www.wikidata.org/wiki/Q753291",
+          "display_name": "Environmental economics",
+          "level": 1,
+          "score": 0.3904769718647003
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.3213832676410675
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.2668967545032501
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.2032965123653412
+        },
+        {
+          "id": "https://openalex.org/C548081761",
+          "wikidata": "https://www.wikidata.org/wiki/Q180388",
+          "display_name": "Waste management",
+          "level": 1,
+          "score": 0.17639043927192688
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.17124924063682556
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.05030339956283569
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.0477006733417511
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C139719470",
+          "wikidata": "https://www.wikidata.org/wiki/Q39680",
+          "display_name": "Macroeconomics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C516920438",
+          "wikidata": "https://www.wikidata.org/wiki/Q37129",
+          "display_name": "Methane",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C499616599",
+          "wikidata": "https://www.wikidata.org/wiki/Q555853",
+          "display_name": "Anaerobic digestion",
+          "level": 3,
+          "score": 0.0
+        }
+      ],
+      "related_works": [
+        "https://openalex.org/W2363763552",
+        "https://openalex.org/W1411463225",
+        "https://openalex.org/W4385879843",
+        "https://openalex.org/W2074149019",
+        "https://openalex.org/W2352961151",
+        "https://openalex.org/W3208552873",
+        "https://openalex.org/W2774085342",
+        "https://openalex.org/W364918070",
+        "https://openalex.org/W2348780851",
+        "https://openalex.org/W2590509061"
+      ]
+    }
+  ]
+}

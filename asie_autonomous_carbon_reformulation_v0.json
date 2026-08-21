@@ -1,0 +1,24 @@
+{
+  "artifact": "raw_v3/asie_autonomous/openalex_reformulations/a04r_openalex.json",
+  "sha256": "f38cd7004a7de3df15036b883dc7a538c0f7b5b55071dcf098064414133b036a",
+  "query_id": "A04R",
+  "query": "algae drilling cuttings fertilizer Brazil",
+  "count": 227,
+  "captured": 25,
+  "top_titles": [
+    "A Review of Algae-Based Produced Water Treatment for Biomass and Biofuel Production",
+    "Influences of natural and anthropogenic factors on surface and groundwater quality in rural and urban areas",
+    "Towards enhancing sustainable reuse of pre-treated drill cuttings for construction purposes by near-infrared analysis: A review",
+    "Marine protected areas and artisanal fisheries in Brazil",
+    "Fresh Water availability and Its Global challenge",
+    "GEOLOGY AND RESOURCES OF SOME WORLD OIL-SHALE DEPOSITS",
+    "Feeding and Healing the World: Through Regenerative Agriculture and Permaculture",
+    "Advances in Natural Gas Technology",
+    "Trace Elements in Abiotic and Biotic Environments",
+    "Hydroponic Production of Fruit Tree Seedlings in Brazil",
+    "Levelling-up rhodolith-bed science to address global-scale conservation challenges",
+    "Fuel Ethanol Production from Sugarcane"
+  ],
+  "source": "openalex",
+  "metadata_only": true
+}

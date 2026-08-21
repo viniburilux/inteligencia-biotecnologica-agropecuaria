@@ -1,0 +1,354 @@
+[
+  {
+    "query_id": "A01",
+    "query": "Trichoderma nematode root health soybean",
+    "count": 3550,
+    "captured": 25,
+    "entities": [
+      [
+        "University of Naples Federico II",
+        9
+      ],
+      [
+        "Shenyang Agricultural University",
+        9
+      ],
+      [
+        "Institute for Sustainable Plant Protection",
+        8
+      ],
+      [
+        "North-West University",
+        6
+      ],
+      [
+        "Southern Illinois University Carbondale",
+        6
+      ],
+      [
+        "Jiangsu Academy of Agricultural Sciences",
+        5
+      ],
+      [
+        "Institute of Plant Protection",
+        5
+      ],
+      [
+        "Institute of Vegetables and Flowers",
+        4
+      ],
+      [
+        "Chinese Academy of Agricultural Sciences",
+        4
+      ],
+      [
+        "Aligarh Muslim University",
+        4
+      ],
+      [
+        "Guizhou University",
+        3
+      ],
+      [
+        "Universidad Nacional Autónoma de México",
+        3
+      ],
+      [
+        "Universidad Michoacana de San Nicolás de Hidalgo",
+        3
+      ],
+      [
+        "Instituto de Investigaciones Químico Biológicas",
+        3
+      ],
+      [
+        "University of Warwick",
+        3
+      ],
+      [
+        "University of Jordan",
+        3
+      ],
+      [
+        "Yunnan University",
+        3
+      ],
+      [
+        "KU Leuven",
+        3
+      ],
+      [
+        "Universidad de Salamanca",
+        2
+      ],
+      [
+        "University of Castilla-La Mancha",
+        2
+      ]
+    ]
+  },
+  {
+    "query_id": "A02",
+    "query": "microbial nitrogen fixation root health maize rhizosphere",
+    "count": 13618,
+    "captured": 25,
+    "entities": [
+      [
+        "Ministry of Agriculture and Rural Affairs",
+        18
+      ],
+      [
+        "Institute of Agricultural Resources and Regional Planning",
+        13
+      ],
+      [
+        "Chinese Academy of Agricultural Sciences",
+        13
+      ],
+      [
+        "University of Bern",
+        8
+      ],
+      [
+        "North-West University",
+        7
+      ],
+      [
+        "Lyon 1 Université",
+        6
+      ],
+      [
+        "Austrian Institute of Technology",
+        6
+      ],
+      [
+        "Agroscope",
+        5
+      ],
+      [
+        "Universidad Nacional Autónoma de México",
+        5
+      ],
+      [
+        "Northeast Agricultural University",
+        5
+      ],
+      [
+        "Estación Experimental del Zaidín",
+        4
+      ],
+      [
+        "Utrecht University",
+        4
+      ],
+      [
+        "Institut Agro Dijon",
+        4
+      ],
+      [
+        "University of Illinois Urbana-Champaign",
+        4
+      ],
+      [
+        "Chinese Academy of Sciences",
+        4
+      ],
+      [
+        "Université Mohammed VI Polytechnique",
+        4
+      ],
+      [
+        "Pir Mehr Ali Shah Arid Agriculture University",
+        4
+      ],
+      [
+        "Colorado State University",
+        3
+      ],
+      [
+        "Nanjing Agricultural University",
+        3
+      ],
+      [
+        "Agroécologie",
+        3
+      ]
+    ]
+  },
+  {
+    "query_id": "A03",
+    "query": "fungal biocontrol nematode plant root colonization",
+    "count": 8842,
+    "captured": 25,
+    "entities": [
+      [
+        "KU Leuven",
+        7
+      ],
+      [
+        "McGill University",
+        7
+      ],
+      [
+        "The University of Queensland",
+        5
+      ],
+      [
+        "University of Alicante",
+        5
+      ],
+      [
+        "Pir Mehr Ali Shah Arid Agriculture University",
+        4
+      ],
+      [
+        "University of Waterloo",
+        4
+      ],
+      [
+        "Agriculture and Food",
+        4
+      ],
+      [
+        "Universidade Federal do Rio Grande do Sul",
+        3
+      ],
+      [
+        "Guizhou University",
+        3
+      ],
+      [
+        "University of Modena and Reggio Emilia",
+        3
+      ],
+      [
+        "Universidad Michoacana de San Nicolás de Hidalgo",
+        3
+      ],
+      [
+        "Instituto de Investigaciones Químico Biológicas",
+        3
+      ],
+      [
+        "North-West University",
+        3
+      ],
+      [
+        "Bernard R. Glick",
+        3
+      ],
+      [
+        "University of Kelaniya",
+        3
+      ],
+      [
+        "University of Warwick",
+        3
+      ],
+      [
+        "Barkatullah University",
+        2
+      ],
+      [
+        "Helmholtz Munich",
+        2
+      ],
+      [
+        "Ma. del Carmen Orozco-Mosqueda",
+        2
+      ],
+      [
+        "Gustavo Santoyo",
+        2
+      ]
+    ]
+  },
+  {
+    "query_id": "A04",
+    "query": "microalgae drilling waste biofixation fertilizer",
+    "count": 18,
+    "captured": 18,
+    "entities": [
+      [
+        "Harbin Engineering University",
+        8
+      ],
+      [
+        "National Institute of Technology Srinagar",
+        4
+      ],
+      [
+        "Harbin Institute of Technology",
+        4
+      ],
+      [
+        "Samara State Technical University",
+        3
+      ],
+      [
+        "Magali Christe Cammarota",
+        3
+      ],
+      [
+        "Ofélia de Queiroz Fernandes Araújo",
+        3
+      ],
+      [
+        "Arif Gulzar",
+        2
+      ],
+      [
+        "Aanisa Gulzar",
+        2
+      ],
+      [
+        "Saudi Arabia Basic Industries (Saudi Arabia)",
+        2
+      ],
+      [
+        "University of Wyoming",
+        2
+      ],
+      [
+        "Second Hospital of Liaohe Oilfield",
+        2
+      ],
+      [
+        "Universiti Teknologi MARA",
+        2
+      ],
+      [
+        "Malaysia Theological Seminary",
+        2
+      ],
+      [
+        "José Luiz de Medeiros",
+        2
+      ],
+      [
+        "Tatyana Iglina",
+        1
+      ],
+      [
+        "Pavel Iglin",
+        1
+      ],
+      [
+        "Dmitry Pashchenko",
+        1
+      ],
+      [
+        "Shreya Chaudhuri",
+        1
+      ],
+      [
+        "Kara Pezzi",
+        1
+      ],
+      [
+        "Mohd Bismillah Ansari",
+        1
+      ]
+    ]
+  }
+]
