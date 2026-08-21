@@ -1,6 +1,6 @@
 # Inteligência Biotecnológica Agropecuária
 
-## Começou hoje.
+## Início:
 
 **21 de agosto de 2026.**
 
