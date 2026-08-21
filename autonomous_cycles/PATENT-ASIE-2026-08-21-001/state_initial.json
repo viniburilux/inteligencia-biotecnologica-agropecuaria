@@ -1,0 +1,2704 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "state_version": 1,
+  "status": "EXPLORATION",
+  "repository": "viniburilux/inteligencia-biotecnologica-agropecuaria",
+  "base_commit": "0a1e3316ddc5715ac05a9b2bd67b089d4cb25ae2",
+  "metadata_only": true,
+  "public_private_boundary": "Only public repository data and public-source metadata may enter this cycle; private OI/ASIE implementation and state are not copied or exposed.",
+  "epistemic_rules": [
+    "FACT",
+    "INFERENCE",
+    "HYPOTHESIS",
+    "OPPORTUNITY",
+    "DISCARDED"
+  ],
+  "corpus_counts": {
+    "works": 763,
+    "actors": 2680,
+    "institutions": 767,
+    "relations": 4045,
+    "application_signals": 536
+  },
+  "source_mix": {
+    "openalex": 422,
+    "crossref": 146,
+    "google_patents": 195
+  },
+  "source_counts_recomputed": {
+    "openalex": 422,
+    "crossref": 146,
+    "google_patents": 195
+  },
+  "initial_signals": {
+    "cross_cluster_actors": [
+      {
+        "actor_id": "actor_8bfcd13f24e78e791e92",
+        "display_name": "Pivot Bio",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 6,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020008002A2",
+          "patent:BR112020008035A2",
+          "patent:BR112020026771A2",
+          "patent:BR112021000268A2",
+          "patent:BR112021005052A2",
+          "patent:BR112021010947A2"
+        ]
+      },
+      {
+        "actor_id": "actor_e0ea62b2ab1cf6e113ff",
+        "display_name": "Universidade de São Paulo",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 5,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102021001046A2",
+          "patent:BR102021013005A2",
+          "patent:BR102023003698A2",
+          "patent:BR102024014113A2",
+          "patent:BR112019012319A2"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5070500405",
+        "display_name": "Mirela Mosela",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 3,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4295394560",
+          "https://openalex.org/W4399441291",
+          "https://openalex.org/W4413229110"
+        ]
+      },
+      {
+        "actor_id": "actor_68d47cd559cf14e1d571",
+        "display_name": "Sarah BLOCH Pivot Bio, Inc",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 3,
+        "relation_types": [
+          "invented_by"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020002654A2",
+          "patent:BR112020026676A2",
+          "patent:BR112021005052A2"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5056101577",
+        "display_name": "Silas Mian",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 3,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4295394560",
+          "https://openalex.org/W4399441291",
+          "https://openalex.org/W4413229110"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5065428794",
+        "display_name": "Galdino Andrade",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 2,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4295394560",
+          "https://openalex.org/W4413229110"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5110112690",
+        "display_name": "Leandro Simões Azeredo Gonçalves",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 2,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4295394560",
+          "https://openalex.org/W4413229110"
+        ]
+      },
+      {
+        "actor_id": "actor_68b616703f8230e60164",
+        "display_name": "Sarah Bloch",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 2,
+        "relation_types": [
+          "invented_by"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020026676A2",
+          "patent:BR112021005052A2"
+        ]
+      },
+      {
+        "actor_id": "actor_29ff81a7d81f2cbece32",
+        "display_name": "Universidade Estadual de Londrina",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 2,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102017006046B1",
+          "patent:BR102024016682A2"
+        ]
+      },
+      {
+        "actor_id": "actor_841fc1bb2656f5a86423",
+        "display_name": "Bacillus velezensis CMRP 4490. - Atores/instituições: Universidade Federal de Alagoas, Embrapa, Universidade Estadual de Londrina, Agrospheres e Terragen",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102024016682A2"
+        ]
+      },
+      {
+        "actor_id": "actor_17e15b65755c91e1f38f",
+        "display_name": "Bacillus velezensis, Universidade Estadual de Londrina",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102024016682A2"
+        ]
+      },
+      {
+        "actor_id": "actor_be161020316d683e6f87",
+        "display_name": "Mark Reisinger",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "invented_by"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "actor_id": "actor_d609b3ce6c656a33aa6b",
+        "display_name": "Mark Reisinger Pivot Bio, Inc",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "invented_by"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "actor_id": "actor_7995a1eec5dd9e418417",
+        "display_name": "Pivot Bio, Inc",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "actor_id": "actor_c49d4a2c00d0a7ed8887",
+        "display_name": "microrganismos remodelados",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "actor_id": "actor_173b907b37e5c5c1afff",
+        "display_name": "microrganismos remodelados para fixação de nitrogênio",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 1,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5085311088",
+        "display_name": "Giovani L. Zabot",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 5,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4387565289",
+          "https://openalex.org/W4409143998",
+          "https://openalex.org/W4413991335",
+          "https://openalex.org/W7118757491",
+          "https://openalex.org/W7168199551"
+        ]
+      },
+      {
+        "actor_id": "actor_4116021088d010670a2f",
+        "display_name": "Novozymes",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "work_count": 5,
+        "relation_types": [
+          "assigned_to"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112012013205B1",
+          "patent:BR112019015943A2",
+          "patent:BR112020024347A2",
+          "patent:BR112021001282A2",
+          "patent:BR112021014812A2"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5044664094",
+        "display_name": "Mariangela Hungría",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 4,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W2147536066",
+          "https://openalex.org/W2994946937",
+          "https://openalex.org/W4287835460",
+          "https://openalex.org/W4410970584"
+        ]
+      },
+      {
+        "actor_id": "https://openalex.org/A5025838846",
+        "display_name": "Márcio A. Mazutti",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "openalex"
+        ],
+        "work_count": 4,
+        "relation_types": [
+          "authored_by"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4409143998",
+          "https://openalex.org/W4412149207",
+          "https://openalex.org/W7118757491",
+          "https://openalex.org/W7168199551"
+        ]
+      }
+    ],
+    "cross_context_terms": [
+      {
+        "term": "trichoderma",
+        "work_count": 175,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.1201/9781003284055-2",
+          "https://doi.org/10.28998/rca.v16i3.4818",
+          "https://doi.org/10.3897/ia.2025.145975",
+          "https://doi.org/10.48021/978-65-252-0866-4-c1",
+          "https://doi.org/10.58905/demeter.v3i3.694",
+          "https://openalex.org/W1541240643",
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W1967311831",
+          "https://openalex.org/W1977625550",
+          "https://openalex.org/W1995418566"
+        ]
+      },
+      {
+        "term": "bacillus",
+        "work_count": 62,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.1007/978-981-13-5862-3_11",
+          "https://doi.org/10.28998/rca.v16i3.4818",
+          "https://doi.org/10.33448/rsd-v12i6.42019",
+          "https://doi.org/10.48021/978-65-252-0866-4-c5",
+          "https://doi.org/10.51189/rema/1338",
+          "https://openalex.org/W1978516358",
+          "https://openalex.org/W2076130439",
+          "https://openalex.org/W2084424044",
+          "https://openalex.org/W2517196526",
+          "https://openalex.org/W2590531139"
+        ]
+      },
+      {
+        "term": "inoculante",
+        "work_count": 57,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.1590/s1415-43662014000600001",
+          "https://doi.org/10.19180/1809-2667.v24n22022p267-280",
+          "https://doi.org/10.22201/pued.9786070295584e.2017.ca",
+          "https://doi.org/10.22463/0122820x.382",
+          "https://doi.org/10.22533/at.ed.3161916041",
+          "https://doi.org/10.29372/rab202319",
+          "https://doi.org/10.30972/agr.0252471",
+          "https://doi.org/10.32457/2050012728/9759202156",
+          "https://doi.org/10.32457/2050012728/9801201969",
+          "https://doi.org/10.33448/rsd-v12i6.42019"
+        ]
+      },
+      {
+        "term": "rhizobium",
+        "work_count": 43,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.30972/agr.0252471",
+          "https://openalex.org/W1886677716",
+          "https://openalex.org/W1976404078",
+          "https://openalex.org/W2049394240",
+          "https://openalex.org/W2076130439",
+          "https://openalex.org/W2511232503",
+          "https://openalex.org/W2892093129",
+          "https://openalex.org/W2899085381",
+          "https://openalex.org/W2900704415",
+          "https://openalex.org/W2982928930"
+        ]
+      },
+      {
+        "term": "pseudomonas",
+        "work_count": 13,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.1016/b978-0-444-63987-5.00010-4",
+          "https://doi.org/10.1079/9781789249200.0006",
+          "https://openalex.org/W1528890864",
+          "https://openalex.org/W4308433470",
+          "https://openalex.org/W4406957856",
+          "patent:BR112017006629B1",
+          "patent:BR112020002388A2",
+          "patent:BR112020005803A2",
+          "patent:BR112020008002A2",
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "term": "fermentation",
+        "work_count": 151,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W1967311831",
+          "https://openalex.org/W1977625550",
+          "https://openalex.org/W1995418566",
+          "https://openalex.org/W2015911098",
+          "https://openalex.org/W2016459751",
+          "https://openalex.org/W2017534621",
+          "https://openalex.org/W2029868574",
+          "https://openalex.org/W2032080241",
+          "https://openalex.org/W2032878540"
+        ]
+      },
+      {
+        "term": "cellulase",
+        "work_count": 63,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W1967311831",
+          "https://openalex.org/W1977625550",
+          "https://openalex.org/W1995418566",
+          "https://openalex.org/W2015911098",
+          "https://openalex.org/W2016459751",
+          "https://openalex.org/W2017534621",
+          "https://openalex.org/W2029868574",
+          "https://openalex.org/W2032080241",
+          "https://openalex.org/W2032878540"
+        ]
+      },
+      {
+        "term": "enzyme",
+        "work_count": 54,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W2032878540",
+          "https://openalex.org/W2044066756",
+          "https://openalex.org/W2090834390",
+          "https://openalex.org/W2119824898",
+          "https://openalex.org/W2166336493",
+          "https://openalex.org/W2169255595",
+          "https://openalex.org/W2330576081",
+          "https://openalex.org/W2342321818",
+          "https://openalex.org/W2419653649"
+        ]
+      },
+      {
+        "term": "bioreactor",
+        "work_count": 41,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W2742964299",
+          "https://openalex.org/W2913852888",
+          "https://openalex.org/W3112942636",
+          "https://openalex.org/W4385655645",
+          "https://openalex.org/W4391017896",
+          "https://openalex.org/W4402515850",
+          "https://openalex.org/W4404710764",
+          "https://openalex.org/W4406409083",
+          "https://openalex.org/W4409707074",
+          "https://openalex.org/W4411593835"
+        ]
+      },
+      {
+        "term": "sophorolipid",
+        "work_count": 41,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W2802525083",
+          "https://openalex.org/W2893030091",
+          "https://openalex.org/W2894347729",
+          "https://openalex.org/W3092128795",
+          "https://openalex.org/W3094166443",
+          "https://openalex.org/W3138155540",
+          "https://openalex.org/W3145825842",
+          "https://openalex.org/W3154754345",
+          "https://openalex.org/W3172146582",
+          "https://openalex.org/W3172387323"
+        ]
+      },
+      {
+        "term": "microalga",
+        "work_count": 35,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W2132575284",
+          "https://openalex.org/W2561375911",
+          "https://openalex.org/W2746666942",
+          "https://openalex.org/W2886681612",
+          "https://openalex.org/W2899068250",
+          "https://openalex.org/W2913852888",
+          "https://openalex.org/W2923577318",
+          "https://openalex.org/W2969681518",
+          "https://openalex.org/W3013575201"
+        ]
+      },
+      {
+        "term": "polymer",
+        "work_count": 25,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W3194677362",
+          "https://openalex.org/W3214369455",
+          "patent:BR102015025497A2",
+          "patent:BR102016000130A2",
+          "patent:BR102017006046B1",
+          "patent:BR102017020884B1",
+          "patent:BR102024016682A2",
+          "patent:BR112014010650B1",
+          "patent:BR112015018853B1",
+          "patent:BR112015019289B1"
+        ]
+      },
+      {
+        "term": "stability",
+        "work_count": 23,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W3131667751",
+          "https://openalex.org/W3214369455",
+          "patent:BR102015025497A2",
+          "patent:BR102016000130A2",
+          "patent:BR102017006046B1",
+          "patent:BR102024016682A2",
+          "patent:BR112014010650B1",
+          "patent:BR112015018853B1",
+          "patent:BR112015019289B1",
+          "patent:BR112018015320B1"
+        ]
+      },
+      {
+        "term": "enzima",
+        "work_count": 21,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W4403823318",
+          "patent:BR102017007291A2",
+          "patent:BR102019006567B1",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR112012006571B1",
+          "patent:BR112012011596B1",
+          "patent:BR112012013205B1",
+          "patent:BR112013033782B1",
+          "patent:BR112014014702A2"
+        ]
+      },
+      {
+        "term": "nematode",
+        "work_count": 18,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W2176807341",
+          "https://openalex.org/W2799934885",
+          "https://openalex.org/W3090291456",
+          "https://openalex.org/W3207834162",
+          "https://openalex.org/W4200270345",
+          "https://openalex.org/W4205788604",
+          "https://openalex.org/W4296830111",
+          "https://openalex.org/W4399441291",
+          "https://openalex.org/W4401811244",
+          "https://openalex.org/W4406542966"
+        ]
+      },
+      {
+        "term": "biofertilizante",
+        "work_count": 12,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W2102162320",
+          "https://openalex.org/W2255259412",
+          "patent:BR102023023945A2",
+          "patent:BR112014010650B1",
+          "patent:BR112015006330A2",
+          "patent:BR112019015945B1",
+          "patent:BR112019022106A2",
+          "patent:BR112020022643A2",
+          "patent:BR112021001574A2",
+          "patent:BR112022001668A2"
+        ]
+      },
+      {
+        "term": "azospirillum",
+        "work_count": 11,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W2147536066",
+          "https://openalex.org/W4385655645",
+          "https://openalex.org/W4406957856",
+          "https://openalex.org/W807988138",
+          "patent:BR112015018853B1",
+          "patent:BR112015019289B1",
+          "patent:BR112018015320B1",
+          "patent:BR112019012319A2",
+          "patent:BR112020026771A2",
+          "patent:BR112021011024A2"
+        ]
+      },
+      {
+        "term": "quality control",
+        "work_count": 11,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W3112942636",
+          "https://openalex.org/W4404710764",
+          "https://openalex.org/W7168199551",
+          "https://openalex.org/W807988138",
+          "patent:BR102019022487A2",
+          "patent:BR102021017152A2",
+          "patent:BR102022006198A2",
+          "patent:BR102023011789A2",
+          "patent:BR102023020906A2",
+          "patent:BR102023026513A2"
+        ]
+      },
+      {
+        "term": "biorreator",
+        "work_count": 9,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W3013575201",
+          "patent:BR102015025497A2",
+          "patent:BR102017006046B1",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR102024016682A2",
+          "patent:BR112021007997A2",
+          "patent:BRPI0720728A2"
+        ]
+      },
+      {
+        "term": "fermentacao",
+        "work_count": 22,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102017005211B1",
+          "patent:BR102017007291A2",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR102023023945A2",
+          "patent:BR112012006571B1",
+          "patent:BR112012011596B1",
+          "patent:BR112013033782B1",
+          "patent:BR112019004428B1",
+          "patent:BR112019009924B1"
+        ]
+      },
+      {
+        "term": "release",
+        "work_count": 15,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112012011596B1",
+          "patent:BR112019014378A2",
+          "patent:BR112019024520A2",
+          "patent:BR112020002523B1",
+          "patent:BR112020002654A2",
+          "patent:BR112020002927A2",
+          "patent:BR112020008002A2",
+          "patent:BR112020008035A2",
+          "patent:BR112020026676A2",
+          "patent:BR112020026771A2"
+        ]
+      },
+      {
+        "term": "shelf life",
+        "work_count": 14,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112012011596B1",
+          "patent:BR112018015320B1",
+          "patent:BR112018068739B1",
+          "patent:BR112019024520A2",
+          "patent:BR112020002523B1",
+          "patent:BR112020005803A2",
+          "patent:BR112020008002A2",
+          "patent:BR112020026676A2",
+          "patent:BR112020026771A2",
+          "patent:BR112021000268A2"
+        ]
+      },
+      {
+        "term": "estabilidade",
+        "work_count": 5,
+        "cluster_count": 6,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102015025497A2",
+          "patent:BR102017006046B1",
+          "patent:BR102024016682A2",
+          "patent:BR112018015320B1",
+          "patent:BR112020002654A2"
+        ]
+      },
+      {
+        "term": "bioinsumo",
+        "work_count": 61,
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.11606/9786589722885",
+          "https://doi.org/10.1590/0101-31572026-3739",
+          "https://doi.org/10.1590/1983-40632023v5376326",
+          "https://doi.org/10.18378/rebagro.v12i1.9172",
+          "https://doi.org/10.21071/c3b.vi5.17771",
+          "https://doi.org/10.22533/at.ed.341251807",
+          "https://doi.org/10.28940/terra.v43i.2045",
+          "https://doi.org/10.29327/9786527214786.1098126",
+          "https://doi.org/10.29327/9786527226680.1437480",
+          "https://doi.org/10.33936/latecnica.v15i1.6908"
+        ]
+      },
+      {
+        "term": "biocontrole",
+        "work_count": 58,
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.12661/pap.sbc.2020",
+          "https://doi.org/10.14422/rib.i03.y2017.006",
+          "https://doi.org/10.28998/rca.v16i3.4818",
+          "https://doi.org/10.29327/sustentare_wipis_2022.577162",
+          "https://doi.org/10.29372/rab202319",
+          "https://doi.org/10.37423/2021.edcl256",
+          "https://doi.org/10.37423/2021.edcl397",
+          "https://doi.org/10.37423/211205149",
+          "https://doi.org/10.46898/home.af4f6b78-aa85-45b4-ad6d-fa1952b3cf5f",
+          "https://doi.org/10.48021/978-65-252-0866-4"
+        ]
+      },
+      {
+        "term": "biopesticida",
+        "work_count": 12,
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102023023945A2",
+          "patent:BR112014014702A2",
+          "patent:BR112015018853B1",
+          "patent:BR112015019289B1",
+          "patent:BR112016000299B1",
+          "patent:BR112017019208B1",
+          "patent:BR112018012451B1",
+          "patent:BR112018015320B1",
+          "patent:BR112020023032A2",
+          "patent:BR112022001668A2"
+        ]
+      },
+      {
+        "term": "phytase",
+        "work_count": 5,
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR112019024520A2",
+          "patent:BR112020002523B1",
+          "patent:BR112021003055A2",
+          "patent:BR112021014812A2",
+          "patent:BRPI0610051A2"
+        ]
+      },
+      {
+        "term": "polimero",
+        "work_count": 4,
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "evidence_work_ids": [
+          "patent:BR102015025497A2",
+          "patent:BR102017006046B1",
+          "patent:BR102024016682A2",
+          "patent:BR112020002654A2"
+        ]
+      },
+      {
+        "term": "on farm",
+        "work_count": 18,
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 3,
+        "sources": [
+          "crossref",
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://doi.org/10.29327/9786527226680.1437480",
+          "https://openalex.org/W4312781865",
+          "https://openalex.org/W4362521287",
+          "https://openalex.org/W4385584690",
+          "https://openalex.org/W4396962215",
+          "https://openalex.org/W4404640309",
+          "https://openalex.org/W4405219033",
+          "https://openalex.org/W4407150430",
+          "https://openalex.org/W4408099264",
+          "https://openalex.org/W4413991335"
+        ]
+      },
+      {
+        "term": "co2",
+        "work_count": 43,
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "source_count": 2,
+        "sources": [
+          "google_patents",
+          "openalex"
+        ],
+        "evidence_work_ids": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W2132575284",
+          "https://openalex.org/W2529796322",
+          "https://openalex.org/W2561375911",
+          "https://openalex.org/W2746666942",
+          "https://openalex.org/W2886681612",
+          "https://openalex.org/W2899068250",
+          "https://openalex.org/W2913852888",
+          "https://openalex.org/W2923577318",
+          "https://openalex.org/W2966696417"
+        ]
+      }
+    ],
+    "candidate_patent_literature_bridges": [
+      {
+        "term": "trichoderma",
+        "patent_count": 77,
+        "literature_count": 98,
+        "patent_examples": [
+          "patent:BR102017007291A2",
+          "patent:BR102021013005A2",
+          "patent:BR102022007118A2",
+          "patent:BR102022013095A2",
+          "patent:BR102023003698A2",
+          "patent:BR102023023945A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.1201/9781003284055-2",
+          "https://doi.org/10.28998/rca.v16i3.4818",
+          "https://doi.org/10.3897/ia.2025.145975",
+          "https://doi.org/10.48021/978-65-252-0866-4-c1",
+          "https://doi.org/10.58905/demeter.v3i3.694",
+          "https://openalex.org/W1541240643"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "fermentation",
+        "patent_count": 52,
+        "literature_count": 99,
+        "patent_examples": [
+          "patent:BR102017005211B1",
+          "patent:BR102020013946A2",
+          "patent:BR102021005600A2",
+          "patent:BR102021009747A2",
+          "patent:BR102021013005A2",
+          "patent:BR102021017152A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W1967311831",
+          "https://openalex.org/W1977625550",
+          "https://openalex.org/W1995418566",
+          "https://openalex.org/W2015911098",
+          "https://openalex.org/W2016459751"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "cellulase",
+        "patent_count": 21,
+        "literature_count": 42,
+        "patent_examples": [
+          "patent:BR102021013005A2",
+          "patent:BR112012006571B1",
+          "patent:BR112012011596B1",
+          "patent:BR112013009817B1",
+          "patent:BR112014004186B1",
+          "patent:BR112014026885B1"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W1967311831",
+          "https://openalex.org/W1977625550",
+          "https://openalex.org/W1995418566",
+          "https://openalex.org/W2015911098",
+          "https://openalex.org/W2016459751"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "bacillus",
+        "patent_count": 28,
+        "literature_count": 34,
+        "patent_examples": [
+          "patent:BR102016000130A2",
+          "patent:BR102018016368A2",
+          "patent:BR102021001046A2",
+          "patent:BR102023025471A2",
+          "patent:BR102024002690A2",
+          "patent:BR102024016682A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.1007/978-981-13-5862-3_11",
+          "https://doi.org/10.28998/rca.v16i3.4818",
+          "https://doi.org/10.33448/rsd-v12i6.42019",
+          "https://doi.org/10.48021/978-65-252-0866-4-c5",
+          "https://doi.org/10.51189/rema/1338",
+          "https://openalex.org/W1978516358"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "inoculante",
+        "patent_count": 13,
+        "literature_count": 44,
+        "patent_examples": [
+          "patent:BR102015025497A2",
+          "patent:BR102018070167A2",
+          "patent:BR102020006754A2",
+          "patent:BR102020013946A2",
+          "patent:BR102020015433A2",
+          "patent:BR102024016682A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.1590/s1415-43662014000600001",
+          "https://doi.org/10.19180/1809-2667.v24n22022p267-280",
+          "https://doi.org/10.22201/pued.9786070295584e.2017.ca",
+          "https://doi.org/10.22463/0122820x.382",
+          "https://doi.org/10.22533/at.ed.3161916041",
+          "https://doi.org/10.29372/rab202319"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "enzyme",
+        "patent_count": 31,
+        "literature_count": 23,
+        "patent_examples": [
+          "patent:BR102017007291A2",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR112012011596B1",
+          "patent:BR112013007693A2",
+          "patent:BR112013019324B1"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1963912661",
+          "https://openalex.org/W2032878540",
+          "https://openalex.org/W2044066756",
+          "https://openalex.org/W2090834390",
+          "https://openalex.org/W2119824898",
+          "https://openalex.org/W2166336493"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "rhizobium",
+        "patent_count": 26,
+        "literature_count": 17,
+        "patent_examples": [
+          "patent:BR112013020339B1",
+          "patent:BR112016000299B1",
+          "patent:BR112016029884B1",
+          "patent:BR112017000877B1",
+          "patent:BR112018015320B1",
+          "patent:BR112018068739B1"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.30972/agr.0252471",
+          "https://openalex.org/W1886677716",
+          "https://openalex.org/W1976404078",
+          "https://openalex.org/W2049394240",
+          "https://openalex.org/W2076130439",
+          "https://openalex.org/W2511232503"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "bioreactor",
+        "patent_count": 19,
+        "literature_count": 22,
+        "patent_examples": [
+          "patent:BR102021005600A2",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR102023002182A2",
+          "patent:BR102023003698A2",
+          "patent:BR102023006896A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W2742964299",
+          "https://openalex.org/W2913852888",
+          "https://openalex.org/W3112942636",
+          "https://openalex.org/W4385655645",
+          "https://openalex.org/W4391017896",
+          "https://openalex.org/W4402515850"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "sophorolipid",
+        "patent_count": 14,
+        "literature_count": 27,
+        "patent_examples": [
+          "patent:BR102023003698A2",
+          "patent:BR112018003918B1",
+          "patent:BR112018004764B1",
+          "patent:BR112019004428B1",
+          "patent:BR112019009924B1",
+          "patent:BR112019011720B1"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W2802525083",
+          "https://openalex.org/W2893030091",
+          "https://openalex.org/W2894347729",
+          "https://openalex.org/W3092128795",
+          "https://openalex.org/W3094166443",
+          "https://openalex.org/W3138155540"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "microalga",
+        "patent_count": 12,
+        "literature_count": 23,
+        "patent_examples": [
+          "patent:BR102014017697A2",
+          "patent:BR102015025497A2",
+          "patent:BR102017006046B1",
+          "patent:BR102018071344B1",
+          "patent:BR102019006567B1",
+          "patent:BR102021010052A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W2132575284",
+          "https://openalex.org/W2561375911",
+          "https://openalex.org/W2746666942",
+          "https://openalex.org/W2886681612",
+          "https://openalex.org/W2899068250"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "polymer",
+        "patent_count": 23,
+        "literature_count": 2,
+        "patent_examples": [
+          "patent:BR102015025497A2",
+          "patent:BR102016000130A2",
+          "patent:BR102017006046B1",
+          "patent:BR102017020884B1",
+          "patent:BR102024016682A2",
+          "patent:BR112014010650B1"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W3194677362",
+          "https://openalex.org/W3214369455"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "stability",
+        "patent_count": 21,
+        "literature_count": 2,
+        "patent_examples": [
+          "patent:BR102015025497A2",
+          "patent:BR102016000130A2",
+          "patent:BR102017006046B1",
+          "patent:BR102024016682A2",
+          "patent:BR112014010650B1",
+          "patent:BR112015018853B1"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W3131667751",
+          "https://openalex.org/W3214369455"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "enzima",
+        "patent_count": 20,
+        "literature_count": 1,
+        "patent_examples": [
+          "patent:BR102017007291A2",
+          "patent:BR102019006567B1",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR112012006571B1",
+          "patent:BR112012011596B1"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W4403823318"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "nematode",
+        "patent_count": 8,
+        "literature_count": 10,
+        "patent_examples": [
+          "patent:BR102023025471A2",
+          "patent:BR102024002690A2",
+          "patent:BR102024016682A2",
+          "patent:BR112020005803A2",
+          "patent:BR112021003055A2",
+          "patent:BRPI0804529A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W2176807341",
+          "https://openalex.org/W2799934885",
+          "https://openalex.org/W3090291456",
+          "https://openalex.org/W3207834162",
+          "https://openalex.org/W4200270345",
+          "https://openalex.org/W4205788604"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "pseudomonas",
+        "patent_count": 8,
+        "literature_count": 5,
+        "patent_examples": [
+          "patent:BR112017006629B1",
+          "patent:BR112020002388A2",
+          "patent:BR112020005803A2",
+          "patent:BR112020008002A2",
+          "patent:BR112020026771A2",
+          "patent:BR112021005052A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.1016/b978-0-444-63987-5.00010-4",
+          "https://doi.org/10.1079/9781789249200.0006",
+          "https://openalex.org/W1528890864",
+          "https://openalex.org/W4308433470",
+          "https://openalex.org/W4406957856"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "biofertilizante",
+        "patent_count": 10,
+        "literature_count": 2,
+        "patent_examples": [
+          "patent:BR102023023945A2",
+          "patent:BR112014010650B1",
+          "patent:BR112015006330A2",
+          "patent:BR112019015945B1",
+          "patent:BR112019022106A2",
+          "patent:BR112020022643A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W2102162320",
+          "https://openalex.org/W2255259412"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "azospirillum",
+        "patent_count": 7,
+        "literature_count": 4,
+        "patent_examples": [
+          "patent:BR112015018853B1",
+          "patent:BR112015019289B1",
+          "patent:BR112018015320B1",
+          "patent:BR112019012319A2",
+          "patent:BR112020026771A2",
+          "patent:BR112021011024A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W2147536066",
+          "https://openalex.org/W4385655645",
+          "https://openalex.org/W4406957856",
+          "https://openalex.org/W807988138"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "quality control",
+        "patent_count": 7,
+        "literature_count": 4,
+        "patent_examples": [
+          "patent:BR102019022487A2",
+          "patent:BR102021017152A2",
+          "patent:BR102022006198A2",
+          "patent:BR102023011789A2",
+          "patent:BR102023020906A2",
+          "patent:BR102023026513A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W3112942636",
+          "https://openalex.org/W4404710764",
+          "https://openalex.org/W7168199551",
+          "https://openalex.org/W807988138"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "biorreator",
+        "patent_count": 7,
+        "literature_count": 2,
+        "patent_examples": [
+          "patent:BR102015025497A2",
+          "patent:BR102017006046B1",
+          "patent:BR102021013005A2",
+          "patent:BR102022013095A2",
+          "patent:BR102024016682A2",
+          "patent:BR112021007997A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W3013575201"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "bioinsumo",
+        "patent_count": 11,
+        "literature_count": 50,
+        "patent_examples": [
+          "patent:BR102017005211B1",
+          "patent:BR102018070167A2",
+          "patent:BR102020013946A2",
+          "patent:BR102021005600A2",
+          "patent:BR102021017152A2",
+          "patent:BR102023003698A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.11606/9786589722885",
+          "https://doi.org/10.1590/0101-31572026-3739",
+          "https://doi.org/10.1590/1983-40632023v5376326",
+          "https://doi.org/10.18378/rebagro.v12i1.9172",
+          "https://doi.org/10.21071/c3b.vi5.17771",
+          "https://doi.org/10.22533/at.ed.341251807"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "biocontrole",
+        "patent_count": 8,
+        "literature_count": 50,
+        "patent_examples": [
+          "patent:BR112017006629B1",
+          "patent:BR112020016351A2",
+          "patent:BR112020026676A2",
+          "patent:BR112020026771A2",
+          "patent:BR112021000268A2",
+          "patent:BR112021002698A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.12661/pap.sbc.2020",
+          "https://doi.org/10.14422/rib.i03.y2017.006",
+          "https://doi.org/10.28998/rca.v16i3.4818",
+          "https://doi.org/10.29327/sustentare_wipis_2022.577162",
+          "https://doi.org/10.29372/rab202319",
+          "https://doi.org/10.37423/2021.edcl256"
+        ],
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "co2",
+        "patent_count": 9,
+        "literature_count": 34,
+        "patent_examples": [
+          "patent:BR102014017697A2",
+          "patent:BR102018071344B1",
+          "patent:BR102019006567B1",
+          "patent:BR102021010052A2",
+          "patent:BR102021026904A2",
+          "patent:BR102022006198A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W2132575284",
+          "https://openalex.org/W2529796322",
+          "https://openalex.org/W2561375911",
+          "https://openalex.org/W2746666942",
+          "https://openalex.org/W2886681612"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "microalgae",
+        "patent_count": 8,
+        "literature_count": 23,
+        "patent_examples": [
+          "patent:BR102014017697A2",
+          "patent:BR102018071344B1",
+          "patent:BR102019006567B1",
+          "patent:BR102021010052A2",
+          "patent:BR102021026904A2",
+          "patent:BR102022006198A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W1881807721",
+          "https://openalex.org/W2132575284",
+          "https://openalex.org/W2561375911",
+          "https://openalex.org/W2746666942",
+          "https://openalex.org/W2886681612",
+          "https://openalex.org/W2899068250"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "industrial waste",
+        "patent_count": 5,
+        "literature_count": 14,
+        "patent_examples": [
+          "patent:BR102014017697A2",
+          "patent:BR102019006567B1",
+          "patent:BR102021010052A2",
+          "patent:BR102021026904A2",
+          "patent:BR102022006198A2"
+        ],
+        "literature_examples": [
+          "https://openalex.org/W2132575284",
+          "https://openalex.org/W2886681612",
+          "https://openalex.org/W2898515061",
+          "https://openalex.org/W2923577318",
+          "https://openalex.org/W2969681518",
+          "https://openalex.org/W3036801971"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "on farm",
+        "patent_count": 6,
+        "literature_count": 12,
+        "patent_examples": [
+          "patent:BR102017005211B1",
+          "patent:BR102019022487A2",
+          "patent:BR102021017152A2",
+          "patent:BR102023011789A2",
+          "patent:BR102023026513A2",
+          "patent:BR102024000479A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.29327/9786527226680.1437480",
+          "https://openalex.org/W4312781865",
+          "https://openalex.org/W4362521287",
+          "https://openalex.org/W4385584690",
+          "https://openalex.org/W4396962215",
+          "https://openalex.org/W4404640309"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      },
+      {
+        "term": "nematoide",
+        "patent_count": 8,
+        "literature_count": 9,
+        "patent_examples": [
+          "patent:BR102023025471A2",
+          "patent:BR102024002690A2",
+          "patent:BR112019004428B1",
+          "patent:BR112019009924B1",
+          "patent:BR112019011720B1",
+          "patent:BRPI0804529A2"
+        ],
+        "literature_examples": [
+          "https://doi.org/10.48021/978-65-252-0866-4",
+          "https://doi.org/10.48021/978-65-252-0866-4-c1",
+          "https://doi.org/10.48021/978-65-252-0866-4-c10",
+          "https://doi.org/10.48021/978-65-252-0866-4-c3",
+          "https://doi.org/10.48021/978-65-252-0866-4-c4",
+          "https://doi.org/10.48021/978-65-252-0866-4-c5"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "interpretation": "candidate_metadata_bridge_only"
+      }
+    ],
+    "high_cluster_overlap_anomalies": [
+      {
+        "record_id": "patent:BR102024016682A2",
+        "source": "google_patents",
+        "title": "processo fermentativo em biorreator e formulação de bionematicida/inoculante",
+        "cluster_count": 5,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112020026771A2",
+        "source": "google_patents",
+        "title": "Agricultural compositions using remodeled nitrogen-fixation microbes",
+        "cluster_count": 5,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W3007453990",
+        "source": "openalex",
+        "title": "Phosphorus-solubilizing Trichoderma spp. from Amazon soils improve soybean plant growth",
+        "cluster_count": 4,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W3112942636",
+        "source": "openalex",
+        "title": "Production of Microsclerotia From Entomopathogenic Fungi and Use in Maize Seed Coating as Delivery for Biocontrol Against Fusarium graminearum",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W4405441987",
+        "source": "openalex",
+        "title": "Exploring the Potential and Challenges of Fermentation in Creating Foods: A Spotlight on Microalgae",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W4405893516",
+        "source": "openalex",
+        "title": "Valorization of agro-industrial waste through solid-state fermentation: Mini review",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W4411612096",
+        "source": "openalex",
+        "title": "How Bioactive Compounds from Brazilian Native Flora of Biopesticide Potential Can Guide Circular Bioeconomy and Sustainability in Agrifood Systems",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W7168199551",
+        "source": "openalex",
+        "title": "Co-Fermentation of Trichoderma Strains as a Biotechnological Strategy to Enhance Enzyme Production and Plant Growth-Promoting Metabolites for Agricultural Applications",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR102015025497A2",
+        "source": "google_patents",
+        "title": "composição inoculante",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR102017006046B1",
+        "source": "google_patents",
+        "title": "cobertura polimérica de sementes para veiculação de microrganismos",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR102020013946A2",
+        "source": "google_patents",
+        "title": "Nutrition manufacturing process for agricultural bio inputs and fertilizers for",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR102023023945A2",
+        "source": "google_patents",
+        "title": "composição bioherbicida dessecante de contato. Os snippets indicam aplicações em nutrição microbiana, biocondicionamento de solo, biofertilizantes, biopesticidas, fermentação de Trichoderma, produção na propriedade rural e monitoramento físico-químico. Estes são sinais de conteúdo de patente, não confirmação de produto comercial",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112012011596B1",
+        "source": "google_patents",
+        "title": "transformante de Talaromyces produtor de celulase",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112018015320B1",
+        "source": "google_patents",
+        "title": "mistura",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112019009924B1",
+        "source": "google_patents",
+        "title": "/A2, controle de nematoides",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112019024520A2",
+        "source": "google_patents",
+        "title": "otimização de fermentações baseadas em biomassa",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112020026676A2",
+        "source": "google_patents",
+        "title": "Guided microbial remodeling for rational improvement of microbial species for agriculture",
+        "cluster_count": 4,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R4_carbon_algae_industrial_waste",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112021003055A2",
+        "source": "google_patents",
+        "title": "methods for releasing phosphorus from organic matter",
+        "cluster_count": 4,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112021005052A2",
+        "source": "google_patents",
+        "title": "Methods and compositions to improve phosphate solubilization",
+        "cluster_count": 4,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "patent:BR112021014812A2",
+        "source": "google_patents",
+        "title": "variantes de subtilase",
+        "cluster_count": 4,
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://doi.org/10.1201/9781003284055-2",
+        "source": "crossref",
+        "title": "Trichoderma: An Eco-Friendly Biopesticide for Sustainable Agriculture",
+        "cluster_count": 3,
+        "clusters": [
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://doi.org/10.3897/ia.2025.145975",
+        "source": "crossref",
+        "title": "Trichoderma to the rescue: Overcoming bacterial wilt in eggplants with a natural biopesticide",
+        "cluster_count": 3,
+        "clusters": [
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://doi.org/10.58905/demeter.v3i3.694",
+        "source": "crossref",
+        "title": "Application of Trichoderma Biopesticide on Chili Plants (Capsicum frutescens L.) Catas Variety",
+        "cluster_count": 3,
+        "clusters": [
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W1995418566",
+        "source": "openalex",
+        "title": "Lignocellulosic agriculture wastes as biomass feedstocks for second-generation bioethanol production: concepts and recent developments",
+        "cluster_count": 3,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W2055661423",
+        "source": "openalex",
+        "title": "Plant growth promoting rhizobia: challenges and opportunities",
+        "cluster_count": 3,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W2106854637",
+        "source": "openalex",
+        "title": "Trichoderma-based Products and their Widespread Use in Agriculture",
+        "cluster_count": 3,
+        "clusters": [
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W2330576081",
+        "source": "openalex",
+        "title": "Trichoderma – a promising plant growth stimulator and biocontrol agent",
+        "cluster_count": 3,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W2405003853",
+        "source": "openalex",
+        "title": "Cellulase Production from Species of Fungi and Bacteria from Agricultural Wastes and Its Utilization in Industry: A Review",
+        "cluster_count": 3,
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W2511232503",
+        "source": "openalex",
+        "title": "Plant Growth Promoting Rhizobacteria (PGPR): Current and Future Prospects for Development of Sustainable Agriculture",
+        "cluster_count": 3,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      },
+      {
+        "record_id": "https://openalex.org/W2765397352",
+        "source": "openalex",
+        "title": "Revitalization of plant growth promoting rhizobacteria for sustainable development in agriculture",
+        "cluster_count": 3,
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "status": "ANOMALY_CANDIDATE_HIGH_CLUSTER_OVERLAP"
+      }
+    ],
+    "single_source_cluster_contradiction_candidates": [],
+    "missing_source_records": []
+  },
+  "initial_decisions": [
+    {
+      "decision_id": "D001",
+      "decision": "Prioritize actor cross-cluster recurrence and patent-literature bridges before broad query expansion.",
+      "basis": "Highest information gain from existing corpus structure.",
+      "status": "FACT_TO_DECISION"
+    },
+    {
+      "decision_id": "D002",
+      "decision": "Treat lexical bridges as candidate relations and require independent source retrieval before strengthening them.",
+      "basis": "Ingestion and radiography limits.",
+      "status": "FACT_TO_DECISION"
+    },
+    {
+      "decision_id": "D003",
+      "decision": "Use contradictions and single-source clusters as explicit search targets rather than silently reinforcing prior readings.",
+      "basis": "Contradiction audit rule.",
+      "status": "FACT_TO_DECISION"
+    }
+  ],
+  "questions_generated": [
+    {
+      "question_id": "Q-ACTOR-001",
+      "priority": "high",
+      "question": "Does Pivot Bio recur across R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R4_carbon_algae_industrial_waste, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Pivot Bio",
+        "R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R4_carbon_algae_industrial_waste R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-002",
+      "priority": "high",
+      "question": "Does Universidade de São Paulo recur across R1_local_production_quality, R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Universidade de São Paulo",
+        "R1_local_production_quality R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-003",
+      "priority": "high",
+      "question": "Does Mirela Mosela recur across R1_local_production_quality, R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Mirela Mosela",
+        "R1_local_production_quality R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-004",
+      "priority": "high",
+      "question": "Does Sarah BLOCH Pivot Bio, Inc recur across R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R4_carbon_algae_industrial_waste, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Sarah BLOCH Pivot Bio, Inc",
+        "R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R4_carbon_algae_industrial_waste R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-005",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'trichoderma' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "trichoderma",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-006",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'fermentation' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "fermentation",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-007",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'cellulase' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "cellulase",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-008",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'bacillus' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "bacillus",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-TECH-009",
+      "priority": "medium",
+      "question": "What distinct applications or actors are associated with 'inoculante' across its 6 operational clusters?",
+      "query_seeds": [
+        "inoculante"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex",
+        "crossref"
+      ],
+      "selection_basis": "technology_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-TECH-010",
+      "priority": "medium",
+      "question": "What distinct applications or actors are associated with 'rhizobium' across its 6 operational clusters?",
+      "query_seeds": [
+        "rhizobium"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex",
+        "crossref"
+      ],
+      "selection_basis": "technology_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    }
+  ]
+}

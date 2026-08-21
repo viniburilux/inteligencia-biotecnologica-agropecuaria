@@ -1,0 +1,30 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "paths": [
+    {
+      "path": "Direct shell parsing of Google Patents HTML",
+      "status": "DISCARDED_AS_EVIDENCE_ROUTE",
+      "reason": "All queried pages returned the same static application shell hash with no result identifiers; HTTP 200 alone is insufficient."
+    },
+    {
+      "path": "Treating all actor cross-cluster counts as strong bridge evidence",
+      "status": "DISCARDED_AS_OVERBROAD",
+      "reason": "1731 actors cross operational clusters under lexical membership; the count is a screening signal, not an independent technological relation."
+    },
+    {
+      "path": "Counting the English and Portuguese renderings of BR102023003698A2 as separate families",
+      "status": "DISCARDED_AS_DUPLICATE",
+      "reason": "The same publication identifier appears in both renderings."
+    },
+    {
+      "path": "Downloading PDFs or full text during the first cycle",
+      "status": "DISCARDED_BY_SCOPE",
+      "reason": "The cycle is metadata-only and prioritizes discovery; full-text review is a separate decision."
+    },
+    {
+      "path": "Calling the UEL multi-strain corridor a single invention or biological mechanism",
+      "status": "DISCARDED_BY_EPISTEMIC_RULE",
+      "reason": "LABIM22, CMRP 4490, Ag75, Ag109 and other strains remain distinct identifiers."
+    }
+  ]
+}

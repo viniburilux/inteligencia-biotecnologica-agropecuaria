@@ -1,0 +1,567 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "records": [
+    {
+      "query_id": "labim22_exact",
+      "id": "https://openalex.org/W3119656773",
+      "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2020.618415",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2020.618415",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.618415/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      },
+      "authorships": [
+        {
+          "display_name": "Gustavo Manoel Teixeira",
+          "raw_author_name": "Gustavo Manoel Teixeira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Mirela Mosela",
+          "raw_author_name": "Mirela Mosela",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Maria Luíza Abreu Nicoletto",
+          "raw_author_name": "Maria Luiza Abreu Nicoletto",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Renan Augusto Ribeiro",
+          "raw_author_name": "Renan Augusto Ribeiro",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ]
+        },
+        {
+          "display_name": "Mariangela Hungría",
+          "raw_author_name": "Mariangela Hungria",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ]
+        },
+        {
+          "display_name": "Khamis Youssef",
+          "raw_author_name": "Khamis Youssef",
+          "institutions": [
+            "Agricultural Research Center"
+          ]
+        },
+        {
+          "display_name": "Allan Yukio Higashi",
+          "raw_author_name": "Allan Yukio Higashi",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Silas Mian",
+          "raw_author_name": "Silas Mian",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "André Sampaio Ferreira",
+          "raw_author_name": "André Sampaio Ferreira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Leandro Simões Azeredo Gonçalves",
+          "raw_author_name": "Leandro Simões Azeredo Gonçalves",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Ulisses de Pádua Pereira",
+          "raw_author_name": "Ulisses de Padua Pereira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Admilton Gonçalves de Oliveira",
+          "raw_author_name": "Admilton Gonçalves de Oliveira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        }
+      ],
+      "keywords": [
+        "Biology",
+        "Botrytis cinerea",
+        "Rhizobacteria",
+        "Mycelium",
+        "Sclerotinia sclerotiorum",
+        "Rhizoctonia solani",
+        "Macrophomina phaseolina",
+        "Genome",
+        "Botrytis",
+        "Gene",
+        "Botany",
+        "Genetics",
+        "Rhizosphere",
+        "Bacteria"
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Plant tissue culture and regeneration"
+      ],
+      "cited_by_count": 62
+    },
+    {
+      "query_id": "labim22_exact",
+      "id": "https://openalex.org/W7120573195",
+      "title": "Antagonism of the LABIM22 strain of Bacillus velezensis against phytopathogenic fungi and biocontrol of white mold in soybean seeds",
+      "publication_year": 2020,
+      "doi": null,
+      "primary_location": {
+        "id": "pmh:oai:repositorio.uel.br:123456789/18265",
+        "is_oa": true,
+        "landing_page_url": "https://repositorio.uel.br/handle/123456789/18265",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402641",
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_name": "LA Referencia",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "instacron:UEL",
+        "raw_type": "info:eu-repo/semantics/masterThesis"
+      },
+      "authorships": [
+        {
+          "display_name": "AllanYukio Higashi",
+          "raw_author_name": "Higashi, AllanYukio",
+          "institutions": []
+        }
+      ],
+      "keywords": [
+        "Sclerotinia sclerotiorum",
+        "Antagonism",
+        "Biological pest control",
+        "Macrophomina phaseolina",
+        "Fusarium solani",
+        "Botrytis cinerea",
+        "Mycelium"
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Insect Resistance and Genetics",
+        "Bacillus and Francisella bacterial research"
+      ],
+      "cited_by_count": 0
+    },
+    {
+      "query_id": "bacillus_velezensis_labim22",
+      "id": "https://openalex.org/W3119656773",
+      "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2020.618415",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2020.618415",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.618415/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      },
+      "authorships": [
+        {
+          "display_name": "Gustavo Manoel Teixeira",
+          "raw_author_name": "Gustavo Manoel Teixeira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Mirela Mosela",
+          "raw_author_name": "Mirela Mosela",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Maria Luíza Abreu Nicoletto",
+          "raw_author_name": "Maria Luiza Abreu Nicoletto",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Renan Augusto Ribeiro",
+          "raw_author_name": "Renan Augusto Ribeiro",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ]
+        },
+        {
+          "display_name": "Mariangela Hungría",
+          "raw_author_name": "Mariangela Hungria",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ]
+        },
+        {
+          "display_name": "Khamis Youssef",
+          "raw_author_name": "Khamis Youssef",
+          "institutions": [
+            "Agricultural Research Center"
+          ]
+        },
+        {
+          "display_name": "Allan Yukio Higashi",
+          "raw_author_name": "Allan Yukio Higashi",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Silas Mian",
+          "raw_author_name": "Silas Mian",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "André Sampaio Ferreira",
+          "raw_author_name": "André Sampaio Ferreira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Leandro Simões Azeredo Gonçalves",
+          "raw_author_name": "Leandro Simões Azeredo Gonçalves",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Ulisses de Pádua Pereira",
+          "raw_author_name": "Ulisses de Padua Pereira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Admilton Gonçalves de Oliveira",
+          "raw_author_name": "Admilton Gonçalves de Oliveira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        }
+      ],
+      "keywords": [
+        "Biology",
+        "Botrytis cinerea",
+        "Rhizobacteria",
+        "Mycelium",
+        "Sclerotinia sclerotiorum",
+        "Rhizoctonia solani",
+        "Macrophomina phaseolina",
+        "Genome",
+        "Botrytis",
+        "Gene",
+        "Botany",
+        "Genetics",
+        "Rhizosphere",
+        "Bacteria"
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Plant tissue culture and regeneration"
+      ],
+      "cited_by_count": 62
+    },
+    {
+      "query_id": "bacillus_velezensis_labim22",
+      "id": "https://openalex.org/W7120573195",
+      "title": "Antagonism of the LABIM22 strain of Bacillus velezensis against phytopathogenic fungi and biocontrol of white mold in soybean seeds",
+      "publication_year": 2020,
+      "doi": null,
+      "primary_location": {
+        "id": "pmh:oai:repositorio.uel.br:123456789/18265",
+        "is_oa": true,
+        "landing_page_url": "https://repositorio.uel.br/handle/123456789/18265",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402641",
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_name": "LA Referencia",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "instacron:UEL",
+        "raw_type": "info:eu-repo/semantics/masterThesis"
+      },
+      "authorships": [
+        {
+          "display_name": "AllanYukio Higashi",
+          "raw_author_name": "Higashi, AllanYukio",
+          "institutions": []
+        }
+      ],
+      "keywords": [
+        "Sclerotinia sclerotiorum",
+        "Antagonism",
+        "Biological pest control",
+        "Macrophomina phaseolina",
+        "Fusarium solani",
+        "Botrytis cinerea",
+        "Mycelium"
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Insect Resistance and Genetics",
+        "Bacillus and Francisella bacterial research"
+      ],
+      "cited_by_count": 0
+    },
+    {
+      "query_id": "uel_bacillus_filter",
+      "id": "https://openalex.org/W3119656773",
+      "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2020.618415",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2020.618415",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.618415/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      },
+      "authorships": [
+        {
+          "display_name": "Gustavo Manoel Teixeira",
+          "raw_author_name": "Gustavo Manoel Teixeira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Mirela Mosela",
+          "raw_author_name": "Mirela Mosela",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Maria Luíza Abreu Nicoletto",
+          "raw_author_name": "Maria Luiza Abreu Nicoletto",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Renan Augusto Ribeiro",
+          "raw_author_name": "Renan Augusto Ribeiro",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ]
+        },
+        {
+          "display_name": "Mariangela Hungría",
+          "raw_author_name": "Mariangela Hungria",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ]
+        },
+        {
+          "display_name": "Khamis Youssef",
+          "raw_author_name": "Khamis Youssef",
+          "institutions": [
+            "Agricultural Research Center"
+          ]
+        },
+        {
+          "display_name": "Allan Yukio Higashi",
+          "raw_author_name": "Allan Yukio Higashi",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Silas Mian",
+          "raw_author_name": "Silas Mian",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "André Sampaio Ferreira",
+          "raw_author_name": "André Sampaio Ferreira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Leandro Simões Azeredo Gonçalves",
+          "raw_author_name": "Leandro Simões Azeredo Gonçalves",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Ulisses de Pádua Pereira",
+          "raw_author_name": "Ulisses de Padua Pereira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        },
+        {
+          "display_name": "Admilton Gonçalves de Oliveira",
+          "raw_author_name": "Admilton Gonçalves de Oliveira",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ]
+        }
+      ],
+      "keywords": [
+        "Biology",
+        "Botrytis cinerea",
+        "Rhizobacteria",
+        "Mycelium",
+        "Sclerotinia sclerotiorum",
+        "Rhizoctonia solani",
+        "Macrophomina phaseolina",
+        "Genome",
+        "Botrytis",
+        "Gene",
+        "Botany",
+        "Genetics",
+        "Rhizosphere",
+        "Bacteria"
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Plant tissue culture and regeneration"
+      ],
+      "cited_by_count": 62
+    }
+  ],
+  "metadata_only": true,
+  "interpretation_boundary": "Exact strain tokens and names establish observed metadata overlap, not legal identity or efficacy."
+}

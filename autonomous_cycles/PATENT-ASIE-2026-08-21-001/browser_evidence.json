@@ -1,0 +1,45 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "metadata_only": true,
+  "records": [
+    {
+      "query": "Pivot Bio",
+      "url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "retrieval_mode": "rendered_browser_page",
+      "observed_result_count": 895,
+      "deduplicated_by": "family",
+      "records": [
+        {"publication": "BR112021010947A2", "title": "Polymer compositions with improved stability for microbial nitrogen fixing", "inventor": "Farzaneh Rezaei", "assignee": "Pivot Bio, Inc."},
+        {"publication": "BR112020026676A2", "title": "Guided microbial remodeling, a platform for the rational improvement of microbial species for agriculture", "inventor": "Sarah BLOCH", "assignee": "Pivot Bio, Inc."},
+        {"publication": "BR112021000268A2", "title": "Dynamic nitrogen release temporally and spatially driven by remodeled microbes", "inventor": "Alvin Tamsir", "assignee": "Pivot Bio, Inc."},
+        {"publication": "BR112020026771A2", "title": "Agricultural compositions that understand remodeled nitrogen fixation microbes", "inventor": "Mark Reisinger", "assignee": "Pivot Bio, Inc."},
+        {"publication": "BR112020008002A2", "title": "Gene targets for nitrogen fixation to enhance plant traits", "inventor": "Alvin Tamsir", "assignee": "Pivot Bio, Inc."},
+        {"publication": "BR112022013753A2", "title": "Synthetic composition of functionally optimized microbes and method", "inventor": "Temme Karsten", "assignee": "Pivot Bio Inc"},
+        {"publication": "BR112021015218A2", "title": "Improved consistency of crop yield through biological nitrogen fixation", "inventor": "Ernest Sanders", "assignee": "Pivot Bio Inc"},
+        {"publication": "BR112022021933A2", "title": "Agricultural liquid composition and methods for applying a diazotrophic bacteria", "inventor": "Rezaei Farzaneh", "assignee": "Pivot Bio Inc"},
+        {"publication": "BR112021005052A2", "title": "Methods and compositions to improve phosphate solubilization", "inventor": "Sarah BLOCH", "assignee": "Pivot Bio, Inc."},
+        {"publication": "BR112021021357A2", "title": "High-throughput methods for isolation and characterization of mutant ammonium-secreting libraries", "inventor": "Alvin Tamsir", "assignee": "Pivot Bio Inc"}
+      ],
+      "epistemic_status": "FACT_METADATA_RENDERED"
+    },
+    {
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "url": "https://patents.google.com/?q=(Trichoderma+harzianum+sophorolipids+biocontrol+Brazil)&country=BR",
+      "retrieval_mode": "rendered_browser_page",
+      "observed_result_count": 3,
+      "deduplicated_by": "family",
+      "records": [
+        {"publication": "BR102023003698A2", "title": "Bioinputs based on T. harzianum and sophorolipids, kit, use, processes", "inventor": "Thiago Moura Rocha", "assignee": "Universidade de São Paulo - USP"},
+        {"publication": "BR112019009924A2", "title": "Materials and methods for nematode control", "inventor": "Sean Farmer", "assignee": "Locus Agriculture IP Company, LLC"},
+        {"publication": "BR102023003698A2", "title": "Bioinsumo à base de T. harzianum e soforolipídeos, kit, uso, processos", "inventor": "Thiago Moura Rocha", "assignee": "Universidade de São Paulo - USP"}
+      ],
+      "epistemic_status": "FACT_METADATA_RENDERED",
+      "deduplication_note": "The Portuguese and English presentations share the same publication identifier and are not independent families."
+    }
+  ],
+  "limits": [
+    "BR-filtered retrieval is not proof of Brazilian origin or ownership.",
+    "Search metadata and snippets are not claim-level legal or efficacy evidence.",
+    "The shell HTML returned by direct requests is not treated as a result page because it contains no rendered result identifiers."
+  ]
+}

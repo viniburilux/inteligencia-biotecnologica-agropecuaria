@@ -1,0 +1,185 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "batch": "crossref_v2",
+  "metadata_only": true,
+  "rows": [
+    {
+      "doi": "10.3389/fmicb.2020.618415",
+      "url": "https://api.crossref.org/works/10.3389%2Ffmicb.2020.618415",
+      "retrieved_at": "2026-08-21T07:07:31.807473+00:00",
+      "http_status": 200,
+      "raw_path": "raw_crossref_v2/10.3389_fmicb.2020.618415.json",
+      "raw_sha256": "a9b0edb6ab76f35543561c966e01fd36a7a1e29e5d08ac6859bf2cdd6303139c",
+      "metadata_only": true,
+      "title": [
+        "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490"
+      ],
+      "author": [
+        {
+          "given": "Gustavo Manoel",
+          "family": "Teixeira",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mirela",
+          "family": "Mosela",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maria Luiza Abreu",
+          "family": "Nicoletto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renan Augusto",
+          "family": "Ribeiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mariangela",
+          "family": "Hungria",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Khamis",
+          "family": "Youssef",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Allan Yukio",
+          "family": "Higashi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Silas",
+          "family": "Mian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "André Sampaio",
+          "family": "Ferreira",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leandro Simões Azeredo",
+          "family": "Gonçalves",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ulisses de Padua",
+          "family": "Pereira",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Admilton Gonçalves",
+          "family": "de Oliveira",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container_title": [
+        "Frontiers in Microbiology"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            15
+          ]
+        ]
+      },
+      "publisher": "Frontiers Media SA",
+      "type": "journal-article",
+      "error": null
+    }
+  ],
+  "summary": {
+    "requests": 1,
+    "successful": 1,
+    "failed_or_blocked": 0
+  }
+}

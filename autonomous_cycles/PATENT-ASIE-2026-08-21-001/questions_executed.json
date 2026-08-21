@@ -1,0 +1,272 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "initial_questions": [
+    {
+      "question_id": "Q-ACTOR-001",
+      "priority": "high",
+      "question": "Does Pivot Bio recur across R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R4_carbon_algae_industrial_waste, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Pivot Bio",
+        "R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R4_carbon_algae_industrial_waste R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-002",
+      "priority": "high",
+      "question": "Does Universidade de São Paulo recur across R1_local_production_quality, R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Universidade de São Paulo",
+        "R1_local_production_quality R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-003",
+      "priority": "high",
+      "question": "Does Mirela Mosela recur across R1_local_production_quality, R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Mirela Mosela",
+        "R1_local_production_quality R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-004",
+      "priority": "high",
+      "question": "Does Sarah BLOCH Pivot Bio, Inc recur across R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R4_carbon_algae_industrial_waste, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Sarah BLOCH Pivot Bio, Inc",
+        "R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R4_carbon_algae_industrial_waste R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-005",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'trichoderma' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "trichoderma",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-006",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'fermentation' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "fermentation",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-007",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'cellulase' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "cellulase",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-008",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'bacillus' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "bacillus",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-TECH-009",
+      "priority": "medium",
+      "question": "What distinct applications or actors are associated with 'inoculante' across its 6 operational clusters?",
+      "query_seeds": [
+        "inoculante"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex",
+        "crossref"
+      ],
+      "selection_basis": "technology_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-TECH-010",
+      "priority": "medium",
+      "question": "What distinct applications or actors are associated with 'rhizobium' across its 6 operational clusters?",
+      "query_seeds": [
+        "rhizobium"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex",
+        "crossref"
+      ],
+      "selection_basis": "technology_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    }
+  ],
+  "question_updates_after_first_collection": [
+    {
+      "question_id": "Q-ACTOR-001",
+      "status": "PARTIALLY_SUPPORTED",
+      "fact": "Rendered Google Patents metadata showed multiple Pivot Bio BR-publication records spanning nitrogen fixation, phosphate solubilization, microbial remodeling, stability and crop application.",
+      "unresolved": "The OpenAlex searches returned related literature, but the top metadata does not independently establish Pivot Bio as an author/affiliated institution in those works.",
+      "next_action": "Run an OpenAlex author/byline and institution-focused query for Pivot Bio; do not call the patent-literature bridge confirmed yet."
+    },
+    {
+      "question_id": "Q-ACTOR-002",
+      "status": "PARTIALLY_SUPPORTED",
+      "fact": "Rendered Google Patents metadata showed USP associated with BR102023003698A2, the Trichoderma–sophorolipid bioinput record.",
+      "unresolved": "The current OpenAlex work search is too broad to establish a matching USP literature record or the same technological bridge.",
+      "next_action": "Query OpenAlex by institution/author and exact bridge terms, then compare DOI/title/author metadata."
+    },
+    {
+      "question_id": "Q-BRIDGE-005",
+      "status": "PROMISING_METADATA_BRIDGE",
+      "fact": "The narrow patent query returned a specific USP record whose snippet contains Trichoderma harzianum, sophorolipids from Starmerella bombicola fermentation, pest control and plant-growth induction.",
+      "unresolved": "No independent literature record has yet been matched to this exact combination; the present result is not claim-level evidence.",
+      "next_action": "Search OpenAlex using exact phrases and the USP/author signal; preserve both positive and zero-result outcomes."
+    },
+    {
+      "question_id": "Q-BRIDGE-008",
+      "status": "OPEN",
+      "fact": "OpenAlex returned broad biofertilizer/nematode metadata, but the current browser patent query has not yet been rendered for this track.",
+      "unresolved": "Whether Bacillus is a genuine patent-literature bridge or broad lexical recall remains unresolved.",
+      "next_action": "Render the narrow Google Patents query and compare publication IDs/snippets with exact OpenAlex records."
+    }
+  ],
+  "executed_batches": [
+    {
+      "batch": "initial_frontier",
+      "artifacts": [
+        "frontier_signals.json",
+        "questions_generated.json"
+      ]
+    },
+    {
+      "batch": "first_rendered_and_api_collection",
+      "artifacts": [
+        "evidence_collection.json",
+        "browser_evidence.json"
+      ]
+    },
+    {
+      "batch": "reformulation_v1",
+      "artifacts": [
+        "reformulation_evidence_v1.json"
+      ]
+    },
+    {
+      "batch": "crossref_v1",
+      "artifacts": [
+        "crossref_evidence_v1.json"
+      ]
+    },
+    {
+      "batch": "reformulation_v2",
+      "artifacts": [
+        "reformulation_evidence_v2.json"
+      ]
+    },
+    {
+      "batch": "crossref_v2",
+      "artifacts": [
+        "crossref_evidence_v2.json"
+      ]
+    },
+    {
+      "batch": "reformulation_v3",
+      "artifacts": [
+        "reformulation_evidence_v3.json"
+      ]
+    },
+    {
+      "batch": "institutional_repository_followup",
+      "artifacts": [
+        "browser_patent_findings.md"
+      ]
+    }
+  ],
+  "next_questions_at_stop": [
+    {
+      "question_id": "Q-REFORM-022",
+      "priority": "high",
+      "question": "Does the UEL-filtered Bacillus literature include the same team members (Mirela Mosela, Gustavo Teixeira or Admilton Oliveira) across multiple strains and technologies?",
+      "query_plan": [
+        "Audit UEL-filtered work authors",
+        "Normalize names",
+        "Map strains/technologies without merging distinct strains"
+      ],
+      "reason": "The corpus now shows a multi-strain UEL team corridor."
+    },
+    {
+      "question_id": "Q-REFORM-023",
+      "priority": "medium",
+      "question": "Does LABIM22 appear in any public source under an alternate strain identifier or Portuguese spelling?",
+      "query_plan": [
+        "OpenAlex Portuguese/English variants",
+        "Google Patents direct identifier search",
+        "Crossref title/author search if DOI emerges"
+      ],
+      "reason": "Exact-term retrieval is sensitive to naming and indexing."
+    },
+    {
+      "question_id": "Q-REFORM-024",
+      "priority": "medium",
+      "question": "Does the UEL corridor show a progression from strain characterization to formulation/bioreactor patenting across dates?",
+      "query_plan": [
+        "Order literature and patent records by date",
+        "Compare operational technology tags",
+        "Keep all strain IDs distinct"
+      ],
+      "reason": "This is an unexpected direction generated by the multi-source evidence."
+    }
+  ]
+}

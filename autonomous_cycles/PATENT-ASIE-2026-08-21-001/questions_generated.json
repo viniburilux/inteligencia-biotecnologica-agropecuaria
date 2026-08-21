@@ -1,0 +1,155 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "questions": [
+    {
+      "question_id": "Q-ACTOR-001",
+      "priority": "high",
+      "question": "Does Pivot Bio recur across R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R4_carbon_algae_industrial_waste, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Pivot Bio",
+        "R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R4_carbon_algae_industrial_waste R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-002",
+      "priority": "high",
+      "question": "Does Universidade de São Paulo recur across R1_local_production_quality, R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Universidade de São Paulo",
+        "R1_local_production_quality R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-003",
+      "priority": "high",
+      "question": "Does Mirela Mosela recur across R1_local_production_quality, R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Mirela Mosela",
+        "R1_local_production_quality R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-ACTOR-004",
+      "priority": "high",
+      "question": "Does Sarah BLOCH Pivot Bio, Inc recur across R2_nitrogen_phosphate_stability, R3_trichoderma_bioprocess, R4_carbon_algae_industrial_waste, R5_biocontrol_plant_health, R6_literature_agro_context in independent public records, and what technological bridge connects those appearances?",
+      "query_seeds": [
+        "Sarah BLOCH Pivot Bio, Inc",
+        "R2_nitrogen_phosphate_stability R3_trichoderma_bioprocess R4_carbon_algae_industrial_waste R5_biocontrol_plant_health R6_literature_agro_context"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "actor_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-005",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'trichoderma' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "trichoderma",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-006",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'fermentation' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "fermentation",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-007",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'cellulase' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "cellulase",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-BRIDGE-008",
+      "priority": "high",
+      "question": "Does the explicit term bridge 'bacillus' connect patent and literature records beyond lexical coincidence?",
+      "query_seeds": [
+        "bacillus",
+        "Brazil"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex"
+      ],
+      "selection_basis": "patent_literature_bridge_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-TECH-009",
+      "priority": "medium",
+      "question": "What distinct applications or actors are associated with 'inoculante' across its 6 operational clusters?",
+      "query_seeds": [
+        "inoculante"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex",
+        "crossref"
+      ],
+      "selection_basis": "technology_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    },
+    {
+      "question_id": "Q-TECH-010",
+      "priority": "medium",
+      "question": "What distinct applications or actors are associated with 'rhizobium' across its 6 operational clusters?",
+      "query_seeds": [
+        "rhizobium"
+      ],
+      "source_plan": [
+        "google_patents",
+        "openalex",
+        "crossref"
+      ],
+      "selection_basis": "technology_cross_cluster_signal",
+      "epistemic_status": "HYPOTHESIS"
+    }
+  ]
+}

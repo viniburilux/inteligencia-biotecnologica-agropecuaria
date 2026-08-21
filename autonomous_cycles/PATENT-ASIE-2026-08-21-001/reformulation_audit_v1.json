@@ -1,0 +1,4777 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "batch": "reformulation_v1",
+  "facts_added": [
+    "OpenAlex author/institution search returned identity candidates for the literal string Pivot Bio; these candidates must be checked against the work corpus before being treated as the patent assignee.",
+    "The direct OpenAlex raw-author byline query did not produce a positive work-level Pivot Bio match in this batch; actor identity remains unresolved across sources.",
+    "A relaxed Trichoderma–sophorolipid–biocontrol literature query returned records, so the exact bridge may be terminology-sensitive rather than absent.",
+    "Bacillus–biofertilizer–nematode literature retrieval returned records, but this remains topical evidence until a specific patent publication overlaps by identifier/title/technology."
+  ],
+  "actor_identity_audit": {
+    "pivot_bio_authors": [],
+    "pivot_bio_institutions": [
+      {
+        "id": "https://openalex.org/I4210117529",
+        "display_name": "Pivot Bio (United States)",
+        "works_count": 75,
+        "country_code": "US"
+      }
+    ],
+    "pivot_bio_published_byline": {
+      "observed_result_count": 0,
+      "returned_items": 0,
+      "works": []
+    }
+  },
+  "bridge_audit": {
+    "exact_trichoderma_sophorolipid_starmerella": {
+      "observed_result_count": 21,
+      "returned_items": 10,
+      "works": [
+        {
+          "id": "https://openalex.org/W4392602720",
+          "title": "Biocompatibility of Brazilian native yeast-derived sophorolipids and Trichoderma harzianum as plant-growth promoting bioformulations",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1016/j.micres.2024.127689",
+          "cited_by_count": 4,
+          "authors": [
+            {
+              "author": "T. M. Rocha",
+              "institutions": [
+                "Universidade de São Paulo",
+                "Biotech (Brazil)",
+                "Universidade Federal do Paraná"
+              ],
+              "raw_author_name": "Thiago Moura Rocha"
+            },
+            {
+              "author": "Paulo Ricardo Franco Marcelino",
+              "institutions": [
+                "Universidade de São Paulo",
+                "Biotech (Brazil)",
+                "Faculdades Integradas Teresa D'Ávila"
+              ],
+              "raw_author_name": "Paulo Ricardo Franco Marcelino"
+            },
+            {
+              "author": "Felipe Antônio Fernandes Antunes",
+              "institutions": [
+                "Universidade de São Paulo",
+                "Biotech (Brazil)",
+                "Faculdades Integradas Teresa D'Ávila"
+              ],
+              "raw_author_name": "Felipe Antonio Fernandes Antunes"
+            },
+            {
+              "author": "Salvador Sánchez-Muñoz",
+              "institutions": [
+                "Universidade de São Paulo",
+                "Biotech (Brazil)",
+                "Faculdades Integradas Teresa D'Ávila"
+              ],
+              "raw_author_name": "Salvador Sánchez-Muñoz"
+            },
+            {
+              "author": "Joana Carolina Freire Sandes Santos",
+              "institutions": [
+                "Universidade de São Paulo",
+                "Biotech (Brazil)",
+                "Faculdades Integradas Teresa D'Ávila"
+              ],
+              "raw_author_name": "Júlio César dos Santos"
+            },
+            {
+              "author": "Sílvio Silvério da Silva",
+              "institutions": [
+                "Universidade de São Paulo",
+                "Biotech (Brazil)",
+                "Faculdades Integradas Teresa D'Ávila"
+              ],
+              "raw_author_name": "Silvio Silvério da Silva"
+            }
+          ],
+          "primary_source": "Microbiological Research",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Pesticide and Herbicide Environmental Studies",
+            "Microbial bioremediation and biosurfactants"
+          ],
+          "keywords": [
+            "Trichoderma harzianum",
+            "Biology",
+            "Germination",
+            "Bioproducts",
+            "Context (archaeology)",
+            "Botany",
+            "Fermentation",
+            "Trichoderma"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3138155540",
+          "title": "Production of green surfactants: Market prospects",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1016/j.ejbt.2021.02.002",
+          "cited_by_count": 305,
+          "authors": [
+            {
+              "author": "Charles Bronzo Barbosa Farias",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Charles Bronzo B. Farias"
+            },
+            {
+              "author": "F. C. G. Almeida",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Fabíola C.G. Almeida"
+            },
+            {
+              "author": "Ivison A. Silva",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Ivison A. Silva"
+            },
+            {
+              "author": "Thaís Cavalcante de Souza",
+              "institutions": [
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Thais C. Souza"
+            },
+            {
+              "author": "Hugo M. Meira",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Hugo M. Meira"
+            },
+            {
+              "author": "Rita de Cássia F. Soares da Silva",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Rita de Cássia F. Soares da Silva"
+            },
+            {
+              "author": "Juliana M. Luna",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Juliana M. Luna"
+            },
+            {
+              "author": "Valdemir Alexandre dos Santos",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Valdemir A. Santos"
+            }
+          ],
+          "primary_source": "Electronic Journal of Biotechnology",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Environmental Chemistry and Analysis",
+            "Microplastics and Plastic Pollution"
+          ],
+          "keywords": [
+            "Petrochemical",
+            "Raw material",
+            "Production (economics)",
+            "Business",
+            "Human health",
+            "Biochemical engineering",
+            "World market",
+            "Biotechnology"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2586472003",
+          "title": "Solid-State Fermentation as a Novel Paradigm for Organic Waste Valorization: A Review",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.3390/su9020224",
+          "cited_by_count": 275,
+          "authors": [
+            {
+              "author": "Noraziah Abu Yazid",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Noraziah Abu Yazid"
+            },
+            {
+              "author": "Raquel Barrena",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Raquel Barrena"
+            },
+            {
+              "author": "Dimitrios Komilis",
+              "institutions": [
+                "Universitat Autònoma de Barcelona",
+                "Democritus University of Thrace"
+              ],
+              "raw_author_name": "Dimitrios Komilis"
+            },
+            {
+              "author": "Antoni Sánchez",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Antoni Sánchez"
+            }
+          ],
+          "primary_source": "Sustainability",
+          "topics": [
+            "Biofuel production and bioconversion",
+            "Bioeconomy and Sustainability Development",
+            "Anaerobic Digestion and Biogas Production"
+          ],
+          "keywords": [
+            "Waste management",
+            "Municipal solid waste",
+            "Food waste",
+            "Scarcity",
+            "Business",
+            "Biodegradable waste",
+            "Environmental science",
+            "Sustainability"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3094166443",
+          "title": "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+          "publication_year": 2020,
+          "doi": "https://doi.org/10.1016/j.biortech.2020.124222",
+          "cited_by_count": 175,
+          "authors": [
+            {
+              "author": "İbrahim M. Banat",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "Ibrahim M. Banat"
+            },
+            {
+              "author": "Quentin Carboué",
+              "institutions": [
+                "Universidad Autónoma Metropolitana"
+              ],
+              "raw_author_name": "Quentin Carboué"
+            },
+            {
+              "author": "Gerardo Saucedo‐Castañeda",
+              "institutions": [
+                "Universidad Autónoma Metropolitana"
+              ],
+              "raw_author_name": "Gerardo Saucedo-Castañeda"
+            },
+            {
+              "author": "José de Jesús Cázares‐Marinero",
+              "institutions": [],
+              "raw_author_name": "José de Jesús Cázares-Marinero"
+            }
+          ],
+          "primary_source": "Bioresource Technology",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Biofuel production and bioconversion",
+            "Microbial Metabolic Engineering and Bioproduction"
+          ],
+          "keywords": [
+            "Biochemical engineering",
+            "Chemical industry",
+            "Solid-state fermentation",
+            "Production (economics)",
+            "Hazardous waste",
+            "Sustainable production",
+            "Biotechnology",
+            "Fermentation"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4312141350",
+          "title": "Solid-State Fermentation from Organic Wastes: A New Generation of Bioproducts",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/pr10122675",
+          "cited_by_count": 78,
+          "authors": [
+            {
+              "author": "Nicolás Oiza",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Nicolás Oiza"
+            },
+            {
+              "author": "Javier Moral‐Vico",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Javier Moral-Vico"
+            },
+            {
+              "author": "Antoni Sánchez",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Antoni Sánchez"
+            },
+            {
+              "author": "Édgar Ricardo Oviedo-Ocaña",
+              "institutions": [
+                "Industrial University of Santander"
+              ],
+              "raw_author_name": "Edgar Ricardo Oviedo"
+            },
+            {
+              "author": "Teresa Gea",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Teresa Gea"
+            }
+          ],
+          "primary_source": "Processes",
+          "topics": [
+            "Enzyme Production and Characterization",
+            "Biofuel production and bioconversion",
+            "Microbial Metabolism and Applications"
+          ],
+          "keywords": [
+            "Bioproducts",
+            "Commercialization",
+            "Solid-state fermentation",
+            "Raw material",
+            "Waste management",
+            "Municipal solid waste",
+            "Biotechnology",
+            "Biochemical engineering"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4323257048",
+          "title": "Oily waste to biosurfactant: A path towards carbon neutrality and environmental sustainability",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1016/j.eti.2023.103095",
+          "cited_by_count": 50,
+          "authors": [
+            {
+              "author": "Krishna Gautam",
+              "institutions": [],
+              "raw_author_name": "Krishna Gautam"
+            },
+            {
+              "author": "Poonam Sharma",
+              "institutions": [
+                "Integral University"
+              ],
+              "raw_author_name": "Poonam Sharma"
+            },
+            {
+              "author": "Vivek Kumar Gaur",
+              "institutions": [
+                "Ulsan National Institute of Science and Technology"
+              ],
+              "raw_author_name": "Vivek Kumar Gaur"
+            },
+            {
+              "author": "Pallavi Gupta",
+              "institutions": [
+                "Banasthali University"
+              ],
+              "raw_author_name": "Pallavi Gupta"
+            },
+            {
+              "author": "Upasana Pandey",
+              "institutions": [
+                "Dabur Research Foundation (India)"
+              ],
+              "raw_author_name": "Upasana Pandey"
+            },
+            {
+              "author": "Sunita Varjani",
+              "institutions": [
+                "City University of Hong Kong",
+                "University of Petroleum and Energy Studies"
+              ],
+              "raw_author_name": "Sunita Varjani"
+            },
+            {
+              "author": "Ashok Pandey",
+              "institutions": [
+                "University of Petroleum and Energy Studies",
+                "Indian Institute of Toxicology Research"
+              ],
+              "raw_author_name": "Ashok Pandey"
+            },
+            {
+              "author": "Jonathan W.C. Wong",
+              "institutions": [
+                "Hong Kong Baptist University"
+              ],
+              "raw_author_name": "Jonathan W.C. Wong"
+            }
+          ],
+          "primary_source": "Environmental Technology & Innovation",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Biofuel production and bioconversion",
+            "Microbial Metabolic Engineering and Bioproduction"
+          ],
+          "keywords": [
+            "Carbon footprint",
+            "Waste management",
+            "Sustainability",
+            "Environmental science",
+            "Ecological footprint",
+            "Biochemical engineering",
+            "Carbon fibers",
+            "Engineering"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3216105008",
+          "title": "Opportunities and challenges in omics approaches for biosurfactant production and feasibility of site remediation: Strategies and advancements",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1016/j.eti.2021.102132",
+          "cited_by_count": 76,
+          "authors": [
+            {
+              "author": "Vivek Kumar Gaur",
+              "institutions": [],
+              "raw_author_name": "Vivek K. Gaur"
+            },
+            {
+              "author": "Poonam Sharma",
+              "institutions": [
+                "Integral University"
+              ],
+              "raw_author_name": "Poonam Sharma"
+            },
+            {
+              "author": "Shivangi Gupta",
+              "institutions": [],
+              "raw_author_name": "Shivangi Gupta"
+            },
+            {
+              "author": "Sunita Varjani",
+              "institutions": [
+                "Central Pollution Control Board"
+              ],
+              "raw_author_name": "Sunita Varjani"
+            },
+            {
+              "author": "Janmejai Kumar Srivastava",
+              "institutions": [],
+              "raw_author_name": "J.K. Srivastava"
+            },
+            {
+              "author": "Jonathan W.C. Wong",
+              "institutions": [
+                "Hong Kong Baptist University"
+              ],
+              "raw_author_name": "Jonathan W.C. Wong"
+            },
+            {
+              "author": "Huu Hao Ngo",
+              "institutions": [
+                "University of Technology Sydney"
+              ],
+              "raw_author_name": "Huu Hao Ngo"
+            }
+          ],
+          "primary_source": "Environmental Technology & Innovation",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Microbial Metabolic Engineering and Bioproduction",
+            "Microbial Community Ecology and Physiology"
+          ],
+          "keywords": [
+            "Biochemical engineering",
+            "Environmental remediation",
+            "Biotechnology",
+            "Identification (biology)",
+            "Environmental science",
+            "Computer science",
+            "Engineering",
+            "Biology"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4412149207",
+          "title": "Freeze and Spray Drying Technologies to Produce Solid Microbial Formulations for Sustainable Agriculture",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/pr13072188",
+          "cited_by_count": 18,
+          "authors": [
+            {
+              "author": "Luciana Luft",
+              "institutions": [
+                "Universidade Federal de Santa Maria"
+              ],
+              "raw_author_name": "Luciana Luft"
+            },
+            {
+              "author": "Márcio A. Mazutti",
+              "institutions": [
+                "Universidade Federal de Santa Maria"
+              ],
+              "raw_author_name": "Marcio A. Mazutti"
+            }
+          ],
+          "primary_source": "Processes",
+          "topics": [
+            "Microencapsulation and Drying Processes",
+            "Polymer-Based Agricultural Enhancements",
+            "Freezing and Crystallization Processes"
+          ],
+          "keywords": [
+            "Spray drying",
+            "Agriculture",
+            "Sustainable agriculture",
+            "Environmental science",
+            "Agricultural engineering",
+            "Biochemical engineering",
+            "Business",
+            "Process engineering"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4391262175",
+          "title": "Agricultural Bioinputs Obtained by Solid-State Fermentation: From Production in Biorefineries to Sustainable Agriculture",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3390/su16031076",
+          "cited_by_count": 40,
+          "authors": [
+            {
+              "author": "T. M. Rocha",
+              "institutions": [
+                "Universidade de São Paulo"
+              ],
+              "raw_author_name": "Thiago Moura Rocha"
+            },
+            {
+              "author": "Paulo Ricardo Franco Marcelino",
+              "institutions": [
+                "Universidade de São Paulo"
+              ],
+              "raw_author_name": "Paulo Ricardo Franco Marcelino"
+            },
+            {
+              "author": "Rogger Alessandro Mata da Costa",
+              "institutions": [
+                "Universidade de São Paulo"
+              ],
+              "raw_author_name": "Rogger Alessandro Mata Da Costa"
+            },
+            {
+              "author": "Daylin Rubio Ribeaux",
+              "institutions": [
+                "Universidade de São Paulo"
+              ],
+              "raw_author_name": "Daylin Rubio-Ribeaux"
+            },
+            {
+              "author": "Fernanda Gonçalves Barbosa",
+              "institutions": [
+                "Universidade de São Paulo"
+              ],
+              "raw_author_name": "Fernanda Gonçalves Barbosa"
+            },
+            {
+              "author": "Sílvio Silvério da Silva",
+              "institutions": [
+                "Universidade de São Paulo"
+              ],
+              "raw_author_name": "Silvio Silvério da Silva"
+            }
+          ],
+          "primary_source": "Sustainability",
+          "topics": [
+            "Biofuel production and bioconversion",
+            "Plant-Microbe Interactions and Immunity",
+            "Anaerobic Digestion and Biogas Production"
+          ],
+          "keywords": [
+            "Agriculture",
+            "Production (economics)",
+            "Solid-state fermentation",
+            "Sustainable agriculture",
+            "Environmental science",
+            "Business",
+            "Biorefinery",
+            "Agricultural engineering"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4307238557",
+          "title": "Optimization of the Fermentative Production of Rhizomucor miehei Lipase in Aspergillus oryzae by Controlling Morphology",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/bioengineering9110610",
+          "cited_by_count": 15,
+          "authors": [
+            {
+              "author": "Chao Li",
+              "institutions": [
+                "East China University of Science and Technology"
+              ],
+              "raw_author_name": "Chao Li"
+            },
+            {
+              "author": "Dou Xu",
+              "institutions": [
+                "East China University of Science and Technology"
+              ],
+              "raw_author_name": "Dou Xu"
+            },
+            {
+              "author": "Zhiyue Xiong",
+              "institutions": [
+                "East China University of Science and Technology"
+              ],
+              "raw_author_name": "Zhiyue Xiong"
+            },
+            {
+              "author": "Yiming Yang",
+              "institutions": [],
+              "raw_author_name": "Yiming Yang"
+            },
+            {
+              "author": "Guiwei Tian",
+              "institutions": [],
+              "raw_author_name": "Guiwei Tian"
+            },
+            {
+              "author": "Wu Xuezhi",
+              "institutions": [],
+              "raw_author_name": "Xuezhi Wu"
+            },
+            {
+              "author": "Yonghong Wang",
+              "institutions": [
+                "East China University of Science and Technology"
+              ],
+              "raw_author_name": "Yonghong Wang"
+            },
+            {
+              "author": "Yingping Zhuang",
+              "institutions": [
+                "East China University of Science and Technology"
+              ],
+              "raw_author_name": "Yingping Zhuang"
+            }
+          ],
+          "primary_source": "Bioengineering",
+          "topics": [
+            "Enzyme Catalysis and Immobilization",
+            "Fungal Biology and Applications",
+            "Fungal and yeast genetics research"
+          ],
+          "keywords": [
+            "Bioprocess",
+            "Aspergillus oryzae",
+            "Rhizomucor miehei",
+            "Bioreactor",
+            "Fermentation",
+            "Lipase",
+            "Food science",
+            "Mycelium"
+          ]
+        }
+      ]
+    },
+    "trichoderma_sophorolipid_biocontrol": {
+      "observed_result_count": 85,
+      "returned_items": 10,
+      "works": [
+        {
+          "id": "https://openalex.org/W2511347978",
+          "title": "Production of sophorolipids from winterization oil cake by solid-state fermentation: Optimization, monitoring and effect of mixing",
+          "publication_year": 2016,
+          "doi": "https://doi.org/10.1016/j.bej.2016.08.006",
+          "cited_by_count": 120,
+          "authors": [
+            {
+              "author": "Pedro Jiménez‐Peñalver",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Pedro Jiménez-Peñalver"
+            },
+            {
+              "author": "Teresa Gea",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Teresa Gea"
+            },
+            {
+              "author": "Antoni Sánchez",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Antoni Sánchez"
+            },
+            {
+              "author": "Xavier Font",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Xavier Font"
+            }
+          ],
+          "primary_source": "Biochemical Engineering Journal",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Microbial Metabolic Engineering and Bioproduction",
+            "Toxic Organic Pollutants Impact"
+          ],
+          "keywords": [
+            "Fermentation",
+            "Aeration",
+            "Chemistry",
+            "Food science",
+            "Solid-state fermentation",
+            "Yield (engineering)",
+            "Mixing (physics)",
+            "Substrate (aquarium)"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4402689089",
+          "title": "Fundamentals of Edible Coatings and Combination with Biocontrol Agents: A Strategy to Improve Postharvest Fruit Preservation",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3390/foods13182980",
+          "cited_by_count": 37,
+          "authors": [
+            {
+              "author": "Marcela Miranda",
+              "institutions": [],
+              "raw_author_name": "Marcela Miranda"
+            },
+            {
+              "author": "Jinhe Bai",
+              "institutions": [
+                "United States Department of Agriculture",
+                "U.S. Horticultural Research Laboratory"
+              ],
+              "raw_author_name": "Jinhe Bai"
+            },
+            {
+              "author": "Lucimeire Pilon",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Lucimeire Pilon"
+            },
+            {
+              "author": "Rosário Torres",
+              "institutions": [],
+              "raw_author_name": "Rosario Torres"
+            },
+            {
+              "author": "C. Casals",
+              "institutions": [],
+              "raw_author_name": "Carla Casals"
+            },
+            {
+              "author": "Cristina Solsona",
+              "institutions": [],
+              "raw_author_name": "Cristina Solsona"
+            },
+            {
+              "author": "Neus Teixidó",
+              "institutions": [],
+              "raw_author_name": "Neus Teixidó"
+            }
+          ],
+          "primary_source": "Foods",
+          "topics": [
+            "Nanocomposite Films for Food Packaging",
+            "Postharvest Quality and Shelf Life Management",
+            "Date Palm Research Studies"
+          ],
+          "keywords": [
+            "Postharvest",
+            "Biotechnology",
+            "Shelf life",
+            "Biochemical engineering",
+            "Biocomposite",
+            "Business",
+            "Biology",
+            "Computer science"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3216763118",
+          "title": "Cellulase production and efficient saccharification of biomass by a new mutant Trichoderma afroharzianum MEA-12",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1186/s13068-021-02072-z",
+          "cited_by_count": 34,
+          "authors": [
+            {
+              "author": "Zhiqing Peng",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Zhi-Qing Peng"
+            },
+            {
+              "author": "Chuang Li",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Chuang Li"
+            },
+            {
+              "author": "Yi Lin",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Yi Lin"
+            },
+            {
+              "author": "Shengshan Wu",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Sheng-Shan Wu"
+            },
+            {
+              "author": "Lihui Gan",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Li-Hui Gan"
+            },
+            {
+              "author": "Jian Liu",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Jian Liu"
+            },
+            {
+              "author": "Shuliang Yang",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Shu-Liang Yang"
+            },
+            {
+              "author": "Xianhai Zeng",
+              "institutions": [
+                "Xiamen University"
+              ],
+              "raw_author_name": "Xian-Hai Zeng"
+            }
+          ],
+          "primary_source": "Biotechnology for Biofuels",
+          "topics": [
+            "Biofuel production and bioconversion",
+            "Microbial Metabolic Engineering and Bioproduction",
+            "Enzyme Catalysis and Immobilization"
+          ],
+          "keywords": [
+            "Cellulase",
+            "Biomass (ecology)",
+            "Hydrolysis",
+            "Pulp and paper industry",
+            "Biofuel",
+            "Biotechnology",
+            "Production (economics)",
+            "Agronomy"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2586472003",
+          "title": "Solid-State Fermentation as a Novel Paradigm for Organic Waste Valorization: A Review",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.3390/su9020224",
+          "cited_by_count": 275,
+          "authors": [
+            {
+              "author": "Noraziah Abu Yazid",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Noraziah Abu Yazid"
+            },
+            {
+              "author": "Raquel Barrena",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Raquel Barrena"
+            },
+            {
+              "author": "Dimitrios Komilis",
+              "institutions": [
+                "Universitat Autònoma de Barcelona",
+                "Democritus University of Thrace"
+              ],
+              "raw_author_name": "Dimitrios Komilis"
+            },
+            {
+              "author": "Antoni Sánchez",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Antoni Sánchez"
+            }
+          ],
+          "primary_source": "Sustainability",
+          "topics": [
+            "Biofuel production and bioconversion",
+            "Bioeconomy and Sustainability Development",
+            "Anaerobic Digestion and Biogas Production"
+          ],
+          "keywords": [
+            "Waste management",
+            "Municipal solid waste",
+            "Food waste",
+            "Scarcity",
+            "Business",
+            "Biodegradable waste",
+            "Environmental science",
+            "Sustainability"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3172387323",
+          "title": "Fungal biosurfactants, from nature to biotechnological product: bioprospection, production and potential applications",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1007/s00449-021-02597-5",
+          "cited_by_count": 123,
+          "authors": [
+            {
+              "author": "André Felipe da Silva",
+              "institutions": [
+                "Universidade Federal de Santa Catarina",
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "André Felipe da Silva"
+            },
+            {
+              "author": "İbrahim M. Banat",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "Ibrahim M. Banat"
+            },
+            {
+              "author": "Admir José Giachini",
+              "institutions": [
+                "Universidade Federal de Santa Catarina"
+              ],
+              "raw_author_name": "Admir José Giachini"
+            },
+            {
+              "author": "Diogo Robl",
+              "institutions": [
+                "Universidade Federal de Santa Catarina"
+              ],
+              "raw_author_name": "Diogo Robl"
+            }
+          ],
+          "primary_source": "Bioprocess and Biosystems Engineering",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Microbial Metabolic Engineering and Bioproduction",
+            "Biofuel production and bioconversion"
+          ],
+          "keywords": [
+            "Biochemical engineering",
+            "Commodity chemicals",
+            "Chemical industry",
+            "Downstream processing",
+            "Industrial and production engineering",
+            "Chemistry",
+            "Biotechnology",
+            "Biology"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2920139773",
+          "title": "Microbial biosurfactants: current trends and applications in agricultural and biomedical industries",
+          "publication_year": 2019,
+          "doi": "https://doi.org/10.1111/jam.14243",
+          "cited_by_count": 344,
+          "authors": [
+            {
+              "author": "Patrick Naughton",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "P.J. Naughton"
+            },
+            {
+              "author": "Roger Marchant",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "R. Marchant"
+            },
+            {
+              "author": "Violetta Naughton",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "V. Naughton"
+            },
+            {
+              "author": "İbrahim M. Banat",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "I.M. Banat"
+            }
+          ],
+          "primary_source": "Journal of Applied Microbiology",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Microbial Community Ecology and Physiology",
+            "Bacterial biofilms and quorum sensing"
+          ],
+          "keywords": [
+            "Context (archaeology)",
+            "Biotechnology",
+            "Agriculture",
+            "Antimicrobial",
+            "Biochemical engineering",
+            "Business",
+            "Biology",
+            "Engineering"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3094166443",
+          "title": "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+          "publication_year": 2020,
+          "doi": "https://doi.org/10.1016/j.biortech.2020.124222",
+          "cited_by_count": 175,
+          "authors": [
+            {
+              "author": "İbrahim M. Banat",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "Ibrahim M. Banat"
+            },
+            {
+              "author": "Quentin Carboué",
+              "institutions": [
+                "Universidad Autónoma Metropolitana"
+              ],
+              "raw_author_name": "Quentin Carboué"
+            },
+            {
+              "author": "Gerardo Saucedo‐Castañeda",
+              "institutions": [
+                "Universidad Autónoma Metropolitana"
+              ],
+              "raw_author_name": "Gerardo Saucedo-Castañeda"
+            },
+            {
+              "author": "José de Jesús Cázares‐Marinero",
+              "institutions": [],
+              "raw_author_name": "José de Jesús Cázares-Marinero"
+            }
+          ],
+          "primary_source": "Bioresource Technology",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Biofuel production and bioconversion",
+            "Microbial Metabolic Engineering and Bioproduction"
+          ],
+          "keywords": [
+            "Biochemical engineering",
+            "Chemical industry",
+            "Solid-state fermentation",
+            "Production (economics)",
+            "Hazardous waste",
+            "Sustainable production",
+            "Biotechnology",
+            "Fermentation"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4319786079",
+          "title": "Comparative genomics of Bacillus cereus sensu lato spp. biocontrol strains in correlation to in-vitro phenotypes and plant pathogen antagonistic capacity",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3389/fmicb.2023.996287",
+          "cited_by_count": 8,
+          "authors": [
+            {
+              "author": "Maya Moshe",
+              "institutions": [
+                "Bar-Ilan University",
+                "Agricultural Research Organization"
+              ],
+              "raw_author_name": "Maya Moshe"
+            },
+            {
+              "author": "Chhedi Lal Gupta",
+              "institutions": [
+                "Agricultural Research Organization"
+              ],
+              "raw_author_name": "Chhedi Lal Gupta"
+            },
+            {
+              "author": "Rakeshkumar Manojkumar Jain",
+              "institutions": [],
+              "raw_author_name": "Rakeshkumar Manojkumar Jain"
+            },
+            {
+              "author": "Noa Sela",
+              "institutions": [
+                "Agricultural Research Organization"
+              ],
+              "raw_author_name": "Noa Sela"
+            },
+            {
+              "author": "Dror Minz",
+              "institutions": [
+                "Agricultural Research Organization"
+              ],
+              "raw_author_name": "Dror Minz"
+            },
+            {
+              "author": "Ehud Banin",
+              "institutions": [
+                "Bar-Ilan University"
+              ],
+              "raw_author_name": "Ehud Banin"
+            },
+            {
+              "author": "Omer Frenkel",
+              "institutions": [
+                "Agricultural Research Organization"
+              ],
+              "raw_author_name": "Omer Frenkel"
+            },
+            {
+              "author": "Eddie Cytryn",
+              "institutions": [
+                "Agricultural Research Organization"
+              ],
+              "raw_author_name": "Eddie Cytryn"
+            }
+          ],
+          "primary_source": "Frontiers in Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Legume Nitrogen Fixing Symbiosis"
+          ],
+          "keywords": [
+            "Biology",
+            "Microbiology",
+            "Bacillus cereus",
+            "Fusarium oxysporum",
+            "Cereus",
+            "Oomycete",
+            "Rhizoctonia solani",
+            "Secondary metabolite"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2964174381",
+          "title": "Innovative Production of Bioproducts From Organic Waste Through Solid-State Fermentation",
+          "publication_year": 2019,
+          "doi": "https://doi.org/10.3389/fsufs.2019.00063",
+          "cited_by_count": 98,
+          "authors": [
+            {
+              "author": "Alejandra Cerda",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Alejandra Cerda"
+            },
+            {
+              "author": "Adriana Artola",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Adriana Artola"
+            },
+            {
+              "author": "Raquel Barrena",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Raquel Barrena"
+            },
+            {
+              "author": "Xavier Font",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Xavier Font"
+            },
+            {
+              "author": "Teresa Gea",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Teresa Gea"
+            },
+            {
+              "author": "Antoni Sánchez",
+              "institutions": [
+                "Universitat Autònoma de Barcelona"
+              ],
+              "raw_author_name": "Antoni Sánchez"
+            }
+          ],
+          "primary_source": "Frontiers in Sustainable Food Systems",
+          "topics": [
+            "Biofuel production and bioconversion",
+            "Microbial Metabolic Engineering and Bioproduction",
+            "Enzyme Production and Characterization"
+          ],
+          "keywords": [
+            "Bioproducts",
+            "Bioplastic",
+            "Solid-state fermentation",
+            "Biorefining",
+            "Biochemical engineering",
+            "Biofuel",
+            "Biotechnology",
+            "Waste management"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2463560031",
+          "title": "Biochemical and Molecular Mechanisms of Plant-Microbe-Metal Interactions: Relevance for Phytoremediation",
+          "publication_year": 2016,
+          "doi": "https://doi.org/10.3389/fpls.2016.00918",
+          "cited_by_count": 544,
+          "authors": [
+            {
+              "author": "Ying Ma",
+              "institutions": [
+                "University of Coimbra"
+              ],
+              "raw_author_name": "Ying Ma"
+            },
+            {
+              "author": "Rui S. Oliveira",
+              "institutions": [
+                "Universidade Católica Portuguesa",
+                "University of Coimbra",
+                "Polytechnic Institute of Porto"
+              ],
+              "raw_author_name": "Rui S. Oliveira"
+            },
+            {
+              "author": "Helena Freitas",
+              "institutions": [
+                "University of Coimbra"
+              ],
+              "raw_author_name": "Helena Freitas"
+            },
+            {
+              "author": "Chang Zhang",
+              "institutions": [
+                "Chuzhou University"
+              ],
+              "raw_author_name": "Chang Zhang"
+            }
+          ],
+          "primary_source": "Frontiers in Plant Science",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Plant Stress Responses and Tolerance"
+          ],
+          "keywords": [
+            "Phytoremediation",
+            "Siderophore",
+            "Microorganism",
+            "Nutrient",
+            "Chemistry",
+            "Detoxification (alternative medicine)",
+            "Biology",
+            "Environmental chemistry"
+          ]
+        }
+      ]
+    },
+    "bacillus_velezensis_bioreactor_formulation": {
+      "observed_result_count": 108,
+      "returned_items": 10,
+      "works": [
+        {
+          "id": "https://openalex.org/W4401448907",
+          "title": "Surfactin and poly–γ–glutamic acid co–production by Bacillus velezensis P#02 using a corn steep liquor–based medium",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1016/j.bej.2024.109461",
+          "cited_by_count": 9,
+          "authors": [
+            {
+              "author": "Jéssica Correia",
+              "institutions": [
+                "University of Minho"
+              ],
+              "raw_author_name": "Jéssica Correia"
+            },
+            {
+              "author": "Eduardo J. Gudiña",
+              "institutions": [
+                "University of Minho"
+              ],
+              "raw_author_name": "Eduardo J. Gudiña"
+            },
+            {
+              "author": "Tomasz Janek",
+              "institutions": [
+                "Wrocław University of Environmental and Life Sciences"
+              ],
+              "raw_author_name": "Tomasz Janek"
+            },
+            {
+              "author": "Ricardo Dias",
+              "institutions": [
+                "Universidade do Porto",
+                "Rede de Química e Tecnologia"
+              ],
+              "raw_author_name": "Ricardo Dias"
+            },
+            {
+              "author": "Víctor de Freitas",
+              "institutions": [
+                "Universidade do Porto",
+                "Rede de Química e Tecnologia"
+              ],
+              "raw_author_name": "Victor de Freitas"
+            },
+            {
+              "author": "J. A. Teixeira",
+              "institutions": [
+                "University of Minho"
+              ],
+              "raw_author_name": "José A. Teixeira"
+            }
+          ],
+          "primary_source": "Biochemical Engineering Journal",
+          "topics": [
+            "Biopolymer Synthesis and Applications",
+            "Polyamine Metabolism and Applications",
+            "Probiotics and Fermented Foods"
+          ],
+          "keywords": [
+            "Surfactin",
+            "Corn steep liquor",
+            "Chemistry",
+            "Food science",
+            "Production (economics)",
+            "Biotechnology",
+            "Pulp and paper industry",
+            "Bacillus subtilis"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4321787503",
+          "title": "Bacillus-Loaded Biochar as Soil Amendment for Improved Germination of Maize Seeds",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3390/plants12051024",
+          "cited_by_count": 26,
+          "authors": [
+            {
+              "author": "Vanja Vlajkov",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Vanja Vlajkov"
+            },
+            {
+              "author": "Ivana Pajčin",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Ivana Pajčin"
+            },
+            {
+              "author": "Snežana Vučetić",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Snežana Vučetić"
+            },
+            {
+              "author": "Stefan Anđelić",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Stefan Anđelić"
+            },
+            {
+              "author": "Marta Loc",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Marta Loc"
+            },
+            {
+              "author": "Mila Grahovac",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Mila Grahovac"
+            },
+            {
+              "author": "Jovana Grahovac",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Jovana Grahovac"
+            }
+          ],
+          "primary_source": "Plants",
+          "topics": [
+            "Legume Nitrogen Fixing Symbiosis",
+            "Phytase and its Applications",
+            "Plant-Microbe Interactions and Immunity"
+          ],
+          "keywords": [
+            "Biochar",
+            "Amendment",
+            "Germination",
+            "Seedling",
+            "Agronomy",
+            "Biofertilizer",
+            "Shoot",
+            "Microorganism"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4213089270",
+          "title": "Biosurfactants: Production, properties, applications, trends, and general perspectives",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.1016/j.bej.2022.108377",
+          "cited_by_count": 412,
+          "authors": [
+            {
+              "author": "Leonie Asfora Sarubbo",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Leonie A. Sarubbo"
+            },
+            {
+              "author": "Maria da Glória C. Silva",
+              "institutions": [
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Maria da Gloria C. Silva"
+            },
+            {
+              "author": "Ítalo José Batista Durval",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Italo José B. Durval"
+            },
+            {
+              "author": "Káren Gercyane Oliveira Bezerra",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Káren Gercyane O. Bezerra"
+            },
+            {
+              "author": "Beatriz Galdino Ribeiro",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Beatriz G. Ribeiro"
+            },
+            {
+              "author": "Ivison A. Silva",
+              "institutions": [
+                "Universidade Católica de Pernambuco",
+                "Instituto de Tecnologia de Pernambuco",
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Ivison A. Silva"
+            },
+            {
+              "author": "Matthew S. Twigg",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "Matthew S. Twigg"
+            },
+            {
+              "author": "İbrahim M. Banat",
+              "institutions": [
+                "University of Ulster",
+                "Instituto de Tecnologia de Pernambuco"
+              ],
+              "raw_author_name": "Ibrahim M. Banat"
+            }
+          ],
+          "primary_source": "Biochemical Engineering Journal",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Biofuel production and bioconversion",
+            "Enzyme Production and Characterization"
+          ],
+          "keywords": [
+            "Biochemical engineering",
+            "Environmentally friendly",
+            "Sustainability",
+            "Business",
+            "Nanotechnology",
+            "Biotechnology",
+            "Engineering",
+            "Materials science"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2146044156",
+          "title": "Advances in utilization of renewable substrates for biosurfactant production",
+          "publication_year": 2011,
+          "doi": "https://doi.org/10.1186/2191-0855-1-5",
+          "cited_by_count": 470,
+          "authors": [
+            {
+              "author": "Randhir S. Makkar",
+              "institutions": [
+                "Yahoo (United Kingdom)"
+              ],
+              "raw_author_name": "Randhir S Makkar"
+            },
+            {
+              "author": "Swaranjit Singh Cameotra",
+              "institutions": [
+                "Institute of Microbial Technology"
+              ],
+              "raw_author_name": "Swaranjit S Cameotra"
+            },
+            {
+              "author": "İbrahim M. Banat",
+              "institutions": [
+                "University of Ulster"
+              ],
+              "raw_author_name": "Ibrahim M Banat"
+            }
+          ],
+          "primary_source": "AMB Express",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Biofuel production and bioconversion",
+            "Microbial Metabolic Engineering and Bioproduction"
+          ],
+          "keywords": [
+            "Petrochemical",
+            "Environmentally friendly",
+            "Biochemical engineering",
+            "Renewable energy",
+            "Bioremediation",
+            "Nanotechnology",
+            "Environmental science",
+            "Chemistry"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4411878698",
+          "title": "Biosurfactant Produced by Bacillus subtilis UCP 1533 Isolated from the Brazilian Semiarid Region: Characterization and Antimicrobial Potential",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/microorganisms13071548",
+          "cited_by_count": 11,
+          "authors": [
+            {
+              "author": "Antônio Pedro da Costa Albuquerque",
+              "institutions": [
+                "Universidade Católica de Pernambuco"
+              ],
+              "raw_author_name": "Antônio P. da C. Albuquerque"
+            },
+            {
+              "author": "HOZANA DE SOUZA FERREIRA",
+              "institutions": [
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Hozana de S. Ferreira"
+            },
+            {
+              "author": "Yali Alves da Silva",
+              "institutions": [
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Yali A. da Silva"
+            },
+            {
+              "author": "Renata R. da Silva",
+              "institutions": [
+                "Universidade Federal Rural de Pernambuco"
+              ],
+              "raw_author_name": "Renata R. da Silva"
+            },
+            {
+              "author": "CARLOS VINÍCIUS ALVES DE LIMA",
+              "institutions": [
+                "Universidade Católica de Pernambuco"
+              ],
+              "raw_author_name": "Carlos V. A. de Lima"
+            },
+            {
+              "author": "Leonie Asfora Sarubbo",
+              "institutions": [
+                "Universidade Católica de Pernambuco"
+              ],
+              "raw_author_name": "Leonie A. Sarubbo"
+            },
+            {
+              "author": "Juliana M. Luna",
+              "institutions": [
+                "Universidade Católica de Pernambuco"
+              ],
+              "raw_author_name": "Juliana M. Luna"
+            }
+          ],
+          "primary_source": "Microorganisms",
+          "topics": [
+            "Bacillus and Francisella bacterial research",
+            "Microbial bioremediation and biosurfactants",
+            "Bacterial biofilms and quorum sensing"
+          ],
+          "keywords": [
+            "Food science",
+            "Bacillus subtilis",
+            "Antimicrobial",
+            "Chemistry",
+            "Context (archaeology)",
+            "Lactuca",
+            "Phytotoxicity",
+            "Salinity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4308524138",
+          "title": "Dairy and Wine Industry Effluents as Alternative Media for the Production of Bacillus-Based Biocontrol Agents",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/bioengineering9110663",
+          "cited_by_count": 19,
+          "authors": [
+            {
+              "author": "Selena Dmitrović",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Selena Dmitrović"
+            },
+            {
+              "author": "Ivana Pajčin",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Ivana Pajčin"
+            },
+            {
+              "author": "Vanja Vlajkov",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Vanja Vlajkov"
+            },
+            {
+              "author": "Mila Grahovac",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Mila Grahovac"
+            },
+            {
+              "author": "Aleksandar Jokić",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Aleksandar Jokić"
+            },
+            {
+              "author": "Jovana Grahovac",
+              "institutions": [
+                "University of Novi Sad"
+              ],
+              "raw_author_name": "Jovana Grahovac"
+            }
+          ],
+          "primary_source": "Bioengineering",
+          "topics": [
+            "Microbial Community Ecology and Physiology",
+            "Polyamine Metabolism and Applications",
+            "Enzyme-mediated dye degradation"
+          ],
+          "keywords": [
+            "Wine",
+            "Dairy industry",
+            "Production (economics)",
+            "Biotechnology",
+            "Biological pest control",
+            "Effluent",
+            "Business",
+            "Food science"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4412601229",
+          "title": "Bacillus-based inoculants enhance drought resilience in soybean: agronomic performance and remote sensing analysis from multi-location trials in Brazil",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fpls.2025.1630127",
+          "cited_by_count": 11,
+          "authors": [
+            {
+              "author": "Julio Cezar Souza Vasconcelos",
+              "institutions": [
+                "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+              ],
+              "raw_author_name": "Julio Cezar Souza Vasconcelos"
+            },
+            {
+              "author": "Caio Simplicio Arantes",
+              "institutions": [
+                "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+              ],
+              "raw_author_name": "Caio Simplicio Arantes"
+            },
+            {
+              "author": "E. A. Gomes",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Eliane Aparecida Gomes"
+            },
+            {
+              "author": "Christiane Abreu de Oliveira-Paiva",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Christiane Abreu de Oliveira-Paiva"
+            },
+            {
+              "author": "S. M. de Sousa",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Sylvia Morais de Sousa"
+            },
+            {
+              "author": "Eduardo Antônio Speranza",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Eduardo Antonio Speranza"
+            },
+            {
+              "author": "J. F. G. Antunes",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "João Francisco Gonçalves Antunes"
+            },
+            {
+              "author": "U. G. de P. Lana",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Ubiraci Gomes de Paula Lana"
+            }
+          ],
+          "primary_source": "Frontiers in Plant Science",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis"
+          ],
+          "keywords": [
+            "Microbial inoculant",
+            "Shoot",
+            "Biology",
+            "Agronomy",
+            "Dry weight",
+            "Bacillus subtilis",
+            "Inoculation",
+            "Grain yield"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4406334246",
+          "title": "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/plants14020191",
+          "cited_by_count": 149,
+          "authors": [
+            {
+              "author": "Alondra María Díaz-Rodríguez",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ],
+              "raw_author_name": "Alondra María Díaz-Rodríguez"
+            },
+            {
+              "author": "Fannie Isela Parra-Cota",
+              "institutions": [
+                "Sonora Institute of Technology",
+                "Instituto Nacional de Investigaciones Forestales Agrícolas y Pecuarias"
+              ],
+              "raw_author_name": "Fannie Isela Parra Cota"
+            },
+            {
+              "author": "Luis Alberto Cira Chávez",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ],
+              "raw_author_name": "Luis Alberto Cira Chávez"
+            },
+            {
+              "author": "Luis Fernando García-Ortega",
+              "institutions": [
+                "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional"
+              ],
+              "raw_author_name": "Luis Fernando García Ortega"
+            },
+            {
+              "author": "María Alvarado",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ],
+              "raw_author_name": "María Isabel Estrada Alvarado"
+            },
+            {
+              "author": "Gustavo Santoyo",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo"
+              ],
+              "raw_author_name": "Gustavo Santoyo"
+            },
+            {
+              "author": "Sergio de los Santos‐Villalobos",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ],
+              "raw_author_name": "Sergio de los Santos-Villalobos"
+            }
+          ],
+          "primary_source": "Plants",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Legume Nitrogen Fixing Symbiosis"
+          ],
+          "keywords": [
+            "Microbial inoculant",
+            "Bioproducts",
+            "Biotechnology",
+            "Agriculture",
+            "Sustainable agriculture",
+            "Business",
+            "Biology",
+            "Ecology"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W7126420140",
+          "title": "Bacillus velezensis Enhances Rice Resistance to Brown Spot by Integrating Antifungal and Growth Promotion Functions",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/ijms27031455",
+          "cited_by_count": 2,
+          "authors": [
+            {
+              "author": "Elizabeth B. E. Pires",
+              "institutions": [
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Elizabeth B. E. Pires"
+            },
+            {
+              "author": "Maira S. Tique Obando",
+              "institutions": [
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Maira S. Tique Obando"
+            },
+            {
+              "author": "L. Janssen",
+              "institutions": [
+                "Universidade de Brasília",
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Luis Janssen"
+            },
+            {
+              "author": "Bergmann M. Ribeiro",
+              "institutions": [
+                "Universidade de Brasília"
+              ],
+              "raw_author_name": "Bergmann M. Ribeiro"
+            },
+            {
+              "author": "Odaiza F. Souza",
+              "institutions": [
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Odaiza F. Souza"
+            },
+            {
+              "author": "Marcelo L. Dias",
+              "institutions": [
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Marcelo L. Dias"
+            },
+            {
+              "author": "Luis O. Viteri Jumbo",
+              "institutions": [
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Luís O. Viteri Jumbo"
+            },
+            {
+              "author": "Rodrigo R. Fidelis",
+              "institutions": [
+                "Universidade Federal do Tocantins"
+              ],
+              "raw_author_name": "Rodrigo R. Fidelis"
+            }
+          ],
+          "primary_source": "International Journal of Molecular Sciences",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Fungal and yeast genetics research",
+            "Insect Resistance and Genetics"
+          ],
+          "keywords": [
+            "Mycelium",
+            "Seedling",
+            "Cellulase",
+            "Chitinase",
+            "Fungus",
+            "Cultivar",
+            "Gene",
+            "Biological pest control"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4413229110",
+          "title": "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fmicb.2025.1574269",
+          "cited_by_count": 14,
+          "authors": [
+            {
+              "author": "Matheus Felipe de Lima Andreata",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ],
+              "raw_author_name": "Matheus Felipe de Lima Andreata"
+            },
+            {
+              "author": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina",
+                "Chamber of Deputies"
+              ],
+              "raw_author_name": "Silas Mian"
+            },
+            {
+              "author": "Galdino Andrade",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ],
+              "raw_author_name": "Galdino Andrade"
+            },
+            {
+              "author": "Adeney de Freitas Bueno",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ],
+              "raw_author_name": "Adeney de Freitas Bueno"
+            },
+            {
+              "author": "Maurício Ursi Ventura",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ],
+              "raw_author_name": "Mauricio Ursi Ventura"
+            },
+            {
+              "author": "J.E.M. Almeida",
+              "institutions": [
+                "Instituto Biológico"
+              ],
+              "raw_author_name": "José Eduardo Marcondes de Almeida"
+            },
+            {
+              "author": "Eduardo Augusto Fonseca Ivan",
+              "institutions": [
+                "Campo Arqueologico de Mertola"
+              ],
+              "raw_author_name": "Eduardo Augusto Fonseca Ivan"
+            },
+            {
+              "author": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina",
+                "Chamber of Deputies"
+              ],
+              "raw_author_name": "Mirela Mosela"
+            }
+          ],
+          "primary_source": "Frontiers in Microbiology",
+          "topics": [
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Insect Resistance and Genetics",
+            "Nematode management and characterization studies"
+          ],
+          "keywords": [
+            "Biopesticide",
+            "Agriculture",
+            "Biotechnology",
+            "Commercialization",
+            "Business",
+            "Pesticide",
+            "Sustainability",
+            "Sustainable agriculture"
+          ]
+        }
+      ]
+    },
+    "bacillus_biofertilizer_nematode": {
+      "observed_result_count": 1164,
+      "returned_items": 10,
+      "works": [
+        {
+          "id": "https://openalex.org/W2152856675",
+          "title": "Biofertilizers function as key player in sustainable agriculture by improving soil fertility, plant tolerance and crop productivity",
+          "publication_year": 2014,
+          "doi": "https://doi.org/10.1186/1475-2859-13-66",
+          "cited_by_count": 1170,
+          "authors": [
+            {
+              "author": "Deepak Bhardwaj",
+              "institutions": [
+                "International Centre for Genetic Engineering and Biotechnology"
+              ],
+              "raw_author_name": "Deepak Bhardwaj"
+            },
+            {
+              "author": "Mohammad Wahid Ansari",
+              "institutions": [
+                "International Centre for Genetic Engineering and Biotechnology"
+              ],
+              "raw_author_name": "Mohammad Wahid Ansari"
+            },
+            {
+              "author": "Ranjan Kumar Sahoo",
+              "institutions": [
+                "International Centre for Genetic Engineering and Biotechnology"
+              ],
+              "raw_author_name": "Ranjan Kumar Sahoo"
+            },
+            {
+              "author": "Narendra Tuteja",
+              "institutions": [
+                "International Centre for Genetic Engineering and Biotechnology"
+              ],
+              "raw_author_name": "Narendra Tuteja"
+            }
+          ],
+          "primary_source": "Microbial Cell Factories",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Mycorrhizal Fungi and Plant Interactions",
+            "Nematode management and characterization studies"
+          ],
+          "keywords": [
+            "Biofertilizer",
+            "Rhizobacteria",
+            "Sustainable agriculture",
+            "Agriculture",
+            "Biotechnology",
+            "Biology",
+            "Soil fertility",
+            "Abiotic stress"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4200270345",
+          "title": "Biofertilizers: An ecofriendly technology for nutrient recycling and environmental sustainability",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1016/j.crmicr.2021.100094",
+          "cited_by_count": 551,
+          "authors": [
+            {
+              "author": "Satish Kumar",
+              "institutions": [
+                "Chaudhary Charan Singh Haryana Agricultural University"
+              ],
+              "raw_author_name": "Satish Kumar"
+            },
+            {
+              "author": "Diksha Diksha",
+              "institutions": [
+                "Chaudhary Charan Singh Haryana Agricultural University"
+              ],
+              "raw_author_name": "Diksha"
+            },
+            {
+              "author": "S. S. Sindhu",
+              "institutions": [
+                "Chaudhary Charan Singh Haryana Agricultural University"
+              ],
+              "raw_author_name": "Satyavir S. Sindhu"
+            },
+            {
+              "author": "Rakesh Kumar",
+              "institutions": [
+                "Chaudhary Charan Singh Haryana Agricultural University"
+              ],
+              "raw_author_name": "Rakesh Kumar"
+            }
+          ],
+          "primary_source": "Current Research in Microbial Sciences",
+          "topics": [
+            "Legume Nitrogen Fixing Symbiosis",
+            "Nematode management and characterization studies",
+            "Plant-Microbe Interactions and Immunity"
+          ],
+          "keywords": [
+            "Biofertilizer",
+            "Biotechnology",
+            "Food security",
+            "Population",
+            "Agrochemical",
+            "Agriculture",
+            "Environmental pollution",
+            "Bioremediation"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2753705152",
+          "title": "Bacillus: A Biological Tool for Crop Improvement through Bio-Molecular Changes in Adverse Environments",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.3389/fphys.2017.00667",
+          "cited_by_count": 703,
+          "authors": [
+            {
+              "author": "Ramalingam Radhakrishnan",
+              "institutions": [
+                "Yeungnam University"
+              ],
+              "raw_author_name": "Ramalingam Radhakrishnan"
+            },
+            {
+              "author": "Abeer Hashem",
+              "institutions": [
+                "King Saud University",
+                "Agricultural Research Center"
+              ],
+              "raw_author_name": "Abeer Hashem"
+            },
+            {
+              "author": "Elsayed Fathi Abd Allah",
+              "institutions": [
+                "King Saud University"
+              ],
+              "raw_author_name": "Elsayed F. Abd_Allah"
+            }
+          ],
+          "primary_source": "Frontiers in Physiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Plant tissue culture and regeneration"
+          ],
+          "keywords": [
+            "Biology",
+            "Abiotic component",
+            "Bacillus (shape)",
+            "Abiotic stress",
+            "Siderophore",
+            "Bacteria",
+            "Biotechnology",
+            "Botany"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3129597966",
+          "title": "Rethinking Crop Nutrition in Times of Modern Microbiology: Innovative Biofertilizer Technologies",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3389/fsufs.2021.606815",
+          "cited_by_count": 351,
+          "authors": [
+            {
+              "author": "Eduardo K. Mitter",
+              "institutions": [
+                "University of Guelph"
+              ],
+              "raw_author_name": "Eduardo K. Mitter"
+            },
+            {
+              "author": "Micaela Tosi",
+              "institutions": [
+                "University of Guelph"
+              ],
+              "raw_author_name": "Micaela Tosi"
+            },
+            {
+              "author": "Dasiel Obregón",
+              "institutions": [
+                "Universidade de São Paulo",
+                "University of Guelph"
+              ],
+              "raw_author_name": "Dasiel Obregón"
+            },
+            {
+              "author": "Kari E. Dunfield",
+              "institutions": [
+                "University of Guelph"
+              ],
+              "raw_author_name": "Kari E. Dunfield"
+            },
+            {
+              "author": "James J. Germida",
+              "institutions": [
+                "University of Saskatchewan"
+              ],
+              "raw_author_name": "James J. Germida"
+            }
+          ],
+          "primary_source": "Frontiers in Sustainable Food Systems",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant tissue culture and regeneration",
+            "Legume Nitrogen Fixing Symbiosis"
+          ],
+          "keywords": [
+            "Biofertilizer",
+            "Rhizosphere",
+            "Food security",
+            "Biology",
+            "Biotechnology",
+            "Agriculture",
+            "Soil fertility",
+            "Population"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2764166391",
+          "title": "Mechanisms of action of plant growth promoting bacteria",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.1007/s11274-017-2364-9",
+          "cited_by_count": 1095,
+          "authors": [
+            {
+              "author": "Oluwaseyi Samuel Olanrewaju",
+              "institutions": [
+                "North-West University"
+              ],
+              "raw_author_name": "Oluwaseyi Samuel Olanrewaju"
+            },
+            {
+              "author": "Bernard R. Glick",
+              "institutions": [
+                "University of Waterloo"
+              ],
+              "raw_author_name": "Bernard R. Glick"
+            },
+            {
+              "author": "Olubukola Oluranti Babalola",
+              "institutions": [
+                "North-West University"
+              ],
+              "raw_author_name": "Olubukola Oluranti Babalola"
+            }
+          ],
+          "primary_source": "World Journal of Microbiology and Biotechnology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Nematode management and characterization studies"
+          ],
+          "keywords": [
+            "Biofertilizer",
+            "Agriculture",
+            "Biotechnology",
+            "Beneficial organism",
+            "Environmentally friendly",
+            "Plant growth",
+            "Leaching (pedology)",
+            "Sustainable agriculture"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3177716001",
+          "title": "Biofertilizers: A Nexus between soil fertility and crop productivity under abiotic stress",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1016/j.crsust.2021.100063",
+          "cited_by_count": 210,
+          "authors": [
+            {
+              "author": "Aliyu Ahmad Mahmud",
+              "institutions": [
+                "Mewar University"
+              ],
+              "raw_author_name": "Aliyu Ahmad Mahmud"
+            },
+            {
+              "author": "Sudhir K. Upadhyay",
+              "institutions": [
+                "Veer Bahadur Singh Purvanchal University"
+              ],
+              "raw_author_name": "Sudhir K. Upadhyay"
+            },
+            {
+              "author": "Abhishek K. Srivastava",
+              "institutions": [],
+              "raw_author_name": "Abhishek K. Srivastava"
+            },
+            {
+              "author": "Ali Asger Bhojiya",
+              "institutions": [
+                "Mewar University"
+              ],
+              "raw_author_name": "Ali Asger Bhojiya"
+            }
+          ],
+          "primary_source": "Current Research in Environmental Sustainability",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Mycorrhizal Fungi and Plant Interactions",
+            "Plant Parasitism and Resistance"
+          ],
+          "keywords": [
+            "Biofertilizer",
+            "Soil fertility",
+            "Microbial inoculant",
+            "Rhizobacteria",
+            "Population",
+            "Agriculture",
+            "Beneficial organism",
+            "Agronomy"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3156486718",
+          "title": "Biofertilizers and Biocontrol Agents for Agriculture: How to Identify and Develop New Potent Microbial Strains and Traits",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/microorganisms9040817",
+          "cited_by_count": 220,
+          "authors": [
+            {
+              "author": "Anna Maria Pirttilä",
+              "institutions": [
+                "University of Oulu"
+              ],
+              "raw_author_name": "Anna Maria Pirttilä"
+            },
+            {
+              "author": "Habibollah Mohammad Parast Tabas",
+              "institutions": [
+                "University of Oulu"
+              ],
+              "raw_author_name": "Habibollah Mohammad Parast Tabas"
+            },
+            {
+              "author": "Namrata Baruah",
+              "institutions": [
+                "University of Oulu"
+              ],
+              "raw_author_name": "Namrata Baruah"
+            },
+            {
+              "author": "Janne J. Koskimäki",
+              "institutions": [
+                "University of Oulu"
+              ],
+              "raw_author_name": "Janne J. Koskimäki"
+            }
+          ],
+          "primary_source": "Microorganisms",
+          "topics": [
+            "Mycorrhizal Fungi and Plant Interactions",
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies"
+          ],
+          "keywords": [
+            "Biofertilizer",
+            "Biotechnology",
+            "Biology",
+            "Rhizobacteria",
+            "Agriculture",
+            "Biological pest control",
+            "Agronomy",
+            "Ecology"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3210999050",
+          "title": "Utilization of Microbial Consortia as Biofertilizers and Biopesticides for the Production of Feasible Agricultural Product",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/biology10111111",
+          "cited_by_count": 162,
+          "authors": [
+            {
+              "author": "R. Seenivasagan",
+              "institutions": [
+                "North-West University"
+              ],
+              "raw_author_name": "Renganathan Seenivasagan"
+            },
+            {
+              "author": "Olubukola Oluranti Babalola",
+              "institutions": [
+                "North-West University"
+              ],
+              "raw_author_name": "Olubukola Oluranti Babalola"
+            }
+          ],
+          "primary_source": "Biology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Composting and Vermicomposting Techniques"
+          ],
+          "keywords": [
+            "Biology",
+            "Biopesticide",
+            "Biofertilizer",
+            "Agriculture",
+            "Biotechnology",
+            "Production (economics)",
+            "Product (mathematics)",
+            "Agroforestry"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4406542966",
+          "title": "The role of Bacillus species in the management of plant-parasitic nematodes",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fmicb.2024.1510036",
+          "cited_by_count": 46,
+          "authors": [
+            {
+              "author": "Prabhakaran Vasantha‐Srinivasan",
+              "institutions": [
+                "Chonnam National University"
+              ],
+              "raw_author_name": "Prabhakaran Vasantha-Srinivasan"
+            },
+            {
+              "author": "Ki Beom Park",
+              "institutions": [],
+              "raw_author_name": "Ki Beom Park"
+            },
+            {
+              "author": "Kil Yong Kim",
+              "institutions": [
+                "Chonnam National University"
+              ],
+              "raw_author_name": "Kil Yong Kim"
+            },
+            {
+              "author": "Woo-Jin Jung",
+              "institutions": [
+                "Chonnam National University"
+              ],
+              "raw_author_name": "Woo-Jin Jung"
+            },
+            {
+              "author": "Yeon Soo Han",
+              "institutions": [
+                "Chonnam National University"
+              ],
+              "raw_author_name": "Yeon Soo Han"
+            }
+          ],
+          "primary_source": "Frontiers in Microbiology",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Insect Resistance and Genetics",
+            "Entomopathogenic Microorganisms in Pest Control"
+          ],
+          "keywords": [
+            "Biology",
+            "Bacillus (shape)",
+            "Microbiology",
+            "Ecology"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2891762948",
+          "title": "Fungal and bacterial nematicides in integrated nematode management strategies",
+          "publication_year": 2018,
+          "doi": "https://doi.org/10.1186/s41938-018-0080-x",
+          "cited_by_count": 156,
+          "authors": [
+            {
+              "author": "Mahfouz M. M. Abd-Elgawad",
+              "institutions": [
+                "National Research Centre"
+              ],
+              "raw_author_name": "Mahfouz M. M. Abd-Elgawad"
+            },
+            {
+              "author": "Tarique Hassan Askary",
+              "institutions": [
+                "Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir"
+              ],
+              "raw_author_name": "Tarique Hassan Askary"
+            }
+          ],
+          "primary_source": "Egyptian Journal of Biological Pest Control",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Plant Parasitism and Resistance"
+          ],
+          "keywords": [
+            "Integrated pest management",
+            "Agriculture",
+            "Biotechnology",
+            "Biology",
+            "Biological pest control",
+            "Pesticide",
+            "Business",
+            "Ecology"
+          ]
+        }
+      ]
+    }
+  },
+  "new_relations": [
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W4392602720",
+      "title": "Biocompatibility of Brazilian native yeast-derived sophorolipids and Trichoderma harzianum as plant-growth promoting bioformulations",
+      "publication_year": 2024,
+      "doi": "https://doi.org/10.1016/j.micres.2024.127689",
+      "authors": [
+        {
+          "author": "T. M. Rocha",
+          "institutions": [
+            "Universidade de São Paulo",
+            "Biotech (Brazil)",
+            "Universidade Federal do Paraná"
+          ],
+          "raw_author_name": "Thiago Moura Rocha"
+        },
+        {
+          "author": "Paulo Ricardo Franco Marcelino",
+          "institutions": [
+            "Universidade de São Paulo",
+            "Biotech (Brazil)",
+            "Faculdades Integradas Teresa D'Ávila"
+          ],
+          "raw_author_name": "Paulo Ricardo Franco Marcelino"
+        },
+        {
+          "author": "Felipe Antônio Fernandes Antunes",
+          "institutions": [
+            "Universidade de São Paulo",
+            "Biotech (Brazil)",
+            "Faculdades Integradas Teresa D'Ávila"
+          ],
+          "raw_author_name": "Felipe Antonio Fernandes Antunes"
+        },
+        {
+          "author": "Salvador Sánchez-Muñoz",
+          "institutions": [
+            "Universidade de São Paulo",
+            "Biotech (Brazil)",
+            "Faculdades Integradas Teresa D'Ávila"
+          ],
+          "raw_author_name": "Salvador Sánchez-Muñoz"
+        },
+        {
+          "author": "Joana Carolina Freire Sandes Santos",
+          "institutions": [
+            "Universidade de São Paulo",
+            "Biotech (Brazil)",
+            "Faculdades Integradas Teresa D'Ávila"
+          ],
+          "raw_author_name": "Júlio César dos Santos"
+        },
+        {
+          "author": "Sílvio Silvério da Silva",
+          "institutions": [
+            "Universidade de São Paulo",
+            "Biotech (Brazil)",
+            "Faculdades Integradas Teresa D'Ávila"
+          ],
+          "raw_author_name": "Silvio Silvério da Silva"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Pesticide and Herbicide Environmental Studies",
+        "Microbial bioremediation and biosurfactants"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W3138155540",
+      "title": "Production of green surfactants: Market prospects",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.1016/j.ejbt.2021.02.002",
+      "authors": [
+        {
+          "author": "Charles Bronzo Barbosa Farias",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Charles Bronzo B. Farias"
+        },
+        {
+          "author": "F. C. G. Almeida",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Fabíola C.G. Almeida"
+        },
+        {
+          "author": "Ivison A. Silva",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Ivison A. Silva"
+        },
+        {
+          "author": "Thaís Cavalcante de Souza",
+          "institutions": [
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Thais C. Souza"
+        },
+        {
+          "author": "Hugo M. Meira",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Hugo M. Meira"
+        },
+        {
+          "author": "Rita de Cássia F. Soares da Silva",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Rita de Cássia F. Soares da Silva"
+        },
+        {
+          "author": "Juliana M. Luna",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Juliana M. Luna"
+        },
+        {
+          "author": "Valdemir Alexandre dos Santos",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Valdemir A. Santos"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Environmental Chemistry and Analysis",
+        "Microplastics and Plastic Pollution"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W2586472003",
+      "title": "Solid-State Fermentation as a Novel Paradigm for Organic Waste Valorization: A Review",
+      "publication_year": 2017,
+      "doi": "https://doi.org/10.3390/su9020224",
+      "authors": [
+        {
+          "author": "Noraziah Abu Yazid",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Noraziah Abu Yazid"
+        },
+        {
+          "author": "Raquel Barrena",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Raquel Barrena"
+        },
+        {
+          "author": "Dimitrios Komilis",
+          "institutions": [
+            "Universitat Autònoma de Barcelona",
+            "Democritus University of Thrace"
+          ],
+          "raw_author_name": "Dimitrios Komilis"
+        },
+        {
+          "author": "Antoni Sánchez",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Antoni Sánchez"
+        }
+      ],
+      "topics": [
+        "Biofuel production and bioconversion",
+        "Bioeconomy and Sustainability Development",
+        "Anaerobic Digestion and Biogas Production"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W3094166443",
+      "title": "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+      "publication_year": 2020,
+      "doi": "https://doi.org/10.1016/j.biortech.2020.124222",
+      "authors": [
+        {
+          "author": "İbrahim M. Banat",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "Ibrahim M. Banat"
+        },
+        {
+          "author": "Quentin Carboué",
+          "institutions": [
+            "Universidad Autónoma Metropolitana"
+          ],
+          "raw_author_name": "Quentin Carboué"
+        },
+        {
+          "author": "Gerardo Saucedo‐Castañeda",
+          "institutions": [
+            "Universidad Autónoma Metropolitana"
+          ],
+          "raw_author_name": "Gerardo Saucedo-Castañeda"
+        },
+        {
+          "author": "José de Jesús Cázares‐Marinero",
+          "institutions": [],
+          "raw_author_name": "José de Jesús Cázares-Marinero"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Biofuel production and bioconversion",
+        "Microbial Metabolic Engineering and Bioproduction"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W4312141350",
+      "title": "Solid-State Fermentation from Organic Wastes: A New Generation of Bioproducts",
+      "publication_year": 2022,
+      "doi": "https://doi.org/10.3390/pr10122675",
+      "authors": [
+        {
+          "author": "Nicolás Oiza",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Nicolás Oiza"
+        },
+        {
+          "author": "Javier Moral‐Vico",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Javier Moral-Vico"
+        },
+        {
+          "author": "Antoni Sánchez",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Antoni Sánchez"
+        },
+        {
+          "author": "Édgar Ricardo Oviedo-Ocaña",
+          "institutions": [
+            "Industrial University of Santander"
+          ],
+          "raw_author_name": "Edgar Ricardo Oviedo"
+        },
+        {
+          "author": "Teresa Gea",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Teresa Gea"
+        }
+      ],
+      "topics": [
+        "Enzyme Production and Characterization",
+        "Biofuel production and bioconversion",
+        "Microbial Metabolism and Applications"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W4323257048",
+      "title": "Oily waste to biosurfactant: A path towards carbon neutrality and environmental sustainability",
+      "publication_year": 2023,
+      "doi": "https://doi.org/10.1016/j.eti.2023.103095",
+      "authors": [
+        {
+          "author": "Krishna Gautam",
+          "institutions": [],
+          "raw_author_name": "Krishna Gautam"
+        },
+        {
+          "author": "Poonam Sharma",
+          "institutions": [
+            "Integral University"
+          ],
+          "raw_author_name": "Poonam Sharma"
+        },
+        {
+          "author": "Vivek Kumar Gaur",
+          "institutions": [
+            "Ulsan National Institute of Science and Technology"
+          ],
+          "raw_author_name": "Vivek Kumar Gaur"
+        },
+        {
+          "author": "Pallavi Gupta",
+          "institutions": [
+            "Banasthali University"
+          ],
+          "raw_author_name": "Pallavi Gupta"
+        },
+        {
+          "author": "Upasana Pandey",
+          "institutions": [
+            "Dabur Research Foundation (India)"
+          ],
+          "raw_author_name": "Upasana Pandey"
+        },
+        {
+          "author": "Sunita Varjani",
+          "institutions": [
+            "City University of Hong Kong",
+            "University of Petroleum and Energy Studies"
+          ],
+          "raw_author_name": "Sunita Varjani"
+        },
+        {
+          "author": "Ashok Pandey",
+          "institutions": [
+            "University of Petroleum and Energy Studies",
+            "Indian Institute of Toxicology Research"
+          ],
+          "raw_author_name": "Ashok Pandey"
+        },
+        {
+          "author": "Jonathan W.C. Wong",
+          "institutions": [
+            "Hong Kong Baptist University"
+          ],
+          "raw_author_name": "Jonathan W.C. Wong"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Biofuel production and bioconversion",
+        "Microbial Metabolic Engineering and Bioproduction"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W3216105008",
+      "title": "Opportunities and challenges in omics approaches for biosurfactant production and feasibility of site remediation: Strategies and advancements",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.1016/j.eti.2021.102132",
+      "authors": [
+        {
+          "author": "Vivek Kumar Gaur",
+          "institutions": [],
+          "raw_author_name": "Vivek K. Gaur"
+        },
+        {
+          "author": "Poonam Sharma",
+          "institutions": [
+            "Integral University"
+          ],
+          "raw_author_name": "Poonam Sharma"
+        },
+        {
+          "author": "Shivangi Gupta",
+          "institutions": [],
+          "raw_author_name": "Shivangi Gupta"
+        },
+        {
+          "author": "Sunita Varjani",
+          "institutions": [
+            "Central Pollution Control Board"
+          ],
+          "raw_author_name": "Sunita Varjani"
+        },
+        {
+          "author": "Janmejai Kumar Srivastava",
+          "institutions": [],
+          "raw_author_name": "J.K. Srivastava"
+        },
+        {
+          "author": "Jonathan W.C. Wong",
+          "institutions": [
+            "Hong Kong Baptist University"
+          ],
+          "raw_author_name": "Jonathan W.C. Wong"
+        },
+        {
+          "author": "Huu Hao Ngo",
+          "institutions": [
+            "University of Technology Sydney"
+          ],
+          "raw_author_name": "Huu Hao Ngo"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Microbial Community Ecology and Physiology"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W4412149207",
+      "title": "Freeze and Spray Drying Technologies to Produce Solid Microbial Formulations for Sustainable Agriculture",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3390/pr13072188",
+      "authors": [
+        {
+          "author": "Luciana Luft",
+          "institutions": [
+            "Universidade Federal de Santa Maria"
+          ],
+          "raw_author_name": "Luciana Luft"
+        },
+        {
+          "author": "Márcio A. Mazutti",
+          "institutions": [
+            "Universidade Federal de Santa Maria"
+          ],
+          "raw_author_name": "Marcio A. Mazutti"
+        }
+      ],
+      "topics": [
+        "Microencapsulation and Drying Processes",
+        "Polymer-Based Agricultural Enhancements",
+        "Freezing and Crystallization Processes"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W4391262175",
+      "title": "Agricultural Bioinputs Obtained by Solid-State Fermentation: From Production in Biorefineries to Sustainable Agriculture",
+      "publication_year": 2024,
+      "doi": "https://doi.org/10.3390/su16031076",
+      "authors": [
+        {
+          "author": "T. M. Rocha",
+          "institutions": [
+            "Universidade de São Paulo"
+          ],
+          "raw_author_name": "Thiago Moura Rocha"
+        },
+        {
+          "author": "Paulo Ricardo Franco Marcelino",
+          "institutions": [
+            "Universidade de São Paulo"
+          ],
+          "raw_author_name": "Paulo Ricardo Franco Marcelino"
+        },
+        {
+          "author": "Rogger Alessandro Mata da Costa",
+          "institutions": [
+            "Universidade de São Paulo"
+          ],
+          "raw_author_name": "Rogger Alessandro Mata Da Costa"
+        },
+        {
+          "author": "Daylin Rubio Ribeaux",
+          "institutions": [
+            "Universidade de São Paulo"
+          ],
+          "raw_author_name": "Daylin Rubio-Ribeaux"
+        },
+        {
+          "author": "Fernanda Gonçalves Barbosa",
+          "institutions": [
+            "Universidade de São Paulo"
+          ],
+          "raw_author_name": "Fernanda Gonçalves Barbosa"
+        },
+        {
+          "author": "Sílvio Silvério da Silva",
+          "institutions": [
+            "Universidade de São Paulo"
+          ],
+          "raw_author_name": "Silvio Silvério da Silva"
+        }
+      ],
+      "topics": [
+        "Biofuel production and bioconversion",
+        "Plant-Microbe Interactions and Immunity",
+        "Anaerobic Digestion and Biogas Production"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "exact_trichoderma_sophorolipid_starmerella",
+      "work_id": "https://openalex.org/W4307238557",
+      "title": "Optimization of the Fermentative Production of Rhizomucor miehei Lipase in Aspergillus oryzae by Controlling Morphology",
+      "publication_year": 2022,
+      "doi": "https://doi.org/10.3390/bioengineering9110610",
+      "authors": [
+        {
+          "author": "Chao Li",
+          "institutions": [
+            "East China University of Science and Technology"
+          ],
+          "raw_author_name": "Chao Li"
+        },
+        {
+          "author": "Dou Xu",
+          "institutions": [
+            "East China University of Science and Technology"
+          ],
+          "raw_author_name": "Dou Xu"
+        },
+        {
+          "author": "Zhiyue Xiong",
+          "institutions": [
+            "East China University of Science and Technology"
+          ],
+          "raw_author_name": "Zhiyue Xiong"
+        },
+        {
+          "author": "Yiming Yang",
+          "institutions": [],
+          "raw_author_name": "Yiming Yang"
+        },
+        {
+          "author": "Guiwei Tian",
+          "institutions": [],
+          "raw_author_name": "Guiwei Tian"
+        },
+        {
+          "author": "Wu Xuezhi",
+          "institutions": [],
+          "raw_author_name": "Xuezhi Wu"
+        },
+        {
+          "author": "Yonghong Wang",
+          "institutions": [
+            "East China University of Science and Technology"
+          ],
+          "raw_author_name": "Yonghong Wang"
+        },
+        {
+          "author": "Yingping Zhuang",
+          "institutions": [
+            "East China University of Science and Technology"
+          ],
+          "raw_author_name": "Yingping Zhuang"
+        }
+      ],
+      "topics": [
+        "Enzyme Catalysis and Immobilization",
+        "Fungal Biology and Applications",
+        "Fungal and yeast genetics research"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W2511347978",
+      "title": "Production of sophorolipids from winterization oil cake by solid-state fermentation: Optimization, monitoring and effect of mixing",
+      "publication_year": 2016,
+      "doi": "https://doi.org/10.1016/j.bej.2016.08.006",
+      "authors": [
+        {
+          "author": "Pedro Jiménez‐Peñalver",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Pedro Jiménez-Peñalver"
+        },
+        {
+          "author": "Teresa Gea",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Teresa Gea"
+        },
+        {
+          "author": "Antoni Sánchez",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Antoni Sánchez"
+        },
+        {
+          "author": "Xavier Font",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Xavier Font"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Toxic Organic Pollutants Impact"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W4402689089",
+      "title": "Fundamentals of Edible Coatings and Combination with Biocontrol Agents: A Strategy to Improve Postharvest Fruit Preservation",
+      "publication_year": 2024,
+      "doi": "https://doi.org/10.3390/foods13182980",
+      "authors": [
+        {
+          "author": "Marcela Miranda",
+          "institutions": [],
+          "raw_author_name": "Marcela Miranda"
+        },
+        {
+          "author": "Jinhe Bai",
+          "institutions": [
+            "United States Department of Agriculture",
+            "U.S. Horticultural Research Laboratory"
+          ],
+          "raw_author_name": "Jinhe Bai"
+        },
+        {
+          "author": "Lucimeire Pilon",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Lucimeire Pilon"
+        },
+        {
+          "author": "Rosário Torres",
+          "institutions": [],
+          "raw_author_name": "Rosario Torres"
+        },
+        {
+          "author": "C. Casals",
+          "institutions": [],
+          "raw_author_name": "Carla Casals"
+        },
+        {
+          "author": "Cristina Solsona",
+          "institutions": [],
+          "raw_author_name": "Cristina Solsona"
+        },
+        {
+          "author": "Neus Teixidó",
+          "institutions": [],
+          "raw_author_name": "Neus Teixidó"
+        }
+      ],
+      "topics": [
+        "Nanocomposite Films for Food Packaging",
+        "Postharvest Quality and Shelf Life Management",
+        "Date Palm Research Studies"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W3216763118",
+      "title": "Cellulase production and efficient saccharification of biomass by a new mutant Trichoderma afroharzianum MEA-12",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.1186/s13068-021-02072-z",
+      "authors": [
+        {
+          "author": "Zhiqing Peng",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Zhi-Qing Peng"
+        },
+        {
+          "author": "Chuang Li",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Chuang Li"
+        },
+        {
+          "author": "Yi Lin",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Yi Lin"
+        },
+        {
+          "author": "Shengshan Wu",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Sheng-Shan Wu"
+        },
+        {
+          "author": "Lihui Gan",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Li-Hui Gan"
+        },
+        {
+          "author": "Jian Liu",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Jian Liu"
+        },
+        {
+          "author": "Shuliang Yang",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Shu-Liang Yang"
+        },
+        {
+          "author": "Xianhai Zeng",
+          "institutions": [
+            "Xiamen University"
+          ],
+          "raw_author_name": "Xian-Hai Zeng"
+        }
+      ],
+      "topics": [
+        "Biofuel production and bioconversion",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Enzyme Catalysis and Immobilization"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W2586472003",
+      "title": "Solid-State Fermentation as a Novel Paradigm for Organic Waste Valorization: A Review",
+      "publication_year": 2017,
+      "doi": "https://doi.org/10.3390/su9020224",
+      "authors": [
+        {
+          "author": "Noraziah Abu Yazid",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Noraziah Abu Yazid"
+        },
+        {
+          "author": "Raquel Barrena",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Raquel Barrena"
+        },
+        {
+          "author": "Dimitrios Komilis",
+          "institutions": [
+            "Universitat Autònoma de Barcelona",
+            "Democritus University of Thrace"
+          ],
+          "raw_author_name": "Dimitrios Komilis"
+        },
+        {
+          "author": "Antoni Sánchez",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Antoni Sánchez"
+        }
+      ],
+      "topics": [
+        "Biofuel production and bioconversion",
+        "Bioeconomy and Sustainability Development",
+        "Anaerobic Digestion and Biogas Production"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W3172387323",
+      "title": "Fungal biosurfactants, from nature to biotechnological product: bioprospection, production and potential applications",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.1007/s00449-021-02597-5",
+      "authors": [
+        {
+          "author": "André Felipe da Silva",
+          "institutions": [
+            "Universidade Federal de Santa Catarina",
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "André Felipe da Silva"
+        },
+        {
+          "author": "İbrahim M. Banat",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "Ibrahim M. Banat"
+        },
+        {
+          "author": "Admir José Giachini",
+          "institutions": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "raw_author_name": "Admir José Giachini"
+        },
+        {
+          "author": "Diogo Robl",
+          "institutions": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "raw_author_name": "Diogo Robl"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Biofuel production and bioconversion"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W2920139773",
+      "title": "Microbial biosurfactants: current trends and applications in agricultural and biomedical industries",
+      "publication_year": 2019,
+      "doi": "https://doi.org/10.1111/jam.14243",
+      "authors": [
+        {
+          "author": "Patrick Naughton",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "P.J. Naughton"
+        },
+        {
+          "author": "Roger Marchant",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "R. Marchant"
+        },
+        {
+          "author": "Violetta Naughton",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "V. Naughton"
+        },
+        {
+          "author": "İbrahim M. Banat",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "I.M. Banat"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Microbial Community Ecology and Physiology",
+        "Bacterial biofilms and quorum sensing"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W3094166443",
+      "title": "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+      "publication_year": 2020,
+      "doi": "https://doi.org/10.1016/j.biortech.2020.124222",
+      "authors": [
+        {
+          "author": "İbrahim M. Banat",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "Ibrahim M. Banat"
+        },
+        {
+          "author": "Quentin Carboué",
+          "institutions": [
+            "Universidad Autónoma Metropolitana"
+          ],
+          "raw_author_name": "Quentin Carboué"
+        },
+        {
+          "author": "Gerardo Saucedo‐Castañeda",
+          "institutions": [
+            "Universidad Autónoma Metropolitana"
+          ],
+          "raw_author_name": "Gerardo Saucedo-Castañeda"
+        },
+        {
+          "author": "José de Jesús Cázares‐Marinero",
+          "institutions": [],
+          "raw_author_name": "José de Jesús Cázares-Marinero"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Biofuel production and bioconversion",
+        "Microbial Metabolic Engineering and Bioproduction"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W4319786079",
+      "title": "Comparative genomics of Bacillus cereus sensu lato spp. biocontrol strains in correlation to in-vitro phenotypes and plant pathogen antagonistic capacity",
+      "publication_year": 2023,
+      "doi": "https://doi.org/10.3389/fmicb.2023.996287",
+      "authors": [
+        {
+          "author": "Maya Moshe",
+          "institutions": [
+            "Bar-Ilan University",
+            "Agricultural Research Organization"
+          ],
+          "raw_author_name": "Maya Moshe"
+        },
+        {
+          "author": "Chhedi Lal Gupta",
+          "institutions": [
+            "Agricultural Research Organization"
+          ],
+          "raw_author_name": "Chhedi Lal Gupta"
+        },
+        {
+          "author": "Rakeshkumar Manojkumar Jain",
+          "institutions": [],
+          "raw_author_name": "Rakeshkumar Manojkumar Jain"
+        },
+        {
+          "author": "Noa Sela",
+          "institutions": [
+            "Agricultural Research Organization"
+          ],
+          "raw_author_name": "Noa Sela"
+        },
+        {
+          "author": "Dror Minz",
+          "institutions": [
+            "Agricultural Research Organization"
+          ],
+          "raw_author_name": "Dror Minz"
+        },
+        {
+          "author": "Ehud Banin",
+          "institutions": [
+            "Bar-Ilan University"
+          ],
+          "raw_author_name": "Ehud Banin"
+        },
+        {
+          "author": "Omer Frenkel",
+          "institutions": [
+            "Agricultural Research Organization"
+          ],
+          "raw_author_name": "Omer Frenkel"
+        },
+        {
+          "author": "Eddie Cytryn",
+          "institutions": [
+            "Agricultural Research Organization"
+          ],
+          "raw_author_name": "Eddie Cytryn"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Legume Nitrogen Fixing Symbiosis"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W2964174381",
+      "title": "Innovative Production of Bioproducts From Organic Waste Through Solid-State Fermentation",
+      "publication_year": 2019,
+      "doi": "https://doi.org/10.3389/fsufs.2019.00063",
+      "authors": [
+        {
+          "author": "Alejandra Cerda",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Alejandra Cerda"
+        },
+        {
+          "author": "Adriana Artola",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Adriana Artola"
+        },
+        {
+          "author": "Raquel Barrena",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Raquel Barrena"
+        },
+        {
+          "author": "Xavier Font",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Xavier Font"
+        },
+        {
+          "author": "Teresa Gea",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Teresa Gea"
+        },
+        {
+          "author": "Antoni Sánchez",
+          "institutions": [
+            "Universitat Autònoma de Barcelona"
+          ],
+          "raw_author_name": "Antoni Sánchez"
+        }
+      ],
+      "topics": [
+        "Biofuel production and bioconversion",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Enzyme Production and Characterization"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "trichoderma_sophorolipid_biocontrol",
+      "work_id": "https://openalex.org/W2463560031",
+      "title": "Biochemical and Molecular Mechanisms of Plant-Microbe-Metal Interactions: Relevance for Phytoremediation",
+      "publication_year": 2016,
+      "doi": "https://doi.org/10.3389/fpls.2016.00918",
+      "authors": [
+        {
+          "author": "Ying Ma",
+          "institutions": [
+            "University of Coimbra"
+          ],
+          "raw_author_name": "Ying Ma"
+        },
+        {
+          "author": "Rui S. Oliveira",
+          "institutions": [
+            "Universidade Católica Portuguesa",
+            "University of Coimbra",
+            "Polytechnic Institute of Porto"
+          ],
+          "raw_author_name": "Rui S. Oliveira"
+        },
+        {
+          "author": "Helena Freitas",
+          "institutions": [
+            "University of Coimbra"
+          ],
+          "raw_author_name": "Helena Freitas"
+        },
+        {
+          "author": "Chang Zhang",
+          "institutions": [
+            "Chuzhou University"
+          ],
+          "raw_author_name": "Chang Zhang"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Legume Nitrogen Fixing Symbiosis",
+        "Plant Stress Responses and Tolerance"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4401448907",
+      "title": "Surfactin and poly–γ–glutamic acid co–production by Bacillus velezensis P#02 using a corn steep liquor–based medium",
+      "publication_year": 2024,
+      "doi": "https://doi.org/10.1016/j.bej.2024.109461",
+      "authors": [
+        {
+          "author": "Jéssica Correia",
+          "institutions": [
+            "University of Minho"
+          ],
+          "raw_author_name": "Jéssica Correia"
+        },
+        {
+          "author": "Eduardo J. Gudiña",
+          "institutions": [
+            "University of Minho"
+          ],
+          "raw_author_name": "Eduardo J. Gudiña"
+        },
+        {
+          "author": "Tomasz Janek",
+          "institutions": [
+            "Wrocław University of Environmental and Life Sciences"
+          ],
+          "raw_author_name": "Tomasz Janek"
+        },
+        {
+          "author": "Ricardo Dias",
+          "institutions": [
+            "Universidade do Porto",
+            "Rede de Química e Tecnologia"
+          ],
+          "raw_author_name": "Ricardo Dias"
+        },
+        {
+          "author": "Víctor de Freitas",
+          "institutions": [
+            "Universidade do Porto",
+            "Rede de Química e Tecnologia"
+          ],
+          "raw_author_name": "Victor de Freitas"
+        },
+        {
+          "author": "J. A. Teixeira",
+          "institutions": [
+            "University of Minho"
+          ],
+          "raw_author_name": "José A. Teixeira"
+        }
+      ],
+      "topics": [
+        "Biopolymer Synthesis and Applications",
+        "Polyamine Metabolism and Applications",
+        "Probiotics and Fermented Foods"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4321787503",
+      "title": "Bacillus-Loaded Biochar as Soil Amendment for Improved Germination of Maize Seeds",
+      "publication_year": 2023,
+      "doi": "https://doi.org/10.3390/plants12051024",
+      "authors": [
+        {
+          "author": "Vanja Vlajkov",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Vanja Vlajkov"
+        },
+        {
+          "author": "Ivana Pajčin",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Ivana Pajčin"
+        },
+        {
+          "author": "Snežana Vučetić",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Snežana Vučetić"
+        },
+        {
+          "author": "Stefan Anđelić",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Stefan Anđelić"
+        },
+        {
+          "author": "Marta Loc",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Marta Loc"
+        },
+        {
+          "author": "Mila Grahovac",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Mila Grahovac"
+        },
+        {
+          "author": "Jovana Grahovac",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Jovana Grahovac"
+        }
+      ],
+      "topics": [
+        "Legume Nitrogen Fixing Symbiosis",
+        "Phytase and its Applications",
+        "Plant-Microbe Interactions and Immunity"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4213089270",
+      "title": "Biosurfactants: Production, properties, applications, trends, and general perspectives",
+      "publication_year": 2022,
+      "doi": "https://doi.org/10.1016/j.bej.2022.108377",
+      "authors": [
+        {
+          "author": "Leonie Asfora Sarubbo",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Leonie A. Sarubbo"
+        },
+        {
+          "author": "Maria da Glória C. Silva",
+          "institutions": [
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Maria da Gloria C. Silva"
+        },
+        {
+          "author": "Ítalo José Batista Durval",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Italo José B. Durval"
+        },
+        {
+          "author": "Káren Gercyane Oliveira Bezerra",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Káren Gercyane O. Bezerra"
+        },
+        {
+          "author": "Beatriz Galdino Ribeiro",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Beatriz G. Ribeiro"
+        },
+        {
+          "author": "Ivison A. Silva",
+          "institutions": [
+            "Universidade Católica de Pernambuco",
+            "Instituto de Tecnologia de Pernambuco",
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Ivison A. Silva"
+        },
+        {
+          "author": "Matthew S. Twigg",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "Matthew S. Twigg"
+        },
+        {
+          "author": "İbrahim M. Banat",
+          "institutions": [
+            "University of Ulster",
+            "Instituto de Tecnologia de Pernambuco"
+          ],
+          "raw_author_name": "Ibrahim M. Banat"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Biofuel production and bioconversion",
+        "Enzyme Production and Characterization"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W2146044156",
+      "title": "Advances in utilization of renewable substrates for biosurfactant production",
+      "publication_year": 2011,
+      "doi": "https://doi.org/10.1186/2191-0855-1-5",
+      "authors": [
+        {
+          "author": "Randhir S. Makkar",
+          "institutions": [
+            "Yahoo (United Kingdom)"
+          ],
+          "raw_author_name": "Randhir S Makkar"
+        },
+        {
+          "author": "Swaranjit Singh Cameotra",
+          "institutions": [
+            "Institute of Microbial Technology"
+          ],
+          "raw_author_name": "Swaranjit S Cameotra"
+        },
+        {
+          "author": "İbrahim M. Banat",
+          "institutions": [
+            "University of Ulster"
+          ],
+          "raw_author_name": "Ibrahim M Banat"
+        }
+      ],
+      "topics": [
+        "Microbial bioremediation and biosurfactants",
+        "Biofuel production and bioconversion",
+        "Microbial Metabolic Engineering and Bioproduction"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4411878698",
+      "title": "Biosurfactant Produced by Bacillus subtilis UCP 1533 Isolated from the Brazilian Semiarid Region: Characterization and Antimicrobial Potential",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3390/microorganisms13071548",
+      "authors": [
+        {
+          "author": "Antônio Pedro da Costa Albuquerque",
+          "institutions": [
+            "Universidade Católica de Pernambuco"
+          ],
+          "raw_author_name": "Antônio P. da C. Albuquerque"
+        },
+        {
+          "author": "HOZANA DE SOUZA FERREIRA",
+          "institutions": [
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Hozana de S. Ferreira"
+        },
+        {
+          "author": "Yali Alves da Silva",
+          "institutions": [
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Yali A. da Silva"
+        },
+        {
+          "author": "Renata R. da Silva",
+          "institutions": [
+            "Universidade Federal Rural de Pernambuco"
+          ],
+          "raw_author_name": "Renata R. da Silva"
+        },
+        {
+          "author": "CARLOS VINÍCIUS ALVES DE LIMA",
+          "institutions": [
+            "Universidade Católica de Pernambuco"
+          ],
+          "raw_author_name": "Carlos V. A. de Lima"
+        },
+        {
+          "author": "Leonie Asfora Sarubbo",
+          "institutions": [
+            "Universidade Católica de Pernambuco"
+          ],
+          "raw_author_name": "Leonie A. Sarubbo"
+        },
+        {
+          "author": "Juliana M. Luna",
+          "institutions": [
+            "Universidade Católica de Pernambuco"
+          ],
+          "raw_author_name": "Juliana M. Luna"
+        }
+      ],
+      "topics": [
+        "Bacillus and Francisella bacterial research",
+        "Microbial bioremediation and biosurfactants",
+        "Bacterial biofilms and quorum sensing"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4308524138",
+      "title": "Dairy and Wine Industry Effluents as Alternative Media for the Production of Bacillus-Based Biocontrol Agents",
+      "publication_year": 2022,
+      "doi": "https://doi.org/10.3390/bioengineering9110663",
+      "authors": [
+        {
+          "author": "Selena Dmitrović",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Selena Dmitrović"
+        },
+        {
+          "author": "Ivana Pajčin",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Ivana Pajčin"
+        },
+        {
+          "author": "Vanja Vlajkov",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Vanja Vlajkov"
+        },
+        {
+          "author": "Mila Grahovac",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Mila Grahovac"
+        },
+        {
+          "author": "Aleksandar Jokić",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Aleksandar Jokić"
+        },
+        {
+          "author": "Jovana Grahovac",
+          "institutions": [
+            "University of Novi Sad"
+          ],
+          "raw_author_name": "Jovana Grahovac"
+        }
+      ],
+      "topics": [
+        "Microbial Community Ecology and Physiology",
+        "Polyamine Metabolism and Applications",
+        "Enzyme-mediated dye degradation"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4412601229",
+      "title": "Bacillus-based inoculants enhance drought resilience in soybean: agronomic performance and remote sensing analysis from multi-location trials in Brazil",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3389/fpls.2025.1630127",
+      "authors": [
+        {
+          "author": "Julio Cezar Souza Vasconcelos",
+          "institutions": [
+            "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+          ],
+          "raw_author_name": "Julio Cezar Souza Vasconcelos"
+        },
+        {
+          "author": "Caio Simplicio Arantes",
+          "institutions": [
+            "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+          ],
+          "raw_author_name": "Caio Simplicio Arantes"
+        },
+        {
+          "author": "E. A. Gomes",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Eliane Aparecida Gomes"
+        },
+        {
+          "author": "Christiane Abreu de Oliveira-Paiva",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Christiane Abreu de Oliveira-Paiva"
+        },
+        {
+          "author": "S. M. de Sousa",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Sylvia Morais de Sousa"
+        },
+        {
+          "author": "Eduardo Antônio Speranza",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Eduardo Antonio Speranza"
+        },
+        {
+          "author": "J. F. G. Antunes",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "João Francisco Gonçalves Antunes"
+        },
+        {
+          "author": "U. G. de P. Lana",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Ubiraci Gomes de Paula Lana"
+        }
+      ],
+      "topics": [
+        "Nematode management and characterization studies",
+        "Plant-Microbe Interactions and Immunity",
+        "Legume Nitrogen Fixing Symbiosis"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4406334246",
+      "title": "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3390/plants14020191",
+      "authors": [
+        {
+          "author": "Alondra María Díaz-Rodríguez",
+          "institutions": [
+            "Sonora Institute of Technology"
+          ],
+          "raw_author_name": "Alondra María Díaz-Rodríguez"
+        },
+        {
+          "author": "Fannie Isela Parra-Cota",
+          "institutions": [
+            "Sonora Institute of Technology",
+            "Instituto Nacional de Investigaciones Forestales Agrícolas y Pecuarias"
+          ],
+          "raw_author_name": "Fannie Isela Parra Cota"
+        },
+        {
+          "author": "Luis Alberto Cira Chávez",
+          "institutions": [
+            "Sonora Institute of Technology"
+          ],
+          "raw_author_name": "Luis Alberto Cira Chávez"
+        },
+        {
+          "author": "Luis Fernando García-Ortega",
+          "institutions": [
+            "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional"
+          ],
+          "raw_author_name": "Luis Fernando García Ortega"
+        },
+        {
+          "author": "María Alvarado",
+          "institutions": [
+            "Sonora Institute of Technology"
+          ],
+          "raw_author_name": "María Isabel Estrada Alvarado"
+        },
+        {
+          "author": "Gustavo Santoyo",
+          "institutions": [
+            "Universidad Michoacana de San Nicolás de Hidalgo"
+          ],
+          "raw_author_name": "Gustavo Santoyo"
+        },
+        {
+          "author": "Sergio de los Santos‐Villalobos",
+          "institutions": [
+            "Sonora Institute of Technology"
+          ],
+          "raw_author_name": "Sergio de los Santos-Villalobos"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Legume Nitrogen Fixing Symbiosis"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W7126420140",
+      "title": "Bacillus velezensis Enhances Rice Resistance to Brown Spot by Integrating Antifungal and Growth Promotion Functions",
+      "publication_year": 2026,
+      "doi": "https://doi.org/10.3390/ijms27031455",
+      "authors": [
+        {
+          "author": "Elizabeth B. E. Pires",
+          "institutions": [
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Elizabeth B. E. Pires"
+        },
+        {
+          "author": "Maira S. Tique Obando",
+          "institutions": [
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Maira S. Tique Obando"
+        },
+        {
+          "author": "L. Janssen",
+          "institutions": [
+            "Universidade de Brasília",
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Luis Janssen"
+        },
+        {
+          "author": "Bergmann M. Ribeiro",
+          "institutions": [
+            "Universidade de Brasília"
+          ],
+          "raw_author_name": "Bergmann M. Ribeiro"
+        },
+        {
+          "author": "Odaiza F. Souza",
+          "institutions": [
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Odaiza F. Souza"
+        },
+        {
+          "author": "Marcelo L. Dias",
+          "institutions": [
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Marcelo L. Dias"
+        },
+        {
+          "author": "Luis O. Viteri Jumbo",
+          "institutions": [
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Luís O. Viteri Jumbo"
+        },
+        {
+          "author": "Rodrigo R. Fidelis",
+          "institutions": [
+            "Universidade Federal do Tocantins"
+          ],
+          "raw_author_name": "Rodrigo R. Fidelis"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Fungal and yeast genetics research",
+        "Insect Resistance and Genetics"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_velezensis_bioreactor_formulation",
+      "work_id": "https://openalex.org/W4413229110",
+      "title": "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3389/fmicb.2025.1574269",
+      "authors": [
+        {
+          "author": "Matheus Felipe de Lima Andreata",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ],
+          "raw_author_name": "Matheus Felipe de Lima Andreata"
+        },
+        {
+          "author": "Silas Mian",
+          "institutions": [
+            "Universidade Estadual de Londrina",
+            "Chamber of Deputies"
+          ],
+          "raw_author_name": "Silas Mian"
+        },
+        {
+          "author": "Galdino Andrade",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ],
+          "raw_author_name": "Galdino Andrade"
+        },
+        {
+          "author": "Adeney de Freitas Bueno",
+          "institutions": [
+            "Brazilian Agricultural Research Corporation"
+          ],
+          "raw_author_name": "Adeney de Freitas Bueno"
+        },
+        {
+          "author": "Maurício Ursi Ventura",
+          "institutions": [
+            "Universidade Estadual de Londrina"
+          ],
+          "raw_author_name": "Mauricio Ursi Ventura"
+        },
+        {
+          "author": "J.E.M. Almeida",
+          "institutions": [
+            "Instituto Biológico"
+          ],
+          "raw_author_name": "José Eduardo Marcondes de Almeida"
+        },
+        {
+          "author": "Eduardo Augusto Fonseca Ivan",
+          "institutions": [
+            "Campo Arqueologico de Mertola"
+          ],
+          "raw_author_name": "Eduardo Augusto Fonseca Ivan"
+        },
+        {
+          "author": "Mirela Mosela",
+          "institutions": [
+            "Universidade Estadual de Londrina",
+            "Chamber of Deputies"
+          ],
+          "raw_author_name": "Mirela Mosela"
+        }
+      ],
+      "topics": [
+        "Entomopathogenic Microorganisms in Pest Control",
+        "Insect Resistance and Genetics",
+        "Nematode management and characterization studies"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W2152856675",
+      "title": "Biofertilizers function as key player in sustainable agriculture by improving soil fertility, plant tolerance and crop productivity",
+      "publication_year": 2014,
+      "doi": "https://doi.org/10.1186/1475-2859-13-66",
+      "authors": [
+        {
+          "author": "Deepak Bhardwaj",
+          "institutions": [
+            "International Centre for Genetic Engineering and Biotechnology"
+          ],
+          "raw_author_name": "Deepak Bhardwaj"
+        },
+        {
+          "author": "Mohammad Wahid Ansari",
+          "institutions": [
+            "International Centre for Genetic Engineering and Biotechnology"
+          ],
+          "raw_author_name": "Mohammad Wahid Ansari"
+        },
+        {
+          "author": "Ranjan Kumar Sahoo",
+          "institutions": [
+            "International Centre for Genetic Engineering and Biotechnology"
+          ],
+          "raw_author_name": "Ranjan Kumar Sahoo"
+        },
+        {
+          "author": "Narendra Tuteja",
+          "institutions": [
+            "International Centre for Genetic Engineering and Biotechnology"
+          ],
+          "raw_author_name": "Narendra Tuteja"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Mycorrhizal Fungi and Plant Interactions",
+        "Nematode management and characterization studies"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W4200270345",
+      "title": "Biofertilizers: An ecofriendly technology for nutrient recycling and environmental sustainability",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.1016/j.crmicr.2021.100094",
+      "authors": [
+        {
+          "author": "Satish Kumar",
+          "institutions": [
+            "Chaudhary Charan Singh Haryana Agricultural University"
+          ],
+          "raw_author_name": "Satish Kumar"
+        },
+        {
+          "author": "Diksha Diksha",
+          "institutions": [
+            "Chaudhary Charan Singh Haryana Agricultural University"
+          ],
+          "raw_author_name": "Diksha"
+        },
+        {
+          "author": "S. S. Sindhu",
+          "institutions": [
+            "Chaudhary Charan Singh Haryana Agricultural University"
+          ],
+          "raw_author_name": "Satyavir S. Sindhu"
+        },
+        {
+          "author": "Rakesh Kumar",
+          "institutions": [
+            "Chaudhary Charan Singh Haryana Agricultural University"
+          ],
+          "raw_author_name": "Rakesh Kumar"
+        }
+      ],
+      "topics": [
+        "Legume Nitrogen Fixing Symbiosis",
+        "Nematode management and characterization studies",
+        "Plant-Microbe Interactions and Immunity"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W2753705152",
+      "title": "Bacillus: A Biological Tool for Crop Improvement through Bio-Molecular Changes in Adverse Environments",
+      "publication_year": 2017,
+      "doi": "https://doi.org/10.3389/fphys.2017.00667",
+      "authors": [
+        {
+          "author": "Ramalingam Radhakrishnan",
+          "institutions": [
+            "Yeungnam University"
+          ],
+          "raw_author_name": "Ramalingam Radhakrishnan"
+        },
+        {
+          "author": "Abeer Hashem",
+          "institutions": [
+            "King Saud University",
+            "Agricultural Research Center"
+          ],
+          "raw_author_name": "Abeer Hashem"
+        },
+        {
+          "author": "Elsayed Fathi Abd Allah",
+          "institutions": [
+            "King Saud University"
+          ],
+          "raw_author_name": "Elsayed F. Abd_Allah"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Legume Nitrogen Fixing Symbiosis",
+        "Plant tissue culture and regeneration"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W3129597966",
+      "title": "Rethinking Crop Nutrition in Times of Modern Microbiology: Innovative Biofertilizer Technologies",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.3389/fsufs.2021.606815",
+      "authors": [
+        {
+          "author": "Eduardo K. Mitter",
+          "institutions": [
+            "University of Guelph"
+          ],
+          "raw_author_name": "Eduardo K. Mitter"
+        },
+        {
+          "author": "Micaela Tosi",
+          "institutions": [
+            "University of Guelph"
+          ],
+          "raw_author_name": "Micaela Tosi"
+        },
+        {
+          "author": "Dasiel Obregón",
+          "institutions": [
+            "Universidade de São Paulo",
+            "University of Guelph"
+          ],
+          "raw_author_name": "Dasiel Obregón"
+        },
+        {
+          "author": "Kari E. Dunfield",
+          "institutions": [
+            "University of Guelph"
+          ],
+          "raw_author_name": "Kari E. Dunfield"
+        },
+        {
+          "author": "James J. Germida",
+          "institutions": [
+            "University of Saskatchewan"
+          ],
+          "raw_author_name": "James J. Germida"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Plant tissue culture and regeneration",
+        "Legume Nitrogen Fixing Symbiosis"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W2764166391",
+      "title": "Mechanisms of action of plant growth promoting bacteria",
+      "publication_year": 2017,
+      "doi": "https://doi.org/10.1007/s11274-017-2364-9",
+      "authors": [
+        {
+          "author": "Oluwaseyi Samuel Olanrewaju",
+          "institutions": [
+            "North-West University"
+          ],
+          "raw_author_name": "Oluwaseyi Samuel Olanrewaju"
+        },
+        {
+          "author": "Bernard R. Glick",
+          "institutions": [
+            "University of Waterloo"
+          ],
+          "raw_author_name": "Bernard R. Glick"
+        },
+        {
+          "author": "Olubukola Oluranti Babalola",
+          "institutions": [
+            "North-West University"
+          ],
+          "raw_author_name": "Olubukola Oluranti Babalola"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Legume Nitrogen Fixing Symbiosis",
+        "Nematode management and characterization studies"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W3177716001",
+      "title": "Biofertilizers: A Nexus between soil fertility and crop productivity under abiotic stress",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.1016/j.crsust.2021.100063",
+      "authors": [
+        {
+          "author": "Aliyu Ahmad Mahmud",
+          "institutions": [
+            "Mewar University"
+          ],
+          "raw_author_name": "Aliyu Ahmad Mahmud"
+        },
+        {
+          "author": "Sudhir K. Upadhyay",
+          "institutions": [
+            "Veer Bahadur Singh Purvanchal University"
+          ],
+          "raw_author_name": "Sudhir K. Upadhyay"
+        },
+        {
+          "author": "Abhishek K. Srivastava",
+          "institutions": [],
+          "raw_author_name": "Abhishek K. Srivastava"
+        },
+        {
+          "author": "Ali Asger Bhojiya",
+          "institutions": [
+            "Mewar University"
+          ],
+          "raw_author_name": "Ali Asger Bhojiya"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Mycorrhizal Fungi and Plant Interactions",
+        "Plant Parasitism and Resistance"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W3156486718",
+      "title": "Biofertilizers and Biocontrol Agents for Agriculture: How to Identify and Develop New Potent Microbial Strains and Traits",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.3390/microorganisms9040817",
+      "authors": [
+        {
+          "author": "Anna Maria Pirttilä",
+          "institutions": [
+            "University of Oulu"
+          ],
+          "raw_author_name": "Anna Maria Pirttilä"
+        },
+        {
+          "author": "Habibollah Mohammad Parast Tabas",
+          "institutions": [
+            "University of Oulu"
+          ],
+          "raw_author_name": "Habibollah Mohammad Parast Tabas"
+        },
+        {
+          "author": "Namrata Baruah",
+          "institutions": [
+            "University of Oulu"
+          ],
+          "raw_author_name": "Namrata Baruah"
+        },
+        {
+          "author": "Janne J. Koskimäki",
+          "institutions": [
+            "University of Oulu"
+          ],
+          "raw_author_name": "Janne J. Koskimäki"
+        }
+      ],
+      "topics": [
+        "Mycorrhizal Fungi and Plant Interactions",
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W3210999050",
+      "title": "Utilization of Microbial Consortia as Biofertilizers and Biopesticides for the Production of Feasible Agricultural Product",
+      "publication_year": 2021,
+      "doi": "https://doi.org/10.3390/biology10111111",
+      "authors": [
+        {
+          "author": "R. Seenivasagan",
+          "institutions": [
+            "North-West University"
+          ],
+          "raw_author_name": "Renganathan Seenivasagan"
+        },
+        {
+          "author": "Olubukola Oluranti Babalola",
+          "institutions": [
+            "North-West University"
+          ],
+          "raw_author_name": "Olubukola Oluranti Babalola"
+        }
+      ],
+      "topics": [
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Composting and Vermicomposting Techniques"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W4406542966",
+      "title": "The role of Bacillus species in the management of plant-parasitic nematodes",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3389/fmicb.2024.1510036",
+      "authors": [
+        {
+          "author": "Prabhakaran Vasantha‐Srinivasan",
+          "institutions": [
+            "Chonnam National University"
+          ],
+          "raw_author_name": "Prabhakaran Vasantha-Srinivasan"
+        },
+        {
+          "author": "Ki Beom Park",
+          "institutions": [],
+          "raw_author_name": "Ki Beom Park"
+        },
+        {
+          "author": "Kil Yong Kim",
+          "institutions": [
+            "Chonnam National University"
+          ],
+          "raw_author_name": "Kil Yong Kim"
+        },
+        {
+          "author": "Woo-Jin Jung",
+          "institutions": [
+            "Chonnam National University"
+          ],
+          "raw_author_name": "Woo-Jin Jung"
+        },
+        {
+          "author": "Yeon Soo Han",
+          "institutions": [
+            "Chonnam National University"
+          ],
+          "raw_author_name": "Yeon Soo Han"
+        }
+      ],
+      "topics": [
+        "Nematode management and characterization studies",
+        "Insect Resistance and Genetics",
+        "Entomopathogenic Microorganisms in Pest Control"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    },
+    {
+      "relation_type": "openalex_metadata_candidate",
+      "query_id": "bacillus_biofertilizer_nematode",
+      "work_id": "https://openalex.org/W2891762948",
+      "title": "Fungal and bacterial nematicides in integrated nematode management strategies",
+      "publication_year": 2018,
+      "doi": "https://doi.org/10.1186/s41938-018-0080-x",
+      "authors": [
+        {
+          "author": "Mahfouz M. M. Abd-Elgawad",
+          "institutions": [
+            "National Research Centre"
+          ],
+          "raw_author_name": "Mahfouz M. M. Abd-Elgawad"
+        },
+        {
+          "author": "Tarique Hassan Askary",
+          "institutions": [
+            "Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir"
+          ],
+          "raw_author_name": "Tarique Hassan Askary"
+        }
+      ],
+      "topics": [
+        "Nematode management and characterization studies",
+        "Entomopathogenic Microorganisms in Pest Control",
+        "Plant Parasitism and Resistance"
+      ],
+      "source_status": "FACT_METADATA_SEARCH_RESULT"
+    }
+  ],
+  "next_questions": [
+    {
+      "question_id": "Q-REFORM-015",
+      "priority": "high",
+      "question": "Which OpenAlex author or institution identity candidates for Pivot Bio are actually connected to the BR patent assignee, if any?",
+      "query_plan": [
+        "Inspect candidate author works",
+        "Compare names/affiliations with patent metadata",
+        "Classify as same actor, related actor or unresolved"
+      ],
+      "reason": "The literal byline route did not directly confirm a work-level bridge."
+    },
+    {
+      "question_id": "Q-REFORM-016",
+      "priority": "high",
+      "question": "Does the relaxed Trichoderma–sophorolipid literature set contain an author, institution, DOI or title that independently overlaps the USP patent record?",
+      "query_plan": [
+        "Inspect top literature works",
+        "Resolve DOI/author/institution metadata only",
+        "Compare against BR102023003698A2"
+      ],
+      "reason": "Exact query was empty but relaxed query returned topical records."
+    },
+    {
+      "question_id": "Q-REFORM-017",
+      "priority": "high",
+      "question": "Can a specific BR publication family be found for Bacillus velezensis or Bacillus biofertilizer/nematode using rendered Google Patents, and does its title/snippet overlap the literature set?",
+      "query_plan": [
+        "Rendered Google Patents narrow queries",
+        "Publication ID/title comparison",
+        "Preserve zero/blocked outcomes"
+      ],
+      "reason": "Literature signal exists; patent side is still unrendered."
+    },
+    {
+      "question_id": "Q-REFORM-018",
+      "priority": "medium",
+      "question": "Is the exact USP patent bridge absent from literature because of terminology, language or indexing, rather than because the bridge is unsupported?",
+      "query_plan": [
+        "Portuguese and English relaxed queries",
+        "Search Starmerella bombicola separately",
+        "Search Thiago Moura Rocha separately"
+      ],
+      "reason": "Different search formulations produced different retrieval behavior."
+    }
+  ],
+  "metadata_only": true
+}

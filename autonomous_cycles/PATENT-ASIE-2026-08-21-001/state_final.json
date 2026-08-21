@@ -1,0 +1,128 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "state_version": 6,
+  "status": "NATURAL_STOP_METADATA_EXPLORATION",
+  "repository": "viniburilux/inteligencia-biotecnologica-agropecuaria",
+  "base_commit": "0a1e3316ddc5715ac05a9b2bd67b089d4cb25ae2",
+  "finalized_at": "2026-08-21T07:14:27.574129+00:00",
+  "scope": "Autonomous metadata-only discovery over the public cumulative corpus and public source search results.",
+  "private_boundary": "Private OI/ASIE implementation, private state and private research artifacts are excluded from this public package.",
+  "epistemic_rules": [
+    "FACT",
+    "INFERENCE",
+    "HYPOTHESIS",
+    "OPPORTUNITY",
+    "DISCARDED"
+  ],
+  "state_transition": [
+    "initial corpus",
+    "cross-cluster signals",
+    "actor/bridge hypotheses",
+    "rendered patent evidence",
+    "OpenAlex reformulation",
+    "Crossref validation",
+    "UEL repository follow-up",
+    "natural stop"
+  ],
+  "confirmed_observed_relations": [
+    {
+      "relation_id": "REL-001",
+      "subject": "BR102023003698A2",
+      "predicate": "metadata_continuity_candidate_with",
+      "object": "10.1016/j.micres.2024.127689",
+      "status": "FACT_OBSERVED_METADATA_TEXT",
+      "evidence": [
+        "same specific Trichoderma harzianum + sophorolipid combination",
+        "Thiago Moura Rocha appears as patent inventor and article first author",
+        "USP appears as patent applicant and OpenAlex article affiliation"
+      ],
+      "limits": [
+        "not patent validity",
+        "not efficacy proof",
+        "not commercial adoption",
+        "not legal identity of the project"
+      ]
+    },
+    {
+      "relation_id": "REL-002",
+      "subject": "BR102024016682A2",
+      "predicate": "metadata_continuity_candidate_with",
+      "object": "10.3389/fmicb.2020.618415",
+      "status": "FACT_OBSERVED_METADATA_TEXT",
+      "evidence": [
+        "exact strain Bacillus velezensis CMRP 4490",
+        "UEL appears in article affiliations and as patent applicant",
+        "Admilton Gonçalves de Oliveira name variant appears in article and patent",
+        "patent page explicitly cites TEIXEIRA et al. 2021"
+      ],
+      "limits": [
+        "name variant requires identity audit",
+        "not patent validity",
+        "not efficacy proof",
+        "not commercial adoption"
+      ]
+    },
+    {
+      "relation_id": "REL-003",
+      "subject": "BR102020013481A2",
+      "predicate": "metadata_continuity_candidate_with",
+      "object": "UEL repository item 123456789/18265",
+      "status": "FACT_OBSERVED_METADATA_TEXT",
+      "evidence": [
+        "same LABIM22 strain token",
+        "UEL repository item and patent family both concern Bacillus velezensis biocontrol",
+        "Mirela Mosela, Gustavo Teixeira and Admilton Oliveira appear in the patent team; CMRP 4490 article overlaps team/institution corridor",
+        "repository abstract states a patent-in-process request for formulated medium"
+      ],
+      "limits": [
+        "LABIM22 and CMRP 4490 are distinct strains",
+        "repository abstract is not independent claim-level validation"
+      ]
+    }
+  ],
+  "inferences": [
+    "The strongest map change is a UEL-centered multi-strain corridor connecting characterization literature, institutional repository work and patent-family metadata.",
+    "Two high-specificity patent–literature continuity candidates emerged: USP/Trichoderma/sophorolipids and UEL/CMRP 4490.",
+    "The corpus moved the investigation from broad technology clusters to specific strain–team–institution–process chains."
+  ],
+  "active_hypotheses": [
+    "The UEL corridor may contain a progression from strain characterization to formulation/bioreactor patenting; this is not yet demonstrated as a single project.",
+    "The USP Trichoderma/sophorolipid patent and article may be a research-to-application continuity; metadata supports the candidate but not legal or causal claims."
+  ],
+  "next_questions": [
+    {
+      "question_id": "Q-REFORM-022",
+      "priority": "high",
+      "question": "Does the UEL-filtered Bacillus literature include the same team members (Mirela Mosela, Gustavo Teixeira or Admilton Oliveira) across multiple strains and technologies?",
+      "query_plan": [
+        "Audit UEL-filtered work authors",
+        "Normalize names",
+        "Map strains/technologies without merging distinct strains"
+      ],
+      "reason": "The corpus now shows a multi-strain UEL team corridor."
+    },
+    {
+      "question_id": "Q-REFORM-023",
+      "priority": "medium",
+      "question": "Does LABIM22 appear in any public source under an alternate strain identifier or Portuguese spelling?",
+      "query_plan": [
+        "OpenAlex Portuguese/English variants",
+        "Google Patents direct identifier search",
+        "Crossref title/author search if DOI emerges"
+      ],
+      "reason": "Exact-term retrieval is sensitive to naming and indexing."
+    },
+    {
+      "question_id": "Q-REFORM-024",
+      "priority": "medium",
+      "question": "Does the UEL corridor show a progression from strain characterization to formulation/bioreactor patenting across dates?",
+      "query_plan": [
+        "Order literature and patent records by date",
+        "Compare operational technology tags",
+        "Keep all strain IDs distinct"
+      ],
+      "reason": "This is an unexpected direction generated by the multi-source evidence."
+    }
+  ],
+  "stop_reason": "NATURAL_STOP: the metadata-only cycle reached two high-specificity cross-source chains and a multi-strain institutional corridor; further information gain now requires a deliberate full-text/claim review, larger source expansion, or a new analytical decision outside the first discovery cycle."
+}

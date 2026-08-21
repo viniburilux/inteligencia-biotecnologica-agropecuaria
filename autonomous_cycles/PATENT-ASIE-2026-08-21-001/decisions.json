@@ -1,0 +1,72 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "decisions": [
+    {
+      "decision_id": "D004",
+      "decision": "Replace direct shell parsing with rendered-browser capture for Google Patents.",
+      "basis": "Identical static-shell hashes across distinct queries.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D005",
+      "decision": "Prioritize actor-identity queries in OpenAlex before calling a patent-literature bridge confirmed.",
+      "basis": "Topical search results do not prove byline/affiliation identity.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D006",
+      "decision": "Follow the narrow USP–Trichoderma–sophorolipid record first because it has specific publication-level metadata.",
+      "basis": "Highest specificity among rendered patent results.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D007",
+      "decision": "Keep Bacillus bridge unresolved and render it next for contradiction testing.",
+      "basis": "Current evidence is literature-heavy and patent evidence not yet rendered.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D008",
+      "decision": "Do not call Pivot Bio a patent-literature actor bridge based solely on topical OpenAlex search.",
+      "basis": "Byline-focused query did not yield a direct positive work-level match in this batch.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D009",
+      "decision": "Keep the USP Trichoderma bridge alive as a high-specificity hypothesis, but downgrade it from promising bridge to unresolved cross-source bridge until relaxed literature queries are audited.",
+      "basis": "Exact literature query empty; relaxed query non-empty.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D010",
+      "decision": "Prioritize a rendered Bacillus patent query next.",
+      "basis": "Literature signal is present but patent side is untested in browser rendering.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D011",
+      "decision": "Keep Bacillus CMRP 4490 as an active high-specificity branch, but do not call the patent-literature bridge confirmed.",
+      "basis": "OpenAlex returned a record containing the exact strain token; verify title, authorship and institutional continuity.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D012",
+      "decision": "Split the Bacillus landscape into UEL/local process, Locus/phosphorus and Agrospheres/formulation branches.",
+      "basis": "Distinct assignees and technological descriptions in rendered patent results.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D013",
+      "decision": "Continue the UEL multi-strain corridor as the primary autonomous branch.",
+      "basis": "Two direct patent families, one exact-strain literature match, overlapping UEL actors and multiple distinct Bacillus strains.",
+      "status": "APPLIED"
+    },
+    {
+      "decision_id": "D014",
+      "decision": "Do not merge LABIM22, Ag75, Ag109 or CMRP 4490; treat strain identity as a hard provenance boundary.",
+      "basis": "Separate strain identifiers in public records.",
+      "status": "APPLIED"
+    }
+  ],
+  "private_components_excluded": true
+}

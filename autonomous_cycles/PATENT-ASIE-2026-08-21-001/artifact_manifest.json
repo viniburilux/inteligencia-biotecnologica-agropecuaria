@@ -1,0 +1,331 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "generated_at": "2026-08-21T07:14:27.862605+00:00",
+  "files": [
+    {
+      "path": "EXECUTIVE_MAP_UPDATE.md",
+      "sha256": "79f86db6c00cbe6ec8f6987b807b7d7aabd4dfd5b7b232c95bf9e2c5b46d7cce",
+      "bytes": 7366
+    },
+    {
+      "path": "README.md",
+      "sha256": "3238c1936b1d086babce96a7da2e482002e759db22bbd0a4a16c7e7b836b8178",
+      "bytes": 1356
+    },
+    {
+      "path": "actor_context_v1.json",
+      "sha256": "7f8b95746d6b3d5a780970ef905dd4763d7e93fd63edffcfc9da77476ed94109",
+      "bytes": 5483
+    },
+    {
+      "path": "browser_evidence.json",
+      "sha256": "9f2d6e0ea8788cf1357767e6c461e83622f865d7bb40fb28eb95e3e15c220461",
+      "bytes": 3786
+    },
+    {
+      "path": "browser_patent_findings.md",
+      "sha256": "41fe734819445872d14d18e77b994d22a190b15f318762e9d4a5c990fbc0bdbe",
+      "bytes": 15128
+    },
+    {
+      "path": "crossref_evidence_v1.json",
+      "sha256": "64609314318217abbb4dd55d59c1277922f607c45e28f24582e216f71881c7df",
+      "bytes": 6802
+    },
+    {
+      "path": "crossref_evidence_v2.json",
+      "sha256": "4415ea668fc0913fd3f035ac3e643f8cb994113f4f8722ee34cc68438b8a8f1d",
+      "bytes": 4486
+    },
+    {
+      "path": "decisions.json",
+      "sha256": "b8b17cb2578bce396c8ff4288402d7509ef52c3e2c34181cfdd4e129faff612b",
+      "bytes": 3226
+    },
+    {
+      "path": "evidence_audit_v1.json",
+      "sha256": "438b55051471f1de4a99dc0e58d8f511190e584d20f3f71c10448f31ae6f747b",
+      "bytes": 16491
+    },
+    {
+      "path": "evidence_collection.json",
+      "sha256": "a0b66aa53f94e8e6ad64b03a62b25dd92e88e97e577d4775cb379d92a48164ca",
+      "bytes": 46430
+    },
+    {
+      "path": "frontier_signals.json",
+      "sha256": "e2d91a26c6752b572e0d2d863980ea68e8b1c3b1c848da5512a02b48ed7180b0",
+      "bytes": 950093
+    },
+    {
+      "path": "key_records_v1.json",
+      "sha256": "8f02e3e72a1f9e8472e34af639cd858711b029935804e338e5bf307486d9c880",
+      "bytes": 18539
+    },
+    {
+      "path": "new_relations.json",
+      "sha256": "e85e288bdb56a67411eb507823372871c81963be480a7a8f7db5eeaa1d79e02d",
+      "bytes": 2849
+    },
+    {
+      "path": "next_questions.json",
+      "sha256": "99019689d0fd02eaa0f9b023ea7e9c78b221ef7c428f95ada6e6832d83bfcc28",
+      "bytes": 1560
+    },
+    {
+      "path": "paths_discarded.json",
+      "sha256": "0aeb126b19e68279fc321cd5fd5238c35e5b0b72cedbd8ec7149dc12c7543332",
+      "bytes": 1353
+    },
+    {
+      "path": "queries_executed.json",
+      "sha256": "15780f578108fa1cf6b08aac3b3e3a17b513743fceedd05bc68198cb91ac7223",
+      "bytes": 4818326
+    },
+    {
+      "path": "questions_executed.json",
+      "sha256": "7dcd4a43d19c03e6084138463506df87bf5ab2256176325a4140bf38424b3dd1",
+      "bytes": 10595
+    },
+    {
+      "path": "questions_generated.json",
+      "sha256": "f26953be826b5f8c03f12e13e7db486dd70ffbd95d8402b5662e7a8816a5ea88",
+      "bytes": 5799
+    },
+    {
+      "path": "raw/README.md",
+      "sha256": "7714ad67bbf8ccf02dd2ed61579d25527dd807492b2f7b0ca25a62e9042c561d",
+      "bytes": 410
+    },
+    {
+      "path": "raw/bacillus_patent_literature_bridge__google_patents__00.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/bacillus_patent_literature_bridge__google_patents__01.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/bacillus_patent_literature_bridge__openalex__00.json",
+      "sha256": "fdd7e348a6909b4fa81d5d711847af664149dfe4f2532a045a6147528b33d1aa",
+      "bytes": 290657
+    },
+    {
+      "path": "raw/bacillus_patent_literature_bridge__openalex__01.json",
+      "sha256": "dc462d9dfbeaff0452a7b3fd9fdc81798b015f0b6ebc1c8d9795e96b9998e768",
+      "bytes": 298938
+    },
+    {
+      "path": "raw/pivot_bio_cross_cluster__google_patents__00.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/pivot_bio_cross_cluster__google_patents__01.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/pivot_bio_cross_cluster__openalex__00.json",
+      "sha256": "c8f716f41de5882cbe962b2aa3918aaf9b2ae66b4393df5c0ff0e3d0c907446e",
+      "bytes": 265110
+    },
+    {
+      "path": "raw/pivot_bio_cross_cluster__openalex__01.json",
+      "sha256": "8970a2a8d3a744958404487dc82330778652fa44830ccd6b9bed32b8c8ac5e44",
+      "bytes": 218653
+    },
+    {
+      "path": "raw/trichoderma_patent_literature_bridge__google_patents__00.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/trichoderma_patent_literature_bridge__google_patents__01.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/trichoderma_patent_literature_bridge__openalex__00.json",
+      "sha256": "58b4a5e988c3908fa69998b22571f588be53556d303310e5117c900ce4d4e4c6",
+      "bytes": 230241
+    },
+    {
+      "path": "raw/trichoderma_patent_literature_bridge__openalex__01.json",
+      "sha256": "f085e9ee11abce9f37ebe06e394c4d37f0ec95b27ec7c493c64589853d7c8581",
+      "bytes": 289613
+    },
+    {
+      "path": "raw/usp_cross_cluster__google_patents__00.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/usp_cross_cluster__google_patents__01.html",
+      "sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "bytes": 4149
+    },
+    {
+      "path": "raw/usp_cross_cluster__openalex__00.json",
+      "sha256": "975002da8d1dc29894802431433d190008e56c7df3fa1e3dc1f23febacc1b4cb",
+      "bytes": 181009
+    },
+    {
+      "path": "raw/usp_cross_cluster__openalex__01.json",
+      "sha256": "504176e2eed35b6b308aaca3a58bacd4085e74efebd421620c5da2c1a4e1d1ba",
+      "bytes": 277561
+    },
+    {
+      "path": "raw_crossref_v1/10.1016_j.ejbt.2021.02.002.json",
+      "sha256": "02c0aafac25b95dad32c9fdf0805cff0cc3e9ed0b5a49b569ba7e30bfba76260",
+      "bytes": 52792
+    },
+    {
+      "path": "raw_crossref_v1/10.1016_j.micres.2024.127689.json",
+      "sha256": "5a0c7dd7cd9ac207bd9b6d3a3bb1eb6daba4b7b389bab84b9fed3b0a2f6ea84a",
+      "bytes": 28036
+    },
+    {
+      "path": "raw_crossref_v2/10.3389_fmicb.2020.618415.json",
+      "sha256": "a9b0edb6ab76f35543561c966e01fd36a7a1e29e5d08ac6859bf2cdd6303139c",
+      "bytes": 28761
+    },
+    {
+      "path": "raw_reformulation_v1/bacillus_biofertilizer_nematode.json",
+      "sha256": "2846530d8af87209124968cfd88453023ce729687abfdadb7a969ac57141788c",
+      "bytes": 290656
+    },
+    {
+      "path": "raw_reformulation_v1/bacillus_velezensis_bioreactor_formulation.json",
+      "sha256": "f7103078d3c83b5af83a5deff80b1479c751b75f50a84eb0ed58805d981fbdf3",
+      "bytes": 298937
+    },
+    {
+      "path": "raw_reformulation_v1/exact_trichoderma_sophorolipid_starmerella.json",
+      "sha256": "df920b749aad384a0443528281f3d01402eb183a2c44bf4e274294a56b84459e",
+      "bytes": 284517
+    },
+    {
+      "path": "raw_reformulation_v1/pivot_bio_authors.json",
+      "sha256": "fab65c81098bf77263deb56e3ebe02cea0232e08590eb76ce99e89db072b2428",
+      "bytes": 386
+    },
+    {
+      "path": "raw_reformulation_v1/pivot_bio_institutions.json",
+      "sha256": "cf810d3e18079ff650aca228c8a5877ab5be5da8922d9b05849857bc64c6f19f",
+      "bytes": 23007
+    },
+    {
+      "path": "raw_reformulation_v1/pivot_bio_published_byline.json",
+      "sha256": "72c105123916bbb18fa10b25ef137b8463af38845e59d51b017222b6bb3bd0af",
+      "bytes": 419
+    },
+    {
+      "path": "raw_reformulation_v1/trichoderma_sophorolipid_biocontrol.json",
+      "sha256": "32b11f8aded0c55e91b733b1c7a2ee179881b6a3fb8552bd1a6e315b21b2f5cd",
+      "bytes": 280227
+    },
+    {
+      "path": "raw_reformulation_v2/admilton_oliveira_junior_authors.json",
+      "sha256": "c48273cc75fe4f8fd4dd85e0502752fd3b2ba6063ebe0780de7db70a04cb6a81",
+      "bytes": 21841
+    },
+    {
+      "path": "raw_reformulation_v2/bacillus_velezensis_bionematicide.json",
+      "sha256": "f0f6ef47fd86ca83ca94750915b9d4ab16ac8819197d84845ebb7c5e47bbf409",
+      "bytes": 322498
+    },
+    {
+      "path": "raw_reformulation_v2/bacillus_velezensis_inoculant_bioreactor.json",
+      "sha256": "95474f4316f0b2373b878c1b5c1067e664c1e10dc1a6d38a68d93b95c0c3fcc9",
+      "bytes": 280469
+    },
+    {
+      "path": "raw_reformulation_v2/cmrp_4490_exact.json",
+      "sha256": "318d9ddd1d4fa4b4d46ec2b7ebaca2fe1ec07be47835eaded0af80eedd93d424",
+      "bytes": 301578
+    },
+    {
+      "path": "raw_reformulation_v2/uel_institution.json",
+      "sha256": "6e0615cfa33ced29cbc45bf2d512833310b78476be56da6c88f24f0a56644063",
+      "bytes": 23892
+    },
+    {
+      "path": "raw_reformulation_v3/bacillus_velezensis_labim22.json",
+      "sha256": "cda0b84eb946594a66a3078260110045d63e191d4d85e4fd85d6f7c4bd30b39d",
+      "bytes": 147565
+    },
+    {
+      "path": "raw_reformulation_v3/gustavo_teixeira_authors.json",
+      "sha256": "9be2326f7df9c57bacc74aea3f06389db8a186045bba0e79e3cdec6d263b7ca5",
+      "bytes": 21857
+    },
+    {
+      "path": "raw_reformulation_v3/labim22_exact.json",
+      "sha256": "26104045d9670a71d01add234b643560d55cadcf915cdfbd2dc175f825c684be",
+      "bytes": 147521
+    },
+    {
+      "path": "raw_reformulation_v3/mirela_mosela_authors.json",
+      "sha256": "ccd43d660e9411bbff65ced802c66f5118ca0d0696419b779b141a3f43e4fa19",
+      "bytes": 7144
+    },
+    {
+      "path": "raw_reformulation_v3/uel_bacillus_filter.json",
+      "sha256": "3231c8cf25d87d3a5793481fc1f0a7bcbd83aac837535158e23cf91ff0609ce9",
+      "bytes": 308787
+    },
+    {
+      "path": "reconstruct_cycle.py",
+      "sha256": "e8d57d408d318a86cea61d30b172696d62bbf5a89c197e3b4b43c8a88ce34245",
+      "bytes": 1195
+    },
+    {
+      "path": "reformulation_audit_v1.json",
+      "sha256": "ef3864f27a9e52889f1d0f5720cc01b6e3f7a3bf9d32392ede1402ae8155f898",
+      "bytes": 160701
+    },
+    {
+      "path": "reformulation_audit_v2.json",
+      "sha256": "098c4fce6d43b8f57a4c6a15f5df3e1c64b7b99df80f112c2153dd572c2aa162",
+      "bytes": 73458
+    },
+    {
+      "path": "reformulation_audit_v3.json",
+      "sha256": "80fd200821b7b449096c55cc3712b18521bde9175fe77fd03d50162a51d717df",
+      "bytes": 67539
+    },
+    {
+      "path": "reformulation_evidence_v1.json",
+      "sha256": "9c6a350ae5d80c5e1540e07cdc2ef19cb04bb252efb7183440d1925938a92ed6",
+      "bytes": 1972430
+    },
+    {
+      "path": "reformulation_evidence_v2.json",
+      "sha256": "6032a76c2e406d731489c89c7b8cfb3f02443972e157283d3391b928d879ee4d",
+      "bytes": 1670250
+    },
+    {
+      "path": "reformulation_evidence_v3.json",
+      "sha256": "52ad5051e7b614e47c213c69cfd4fa2d102dfa15443f54c0a3c6ba447bfd043d",
+      "bytes": 1131182
+    },
+    {
+      "path": "source_references.json",
+      "sha256": "5e419d20b3266c2002b55256b8f0db68dc1a346891021d902fece7385cb5f24c",
+      "bytes": 1816
+    },
+    {
+      "path": "state_final.json",
+      "sha256": "6c97dae6a20fe968e2e930a7c124eb518615bd52e14ef0abec6668618beba06a",
+      "bytes": 5712
+    },
+    {
+      "path": "state_initial.json",
+      "sha256": "0c297e2a9fac161bf8abfa35e18bcf73531b8ad7e0b266ca2840851b716d8941",
+      "bytes": 89831
+    }
+  ]
+}

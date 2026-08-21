@@ -1,0 +1,75 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "relations": [
+    {
+      "relation_id": "REL-001",
+      "subject": "BR102023003698A2",
+      "predicate": "metadata_continuity_candidate_with",
+      "object": "10.1016/j.micres.2024.127689",
+      "status": "FACT_OBSERVED_METADATA_TEXT",
+      "evidence": [
+        "same specific Trichoderma harzianum + sophorolipid combination",
+        "Thiago Moura Rocha appears as patent inventor and article first author",
+        "USP appears as patent applicant and OpenAlex article affiliation"
+      ],
+      "limits": [
+        "not patent validity",
+        "not efficacy proof",
+        "not commercial adoption",
+        "not legal identity of the project"
+      ]
+    },
+    {
+      "relation_id": "REL-002",
+      "subject": "BR102024016682A2",
+      "predicate": "metadata_continuity_candidate_with",
+      "object": "10.3389/fmicb.2020.618415",
+      "status": "FACT_OBSERVED_METADATA_TEXT",
+      "evidence": [
+        "exact strain Bacillus velezensis CMRP 4490",
+        "UEL appears in article affiliations and as patent applicant",
+        "Admilton Gonçalves de Oliveira name variant appears in article and patent",
+        "patent page explicitly cites TEIXEIRA et al. 2021"
+      ],
+      "limits": [
+        "name variant requires identity audit",
+        "not patent validity",
+        "not efficacy proof",
+        "not commercial adoption"
+      ]
+    },
+    {
+      "relation_id": "REL-003",
+      "subject": "BR102020013481A2",
+      "predicate": "metadata_continuity_candidate_with",
+      "object": "UEL repository item 123456789/18265",
+      "status": "FACT_OBSERVED_METADATA_TEXT",
+      "evidence": [
+        "same LABIM22 strain token",
+        "UEL repository item and patent family both concern Bacillus velezensis biocontrol",
+        "Mirela Mosela, Gustavo Teixeira and Admilton Oliveira appear in the patent team; CMRP 4490 article overlaps team/institution corridor",
+        "repository abstract states a patent-in-process request for formulated medium"
+      ],
+      "limits": [
+        "LABIM22 and CMRP 4490 are distinct strains",
+        "repository abstract is not independent claim-level validation"
+      ]
+    },
+    {
+      "relation_id": "REL-004",
+      "subject": "UEL multi-strain team corridor",
+      "predicate": "cross_context_observed",
+      "object": "CMRP 4490 / LABIM22 / Ag75 / Ag109 / CMRP 4489 / LABIM40 / CMRP 6330",
+      "status": "INFERENCE_FROM_METADATA_GRAPH",
+      "evidence": [
+        "OpenAlex UEL-filtered literature returns multiple strain-specific records and recurring actors",
+        "two direct UEL patent families were rendered"
+      ],
+      "limits": [
+        "not a single technology or invention",
+        "not a causal progression",
+        "not proof that all records belong to one project"
+      ]
+    }
+  ]
+}

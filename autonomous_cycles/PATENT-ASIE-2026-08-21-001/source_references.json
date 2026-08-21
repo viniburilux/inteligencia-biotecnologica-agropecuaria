@@ -1,0 +1,65 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://help.openalex.org/api/",
+      "role": "OpenAlex API reference"
+    },
+    {
+      "id": 2,
+      "url": "https://help.openalex.org/api/searching/",
+      "role": "OpenAlex search semantics"
+    },
+    {
+      "id": 3,
+      "url": "https://patents.google.com/",
+      "role": "Google Patents search and result metadata"
+    },
+    {
+      "id": 4,
+      "url": "https://support.google.com/faqs/answer/7049724?hl=en",
+      "role": "Google Patents result viewer description"
+    },
+    {
+      "id": 5,
+      "url": "https://patents.google.com/patent/BR102023003698A2/en",
+      "role": "USP Trichoderma/sophorolipid patent page"
+    },
+    {
+      "id": 6,
+      "url": "https://doi.org/10.1016/j.micres.2024.127689",
+      "role": "Trichoderma/sophorolipid literature DOI"
+    },
+    {
+      "id": 7,
+      "url": "https://api.crossref.org/works/10.1016%2Fj.micres.2024.127689",
+      "role": "Crossref metadata for Trichoderma/sophorolipid DOI"
+    },
+    {
+      "id": 8,
+      "url": "https://patents.google.com/patent/BR102024016682A2/en",
+      "role": "UEL CMRP 4490 bioreactor patent page"
+    },
+    {
+      "id": 9,
+      "url": "https://doi.org/10.3389/fmicb.2020.618415",
+      "role": "CMRP 4490 literature DOI"
+    },
+    {
+      "id": 10,
+      "url": "https://api.crossref.org/works/10.3389%2Ffmicb.2020.618415",
+      "role": "Crossref metadata for CMRP 4490 DOI"
+    },
+    {
+      "id": 11,
+      "url": "https://patents.google.com/patent/BR102020013481A2/en",
+      "role": "UEL LABIM22 biofungicidal composition patent page"
+    },
+    {
+      "id": 12,
+      "url": "https://repositorio.uel.br/handle/123456789/18265",
+      "role": "UEL LABIM22 institutional repository item"
+    }
+  ]
+}

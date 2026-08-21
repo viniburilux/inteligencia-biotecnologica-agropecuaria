@@ -1,0 +1,980 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "collection_status": "CAPTURED_WITH_SOURCE_STATUS",
+  "metadata_only": true,
+  "tracks": [
+    {
+      "question_id": "Q-ACTOR-001",
+      "track": "pivot_bio_cross_cluster",
+      "queries": [
+        "Pivot Bio nitrogen fixation phosphorus formulation Brazil",
+        "Pivot Bio Brazil bioinput"
+      ]
+    },
+    {
+      "question_id": "Q-ACTOR-002",
+      "track": "usp_cross_cluster",
+      "queries": [
+        "Universidade de São Paulo bioinsumo Trichoderma Brazil",
+        "USP microbial inoculant fermentation Brazil"
+      ]
+    },
+    {
+      "question_id": "Q-BRIDGE-005",
+      "track": "trichoderma_patent_literature_bridge",
+      "queries": [
+        "Trichoderma harzianum sophorolipids biocontrol Brazil",
+        "Trichoderma fermentation biofertilizer Brazil"
+      ]
+    },
+    {
+      "question_id": "Q-BRIDGE-008",
+      "track": "bacillus_patent_literature_bridge",
+      "queries": [
+        "Bacillus biofertilizer nematode Brazil",
+        "Bacillus velezensis bioreactor formulation Brazil"
+      ]
+    }
+  ],
+  "source_references": {
+    "openalex_api_reference": "https://help.openalex.org/api/",
+    "openalex_search_reference": "https://help.openalex.org/api/searching/",
+    "google_patents": "https://patents.google.com/",
+    "google_patents_result_viewer": "https://support.google.com/faqs/answer/7049724?hl=en"
+  },
+  "rows": [
+    {
+      "source": "openalex",
+      "track": "pivot_bio_cross_cluster",
+      "question_id": "Q-ACTOR-001",
+      "query": "Pivot Bio nitrogen fixation phosphorus formulation Brazil",
+      "url": "https://api.openalex.org/works?search=Pivot+Bio+nitrogen+fixation+phosphorus+formulation+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:57:25.283831+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/pivot_bio_cross_cluster__openalex__00.json",
+      "raw_sha256": "c8f716f41de5882cbe962b2aa3918aaf9b2ae66b4393df5c0ff0e3d0c907446e",
+      "metadata_only": true,
+      "observed_result_count": 37,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W4416948095",
+          "title": "Biofertilizers for Enhanced Nitrogen Use Efficiency: Mechanisms, Innovations, and Challenges",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/nitrogen6040111",
+          "cited_by_count": 7,
+          "primary_location": "https://doi.org/10.3390/nitrogen6040111"
+        },
+        {
+          "id": "https://openalex.org/W4415842901",
+          "title": "Biofertilizers for Enhanced Nitrogen Use Efficiency: Mechanisms, Innovations, and Challenges",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.20944/preprints202510.2490.v1",
+          "cited_by_count": 7,
+          "primary_location": "https://doi.org/10.20944/preprints202510.2490.v1"
+        },
+        {
+          "id": "https://openalex.org/W4403242852",
+          "title": "Comprehensive Review of Microbial Inoculants: Agricultural Applications, Technology Trends in Patents, and Regulatory Frameworks",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3390/su16198720",
+          "cited_by_count": 62,
+          "primary_location": "https://doi.org/10.3390/su16198720"
+        },
+        {
+          "id": "https://openalex.org/W4315651990",
+          "title": "Nanozinc and plant growth-promoting bacteria improve biochemical and metabolic attributes of maize in tropical Cerrado",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3389/fpls.2022.1046642",
+          "cited_by_count": 72,
+          "primary_location": "https://doi.org/10.3389/fpls.2022.1046642"
+        },
+        {
+          "id": "https://openalex.org/W2620377918",
+          "title": "Wheat Improvement, Management and Utilization",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.5772/63694",
+          "cited_by_count": 67,
+          "primary_location": "https://doi.org/10.5772/63694"
+        },
+        {
+          "id": "https://openalex.org/W4224321118",
+          "title": "Diazotrophic Bacteria Is an Alternative Strategy for Increasing Grain Biofortification, Yield and Zinc Use Efficiency of Maize",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/plants11091125",
+          "cited_by_count": 23,
+          "primary_location": "https://doi.org/10.3390/plants11091125"
+        },
+        {
+          "id": "https://openalex.org/W7133762736",
+          "title": "Agrochemicals and Biological Inputs in Soybean Farms in Brazil: Cases of Substitutive, Incremental, and Alternative Uses",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/agrochemicals5010013",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.3390/agrochemicals5010013"
+        },
+        {
+          "id": "https://openalex.org/W4394821046",
+          "title": "Advancing horizons in vegetable cultivation: a journey from ageold practices to high-tech greenhouse cultivation—a review",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3389/fpls.2024.1357153",
+          "cited_by_count": 67,
+          "primary_location": "https://doi.org/10.3389/fpls.2024.1357153"
+        },
+        {
+          "id": "https://openalex.org/W4414406474",
+          "title": "Advancements in Agricultural Nanotechnology: An Updated Review",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/plants14182939",
+          "cited_by_count": 32,
+          "primary_location": "https://doi.org/10.3390/plants14182939"
+        },
+        {
+          "id": "https://openalex.org/W4385762492",
+          "title": "Nano-zinc and plant growth-promoting bacteria is a sustainable alternative for improving productivity and agronomic biofortification of common bean",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1186/s40538-023-00440-5",
+          "cited_by_count": 25,
+          "primary_location": "https://doi.org/10.1186/s40538-023-00440-5"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "pivot_bio_cross_cluster",
+      "question_id": "Q-ACTOR-001",
+      "query": "Pivot Bio nitrogen fixation phosphorus formulation Brazil",
+      "url": "https://patents.google.com/?q=(Pivot+Bio+nitrogen+fixation+phosphorus+formulation+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:57:32.325464+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/pivot_bio_cross_cluster__google_patents__00.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "pivot_bio_cross_cluster",
+      "question_id": "Q-ACTOR-001",
+      "query": "Pivot Bio Brazil bioinput",
+      "url": "https://api.openalex.org/works?search=Pivot+Bio+Brazil+bioinput&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:57:36.653839+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/pivot_bio_cross_cluster__openalex__01.json",
+      "raw_sha256": "8970a2a8d3a744958404487dc82330778652fa44830ccd6b9bed32b8c8ac5e44",
+      "metadata_only": true,
+      "observed_result_count": 14,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W4320032811",
+          "title": "Status of the biopesticide market and prospects for new bioherbicides",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1002/ps.7403",
+          "cited_by_count": 120,
+          "primary_location": "https://doi.org/10.1002/ps.7403"
+        },
+        {
+          "id": "https://openalex.org/W7133762736",
+          "title": "Agrochemicals and Biological Inputs in Soybean Farms in Brazil: Cases of Substitutive, Incremental, and Alternative Uses",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/agrochemicals5010013",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.3390/agrochemicals5010013"
+        },
+        {
+          "id": "https://openalex.org/W4410970584",
+          "title": "Microbial Secondary Metabolites and Their Use in Achieving Sustainable Agriculture: Present Achievements and Future Challenges",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/agronomy15061350",
+          "cited_by_count": 24,
+          "primary_location": "https://doi.org/10.3390/agronomy15061350"
+        },
+        {
+          "id": "https://openalex.org/W4408310575",
+          "title": "The Nexus Between Innovation, Value Chains, and Social Sustainability in the Context of a Bioeconomy Upgrading",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.1002/bsd2.70087",
+          "cited_by_count": 11,
+          "primary_location": "https://doi.org/10.1002/bsd2.70087"
+        },
+        {
+          "id": "https://openalex.org/W4366773182",
+          "title": "Improving startups through excellence initiatives: addressing circular economy and innovation",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1007/s10668-023-03247-4",
+          "cited_by_count": 25,
+          "primary_location": "https://doi.org/10.1007/s10668-023-03247-4"
+        },
+        {
+          "id": "https://openalex.org/W7143301947",
+          "title": "Bacillus aryabhattai Improves Agronomic Performance and Water Use Efficiency of Common Bean Under Deficit Irrigation Levels",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/crops6020038",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.3390/crops6020038"
+        },
+        {
+          "id": "https://openalex.org/W4400965432",
+          "title": "Technology-driven transformations in agri-food global value chains: The role of incumbent firms from a corporate venture capital perspective",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1016/j.foodpol.2024.102684",
+          "cited_by_count": 24,
+          "primary_location": "https://doi.org/10.1016/j.foodpol.2024.102684"
+        },
+        {
+          "id": "https://openalex.org/W4416999065",
+          "title": "Innovative Farming Technique: The Use of Agricultural Bio-Inputs by Soybean Farmers in Brazil",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/agriengineering7120416",
+          "cited_by_count": 0,
+          "primary_location": "https://doi.org/10.3390/agriengineering7120416"
+        },
+        {
+          "id": "https://openalex.org/W4415814626",
+          "title": "Synthetic biology and climate change: innovations for a sustainable future",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.1590/s1678-3921.pab2025.v60.04148",
+          "cited_by_count": 0,
+          "primary_location": "https://doi.org/10.1590/s1678-3921.pab2025.v60.04148"
+        },
+        {
+          "id": "https://openalex.org/W7110928110",
+          "title": "Supplementary file 5_Mapping food businesses with regenerative potential in the Amazon and Central American Dry Corridor.xlsx",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fsufs.2025.1546626.s003",
+          "cited_by_count": 0,
+          "primary_location": "https://figshare.com/articles/dataset/Supplementary_file_5_Mapping_food_businesses_with_regenerative_potential_in_the_Amazon_and_Central_American_Dry_Corridor_xlsx/28758197"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "pivot_bio_cross_cluster",
+      "question_id": "Q-ACTOR-001",
+      "query": "Pivot Bio Brazil bioinput",
+      "url": "https://patents.google.com/?q=(Pivot+Bio+Brazil+bioinput)&country=BR",
+      "retrieved_at": "2026-08-21T06:57:40.790912+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/pivot_bio_cross_cluster__google_patents__01.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "usp_cross_cluster",
+      "question_id": "Q-ACTOR-002",
+      "query": "Universidade de São Paulo bioinsumo Trichoderma Brazil",
+      "url": "https://api.openalex.org/works?search=Universidade+de+S%C3%A3o+Paulo+bioinsumo+Trichoderma+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:57:44.718176+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/usp_cross_cluster__openalex__00.json",
+      "raw_sha256": "975002da8d1dc29894802431433d190008e56c7df3fa1e3dc1f23febacc1b4cb",
+      "metadata_only": true,
+      "observed_result_count": 124,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W4320917824",
+          "title": "BIOINSUMOS A PARTIR DAS CONTRIBUIÇÕES DA AGROECOLOGIA",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.33240/rba.v18i1.23735",
+          "cited_by_count": 10,
+          "primary_location": "https://doi.org/10.33240/rba.v18i1.23735"
+        },
+        {
+          "id": "https://openalex.org/W3190557587",
+          "title": "Controle biológico de doenças de plantas.",
+          "publication_year": 1991,
+          "doi": null,
+          "cited_by_count": 36,
+          "primary_location": "http://www.alice.cnptia.embrapa.br/alice/handle/doc/1171775"
+        },
+        {
+          "id": "https://openalex.org/W4290652190",
+          "title": "Demandas tecnológicas: os bioinsumos para controle biológico no Brasil",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.35977/0104-1096.cct2022.v39.26927",
+          "cited_by_count": 4,
+          "primary_location": "https://doi.org/10.35977/0104-1096.cct2022.v39.26927"
+        },
+        {
+          "id": "https://openalex.org/W7125699480",
+          "title": "BIOINSUMOS: UMA ALTERNATIVA VIÁVEL",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.54899/dcs.v23i86.3870",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.54899/dcs.v23i86.3870"
+        },
+        {
+          "id": "https://openalex.org/W7148308604",
+          "title": "Deep-Rooted Tropical Grasses as Preceding Crops Boost Soil Health and Soybean Yield in Brazil—A Meta-Analysis",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/agronomy16070751",
+          "cited_by_count": 2,
+          "primary_location": "https://doi.org/10.3390/agronomy16070751"
+        },
+        {
+          "id": "https://openalex.org/W4407811988",
+          "title": "Molluscicidal Screening of Hypocreales Fungi from a Brazilian Cerrado Cave Against Biomphalaria glabrata Snails",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/jof11030173",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.3390/jof11030173"
+        },
+        {
+          "id": "https://openalex.org/W4411678531",
+          "title": "Análise das motivações de agricultores familiares em utilizarem biofertilizantes: uma revisão sistemática de literatura",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.24302/drd.v15.5381",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.24302/drd.v15.5381"
+        },
+        {
+          "id": "https://openalex.org/W4405975427",
+          "title": "Response of Phaseolus vulgaris to the Use of Growth-Promoting Microorganisms Associated with the Reduction of NPK Fertilization in Tropical Soils: Clayey Oxisol and Sandy Ultisol",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3390/agriculture15010063",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.3390/agriculture15010063"
+        },
+        {
+          "id": "https://openalex.org/W7124238300",
+          "title": "Produção on farm de bioinsumos : um estudo de caso no cerrado brasileiro",
+          "publication_year": 2024,
+          "doi": null,
+          "cited_by_count": 0,
+          "primary_location": "http://repositorio.unb.br/handle/10482/53650"
+        },
+        {
+          "id": "https://openalex.org/W7124919878",
+          "title": "ECOSSISTEMA DE INOVAÇÃO DE EXTRATOS VEGETAIS NO CONTEXTO DE DESENVOLVIMENTO DOS BIOINSUMOS AGRÍCOLAS NO BRASIL",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.23900/2359-1552v15n1-52-2026",
+          "cited_by_count": 0,
+          "primary_location": "https://doi.org/10.23900/2359-1552v15n1-52-2026"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "usp_cross_cluster",
+      "question_id": "Q-ACTOR-002",
+      "query": "Universidade de São Paulo bioinsumo Trichoderma Brazil",
+      "url": "https://patents.google.com/?q=(Universidade+de+S%C3%A3o+Paulo+bioinsumo+Trichoderma+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:57:49.518818+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/usp_cross_cluster__google_patents__00.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "usp_cross_cluster",
+      "question_id": "Q-ACTOR-002",
+      "query": "USP microbial inoculant fermentation Brazil",
+      "url": "https://api.openalex.org/works?search=USP+microbial+inoculant+fermentation+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:57:52.886612+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/usp_cross_cluster__openalex__01.json",
+      "raw_sha256": "504176e2eed35b6b308aaca3a58bacd4085e74efebd421620c5da2c1a4e1d1ba",
+      "metadata_only": true,
+      "observed_result_count": 116,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W2575852002",
+          "title": "Laboratory silo type and inoculation effects on nutritional composition, fermentation, and bacterial and fungal communities of oat silage",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.3168/jds.2016-11642",
+          "cited_by_count": 107,
+          "primary_location": "https://doi.org/10.3168/jds.2016-11642"
+        },
+        {
+          "id": "https://openalex.org/W2142386224",
+          "title": "Fermentation, losses, and aerobic stability of sugarcane silages treated with chemical or bacterial additives",
+          "publication_year": 2008,
+          "doi": "https://doi.org/10.1590/s0103-90162008000600004",
+          "cited_by_count": 73,
+          "primary_location": "https://doi.org/10.1590/s0103-90162008000600004"
+        },
+        {
+          "id": "https://openalex.org/W2060375969",
+          "title": "Microbial and fermentation profiles, losses and chemical composition of silages of buffel grass harvested at different cutting heights",
+          "publication_year": 2013,
+          "doi": "https://doi.org/10.1590/s1516-35982013001200003",
+          "cited_by_count": 13,
+          "primary_location": "https://doi.org/10.1590/s1516-35982013001200003"
+        },
+        {
+          "id": "https://openalex.org/W4392004790",
+          "title": "Enhancing Sensory Quality of Coffee: The Impact of Fermentation Techniques on Coffea arabica cv. Catiguá MG2",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3390/foods13050653",
+          "cited_by_count": 35,
+          "primary_location": "https://doi.org/10.3390/foods13050653"
+        },
+        {
+          "id": "https://openalex.org/W4413229110",
+          "title": "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fmicb.2025.1574269",
+          "cited_by_count": 14,
+          "primary_location": "https://doi.org/10.3389/fmicb.2025.1574269"
+        },
+        {
+          "id": "https://openalex.org/W1998088860",
+          "title": "Epicoccum nigrum P16, a Sugarcane Endophyte, Produces Antifungal Compounds and Induces Root Growth",
+          "publication_year": 2012,
+          "doi": "https://doi.org/10.1371/journal.pone.0036826",
+          "cited_by_count": 196,
+          "primary_location": "https://doi.org/10.1371/journal.pone.0036826"
+        },
+        {
+          "id": "https://openalex.org/W4407740579",
+          "title": "Use of Bacterial-Enzymatic Inoculant Improves Silage Quality and Reduces Fermentation Losses in Intercropped Systems",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/agriculture15040437",
+          "cited_by_count": 2,
+          "primary_location": "https://doi.org/10.3390/agriculture15040437"
+        },
+        {
+          "id": "https://openalex.org/W1544303684",
+          "title": "&lt;b&gt;Additive containing homo and heterolactic bacteria on the fermentation quality of maize silage&lt;/b&gt; - doi: 10.4025/actascianimsci.v35i4.18833",
+          "publication_year": 2013,
+          "doi": "https://doi.org/10.4025/actascianimsci.v35i4.18833",
+          "cited_by_count": 16,
+          "primary_location": "https://doi.org/10.4025/actascianimsci.v35i4.18833"
+        },
+        {
+          "id": "https://openalex.org/W3167984366",
+          "title": "Effect of ensiling temperature on microbial inoculants and performance of dairy cows fed corn grain silage with sodium benzoate",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.11606/t.11.2021.tde-20052021-155923",
+          "cited_by_count": 2,
+          "primary_location": "https://doi.org/10.11606/t.11.2021.tde-20052021-155923"
+        },
+        {
+          "id": "https://openalex.org/W2147074900",
+          "title": "Fermentative and microbiological profile of marandu-grass ensiled with citrus pulp pellets",
+          "publication_year": 2005,
+          "doi": "https://doi.org/10.1590/s0103-90162005000300003",
+          "cited_by_count": 49,
+          "primary_location": "https://doi.org/10.1590/s0103-90162005000300003"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "usp_cross_cluster",
+      "question_id": "Q-ACTOR-002",
+      "query": "USP microbial inoculant fermentation Brazil",
+      "url": "https://patents.google.com/?q=(USP+microbial+inoculant+fermentation+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:57:57.040610+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/usp_cross_cluster__google_patents__01.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "trichoderma_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-005",
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "url": "https://api.openalex.org/works?search=Trichoderma+harzianum+sophorolipids+biocontrol+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:58:00.581083+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/trichoderma_patent_literature_bridge__openalex__00.json",
+      "raw_sha256": "58b4a5e988c3908fa69998b22571f588be53556d303310e5117c900ce4d4e4c6",
+      "metadata_only": true,
+      "observed_result_count": 16,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W3094166443",
+          "title": "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+          "publication_year": 2020,
+          "doi": "https://doi.org/10.1016/j.biortech.2020.124222",
+          "cited_by_count": 175,
+          "primary_location": "https://doi.org/10.1016/j.biortech.2020.124222"
+        },
+        {
+          "id": "https://openalex.org/W4405893516",
+          "title": "Valorization of agro-industrial waste through solid-state fermentation: Mini review",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1016/j.btre.2024.e00873",
+          "cited_by_count": 41,
+          "primary_location": "https://doi.org/10.1016/j.btre.2024.e00873"
+        },
+        {
+          "id": "https://openalex.org/W4391262175",
+          "title": "Agricultural Bioinputs Obtained by Solid-State Fermentation: From Production in Biorefineries to Sustainable Agriculture",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3390/su16031076",
+          "cited_by_count": 40,
+          "primary_location": "https://doi.org/10.3390/su16031076"
+        },
+        {
+          "id": "https://openalex.org/W4412149207",
+          "title": "Freeze and Spray Drying Technologies to Produce Solid Microbial Formulations for Sustainable Agriculture",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/pr13072188",
+          "cited_by_count": 18,
+          "primary_location": "https://doi.org/10.3390/pr13072188"
+        },
+        {
+          "id": "https://openalex.org/W3172146582",
+          "title": "OIL PALM ECONOMIC PERFORMANCE IN MALAYSIA AND R&amp;D PROGRESS IN 2020",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.21894/jopr.2021.0026",
+          "cited_by_count": 37,
+          "primary_location": "https://doi.org/10.21894/jopr.2021.0026"
+        },
+        {
+          "id": "https://openalex.org/W4384826755",
+          "title": "Síntese microbiana de bioestimulantes de crescimento vegetal para aplicação na agricultura",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.11606/d.97.2023.tde-19072023-131346",
+          "cited_by_count": 1,
+          "primary_location": "http://dx.doi.org/10.11606/d.97.2023.tde-19072023-131346"
+        },
+        {
+          "id": "https://openalex.org/W4409328154",
+          "title": "Biofertilization and Bioremediation—How Can Microbiological Technology Assist the Ecological Crisis in Developing Countries?",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/micro5020018",
+          "cited_by_count": 6,
+          "primary_location": "https://doi.org/10.3390/micro5020018"
+        },
+        {
+          "id": "https://openalex.org/W7125479604",
+          "title": "Next-Generation Bioinputs: A Systematic Review of Biosurfactants in Sustainable Agriculture and Research Frontiers with Bacterial Cellulose",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/pr14030398",
+          "cited_by_count": 1,
+          "primary_location": "https://doi.org/10.3390/pr14030398"
+        },
+        {
+          "id": "https://openalex.org/W7120594369",
+          "title": "Microbial synthesis of plant growth biostimulants for application in agriculture",
+          "publication_year": 2023,
+          "doi": null,
+          "cited_by_count": 0,
+          "primary_location": "https://www.teses.usp.br/teses/disponiveis/97/97140/tde-19072023-131346/"
+        },
+        {
+          "id": "https://openalex.org/W7120907328",
+          "title": "Produção e aplicação de soforolipídio de Starmerella bombicola como agente antifúngico e no desenvolvimento de revestimento ativo para conservação de vegetais",
+          "publication_year": 2024,
+          "doi": null,
+          "cited_by_count": 0,
+          "primary_location": "https://repositorio.uel.br/handle/123456789/9094"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "trichoderma_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-005",
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "url": "https://patents.google.com/?q=(Trichoderma+harzianum+sophorolipids+biocontrol+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:58:05.311311+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/trichoderma_patent_literature_bridge__google_patents__00.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "trichoderma_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-005",
+      "query": "Trichoderma fermentation biofertilizer Brazil",
+      "url": "https://api.openalex.org/works?search=Trichoderma+fermentation+biofertilizer+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:58:09.147585+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/trichoderma_patent_literature_bridge__openalex__01.json",
+      "raw_sha256": "f085e9ee11abce9f37ebe06e394c4d37f0ec95b27ec7c493c64589853d7c8581",
+      "metadata_only": true,
+      "observed_result_count": 822,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W2106854637",
+          "title": "Trichoderma-based Products and their Widespread Use in Agriculture",
+          "publication_year": 2014,
+          "doi": "https://doi.org/10.2174/1874437001408010071",
+          "cited_by_count": 662,
+          "primary_location": "https://doi.org/10.2174/1874437001408010071"
+        },
+        {
+          "id": "https://openalex.org/W3007453990",
+          "title": "Phosphorus-solubilizing Trichoderma spp. from Amazon soils improve soybean plant growth",
+          "publication_year": 2020,
+          "doi": "https://doi.org/10.1038/s41598-020-59793-8",
+          "cited_by_count": 261,
+          "primary_location": "https://doi.org/10.1038/s41598-020-59793-8"
+        },
+        {
+          "id": "https://openalex.org/W3156486718",
+          "title": "Biofertilizers and Biocontrol Agents for Agriculture: How to Identify and Develop New Potent Microbial Strains and Traits",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/microorganisms9040817",
+          "cited_by_count": 220,
+          "primary_location": "https://doi.org/10.3390/microorganisms9040817"
+        },
+        {
+          "id": "https://openalex.org/W4389086869",
+          "title": "An overview of fermentation in the food industry - looking back from a new perspective",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1186/s40643-023-00702-y",
+          "cited_by_count": 287,
+          "primary_location": "https://doi.org/10.1186/s40643-023-00702-y"
+        },
+        {
+          "id": "https://openalex.org/W4249523073",
+          "title": "Design Aspects of Solid State Fermentation as Applied to Microbial Bioprocessing",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.15406/jabb.2017.04.00094",
+          "cited_by_count": 188,
+          "primary_location": "https://doi.org/10.15406/jabb.2017.04.00094"
+        },
+        {
+          "id": "https://openalex.org/W2090834390",
+          "title": "Effect of pH and Temperature on Enzyme Activity of Chitosanase Produced Under Solid Stated Fermentation by Trichoderma spp.",
+          "publication_year": 2011,
+          "doi": "https://doi.org/10.1007/s12088-011-0196-0",
+          "cited_by_count": 49,
+          "primary_location": "https://doi.org/10.1007/s12088-011-0196-0"
+        },
+        {
+          "id": "https://openalex.org/W4210255177",
+          "title": "Trichoderma: Potential bio-resource for the management of tomato root rot diseases in Africa",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.1016/j.micres.2022.126978",
+          "cited_by_count": 77,
+          "primary_location": "https://doi.org/10.1016/j.micres.2022.126978"
+        },
+        {
+          "id": "https://openalex.org/W2884091261",
+          "title": "Molecular Tools for Monitoring Trichoderma in Agricultural Environments",
+          "publication_year": 2018,
+          "doi": "https://doi.org/10.3389/fmicb.2018.01599",
+          "cited_by_count": 63,
+          "primary_location": "https://doi.org/10.3389/fmicb.2018.01599"
+        },
+        {
+          "id": "https://openalex.org/W4378220995",
+          "title": "Fungi of the Trichoderma Genus: Future Perspectives of Benefits in Sustainable Agriculture",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3390/app13116434",
+          "cited_by_count": 77,
+          "primary_location": "https://doi.org/10.3390/app13116434"
+        },
+        {
+          "id": "https://openalex.org/W4353048116",
+          "title": "Valorization of agro-industrial wastes into animal feed through microbial fermentation: A review of the global and Ghanaian case",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1016/j.heliyon.2023.e14814",
+          "cited_by_count": 132,
+          "primary_location": "https://doi.org/10.1016/j.heliyon.2023.e14814"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "trichoderma_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-005",
+      "query": "Trichoderma fermentation biofertilizer Brazil",
+      "url": "https://patents.google.com/?q=(Trichoderma+fermentation+biofertilizer+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:58:13.572451+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/trichoderma_patent_literature_bridge__google_patents__01.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "bacillus_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-008",
+      "query": "Bacillus biofertilizer nematode Brazil",
+      "url": "https://api.openalex.org/works?search=Bacillus+biofertilizer+nematode+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:58:17.867312+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/bacillus_patent_literature_bridge__openalex__00.json",
+      "raw_sha256": "fdd7e348a6909b4fa81d5d711847af664149dfe4f2532a045a6147528b33d1aa",
+      "metadata_only": true,
+      "observed_result_count": 1164,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W2152856675",
+          "title": "Biofertilizers function as key player in sustainable agriculture by improving soil fertility, plant tolerance and crop productivity",
+          "publication_year": 2014,
+          "doi": "https://doi.org/10.1186/1475-2859-13-66",
+          "cited_by_count": 1170,
+          "primary_location": "https://doi.org/10.1186/1475-2859-13-66"
+        },
+        {
+          "id": "https://openalex.org/W4200270345",
+          "title": "Biofertilizers: An ecofriendly technology for nutrient recycling and environmental sustainability",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1016/j.crmicr.2021.100094",
+          "cited_by_count": 551,
+          "primary_location": "https://doi.org/10.1016/j.crmicr.2021.100094"
+        },
+        {
+          "id": "https://openalex.org/W2753705152",
+          "title": "Bacillus: A Biological Tool for Crop Improvement through Bio-Molecular Changes in Adverse Environments",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.3389/fphys.2017.00667",
+          "cited_by_count": 703,
+          "primary_location": "https://doi.org/10.3389/fphys.2017.00667"
+        },
+        {
+          "id": "https://openalex.org/W3129597966",
+          "title": "Rethinking Crop Nutrition in Times of Modern Microbiology: Innovative Biofertilizer Technologies",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3389/fsufs.2021.606815",
+          "cited_by_count": 351,
+          "primary_location": "https://doi.org/10.3389/fsufs.2021.606815"
+        },
+        {
+          "id": "https://openalex.org/W2764166391",
+          "title": "Mechanisms of action of plant growth promoting bacteria",
+          "publication_year": 2017,
+          "doi": "https://doi.org/10.1007/s11274-017-2364-9",
+          "cited_by_count": 1095,
+          "primary_location": "https://doi.org/10.1007/s11274-017-2364-9"
+        },
+        {
+          "id": "https://openalex.org/W3177716001",
+          "title": "Biofertilizers: A Nexus between soil fertility and crop productivity under abiotic stress",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.1016/j.crsust.2021.100063",
+          "cited_by_count": 210,
+          "primary_location": "https://doi.org/10.1016/j.crsust.2021.100063"
+        },
+        {
+          "id": "https://openalex.org/W3156486718",
+          "title": "Biofertilizers and Biocontrol Agents for Agriculture: How to Identify and Develop New Potent Microbial Strains and Traits",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/microorganisms9040817",
+          "cited_by_count": 220,
+          "primary_location": "https://doi.org/10.3390/microorganisms9040817"
+        },
+        {
+          "id": "https://openalex.org/W3210999050",
+          "title": "Utilization of Microbial Consortia as Biofertilizers and Biopesticides for the Production of Feasible Agricultural Product",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/biology10111111",
+          "cited_by_count": 162,
+          "primary_location": "https://doi.org/10.3390/biology10111111"
+        },
+        {
+          "id": "https://openalex.org/W4406542966",
+          "title": "The role of Bacillus species in the management of plant-parasitic nematodes",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fmicb.2024.1510036",
+          "cited_by_count": 46,
+          "primary_location": "https://doi.org/10.3389/fmicb.2024.1510036"
+        },
+        {
+          "id": "https://openalex.org/W2891762948",
+          "title": "Fungal and bacterial nematicides in integrated nematode management strategies",
+          "publication_year": 2018,
+          "doi": "https://doi.org/10.1186/s41938-018-0080-x",
+          "cited_by_count": 156,
+          "primary_location": "https://doi.org/10.1186/s41938-018-0080-x"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "bacillus_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-008",
+      "query": "Bacillus biofertilizer nematode Brazil",
+      "url": "https://patents.google.com/?q=(Bacillus+biofertilizer+nematode+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:58:22.331643+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/bacillus_patent_literature_bridge__google_patents__00.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    },
+    {
+      "source": "openalex",
+      "track": "bacillus_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-008",
+      "query": "Bacillus velezensis bioreactor formulation Brazil",
+      "url": "https://api.openalex.org/works?search=Bacillus+velezensis+bioreactor+formulation+Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:58:26.053618+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "raw_path": "raw/bacillus_patent_literature_bridge__openalex__01.json",
+      "raw_sha256": "dc462d9dfbeaff0452a7b3fd9fdc81798b015f0b6ebc1c8d9795e96b9998e768",
+      "metadata_only": true,
+      "observed_result_count": 108,
+      "returned_items": 10,
+      "top_records": [
+        {
+          "id": "https://openalex.org/W4401448907",
+          "title": "Surfactin and poly–γ–glutamic acid co–production by Bacillus velezensis P#02 using a corn steep liquor–based medium",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1016/j.bej.2024.109461",
+          "cited_by_count": 9,
+          "primary_location": "https://doi.org/10.1016/j.bej.2024.109461"
+        },
+        {
+          "id": "https://openalex.org/W4321787503",
+          "title": "Bacillus-Loaded Biochar as Soil Amendment for Improved Germination of Maize Seeds",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3390/plants12051024",
+          "cited_by_count": 26,
+          "primary_location": "https://doi.org/10.3390/plants12051024"
+        },
+        {
+          "id": "https://openalex.org/W4213089270",
+          "title": "Biosurfactants: Production, properties, applications, trends, and general perspectives",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.1016/j.bej.2022.108377",
+          "cited_by_count": 412,
+          "primary_location": "https://doi.org/10.1016/j.bej.2022.108377"
+        },
+        {
+          "id": "https://openalex.org/W2146044156",
+          "title": "Advances in utilization of renewable substrates for biosurfactant production",
+          "publication_year": 2011,
+          "doi": "https://doi.org/10.1186/2191-0855-1-5",
+          "cited_by_count": 470,
+          "primary_location": "https://doi.org/10.1186/2191-0855-1-5"
+        },
+        {
+          "id": "https://openalex.org/W4411878698",
+          "title": "Biosurfactant Produced by Bacillus subtilis UCP 1533 Isolated from the Brazilian Semiarid Region: Characterization and Antimicrobial Potential",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/microorganisms13071548",
+          "cited_by_count": 11,
+          "primary_location": "https://doi.org/10.3390/microorganisms13071548"
+        },
+        {
+          "id": "https://openalex.org/W4308524138",
+          "title": "Dairy and Wine Industry Effluents as Alternative Media for the Production of Bacillus-Based Biocontrol Agents",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/bioengineering9110663",
+          "cited_by_count": 19,
+          "primary_location": "https://doi.org/10.3390/bioengineering9110663"
+        },
+        {
+          "id": "https://openalex.org/W4412601229",
+          "title": "Bacillus-based inoculants enhance drought resilience in soybean: agronomic performance and remote sensing analysis from multi-location trials in Brazil",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fpls.2025.1630127",
+          "cited_by_count": 11,
+          "primary_location": "https://doi.org/10.3389/fpls.2025.1630127"
+        },
+        {
+          "id": "https://openalex.org/W4406334246",
+          "title": "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/plants14020191",
+          "cited_by_count": 149,
+          "primary_location": "https://doi.org/10.3390/plants14020191"
+        },
+        {
+          "id": "https://openalex.org/W7126420140",
+          "title": "Bacillus velezensis Enhances Rice Resistance to Brown Spot by Integrating Antifungal and Growth Promotion Functions",
+          "publication_year": 2026,
+          "doi": "https://doi.org/10.3390/ijms27031455",
+          "cited_by_count": 2,
+          "primary_location": "https://doi.org/10.3390/ijms27031455"
+        },
+        {
+          "id": "https://openalex.org/W4413229110",
+          "title": "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fmicb.2025.1574269",
+          "cited_by_count": 14,
+          "primary_location": "https://doi.org/10.3389/fmicb.2025.1574269"
+        }
+      ],
+      "error": null
+    },
+    {
+      "source": "google_patents",
+      "track": "bacillus_patent_literature_bridge",
+      "question_id": "Q-BRIDGE-008",
+      "query": "Bacillus velezensis bioreactor formulation Brazil",
+      "url": "https://patents.google.com/?q=(Bacillus+velezensis+bioreactor+formulation+Brazil)&country=BR",
+      "retrieved_at": "2026-08-21T06:58:31.168148+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_path": "raw/bacillus_patent_literature_bridge__google_patents__01.html",
+      "raw_sha256": "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65",
+      "metadata_only": true,
+      "observed_result_count": null,
+      "patent_identifier_candidates": [],
+      "title_candidates": [],
+      "error": null
+    }
+  ],
+  "summary": {
+    "requests": 16,
+    "captured_http_2xx": 16,
+    "blocked_or_error": 0,
+    "openalex_rows": 8,
+    "google_patents_rows": 8
+  },
+  "limits": [
+    "No PDFs, full-text patent documents, sequences, or scientific data were downloaded.",
+    "Search result metadata and snippets are evidence for discovery only.",
+    "A BR filter is context of retrieval, not proof of Brazilian origin or ownership.",
+    "Lexical bridges remain hypotheses until source records are independently inspected."
+  ]
+}

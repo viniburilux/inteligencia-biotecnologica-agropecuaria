@@ -1,0 +1,2038 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "batch": "reformulation_v2",
+  "facts_added": [
+    "Rendered Google Patents identified BR102024016682A2 as a specific UEL family for Bacillus velezensis CMRP 4490, bioreactor fermentation and bionematicide/inoculant formulation.",
+    "OpenAlex exact CMRP 4490 search returned 10 top records out of 40 observed results.",
+    "OpenAlex Bacillus velezensis/bionematicide search returned 10 top records out of 66 observed results.",
+    "OpenAlex Bacillus velezensis/inoculant/bioreactor search returned 10 top records out of 97 observed results.",
+    "OpenAlex author search for Admilton Gonçalves de Oliveira Junior returned 3 candidates; institution search for UEL returned 1 candidates."
+  ],
+  "bridge_status": "PARTIALLY_SUPPORTED_EXACT_TERM",
+  "bridge_reason": "OpenAlex returned a record containing the exact strain token; verify title, authorship and institutional continuity.",
+  "actor_institution_audit": {
+    "author_candidates": [
+      {
+        "id": "https://openalex.org/A5055843777",
+        "display_name": "Admilton Gonçalves de Oliveira",
+        "works_count": 133,
+        "country_code": null
+      },
+      {
+        "id": "https://openalex.org/A5122649348",
+        "display_name": "Admilton Gonçalves de Oliveira Junior",
+        "works_count": 2,
+        "country_code": null
+      },
+      {
+        "id": "https://openalex.org/A5090076516",
+        "display_name": "ADMILTON GONÇALVES DE OLIVEIRA JÚNIOR",
+        "works_count": 1,
+        "country_code": null
+      }
+    ],
+    "institution_candidates": [
+      {
+        "id": "https://openalex.org/I127110123",
+        "display_name": "Universidade Estadual de Londrina",
+        "works_count": 45333,
+        "country_code": "BR"
+      }
+    ]
+  },
+  "query_summaries": {
+    "cmrp_4490_exact": {
+      "endpoint": "works",
+      "observed_result_count": 40,
+      "returned_items": 10,
+      "results": [
+        {
+          "id": "https://openalex.org/W3119656773",
+          "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+          "cited_by_count": 62,
+          "authors": [
+            {
+              "display_name": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luiza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Renan Augusto Ribeiro",
+              "raw_author_name": "Renan Augusto Ribeiro",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "Mariangela Hungría",
+              "raw_author_name": "Mariangela Hungria",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "Khamis Youssef",
+              "raw_author_name": "Khamis Youssef",
+              "institutions": [
+                "Agricultural Research Center"
+              ]
+            },
+            {
+              "display_name": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant tissue culture and regeneration"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4229454091",
+          "title": "Induction of Systemic Resistance in Maize and Antibiofilm Activity of Surfactin From Bacillus velezensis MS20",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3389/fmicb.2022.879739",
+          "cited_by_count": 77,
+          "authors": [
+            {
+              "display_name": "Shireen Adeeb Mujtaba Ali",
+              "raw_author_name": "Shireen Adeeb Mujtaba Ali",
+              "institutions": [
+                "Osmania University"
+              ]
+            },
+            {
+              "display_name": "R. Z. Sayyed",
+              "raw_author_name": "R. Z. Sayyed",
+              "institutions": [
+                "G.S. Science, Arts And Commerce College"
+              ]
+            },
+            {
+              "display_name": "Mohammad Imran Mir",
+              "raw_author_name": "Mohammad I. Mir",
+              "institutions": [
+                "Osmania University"
+              ]
+            },
+            {
+              "display_name": "Mahejibin Khan",
+              "raw_author_name": "M. Y. Khan",
+              "institutions": [
+                "Agri Biotech Foundation"
+              ]
+            },
+            {
+              "display_name": "Bee Hameeda",
+              "raw_author_name": "Bee Hameeda",
+              "institutions": [
+                "Osmania University"
+              ]
+            },
+            {
+              "display_name": "Mustfa Alkhanani",
+              "raw_author_name": "Mustfa F. Alkhanani",
+              "institutions": [
+                "Alfaisal University"
+              ]
+            },
+            {
+              "display_name": "Shafiul Haque",
+              "raw_author_name": "Shafiul Haque",
+              "institutions": [
+                "Bursa Uludağ Üni̇versi̇tesi̇",
+                "Jazan University"
+              ]
+            },
+            {
+              "display_name": "Abdel Rahman Mohammad Al Tawaha",
+              "raw_author_name": "Abdel Rahman Mohammad Al Tawaha",
+              "institutions": [
+                "Al-Hussein Bin Talal University"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Microbial bioremediation and biosurfactants",
+            "Microbial Community Ecology and Physiology",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4287880021",
+          "title": "Bio-Priming of Soybean with Bradyrhizobium japonicum and Bacillus megaterium: Strategy to Improve Seed Germination and the Initial Seedling Growth",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/plants11151927",
+          "cited_by_count": 83,
+          "authors": [
+            {
+              "display_name": "Dragana Miljaković",
+              "raw_author_name": "Dragana Miljaković",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Jelena Marinković",
+              "raw_author_name": "Jelena Marinković",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Gordana Tamindžić",
+              "raw_author_name": "Gordana Tamindžić",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Vuk Đorđević",
+              "raw_author_name": "Vuk Đorđević",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Branislava Tintor",
+              "raw_author_name": "Branislava Tintor",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Dragana Milošević",
+              "raw_author_name": "Dragana Milošević",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Maja Ignjatov",
+              "raw_author_name": "Maja Ignjatov",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            },
+            {
+              "display_name": "Zorica Nikolić",
+              "raw_author_name": "Zorica Nikolić",
+              "institutions": [
+                "Institute of Field and Vegetable Crops"
+              ]
+            }
+          ],
+          "source": "Plants",
+          "topics": [
+            "Legume Nitrogen Fixing Symbiosis",
+            "Seed Germination and Physiology",
+            "Soybean genetics and cultivation"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3193442918",
+          "title": "Genomic Analysis of Endophytic Bacillus cereus T4S and Its Plant Growth-Promoting Traits",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/plants10091776",
+          "cited_by_count": 66,
+          "authors": [
+            {
+              "display_name": "Bartholomew Saanu Adeleke",
+              "raw_author_name": "Bartholomew Adeleke",
+              "institutions": [
+                "North-West University"
+              ]
+            },
+            {
+              "display_name": "Ayansina Segun Ayangbenro",
+              "raw_author_name": "Ayansina Ayangbenro",
+              "institutions": [
+                "North-West University"
+              ]
+            },
+            {
+              "display_name": "Olubukola Oluranti Babalola",
+              "raw_author_name": "Olubukola Babalola",
+              "institutions": [
+                "North-West University"
+              ]
+            }
+          ],
+          "source": "Plants",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Genomics and Phylogenetic Studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4295394560",
+          "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.1038/s41598-022-19515-8",
+          "cited_by_count": 61,
+          "authors": [
+            {
+              "display_name": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Galdino Andrade",
+              "raw_author_name": "Galdino Andrade",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Luana Rainieri Massucato",
+              "raw_author_name": "Luana Rainieri Massucato",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Suelen Regina de Araújo Almeida",
+              "raw_author_name": "Suelen Regina de Araújo Almeida",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Alison Fernando Nogueira",
+              "raw_author_name": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Renato Barros de Lima Filho",
+              "raw_author_name": "Renato Barros de Lima Filho",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "display_name": "Douglas Mariani Zeffa",
+              "raw_author_name": "Douglas Mariani Zeffa",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "display_name": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Scientific Reports",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Nematode management and characterization studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4297494284",
+          "title": "Characterization of a Bacillus velezensis strain isolated from Bolbostemmatis Rhizoma displaying strong antagonistic activities against a variety of rice pathogens",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3389/fmicb.2022.983781",
+          "cited_by_count": 61,
+          "authors": [
+            {
+              "display_name": "Jianping Zhou",
+              "raw_author_name": "Jianping Zhou",
+              "institutions": [
+                "Guangxi University",
+                "State Key Laboratory For Conservation and Utilization of Subtropical Agro-Bioresources"
+              ]
+            },
+            {
+              "display_name": "Yunqiao Xie",
+              "raw_author_name": "Yunqiao Xie",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "display_name": "Yuhong Liao",
+              "raw_author_name": "Yuhong Liao",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "display_name": "Xinyang Li",
+              "raw_author_name": "Xinyang Li",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "display_name": "Yiming Li",
+              "raw_author_name": "Yiming Li",
+              "institutions": [
+                "Guangxi University",
+                "State Key Laboratory For Conservation and Utilization of Subtropical Agro-Bioresources"
+              ]
+            },
+            {
+              "display_name": "Shuping Li",
+              "raw_author_name": "Shuping Li",
+              "institutions": [
+                "State Key Laboratory For Conservation and Utilization of Subtropical Agro-Bioresources"
+              ]
+            },
+            {
+              "display_name": "Xiuguo Ma",
+              "raw_author_name": "Xiuguo Ma",
+              "institutions": [
+                "Guangxi University"
+              ]
+            },
+            {
+              "display_name": "Shimin Lei",
+              "raw_author_name": "Shimin Lei",
+              "institutions": [
+                "Guangxi University"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant tissue culture and regeneration",
+            "Plant Pathogenic Bacteria Studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4306694116",
+          "title": "Antifungal activity and genomic characterization of the biocontrol agent Bacillus velezensis CMRP 4489",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.1038/s41598-022-22380-0",
+          "cited_by_count": 42,
+          "authors": [
+            {
+              "display_name": "Júlia Baptista",
+              "raw_author_name": "Julia Pezarini Baptista",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Maria Luiza Abreu de Jesus",
+              "raw_author_name": "Maria Luiza Abreu de Jesus",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Rosiana Bertê",
+              "raw_author_name": "Rosiana Bertê",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Daniel Vieira da Silva",
+              "raw_author_name": "Daniel Vieira da Silva",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "João Paulo Oliveira",
+              "raw_author_name": "João Paulo de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Scientific Reports",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Insect Resistance and Genetics",
+            "Antimicrobial Peptides and Activities"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4387440103",
+          "title": "Identification of bioactive compounds of <i>Bacillus velezensis</i> HNA3 that contribute to its dual effects as plant growth promoter and biocontrol against post-harvested fungi",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1128/spectrum.00519-23",
+          "cited_by_count": 28,
+          "authors": [
+            {
+              "display_name": "Doaa S. Zaid",
+              "raw_author_name": "Doaa S. Zaid",
+              "institutions": [
+                "Huazhong Agricultural University",
+                "Desert Research Center"
+              ]
+            },
+            {
+              "display_name": "Wenya Li",
+              "raw_author_name": "Wenya Li",
+              "institutions": [
+                "Huazhong Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Siyu Yang",
+              "raw_author_name": "Siyu Yang",
+              "institutions": [
+                "Huazhong Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Youguo Li",
+              "raw_author_name": "Youguo Li",
+              "institutions": [
+                "Huazhong Agricultural University"
+              ]
+            }
+          ],
+          "source": "Microbiology Spectrum",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Plant-Microbe Interactions and Immunity",
+            "Entomopathogenic Microorganisms in Pest Control"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3208650320",
+          "title": "Bacillus velezensis T149-19 and Bacillus safensis T052-76 as Potential Biocontrol Agents against Foot Rot Disease in Sweet Potato",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/agriculture11111046",
+          "cited_by_count": 21,
+          "authors": [
+            {
+              "display_name": "Jackeline Rossetti Mateus",
+              "raw_author_name": "Jackeline Rossetti Mateus",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "display_name": "Isabella Dal’Rio",
+              "raw_author_name": "Isabella Dal’Rio",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "display_name": "Diogo Jurelevicius",
+              "raw_author_name": "Diogo Jurelevicius",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro"
+              ]
+            },
+            {
+              "display_name": "Fábio Faria da Mota",
+              "raw_author_name": "Fabio Faria da Mota",
+              "institutions": [
+                "Fundação Oswaldo Cruz"
+              ]
+            },
+            {
+              "display_name": "Joana Montezano Marques",
+              "raw_author_name": "Joana Montezano Marques",
+              "institutions": [
+                "Universidade Federal do Rio de Janeiro",
+                "Universidade Federal do Pará"
+              ]
+            },
+            {
+              "display_name": "Rommel Thiago Jucá Ramos",
+              "raw_author_name": "Rommel Thiago Juca Ramos",
+              "institutions": [
+                "Universidade Federal do Pará"
+              ]
+            },
+            {
+              "display_name": "Artur Silva",
+              "raw_author_name": "Artur Luiz da Costa da Silva",
+              "institutions": [
+                "Universidade Federal do Pará"
+              ]
+            },
+            {
+              "display_name": "Paulo Roberto Gagliardi",
+              "raw_author_name": "Paulo Roberto Gagliardi",
+              "institutions": [
+                "Universidade Federal de Sergipe"
+              ]
+            }
+          ],
+          "source": "Agriculture",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant Pathogens and Fungal Diseases",
+            "Plant Disease Management Techniques"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4327881906",
+          "title": "Insights into Antifungal Mechanisms of &lt;i&gt;Bacillus velezensis&lt;/i&gt; S141 against &lt;i&gt;Cercospora&lt;/i&gt; Leaf Spot in Mungbean (&lt;i&gt;V. radiata&lt;/i&gt;)",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.1264/jsme2.me22079",
+          "cited_by_count": 18,
+          "authors": [
+            {
+              "display_name": "Pongpan Songwattana",
+              "raw_author_name": "Pongpan Songwattana",
+              "institutions": [
+                "Biotechnology Institute",
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Pakpoom Boonchuen",
+              "raw_author_name": "Pakpoom Boonchuen",
+              "institutions": [
+                "Biotechnology Institute",
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Pongdet Piromyou",
+              "raw_author_name": "Pongdet Piromyou",
+              "institutions": [
+                "Biotechnology Institute",
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Jenjira Wongdee",
+              "raw_author_name": "Jenjira Wongdee",
+              "institutions": [
+                "Biotechnology Institute",
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Teerana Greetatorn",
+              "raw_author_name": "Teerana Greetatorn",
+              "institutions": [
+                "Biotechnology Institute",
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Sukanya Inthaisong",
+              "raw_author_name": "Sukanya Inthaisong",
+              "institutions": [
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Piyada Alisha Tantasawat",
+              "raw_author_name": "Piyada Alisha Tantasawat",
+              "institutions": [
+                "Suranaree University of Technology"
+              ]
+            },
+            {
+              "display_name": "Kamonluck Teamtisong",
+              "raw_author_name": "Kamonluck Teamtisong",
+              "institutions": [
+                "Suranaree University of Technology"
+              ]
+            }
+          ],
+          "source": "Microbes and Environments",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        }
+      ]
+    },
+    "bacillus_velezensis_bionematicide": {
+      "endpoint": "works",
+      "observed_result_count": 66,
+      "returned_items": 10,
+      "results": [
+        {
+          "id": "https://openalex.org/W4309735831",
+          "title": "Biocontrol efficacy of Bacillus velezensis strain YS-AT-DS1 against the root-knot nematode Meloidogyne incognita in tomato plants",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3389/fmicb.2022.1035748",
+          "cited_by_count": 50,
+          "authors": [
+            {
+              "display_name": "Yanfeng Hu",
+              "raw_author_name": "Yanfeng Hu",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Northeast Institute of Geography and Agroecology"
+              ]
+            },
+            {
+              "display_name": "Jia You",
+              "raw_author_name": "Jia You",
+              "institutions": []
+            },
+            {
+              "display_name": "Yu Wang",
+              "raw_author_name": "Yu Wang",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Northeast Institute of Geography and Agroecology"
+              ]
+            },
+            {
+              "display_name": "Yong Long",
+              "raw_author_name": "Yong Long",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Northeast Institute of Geography and Agroecology",
+                "University of Chinese Academy of Sciences"
+              ]
+            },
+            {
+              "display_name": "Siru Wang",
+              "raw_author_name": "Siru Wang",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Northeast Institute of Geography and Agroecology",
+                "University of Chinese Academy of Sciences"
+              ]
+            },
+            {
+              "display_name": "Fengjuan Pan",
+              "raw_author_name": "Fengjuan Pan",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Northeast Institute of Geography and Agroecology"
+              ]
+            },
+            {
+              "display_name": "Zhenhua Yu",
+              "raw_author_name": "Zhenhua Yu",
+              "institutions": [
+                "Chinese Academy of Sciences",
+                "Northeast Institute of Geography and Agroecology"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Entomopathogenic Microorganisms in Pest Control"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4205788604",
+          "title": "Bacillusvelezensis Strains for Protecting Cucumber Plants from Root-Knot Nematode Meloidogyne incognita in a Greenhouse",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/plants11030275",
+          "cited_by_count": 31,
+          "authors": [
+            {
+              "display_name": "А. М. Асатурова",
+              "raw_author_name": "Anzhela M. Asaturova",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "Ludmila N. Bugaeva",
+              "raw_author_name": "Ludmila N. Bugaeva",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "Anna Homyak",
+              "raw_author_name": "Anna I. Homyak",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "Galina A. Slobodyanyuk",
+              "raw_author_name": "Galina A. Slobodyanyuk",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "Evgeninya V. Kashutina",
+              "raw_author_name": "Evgeninya V. Kashutina",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "Larisa V. Yasyuk",
+              "raw_author_name": "Larisa V. Yasyuk",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "Н.М. Сидоров",
+              "raw_author_name": "Nikita M. Sidorov",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "V. D. Nadykta",
+              "raw_author_name": "Vladimir D. Nadykta",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            }
+          ],
+          "source": "Plants",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2565794507",
+          "title": "Biological Control of <i>Meloidogyne incognita</i> by Spore-forming Plant Growth-promoting Rhizobacteria on Cotton",
+          "publication_year": 2016,
+          "doi": "https://doi.org/10.1094/pdis-09-16-1369-re",
+          "cited_by_count": 114,
+          "authors": [
+            {
+              "display_name": "Ni Xiang",
+              "raw_author_name": "Ni Xiang",
+              "institutions": [
+                "Auburn University",
+                "Mississippi State University"
+              ]
+            },
+            {
+              "display_name": "Kathy Lawrence",
+              "raw_author_name": "Kathy S. Lawrence",
+              "institutions": [
+                "Auburn University",
+                "Mississippi State University"
+              ]
+            },
+            {
+              "display_name": "Joseph W. Kloepper",
+              "raw_author_name": "Joseph W. Kloepper",
+              "institutions": [
+                "Auburn University",
+                "Mississippi State University"
+              ]
+            },
+            {
+              "display_name": "P. A. Donald",
+              "raw_author_name": "Patricia A. Donald",
+              "institutions": [
+                "Auburn University",
+                "Mississippi State University"
+              ]
+            },
+            {
+              "display_name": "John A. McInroy",
+              "raw_author_name": "John A. McInroy",
+              "institutions": [
+                "Auburn University",
+                "Mississippi State University"
+              ]
+            },
+            {
+              "display_name": "Gary W. Lawrence",
+              "raw_author_name": "Gary W. Lawrence",
+              "institutions": [
+                "Auburn University",
+                "Mississippi State University"
+              ]
+            }
+          ],
+          "source": "Plant Disease",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4399441291",
+          "title": "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1186/s12866-024-03282-9",
+          "cited_by_count": 13,
+          "authors": [
+            {
+              "display_name": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Andressa Cristina Zamboni Machado",
+              "raw_author_name": "Andressa Cristina Zamboni Machado",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "display_name": "Rodrigo Thibes Hoshino",
+              "raw_author_name": "Rodrigo Thibes Hoshino",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Gabriel Danilo Shimizu",
+              "raw_author_name": "Gabriel Danilo Shimizu",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "display_name": "Alison Fernando Nogueira",
+              "raw_author_name": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "BMC Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant Pathogens and Fungal Diseases"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4402936536",
+          "title": "Rhizosphere Engineering of Biocontrol Agents Enriches Soil Microbial Diversity and Effectively Controls Root-Knot Nematodes",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1007/s00248-024-02435-7",
+          "cited_by_count": 35,
+          "authors": [
+            {
+              "display_name": "K Vinothini",
+              "raw_author_name": "K. Vinothini",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "S. Nakkeeran",
+              "raw_author_name": "S. Nakkeeran",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "N. Saranya",
+              "raw_author_name": "N. Saranya",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "P. Jothi",
+              "raw_author_name": "P. Jothi",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Jean‐Alexandre Richard",
+              "raw_author_name": "J. Infant Richard",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Kahkashan Perveen",
+              "raw_author_name": "Kahkashan Perveen",
+              "institutions": [
+                "King Saud University"
+              ]
+            },
+            {
+              "display_name": "Najat A. Bukhari",
+              "raw_author_name": "Najat A. Bukhari",
+              "institutions": [
+                "King Saud University"
+              ]
+            },
+            {
+              "display_name": "Bernard R. Glick",
+              "raw_author_name": "Bernard R. Glick",
+              "institutions": [
+                "University of Waterloo"
+              ]
+            }
+          ],
+          "source": "Microbial Ecology",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W3188764975",
+          "title": "Selection of Bacterial Strains for Control of Root-Knot Disease Caused by Meloidogyne incognita",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.3390/microorganisms9081698",
+          "cited_by_count": 23,
+          "authors": [
+            {
+              "display_name": "В. Д. Мигунова",
+              "raw_author_name": "Varvara D. Migunova",
+              "institutions": [
+                "Severtsov Institute of Ecology and Evolution"
+              ]
+            },
+            {
+              "display_name": "N. S. Tomashevich",
+              "raw_author_name": "Natalia S. Tomashevich",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "A. N. Konrat",
+              "raw_author_name": "Alena N. Konrat",
+              "institutions": [
+                "All-Russian Scientific Research Institute of Experimental Veterinary Sciences. Ya.R. Kovalenko"
+              ]
+            },
+            {
+              "display_name": "S. V. Lychagina",
+              "raw_author_name": "Svetlana V. Lychagina",
+              "institutions": [
+                "All-Russian Scientific Research Institute of Experimental Veterinary Sciences. Ya.R. Kovalenko"
+              ]
+            },
+            {
+              "display_name": "V. M. Dubyaga",
+              "raw_author_name": "Valentina M. Dubyaga",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            },
+            {
+              "display_name": "T. D’Addabbo",
+              "raw_author_name": "Trifone D’Addabbo",
+              "institutions": [
+                "Institute for Sustainable Plant Protection"
+              ]
+            },
+            {
+              "display_name": "N. Sasanelli",
+              "raw_author_name": "Nicola Sasanelli",
+              "institutions": [
+                "Institute for Sustainable Plant Protection"
+              ]
+            },
+            {
+              "display_name": "А. М. Асатурова",
+              "raw_author_name": "Anzhela M. Asaturova",
+              "institutions": [
+                "All-Russian Research Institute of Biological Plant Protection"
+              ]
+            }
+          ],
+          "source": "Microorganisms",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Plant Disease Management Techniques"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4387234886",
+          "title": "Metagenomic Approach Deciphers the Role of Community Composition of Mycobiome Structured by Bacillus velezensis VB7 and Trichoderma koningiopsis TK in Tomato Rhizosphere to Suppress Root-Knot Nematode Infecting Tomato",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3390/microorganisms11102467",
+          "cited_by_count": 8,
+          "authors": [
+            {
+              "display_name": "Vinothini Kamalanathan",
+              "raw_author_name": "Vinothini Kamalanathan",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "S. Nakkeeran",
+              "raw_author_name": "Nakkeeran Sevugapperumal",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Saranya Nallusamy",
+              "raw_author_name": "Saranya Nallusamy",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Suhail Ashraf",
+              "raw_author_name": "Suhail Ashraf",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Kumanan Kailasam",
+              "raw_author_name": "Kumanan Kailasam",
+              "institutions": [
+                "Tamil Nadu Agricultural University"
+              ]
+            },
+            {
+              "display_name": "Mohd Afzal",
+              "raw_author_name": "Mohd Afzal",
+              "institutions": [
+                "King Saud University"
+              ]
+            }
+          ],
+          "source": "Microorganisms",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4220762857",
+          "title": "Biological Control of Plant Pathogens: A Global Perspective",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/microorganisms10030596",
+          "cited_by_count": 805,
+          "authors": [
+            {
+              "display_name": "Rachid Lahlali",
+              "raw_author_name": "Rachid Lahlali",
+              "institutions": [
+                "École Nationale d'Agriculture de Meknès"
+              ]
+            },
+            {
+              "display_name": "Said Ezrari",
+              "raw_author_name": "Said Ezrari",
+              "institutions": [
+                "École Nationale d'Agriculture de Meknès",
+                "Sidi Mohamed Ben Abdellah University"
+              ]
+            },
+            {
+              "display_name": "Nabil Radouane",
+              "raw_author_name": "Nabil Radouane",
+              "institutions": [
+                "École Nationale d'Agriculture de Meknès",
+                "Sidi Mohamed Ben Abdellah University"
+              ]
+            },
+            {
+              "display_name": "Jihane Kenfaoui",
+              "raw_author_name": "Jihane Kenfaoui",
+              "institutions": [
+                "École Nationale d'Agriculture de Meknès",
+                "Sidi Mohamed Ben Abdellah University"
+              ]
+            },
+            {
+              "display_name": "Qassim Esmaeel",
+              "raw_author_name": "Qassim Esmaeel",
+              "institutions": [
+                "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+                "Université de Reims Champagne-Ardenne"
+              ]
+            },
+            {
+              "display_name": "Hajar El Hamss",
+              "raw_author_name": "Hajar El Hamss",
+              "institutions": [
+                "École Nationale d'Agriculture de Meknès"
+              ]
+            },
+            {
+              "display_name": "Zineb Belabess",
+              "raw_author_name": "Zineb Belabess",
+              "institutions": [
+                "Mohamed I University"
+              ]
+            },
+            {
+              "display_name": "Essaïd Ait Barka",
+              "raw_author_name": "Essaid Ait Barka",
+              "institutions": [
+                "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+                "Université de Reims Champagne-Ardenne"
+              ]
+            }
+          ],
+          "source": "Microorganisms",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant Parasitism and Resistance"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4411058503",
+          "title": "Biocontrol efficacy of formulated probiotic bacteria against Meloidogyne incognita in Kiwifruit under greenhouse and field conditions",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.1038/s41598-025-05523-x",
+          "cited_by_count": 14,
+          "authors": [
+            {
+              "display_name": "Seyedeh Negin Mirghasemi",
+              "raw_author_name": "Seyedeh Negin Mirghasemi",
+              "institutions": [
+                "University of Guilan"
+              ]
+            },
+            {
+              "display_name": "Pejman Khodaygan",
+              "raw_author_name": "Pejman Khodaygan",
+              "institutions": [
+                "Vali Asr University of Rafsanjan"
+              ]
+            },
+            {
+              "display_name": "Azam Taheri",
+              "raw_author_name": "Azam Taheri",
+              "institutions": [
+                "University of Guilan"
+              ]
+            },
+            {
+              "display_name": "Salar Jamali",
+              "raw_author_name": "Salar Jamali",
+              "institutions": [
+                "University of Guilan"
+              ]
+            },
+            {
+              "display_name": "Seyedeh Najmeh Banihashemian",
+              "raw_author_name": "Seyedeh Najmeh Banihashemian",
+              "institutions": [
+                "Agricultural Research & Education Organization"
+              ]
+            }
+          ],
+          "source": "Scientific Reports",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Agronomic Practices and Intercropping Systems"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4407565616",
+          "title": "The combination of composted animal manure and plant growth-promoting rhizobacteria is a sustainable biofertilizer and bionematicide for grapevine (Vitis vinifera L.) cultivars",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.1007/s10658-024-02999-7",
+          "cited_by_count": 4,
+          "authors": [
+            {
+              "display_name": "Osama M. M. Khder",
+              "raw_author_name": "Osama M. M. Khder",
+              "institutions": [
+                "Zagazig University"
+              ]
+            },
+            {
+              "display_name": "Ramadan M. El–Ashry",
+              "raw_author_name": "Ramadan M. El-Ashry",
+              "institutions": [
+                "Zagazig University"
+              ]
+            },
+            {
+              "display_name": "Ahmed M. Eldeeb",
+              "raw_author_name": "Ahmed M. A. El-Deeb",
+              "institutions": [
+                "Zagazig University"
+              ]
+            },
+            {
+              "display_name": "Nahla Alsayd Bouqellah",
+              "raw_author_name": "Nahla A. Bouqellah",
+              "institutions": [
+                "Taibah University"
+              ]
+            },
+            {
+              "display_name": "Mada F. Ashkan",
+              "raw_author_name": "Mada F. Ashkan",
+              "institutions": [
+                "King Abdulaziz University"
+              ]
+            },
+            {
+              "display_name": "Anas S. Dablool",
+              "raw_author_name": "Anas S. Dablool",
+              "institutions": [
+                "Umm al-Qura University"
+              ]
+            },
+            {
+              "display_name": "Felwa A. Thagfan",
+              "raw_author_name": "Felwa A. Thagfan",
+              "institutions": [
+                "Princess Nourah bint Abdulrahman University"
+              ]
+            },
+            {
+              "display_name": "Uthman Balgith Algopishi",
+              "raw_author_name": "Uthman B. Algopishi",
+              "institutions": [
+                "King Khalid University"
+              ]
+            }
+          ],
+          "source": "European Journal of Plant Pathology",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Plant-Microbe Interactions and Immunity",
+            "Mycorrhizal Fungi and Plant Interactions"
+          ]
+        }
+      ]
+    },
+    "bacillus_velezensis_inoculant_bioreactor": {
+      "endpoint": "works",
+      "observed_result_count": 97,
+      "returned_items": 10,
+      "results": [
+        {
+          "id": "https://openalex.org/W4280567920",
+          "title": "Coculture of Trichoderma harzianum and Bacillus velezensis Based on Metabolic Cross-Feeding Modulates Lipopeptide Production",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.3390/microorganisms10051059",
+          "cited_by_count": 28,
+          "authors": [
+            {
+              "display_name": "Barbara Fifani",
+              "raw_author_name": "Barbara Fifani",
+              "institutions": [
+                "Gembloux Agro-Bio Tech",
+                "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+                "Institut Charles Viollette",
+                "UMR Transfrontalière BioEcoAgro",
+                "Université d'Artois"
+              ]
+            },
+            {
+              "display_name": "Sébastien Steels",
+              "raw_author_name": "Sebastien Steels",
+              "institutions": [
+                "Gembloux Agro-Bio Tech"
+              ]
+            },
+            {
+              "display_name": "Catherine Helmus",
+              "raw_author_name": "Catherine Helmus",
+              "institutions": [
+                "Gembloux Agro-Bio Tech"
+              ]
+            },
+            {
+              "display_name": "Alice Delacuvellerie",
+              "raw_author_name": "Alice Delacuvellerie",
+              "institutions": [
+                "University of Mons"
+              ]
+            },
+            {
+              "display_name": "Barbara Deracinois",
+              "raw_author_name": "Barbara Deracinois",
+              "institutions": [
+                "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+                "Institut Charles Viollette",
+                "UMR Transfrontalière BioEcoAgro",
+                "Université d'Artois"
+              ]
+            },
+            {
+              "display_name": "Vincent Phalip",
+              "raw_author_name": "Vincent Phalip",
+              "institutions": [
+                "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+                "Institut Charles Viollette",
+                "UMR Transfrontalière BioEcoAgro",
+                "Université d'Artois"
+              ]
+            },
+            {
+              "display_name": "Frank Delvigne",
+              "raw_author_name": "Frank Delvigne",
+              "institutions": [
+                "Gembloux Agro-Bio Tech"
+              ]
+            },
+            {
+              "display_name": "Philippe Jacques",
+              "raw_author_name": "Philippe Jacques",
+              "institutions": [
+                "Gembloux Agro-Bio Tech"
+              ]
+            }
+          ],
+          "source": "Microorganisms",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Microbial Metabolic Engineering and Bioproduction",
+            "Transgenic Plants and Applications"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4200389516",
+          "title": "Control Efficacy of Bacillus velezensis AFB2-2 against Potato Late Blight Caused by Phytophthora infestans in Organic Potato Cultivation",
+          "publication_year": 2021,
+          "doi": "https://doi.org/10.5423/ppj.ft.09.2021.0138",
+          "cited_by_count": 25,
+          "authors": [
+            {
+              "display_name": "Min-Jeong Kim",
+              "raw_author_name": "Min Jeong Kim",
+              "institutions": [
+                "National Institute of Agricultural Science and Technology"
+              ]
+            },
+            {
+              "display_name": "Chang Ki Shim",
+              "raw_author_name": "Chang Ki Shim",
+              "institutions": [
+                "National Institute of Agricultural Science and Technology"
+              ]
+            },
+            {
+              "display_name": "Jong‐Ho Park",
+              "raw_author_name": "Jong-Ho Park",
+              "institutions": [
+                "National Institute of Agricultural Science and Technology"
+              ]
+            }
+          ],
+          "source": "The Plant Pathology Journal",
+          "topics": [
+            "Plant Pathogens and Resistance",
+            "Plant Disease Resistance and Genetics",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4388304702",
+          "title": "Whole-Genome Analysis of Termite-Derived Bacillus velezensis BV-10 and Its Application in King Grass Silage",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3390/microorganisms11112697",
+          "cited_by_count": 3,
+          "authors": [
+            {
+              "display_name": "Xingbo Zhang",
+              "raw_author_name": "Xingbo Zhang",
+              "institutions": [
+                "Hainan University"
+              ]
+            },
+            {
+              "display_name": "Xiao-Tao He",
+              "raw_author_name": "Xiaotao He",
+              "institutions": [
+                "Hainan University"
+              ]
+            },
+            {
+              "display_name": "Jieru Chen",
+              "raw_author_name": "Jieru Chen",
+              "institutions": [
+                "Hainan University"
+              ]
+            },
+            {
+              "display_name": "Jingtao Li",
+              "raw_author_name": "Jingtao Li",
+              "institutions": [
+                "Hainan University"
+              ]
+            },
+            {
+              "display_name": "Yuhui Wu",
+              "raw_author_name": "Yuhui Wu",
+              "institutions": [
+                "Hainan University"
+              ]
+            },
+            {
+              "display_name": "Yu Chen",
+              "raw_author_name": "Yu Chen",
+              "institutions": [
+                "Hainan University"
+              ]
+            },
+            {
+              "display_name": "Yuhui Yang",
+              "raw_author_name": "Yuhui Yang",
+              "institutions": [
+                "Hainan University"
+              ]
+            }
+          ],
+          "source": "Microorganisms",
+          "topics": [
+            "Insect and Arachnid Ecology and Behavior",
+            "Probiotics and Fermented Foods",
+            "Genomics and Phylogenetic Studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4400086770",
+          "title": "Inhibitory activity of bacterial lipopeptides against Fusarium oxysporum f.sp. Strigae",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.1186/s12866-024-03386-2",
+          "cited_by_count": 21,
+          "authors": [
+            {
+              "display_name": "Mekuria Wolde Assena",
+              "raw_author_name": "Mekuria Wolde Assena",
+              "institutions": [
+                "University of Hohenheim",
+                "Wolkite University"
+              ]
+            },
+            {
+              "display_name": "Jens Pfannstiel",
+              "raw_author_name": "Jens Pfannstiel",
+              "institutions": [
+                "University of Hohenheim"
+              ]
+            },
+            {
+              "display_name": "Frank Rasche",
+              "raw_author_name": "Frank Rasche",
+              "institutions": [
+                "University of Hohenheim",
+                "International Institute of Tropical Agriculture"
+              ]
+            }
+          ],
+          "source": "BMC Microbiology",
+          "topics": [
+            "Plant Parasitism and Resistance",
+            "Plant Pathogenic Bacteria Studies",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4406334246",
+          "title": "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/plants14020191",
+          "cited_by_count": 149,
+          "authors": [
+            {
+              "display_name": "Alondra María Díaz-Rodríguez",
+              "raw_author_name": "Alondra María Díaz-Rodríguez",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ]
+            },
+            {
+              "display_name": "Fannie Isela Parra-Cota",
+              "raw_author_name": "Fannie Isela Parra Cota",
+              "institutions": [
+                "Sonora Institute of Technology",
+                "Instituto Nacional de Investigaciones Forestales Agrícolas y Pecuarias"
+              ]
+            },
+            {
+              "display_name": "Luis Alberto Cira Chávez",
+              "raw_author_name": "Luis Alberto Cira Chávez",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ]
+            },
+            {
+              "display_name": "Luis Fernando García-Ortega",
+              "raw_author_name": "Luis Fernando García Ortega",
+              "institutions": [
+                "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional"
+              ]
+            },
+            {
+              "display_name": "María Alvarado",
+              "raw_author_name": "María Isabel Estrada Alvarado",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ]
+            },
+            {
+              "display_name": "Gustavo Santoyo",
+              "raw_author_name": "Gustavo Santoyo",
+              "institutions": [
+                "Universidad Michoacana de San Nicolás de Hidalgo"
+              ]
+            },
+            {
+              "display_name": "Sergio de los Santos‐Villalobos",
+              "raw_author_name": "Sergio de los Santos-Villalobos",
+              "institutions": [
+                "Sonora Institute of Technology"
+              ]
+            }
+          ],
+          "source": "Plants",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4412601229",
+          "title": "Bacillus-based inoculants enhance drought resilience in soybean: agronomic performance and remote sensing analysis from multi-location trials in Brazil",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3389/fpls.2025.1630127",
+          "cited_by_count": 11,
+          "authors": [
+            {
+              "display_name": "Julio Cezar Souza Vasconcelos",
+              "raw_author_name": "Julio Cezar Souza Vasconcelos",
+              "institutions": [
+                "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+              ]
+            },
+            {
+              "display_name": "Caio Simplicio Arantes",
+              "raw_author_name": "Caio Simplicio Arantes",
+              "institutions": [
+                "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+              ]
+            },
+            {
+              "display_name": "E. A. Gomes",
+              "raw_author_name": "Eliane Aparecida Gomes",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "Christiane Abreu de Oliveira-Paiva",
+              "raw_author_name": "Christiane Abreu de Oliveira-Paiva",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "S. M. de Sousa",
+              "raw_author_name": "Sylvia Morais de Sousa",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "Eduardo Antônio Speranza",
+              "raw_author_name": "Eduardo Antonio Speranza",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "J. F. G. Antunes",
+              "raw_author_name": "João Francisco Gonçalves Antunes",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "display_name": "U. G. de P. Lana",
+              "raw_author_name": "Ubiraci Gomes de Paula Lana",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            }
+          ],
+          "source": "Frontiers in Plant Science",
+          "topics": [
+            "Nematode management and characterization studies",
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4321787055",
+          "title": "Application of Synthetic Consortia for Improvement of Soil Fertility, Pollution Remediation, and Agricultural Productivity: A Review",
+          "publication_year": 2023,
+          "doi": "https://doi.org/10.3390/agronomy13030643",
+          "cited_by_count": 189,
+          "authors": [
+            {
+              "display_name": "Parul Chaudhary",
+              "raw_author_name": "Parul Chaudhary",
+              "institutions": [
+                "Graphic Era University"
+              ]
+            },
+            {
+              "display_name": "Miao Xu",
+              "raw_author_name": "Miao Xu",
+              "institutions": []
+            },
+            {
+              "display_name": "Lukman Ahamad",
+              "raw_author_name": "Lukman Ahamad",
+              "institutions": [
+                "Aligarh Muslim University"
+              ]
+            },
+            {
+              "display_name": "Anuj Chaudhary",
+              "raw_author_name": "Anuj Chaudhary",
+              "institutions": [
+                "Shobhit University"
+              ]
+            },
+            {
+              "display_name": "Govind Kumar",
+              "raw_author_name": "Govind Kumar",
+              "institutions": [
+                "Central Institute For Subtropical Horticulture"
+              ]
+            },
+            {
+              "display_name": "Bartholomew Saanu Adeleke",
+              "raw_author_name": "Bartholomew Saanu Adeleke",
+              "institutions": [
+                "Olusegun Agagu University of Science and Technology"
+              ]
+            },
+            {
+              "display_name": "Krishan K. Verma",
+              "raw_author_name": "Krishan K. Verma",
+              "institutions": [
+                "Guangxi Academy of Agricultural Science",
+                "Ministry of Agriculture and Rural Affairs"
+              ]
+            },
+            {
+              "display_name": "Dian-Ming Hu",
+              "raw_author_name": "Dian-Ming Hu",
+              "institutions": [
+                "Jiangxi Agricultural University"
+              ]
+            }
+          ],
+          "source": "Agronomy",
+          "topics": [
+            "Microbial Community Ecology and Physiology",
+            "Plant-Microbe Interactions and Immunity",
+            "Mycorrhizal Fungi and Plant Interactions"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4399246677",
+          "title": "From waste to protein: a new strategy of converting composted distilled grain wastes into animal feed",
+          "publication_year": 2024,
+          "doi": "https://doi.org/10.3389/fmicb.2024.1405564",
+          "cited_by_count": 8,
+          "authors": [
+            {
+              "display_name": "Yu Lei",
+              "raw_author_name": "Lei Yu",
+              "institutions": [
+                "Anhui University"
+              ]
+            },
+            {
+              "display_name": "Zichao An",
+              "raw_author_name": "Zichao An",
+              "institutions": [
+                "Anhui University"
+              ]
+            },
+            {
+              "display_name": "Dengdeng Xie",
+              "raw_author_name": "Dengdeng Xie",
+              "institutions": [
+                "Anhui University"
+              ]
+            },
+            {
+              "display_name": "Diao Yin",
+              "raw_author_name": "Diao Yin",
+              "institutions": [
+                "Anhui University"
+              ]
+            },
+            {
+              "display_name": "Guopai Xie",
+              "raw_author_name": "Guopai Xie",
+              "institutions": []
+            },
+            {
+              "display_name": "Xuezhi Gao",
+              "raw_author_name": "Xuezhi Gao",
+              "institutions": []
+            },
+            {
+              "display_name": "Yazhong Xiao",
+              "raw_author_name": "Yazhong Xiao",
+              "institutions": [
+                "Anhui University"
+              ]
+            },
+            {
+              "display_name": "Juanjuan Liu",
+              "raw_author_name": "Juanjuan Liu",
+              "institutions": [
+                "Anhui University"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Food Waste Reduction and Sustainability",
+            "Composting and Vermicomposting Techniques",
+            "Bioeconomy and Sustainability Development"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4308433470",
+          "title": "Combined use of Trichoderma and beneficial bacteria (mainly Bacillus and Pseudomonas): Development of microbial synergistic bio-inoculants in sustainable agriculture",
+          "publication_year": 2022,
+          "doi": "https://doi.org/10.1016/j.biocontrol.2022.105100",
+          "cited_by_count": 170,
+          "authors": [
+            {
+              "display_name": "Jorge Poveda",
+              "raw_author_name": "Jorge Poveda",
+              "institutions": [
+                "Universidad de Valladolid",
+                "Universidad Pública de Navarra (UPNA)"
+              ]
+            },
+            {
+              "display_name": "Daniel Eugui",
+              "raw_author_name": "Daniel Eugui",
+              "institutions": [
+                "Universidad Pública de Navarra (UPNA)"
+              ]
+            }
+          ],
+          "source": "Biological Control",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Composting and Vermicomposting Techniques"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4415988777",
+          "title": "Physicochemical Determinants of Storage Stability in Spore-Based Bacterial Biopreparations for Agricultural Use",
+          "publication_year": 2025,
+          "doi": "https://doi.org/10.3390/app152211856",
+          "cited_by_count": 3,
+          "authors": [
+            {
+              "display_name": "Patrycja Rowińska",
+              "raw_author_name": "Patrycja Rowińska",
+              "institutions": [
+                "Lodz University of Technology"
+              ]
+            },
+            {
+              "display_name": "Beata Gutarowska",
+              "raw_author_name": "Beata Gutarowska",
+              "institutions": [
+                "Lodz University of Technology"
+              ]
+            },
+            {
+              "display_name": "Marta Wasilewska",
+              "raw_author_name": "Marta Wasilewska",
+              "institutions": [
+                "Lodz University of Technology"
+              ]
+            },
+            {
+              "display_name": "Szymon Powałowski",
+              "raw_author_name": "Szymon Powałowski",
+              "institutions": [
+                "JHJ (Poland)"
+              ]
+            },
+            {
+              "display_name": "Justyna Szulc",
+              "raw_author_name": "Justyna Szulc",
+              "institutions": [
+                "Lodz University of Technology"
+              ]
+            }
+          ],
+          "source": "Applied Sciences",
+          "topics": [
+            "Bacillus and Francisella bacterial research",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Enzyme Production and Characterization"
+          ]
+        }
+      ]
+    },
+    "admilton_oliveira_junior_authors": {
+      "endpoint": "authors",
+      "observed_result_count": 3,
+      "returned_items": 3,
+      "results": [
+        {
+          "id": "https://openalex.org/A5055843777",
+          "display_name": "Admilton Gonçalves de Oliveira",
+          "works_count": 133,
+          "country_code": null
+        },
+        {
+          "id": "https://openalex.org/A5122649348",
+          "display_name": "Admilton Gonçalves de Oliveira Junior",
+          "works_count": 2,
+          "country_code": null
+        },
+        {
+          "id": "https://openalex.org/A5090076516",
+          "display_name": "ADMILTON GONÇALVES DE OLIVEIRA JÚNIOR",
+          "works_count": 1,
+          "country_code": null
+        }
+      ]
+    },
+    "uel_institution": {
+      "endpoint": "institutions",
+      "observed_result_count": 1,
+      "returned_items": 1,
+      "results": [
+        {
+          "id": "https://openalex.org/I127110123",
+          "display_name": "Universidade Estadual de Londrina",
+          "works_count": 45333,
+          "country_code": "BR"
+        }
+      ]
+    }
+  },
+  "next_questions": [
+    {
+      "question_id": "Q-REFORM-019",
+      "priority": "high",
+      "question": "Does the exact-strain OpenAlex result for CMRP 4490 carry UEL or Admilton Gonçalves de Oliveira Junior metadata?",
+      "query_plan": [
+        "Inspect exact result authors and institutions",
+        "Compare with patent inventor/applicant",
+        "Classify same-project continuity only if metadata matches"
+      ],
+      "reason": "The exact token search generated an evidence path but identity continuity is not yet resolved."
+    },
+    {
+      "question_id": "Q-REFORM-020",
+      "priority": "medium",
+      "question": "Does the UEL institution profile contain works about Bacillus velezensis, bioreactors or bionematicides?",
+      "query_plan": [
+        "Filter UEL works by title/abstract terms",
+        "Preserve publication IDs and authors",
+        "Compare technology tags"
+      ],
+      "reason": "Institution-level continuity may be more observable than the inventor name."
+    },
+    {
+      "question_id": "Q-REFORM-021",
+      "priority": "medium",
+      "question": "Does the CMRP 4490 patent represent a new local process corridor distinct from the older Locus/Agrospheres patent families?",
+      "query_plan": [
+        "Compare assignee, filing/publication year, strain, process and application tags across rendered families"
+      ],
+      "reason": "The Bacillus query surfaced UEL, Locus and Agrospheres, suggesting multiple technological routes rather than one actor chain."
+    }
+  ],
+  "metadata_only": true
+}

@@ -1,0 +1,274 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "batch": "crossref_v1",
+  "metadata_only": true,
+  "rows": [
+    {
+      "doi": "10.1016/j.micres.2024.127689",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.micres.2024.127689",
+      "retrieved_at": "2026-08-21T07:04:35.311713+00:00",
+      "http_status": 200,
+      "raw_path": "raw_crossref_v1/10.1016_j.micres.2024.127689.json",
+      "raw_sha256": "5a0c7dd7cd9ac207bd9b6d3a3bb1eb6daba4b7b389bab84b9fed3b0a2f6ea84a",
+      "metadata_only": true,
+      "title": [
+        "Biocompatibility of Brazilian native yeast-derived sophorolipids and Trichoderma harzianum as plant-growth promoting bioformulations"
+      ],
+      "author": [
+        {
+          "given": "Thiago Moura",
+          "family": "Rocha",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paulo Ricardo Franco",
+          "family": "Marcelino",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Felipe Antonio Fernandes",
+          "family": "Antunes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Salvador",
+          "family": "Sánchez-Muñoz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Júlio César",
+          "family": "dos Santos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Silvio Silvério",
+          "family": "da Silva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container_title": [
+        "Microbiological Research"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "error": null
+    },
+    {
+      "doi": "10.1016/j.ejbt.2021.02.002",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.ejbt.2021.02.002",
+      "retrieved_at": "2026-08-21T07:04:37.504742+00:00",
+      "http_status": 200,
+      "raw_path": "raw_crossref_v1/10.1016_j.ejbt.2021.02.002.json",
+      "raw_sha256": "02c0aafac25b95dad32c9fdf0805cff0cc3e9ed0b5a49b569ba7e30bfba76260",
+      "metadata_only": true,
+      "title": [
+        "Production of green surfactants: Market prospects"
+      ],
+      "author": [
+        {
+          "given": "Charles Bronzo B.",
+          "family": "Farias",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fabíola C.G.",
+          "family": "Almeida",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ivison A.",
+          "family": "Silva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thais C.",
+          "family": "Souza",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hugo M.",
+          "family": "Meira",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rita de Cássia F.",
+          "family": "Soares da Silva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Juliana M.",
+          "family": "Luna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Valdemir A.",
+          "family": "Santos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Attilio",
+          "family": "Converti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ibrahim M.",
+          "family": "Banat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4746-0560",
+          "authenticated-orcid": false,
+          "given": "Leonie A.",
+          "family": "Sarubbo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container_title": [
+        "Electronic Journal of Biotechnology"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "error": null
+    }
+  ],
+  "summary": {
+    "requests": 2,
+    "successful": 2,
+    "failed_or_blocked": 0
+  }
+}

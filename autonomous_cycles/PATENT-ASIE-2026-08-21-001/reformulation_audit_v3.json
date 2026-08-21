@@ -1,0 +1,1885 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "batch": "reformulation_v3",
+  "facts_added": [
+    "OpenAlex LABIM22 exact query returned 7 top records out of 7 observed results.",
+    "OpenAlex Bacillus velezensis LABIM22 query returned 7 top records out of 7 observed results.",
+    "OpenAlex UEL + Bacillus velezensis filter returned 10 top records out of 39 observed results.",
+    "OpenAlex author search returned 1 Mirela Mosela candidates and 2 Gustavo Manoel Teixeira candidates."
+  ],
+  "branch_status": "LITERATURE_EXACT_TERM_FOUND",
+  "branch_reason": "LABIM22 appears in OpenAlex metadata; inspect title/authors/affiliations to determine whether it is the same UEL patent strain context.",
+  "uel_actor_names_in_filtered_literature": [
+    "Admilton Gonçalves de Oliveira",
+    "Alessandra Koltun",
+    "Alexandre Tadachi Morey",
+    "Alicya M. Bertoli",
+    "Alison Fernando Nogueira",
+    "Allan Yukio Higashi",
+    "Ana Caroline Raimundini Aranha",
+    "Andressa Cristina Zamboni Machado",
+    "André Sampaio Ferreira",
+    "Caroline Casagrande Sípoli",
+    "Claudio R. Novello",
+    "Daniel V. Silva",
+    "Daniel Vieira Silva",
+    "Daniel Vieira da Silva",
+    "Danilo Sipoli Sanches",
+    "Douglas Mariani Zeffa",
+    "Eliandro Reis Tavares",
+    "Fernando Macedo",
+    "G.C. Montanari",
+    "Gabriel Danilo Shimizu",
+    "Galdino Andrade",
+    "Gesiara de França Silva de Lima",
+    "Guilherme Gonçalves de Godoy",
+    "Gustavo Manoel Teixeira",
+    "Jacques Duílio Brancher",
+    "João C. P. Mello",
+    "João P. Oliveira",
+    "João Paulo Oliveira",
+    "Julia P. Baptista",
+    "Juliano Tadeu Vilela de Resende",
+    "Júlia Baptista",
+    "Kelvin Shinohata Branco",
+    "Khamis Youssef",
+    "Leandro Simões Azeredo Gonçalves",
+    "Luana Rainieri Massucato",
+    "Luriam Aparecida Brandão Ribeiro",
+    "Marcus Vinicius da Silva Rodrigues",
+    "Maria Carolina Sérgi Gomes",
+    "Maria Luiza A. Jesus-Nicoletto",
+    "Maria Luiza Abreu de Jesus",
+    "Maria Luíza Abreu Nicoletto",
+    "Mariangela Hungría",
+    "María Isabel Balbi-Peña",
+    "Mirela Mosela",
+    "Mirela Mosella",
+    "Paula O. Gouveia",
+    "Paula Pinheiro Sanches",
+    "Priscila G. Camargo",
+    "Rafael Oliveira Defendi",
+    "Rafael de Assis",
+    "Renan Augusto Ribeiro",
+    "Renata Mussoi Giacomin",
+    "Renato Barros de Lima Filho",
+    "Roberta Torres Chideroli",
+    "Rodrigo Thibes Hoshino",
+    "Rosiana Bertê",
+    "Rúbia Michele Suzuki",
+    "Sandriele A. Noriler",
+    "Sandriele Aparecida Noriler",
+    "Silas Mian",
+    "Suelen Regina de Araújo Almeida",
+    "Sueli Fumie Yamada‐Ogatta",
+    "Sérgio Paulo Dejato Rocha",
+    "Ulisses Nunes da Rocha",
+    "Ulisses P. Pereira",
+    "Ulisses de Pádua Pereira"
+  ],
+  "uel_bacillus_titles": [
+    "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+    "Antifungal activity and genomic characterization of the biocontrol agent Bacillus velezensis CMRP 4489",
+    "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+    "Genome Mining Reveals High Biosynthetic Potential of Biocontrol Agent Bacillus velezensis B.BV10",
+    "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+    "Complete Genome Sequence of Bacillus velezensis LABIM40, an Effective Antagonist of Fungal Plant Pathogens",
+    "Integrated chemical and genomic analysis of lipopeptides produced by Bacillus velezensis CMRP4489 with antifungal activity",
+    "Draft genome of <i>Bacillus velezensis</i> CMRP6330, a suitable biocontrol agent for disease management in crops",
+    "Development of chitosan‐based nanoparticles encapsulating <scp> <i>Bacillus velezensis</i> CMRP4490 </scp> metabolites for enhanced in vitro control of <scp> <i>Sclerotinia sclerotiorum</i> </scp>",
+    "Antifungal activity and genomic characterization of the isolate Bacillus velezensis CMRP 4489, a biocontrol agent for plant-pathogenic fungi"
+  ],
+  "summaries": {
+    "labim22_exact": {
+      "endpoint": "works",
+      "observed_result_count": 7,
+      "returned_items": 7,
+      "works": [
+        {
+          "id": "https://openalex.org/W3119656773",
+          "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+          "cited_by_count": 62,
+          "authors": [
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luiza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renan Augusto Ribeiro",
+              "raw_author_name": "Renan Augusto Ribeiro",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Mariangela Hungría",
+              "raw_author_name": "Mariangela Hungria",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Khamis Youssef",
+              "raw_author_name": "Khamis Youssef",
+              "institutions": [
+                "Agricultural Research Center"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "André Sampaio Ferreira",
+              "raw_author_name": "André Sampaio Ferreira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Leandro Simões Azeredo Gonçalves",
+              "raw_author_name": "Leandro Simões Azeredo Gonçalves",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Gonçalves de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant tissue culture and regeneration"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W7120573195",
+          "title": "Antagonism of the LABIM22 strain of Bacillus velezensis against phytopathogenic fungi and biocontrol of white mold in soybean seeds",
+          "year": 2020,
+          "doi": null,
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "AllanYukio Higashi",
+              "raw_author_name": "Higashi, AllanYukio",
+              "institutions": []
+            }
+          ],
+          "source": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Insect Resistance and Genetics",
+            "Bacillus and Francisella bacterial research"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4307556082",
+          "title": "Characterization and Antagonistic Effect of Culturable Apple-Phyllosphere Endophytic Bacteria from the Cold Plateau in Yunnan, China",
+          "year": 2022,
+          "doi": "https://doi.org/10.3390/horticulturae8110991",
+          "cited_by_count": 3,
+          "authors": [
+            {
+              "author": "Xinlong Pan",
+              "raw_author_name": "Xinlong Pan",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Pengbo He",
+              "raw_author_name": "Pengbo He",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Cong Zhou",
+              "raw_author_name": "Cong Zhou",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Haichun Cun",
+              "raw_author_name": "Haichun Cun",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Pengfei He",
+              "raw_author_name": "Pengfei He",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Shahzad Munir",
+              "raw_author_name": "Shahzad Munir",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Yixin Wu",
+              "raw_author_name": "Yixin Wu",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Ayesha Ahmed",
+              "raw_author_name": "Ayesha Ahmed",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Suhail Asad",
+              "raw_author_name": "Suhail Asad",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Jun Ma",
+              "raw_author_name": "Jun Ma",
+              "institutions": [
+                "Yunnan Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Yongcui Ma",
+              "raw_author_name": "Yongcui Ma",
+              "institutions": [
+                "Zhaotong University"
+              ]
+            },
+            {
+              "author": "Yanming Zhang",
+              "raw_author_name": "Yanming Zhang",
+              "institutions": [
+                "Ministry of Agriculture and Rural Affairs"
+              ]
+            }
+          ],
+          "source": "Horticulturae",
+          "topics": [
+            "Plant Pathogens and Fungal Diseases",
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4396912593",
+          "title": "Characterization of Bacillus velezensis DCJ 2 isolated from the rhizosphere soil of aglaonema ‘Maria’ and investigation of its plant growth-promoting effects",
+          "year": 2024,
+          "doi": "https://doi.org/10.34117/bjdv10n5-038",
+          "cited_by_count": 1,
+          "authors": [
+            {
+              "author": "M. H. A. D. Subhashini",
+              "raw_author_name": "Mahara Hetti Arachchige Deepika Subhashini",
+              "institutions": [
+                "Souphanouvong University",
+                "Planta",
+                "Colciencias",
+                "Secretaria Municipal de Cultura",
+                "Exelis (United States)",
+                "University of Colombo"
+              ]
+            },
+            {
+              "author": "C. M. Nanayakkara",
+              "raw_author_name": "Chandrika Malkanthi Nanayakkara",
+              "institutions": [
+                "Souphanouvong University",
+                "Planta",
+                "Colciencias",
+                "Secretaria Municipal de Cultura",
+                "Exelis (United States)",
+                "University of Colombo"
+              ]
+            },
+            {
+              "author": "Dassanayake Mudiyanselage Jayantha Bandara Senanayake",
+              "raw_author_name": "Dassanayake Mudiyanselage Jayantha Bandara Senanayake",
+              "institutions": []
+            }
+          ],
+          "source": "Brazilian Journal of Development",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Agriculture and Biological Studies",
+            "Agricultural Productivity and Crop Improvement"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4403540679",
+          "title": "Pipeline para Identificação de Genes Relacionados à Promoção de Crescimento em Plantas: Um Estudo de Caso da Rizobactéria Bacillus Velezensis",
+          "year": 2022,
+          "doi": "https://doi.org/10.29327/171547.516100",
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "Beatriz Silva",
+              "raw_author_name": "BEATRIZ APARECIDA LEOPOLDINO DA SILVA",
+              "institutions": []
+            },
+            {
+              "author": "Danilo Sipoli Sanches",
+              "raw_author_name": "Danilo Sipoli Sanches",
+              "institutions": []
+            },
+            {
+              "author": "Alisson Lucas de Souza",
+              "raw_author_name": "Alisson Lucas de Souza",
+              "institutions": []
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Oliveira Junior",
+              "institutions": []
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "GUSTAVO MANOEL TEIXEIRA",
+              "institutions": []
+            },
+            {
+              "author": "João A.B.P. Oliveira",
+              "raw_author_name": "João Paulo De Oliveira",
+              "institutions": []
+            },
+            {
+              "author": "JACQUES UEL BR",
+              "raw_author_name": "JACQUES UEL BR",
+              "institutions": []
+            }
+          ],
+          "source": null,
+          "topics": [
+            "Plant tissue culture and regeneration",
+            "Enzyme Production and Characterization",
+            "Biofuel production and bioconversion"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W7120796422",
+          "title": "Development of nanoparticles with biofungicidal potential",
+          "year": 2022,
+          "doi": null,
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "Gesiara de França Silva de Lima",
+              "raw_author_name": "Lima, Gesiara de França Silva de",
+              "institutions": []
+            }
+          ],
+          "source": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "topics": [
+            "Polymer-Based Agricultural Enhancements",
+            "Nanocomposite Films for Food Packaging",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4403774143",
+          "title": "Novel Strain Bacillus velezensis LAFUEL 03: Activity Against Xanthomonas vasicola pv. vasculorum, Control of Bacterial Leaf Streak of Corn and Genome Insights into Its Antagonistic Activity",
+          "year": 2024,
+          "doi": "https://doi.org/10.3390/agronomy14112495",
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "Izabela Moura Duin",
+              "raw_author_name": "Izabela Moura Duin",
+              "institutions": [
+                "North Carolina State University"
+              ]
+            },
+            {
+              "author": "Vanessa Hitomi Sugahara Rodrigues",
+              "raw_author_name": "Vanessa Hitomi Sugahara Rodrigues",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Rui Pereira Leite",
+              "raw_author_name": "Rui Pereira Leite",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "María Isabel Balbi-Peña",
+              "raw_author_name": "Maria Isabel Balbi-Peña",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Agronomy",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant Pathogenic Bacteria Studies",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        }
+      ]
+    },
+    "bacillus_velezensis_labim22": {
+      "endpoint": "works",
+      "observed_result_count": 7,
+      "returned_items": 7,
+      "works": [
+        {
+          "id": "https://openalex.org/W3119656773",
+          "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+          "cited_by_count": 62,
+          "authors": [
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luiza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renan Augusto Ribeiro",
+              "raw_author_name": "Renan Augusto Ribeiro",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Mariangela Hungría",
+              "raw_author_name": "Mariangela Hungria",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Khamis Youssef",
+              "raw_author_name": "Khamis Youssef",
+              "institutions": [
+                "Agricultural Research Center"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "André Sampaio Ferreira",
+              "raw_author_name": "André Sampaio Ferreira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Leandro Simões Azeredo Gonçalves",
+              "raw_author_name": "Leandro Simões Azeredo Gonçalves",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Gonçalves de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant tissue culture and regeneration"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4396912593",
+          "title": "Characterization of Bacillus velezensis DCJ 2 isolated from the rhizosphere soil of aglaonema ‘Maria’ and investigation of its plant growth-promoting effects",
+          "year": 2024,
+          "doi": "https://doi.org/10.34117/bjdv10n5-038",
+          "cited_by_count": 1,
+          "authors": [
+            {
+              "author": "M. H. A. D. Subhashini",
+              "raw_author_name": "Mahara Hetti Arachchige Deepika Subhashini",
+              "institutions": [
+                "Souphanouvong University",
+                "Planta",
+                "Colciencias",
+                "Secretaria Municipal de Cultura",
+                "Exelis (United States)",
+                "University of Colombo"
+              ]
+            },
+            {
+              "author": "C. M. Nanayakkara",
+              "raw_author_name": "Chandrika Malkanthi Nanayakkara",
+              "institutions": [
+                "Souphanouvong University",
+                "Planta",
+                "Colciencias",
+                "Secretaria Municipal de Cultura",
+                "Exelis (United States)",
+                "University of Colombo"
+              ]
+            },
+            {
+              "author": "Dassanayake Mudiyanselage Jayantha Bandara Senanayake",
+              "raw_author_name": "Dassanayake Mudiyanselage Jayantha Bandara Senanayake",
+              "institutions": []
+            }
+          ],
+          "source": "Brazilian Journal of Development",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Agriculture and Biological Studies",
+            "Agricultural Productivity and Crop Improvement"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4307556082",
+          "title": "Characterization and Antagonistic Effect of Culturable Apple-Phyllosphere Endophytic Bacteria from the Cold Plateau in Yunnan, China",
+          "year": 2022,
+          "doi": "https://doi.org/10.3390/horticulturae8110991",
+          "cited_by_count": 3,
+          "authors": [
+            {
+              "author": "Xinlong Pan",
+              "raw_author_name": "Xinlong Pan",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Pengbo He",
+              "raw_author_name": "Pengbo He",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Cong Zhou",
+              "raw_author_name": "Cong Zhou",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Haichun Cun",
+              "raw_author_name": "Haichun Cun",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Pengfei He",
+              "raw_author_name": "Pengfei He",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Shahzad Munir",
+              "raw_author_name": "Shahzad Munir",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Yixin Wu",
+              "raw_author_name": "Yixin Wu",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Ayesha Ahmed",
+              "raw_author_name": "Ayesha Ahmed",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Suhail Asad",
+              "raw_author_name": "Suhail Asad",
+              "institutions": [
+                "Yunnan Agricultural University"
+              ]
+            },
+            {
+              "author": "Jun Ma",
+              "raw_author_name": "Jun Ma",
+              "institutions": [
+                "Yunnan Academy of Agricultural Sciences"
+              ]
+            },
+            {
+              "author": "Yongcui Ma",
+              "raw_author_name": "Yongcui Ma",
+              "institutions": [
+                "Zhaotong University"
+              ]
+            },
+            {
+              "author": "Yanming Zhang",
+              "raw_author_name": "Yanming Zhang",
+              "institutions": [
+                "Ministry of Agriculture and Rural Affairs"
+              ]
+            }
+          ],
+          "source": "Horticulturae",
+          "topics": [
+            "Plant Pathogens and Fungal Diseases",
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W7120573195",
+          "title": "Antagonism of the LABIM22 strain of Bacillus velezensis against phytopathogenic fungi and biocontrol of white mold in soybean seeds",
+          "year": 2020,
+          "doi": null,
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "AllanYukio Higashi",
+              "raw_author_name": "Higashi, AllanYukio",
+              "institutions": []
+            }
+          ],
+          "source": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Insect Resistance and Genetics",
+            "Bacillus and Francisella bacterial research"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4403540679",
+          "title": "Pipeline para Identificação de Genes Relacionados à Promoção de Crescimento em Plantas: Um Estudo de Caso da Rizobactéria Bacillus Velezensis",
+          "year": 2022,
+          "doi": "https://doi.org/10.29327/171547.516100",
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "Beatriz Silva",
+              "raw_author_name": "BEATRIZ APARECIDA LEOPOLDINO DA SILVA",
+              "institutions": []
+            },
+            {
+              "author": "Danilo Sipoli Sanches",
+              "raw_author_name": "Danilo Sipoli Sanches",
+              "institutions": []
+            },
+            {
+              "author": "Alisson Lucas de Souza",
+              "raw_author_name": "Alisson Lucas de Souza",
+              "institutions": []
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Oliveira Junior",
+              "institutions": []
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "GUSTAVO MANOEL TEIXEIRA",
+              "institutions": []
+            },
+            {
+              "author": "João A.B.P. Oliveira",
+              "raw_author_name": "João Paulo De Oliveira",
+              "institutions": []
+            },
+            {
+              "author": "JACQUES UEL BR",
+              "raw_author_name": "JACQUES UEL BR",
+              "institutions": []
+            }
+          ],
+          "source": null,
+          "topics": [
+            "Plant tissue culture and regeneration",
+            "Enzyme Production and Characterization",
+            "Biofuel production and bioconversion"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4403774143",
+          "title": "Novel Strain Bacillus velezensis LAFUEL 03: Activity Against Xanthomonas vasicola pv. vasculorum, Control of Bacterial Leaf Streak of Corn and Genome Insights into Its Antagonistic Activity",
+          "year": 2024,
+          "doi": "https://doi.org/10.3390/agronomy14112495",
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "Izabela Moura Duin",
+              "raw_author_name": "Izabela Moura Duin",
+              "institutions": [
+                "North Carolina State University"
+              ]
+            },
+            {
+              "author": "Vanessa Hitomi Sugahara Rodrigues",
+              "raw_author_name": "Vanessa Hitomi Sugahara Rodrigues",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Rui Pereira Leite",
+              "raw_author_name": "Rui Pereira Leite",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "María Isabel Balbi-Peña",
+              "raw_author_name": "Maria Isabel Balbi-Peña",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Agronomy",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant Pathogenic Bacteria Studies",
+            "Legume Nitrogen Fixing Symbiosis"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W7120796422",
+          "title": "Development of nanoparticles with biofungicidal potential",
+          "year": 2022,
+          "doi": null,
+          "cited_by_count": 0,
+          "authors": [
+            {
+              "author": "Gesiara de França Silva de Lima",
+              "raw_author_name": "Lima, Gesiara de França Silva de",
+              "institutions": []
+            }
+          ],
+          "source": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "topics": [
+            "Polymer-Based Agricultural Enhancements",
+            "Nanocomposite Films for Food Packaging",
+            "Plant-Microbe Interactions and Immunity"
+          ]
+        }
+      ]
+    },
+    "mirela_mosela_authors": {
+      "endpoint": "authors",
+      "observed_result_count": 1,
+      "returned_items": 1,
+      "entities": [
+        {
+          "id": "https://openalex.org/A5070500405",
+          "display_name": "Mirela Mosela",
+          "works_count": 14,
+          "last_known_institutions": [
+            "Universidade Estadual de Londrina"
+          ],
+          "country_code": null
+        }
+      ]
+    },
+    "gustavo_teixeira_authors": {
+      "endpoint": "authors",
+      "observed_result_count": 2,
+      "returned_items": 2,
+      "entities": [
+        {
+          "id": "https://openalex.org/A5012748418",
+          "display_name": "Gustavo Manoel Teixeira",
+          "works_count": 15,
+          "last_known_institutions": [
+            "Universidade Estadual de Londrina"
+          ],
+          "country_code": null
+        },
+        {
+          "id": "https://openalex.org/A5122425233",
+          "display_name": "Luiz Eduardo Domingues dos Santos Souza da Silva",
+          "works_count": 202,
+          "last_known_institutions": [],
+          "country_code": null
+        }
+      ]
+    },
+    "uel_bacillus_filter": {
+      "endpoint": "works",
+      "observed_result_count": 39,
+      "returned_items": 10,
+      "works": [
+        {
+          "id": "https://openalex.org/W3119656773",
+          "title": "Genomic Insights Into the Antifungal Activity and Plant Growth-Promoting Ability in Bacillus velezensis CMRP 4490",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fmicb.2020.618415",
+          "cited_by_count": 62,
+          "authors": [
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luiza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renan Augusto Ribeiro",
+              "raw_author_name": "Renan Augusto Ribeiro",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Mariangela Hungría",
+              "raw_author_name": "Mariangela Hungria",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Khamis Youssef",
+              "raw_author_name": "Khamis Youssef",
+              "institutions": [
+                "Agricultural Research Center"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "André Sampaio Ferreira",
+              "raw_author_name": "André Sampaio Ferreira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Leandro Simões Azeredo Gonçalves",
+              "raw_author_name": "Leandro Simões Azeredo Gonçalves",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Gonçalves de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Frontiers in Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant tissue culture and regeneration"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4306694116",
+          "title": "Antifungal activity and genomic characterization of the biocontrol agent Bacillus velezensis CMRP 4489",
+          "year": 2022,
+          "doi": "https://doi.org/10.1038/s41598-022-22380-0",
+          "cited_by_count": 42,
+          "authors": [
+            {
+              "author": "Júlia Baptista",
+              "raw_author_name": "Julia Pezarini Baptista",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luiza Abreu de Jesus",
+              "raw_author_name": "Maria Luiza Abreu de Jesus",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Rosiana Bertê",
+              "raw_author_name": "Rosiana Bertê",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Daniel Vieira da Silva",
+              "raw_author_name": "Daniel Vieira da Silva",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "João Paulo Oliveira",
+              "raw_author_name": "João Paulo de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Danilo Sipoli Sanches",
+              "raw_author_name": "Danilo Sipoli Sanches",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Jacques Duílio Brancher",
+              "raw_author_name": "Jacques Duílio Brancher",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "María Isabel Balbi-Peña",
+              "raw_author_name": "Maria Isabel Balbi-Peña",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Scientific Reports",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Insect Resistance and Genetics",
+            "Antimicrobial Peptides and Activities"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4295394560",
+          "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+          "year": 2022,
+          "doi": "https://doi.org/10.1038/s41598-022-19515-8",
+          "cited_by_count": 61,
+          "authors": [
+            {
+              "author": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Galdino Andrade",
+              "raw_author_name": "Galdino Andrade",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Luana Rainieri Massucato",
+              "raw_author_name": "Luana Rainieri Massucato",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Suelen Regina de Araújo Almeida",
+              "raw_author_name": "Suelen Regina de Araújo Almeida",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alison Fernando Nogueira",
+              "raw_author_name": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renato Barros de Lima Filho",
+              "raw_author_name": "Renato Barros de Lima Filho",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Douglas Mariani Zeffa",
+              "raw_author_name": "Douglas Mariani Zeffa",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gabriel Danilo Shimizu",
+              "raw_author_name": "Gabriel Danilo Shimizu",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Kelvin Shinohata Branco",
+              "raw_author_name": "Kelvin Shinohata Branco",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Scientific Reports",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Legume Nitrogen Fixing Symbiosis",
+            "Nematode management and characterization studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4307943151",
+          "title": "Genome Mining Reveals High Biosynthetic Potential of Biocontrol Agent Bacillus velezensis B.BV10",
+          "year": 2022,
+          "doi": "https://doi.org/10.3390/genes13111984",
+          "cited_by_count": 12,
+          "authors": [
+            {
+              "author": "Rosiana Bertê",
+              "raw_author_name": "Rosiana Bertê",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "João Paulo Oliveira",
+              "raw_author_name": "João Paulo de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luiza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Daniel Vieira da Silva",
+              "raw_author_name": "Daniel Vieira da Silva",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Guilherme Gonçalves de Godoy",
+              "raw_author_name": "Guilherme Gonçalves de Godoy",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Danilo Sipoli Sanches",
+              "raw_author_name": "Danilo Sipoli Sanches",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Juliano Tadeu Vilela de Resende",
+              "raw_author_name": "Juliano Tadeu Vilela de Resende",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses Nunes da Rocha",
+              "raw_author_name": "Ulisses Nunes da Rocha",
+              "institutions": [
+                "Helmholtz Centre for Environmental Research"
+              ]
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Gonçalves de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Genes",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Entomopathogenic Microorganisms in Pest Control",
+            "Bacterial biofilms and quorum sensing"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4399441291",
+          "title": "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+          "year": 2024,
+          "doi": "https://doi.org/10.1186/s12866-024-03282-9",
+          "cited_by_count": 13,
+          "authors": [
+            {
+              "author": "Silas Mian",
+              "raw_author_name": "Silas Mian",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Andressa Cristina Zamboni Machado",
+              "raw_author_name": "Andressa Cristina Zamboni Machado",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Rodrigo Thibes Hoshino",
+              "raw_author_name": "Rodrigo Thibes Hoshino",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosela",
+              "raw_author_name": "Mirela Mosela",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Yukio Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gabriel Danilo Shimizu",
+              "raw_author_name": "Gabriel Danilo Shimizu",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alison Fernando Nogueira",
+              "raw_author_name": "Alison Fernando Nogueira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Renata Mussoi Giacomin",
+              "raw_author_name": "Renata Mussoi Giacomin",
+              "institutions": [
+                "Universidade Estadual do Centro-Oeste"
+              ]
+            },
+            {
+              "author": "Luriam Aparecida Brandão Ribeiro",
+              "raw_author_name": "Luriam Aparecida Brandão Ribeiro",
+              "institutions": [
+                "Instituto Agronômico do Paraná"
+              ]
+            },
+            {
+              "author": "Alessandra Koltun",
+              "raw_author_name": "Alessandra Koltun",
+              "institutions": [
+                "Universidade Estadual de Campinas (UNICAMP)"
+              ]
+            },
+            {
+              "author": "Rafael de Assis",
+              "raw_author_name": "Rafael de Assis",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "BMC Microbiology",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Nematode management and characterization studies",
+            "Plant Pathogens and Fungal Diseases"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W2808776373",
+          "title": "Complete Genome Sequence of Bacillus velezensis LABIM40, an Effective Antagonist of Fungal Plant Pathogens",
+          "year": 2018,
+          "doi": "https://doi.org/10.1128/genomea.00595-18",
+          "cited_by_count": 12,
+          "authors": [
+            {
+              "author": "Júlia Baptista",
+              "raw_author_name": "Julia Pezarini Baptista",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Paula Pinheiro Sanches",
+              "raw_author_name": "Paula Pinheiro Sanches",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alexandre Tadachi Morey",
+              "raw_author_name": "Alexandre Tadachi Morey",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Eliandro Reis Tavares",
+              "raw_author_name": "Eliandro Reis Tavares",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Sueli Fumie Yamada‐Ogatta",
+              "raw_author_name": "Sueli Fumie Yamada-Ogatta",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Sérgio Paulo Dejato Rocha",
+              "raw_author_name": "Sérgio Paulo Dejato da Rocha",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mariangela Hungría",
+              "raw_author_name": "Mariangela Hungria",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "Renan Augusto Ribeiro",
+              "raw_author_name": "Renan Augusto Ribeiro",
+              "institutions": [
+                "Brazilian Agricultural Research Corporation"
+              ]
+            },
+            {
+              "author": "María Isabel Balbi-Peña",
+              "raw_author_name": "Maria Isabel Balbi-Peña",
+              "institutions": []
+            },
+            {
+              "author": "Roberta Torres Chideroli",
+              "raw_author_name": "Roberta Torres Chideroli",
+              "institutions": []
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": []
+            }
+          ],
+          "source": "Genome Announcements",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant Pathogens and Fungal Diseases",
+            "Genomics and Phylogenetic Studies"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W7167470459",
+          "title": "Integrated chemical and genomic analysis of lipopeptides produced by Bacillus velezensis CMRP4489 with antifungal activity",
+          "year": 2026,
+          "doi": "https://doi.org/10.1038/s41598-026-59086-6",
+          "cited_by_count": 1,
+          "authors": [
+            {
+              "author": "Maria Luiza A. Jesus-Nicoletto",
+              "raw_author_name": "Maria Luiza A. Jesus-Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Julia P. Baptista",
+              "raw_author_name": "Julia P. Baptista",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Sandriele A. Noriler",
+              "raw_author_name": "Sandriele A. Noriler",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Paula O. Gouveia",
+              "raw_author_name": "Paula O. Gouveia",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Alicya M. Bertoli",
+              "raw_author_name": "Alicya M. Bertoli",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Daniel V. Silva",
+              "raw_author_name": "Daniel V. Silva",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Priscila G. Camargo",
+              "raw_author_name": "Priscila G. Camargo",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Fernando Macedo",
+              "raw_author_name": "Fernando Macedo",
+              "institutions": [
+                "Universidade Estadual de Maringá",
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "João P. Oliveira",
+              "raw_author_name": "João P. Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina",
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Ulisses P. Pereira",
+              "raw_author_name": "Ulisses P. Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "João C. P. Mello",
+              "raw_author_name": "João C. P. Mello",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Claudio R. Novello",
+              "raw_author_name": "Claudio R. Novello",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            }
+          ],
+          "source": "Scientific Reports",
+          "topics": [
+            "Microbial Natural Products and Biosynthesis",
+            "Plant-Microbe Interactions and Immunity",
+            "Antimicrobial Peptides and Activities"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4404108612",
+          "title": "Draft genome of <i>Bacillus velezensis</i> CMRP6330, a suitable biocontrol agent for disease management in crops",
+          "year": 2024,
+          "doi": "https://doi.org/10.1128/mra.00657-24",
+          "cited_by_count": 1,
+          "authors": [
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "G.C. Montanari",
+              "raw_author_name": "Giovana Camila Cordeiro Montanari",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luiza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Daniel Vieira da Silva",
+              "raw_author_name": "Daniel Vieira da Silva",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Sandriele Aparecida Noriler",
+              "raw_author_name": "Sandriele Aparecida Noriler",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "João Paulo Oliveira",
+              "raw_author_name": "João Paulo de Oliveira",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Marcus Vinicius da Silva Rodrigues",
+              "raw_author_name": "Marcus Vinicius da Silva Rodrigues",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Danilo Sipoli Sanches",
+              "raw_author_name": "Danilo Sipoli Sanches",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses de Padua Pereira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses Nunes da Rocha",
+              "raw_author_name": "Ulisses Nunes da Rocha",
+              "institutions": [
+                "Helmholtz Centre for Environmental Research"
+              ]
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Gonçalves de Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Microbiology Resource Announcements",
+          "topics": [
+            "Genomics and Phylogenetic Studies",
+            "Plant-Microbe Interactions and Immunity",
+            "Bacteriophages and microbial interactions"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4402240781",
+          "title": "Development of chitosan‐based nanoparticles encapsulating <scp> <i>Bacillus velezensis</i> CMRP4490 </scp> metabolites for enhanced in vitro control of <scp> <i>Sclerotinia sclerotiorum</i> </scp>",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/cjce.25486",
+          "cited_by_count": 3,
+          "authors": [
+            {
+              "author": "Gesiara de França Silva de Lima",
+              "raw_author_name": "Gesiara de França Silva de Lima",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Rúbia Michele Suzuki",
+              "raw_author_name": "Rúbia Michele Suzuki",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Admilton Gonçalves de Oliveira",
+              "raw_author_name": "Admilton Gonçalves de Oliveira Junior",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ana Caroline Raimundini Aranha",
+              "raw_author_name": "Ana Caroline Raimundini Aranha",
+              "institutions": [
+                "Universidade Estadual de Maringá"
+              ]
+            },
+            {
+              "author": "Rafael Oliveira Defendi",
+              "raw_author_name": "Rafael Oliveira Defendi",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Maria Carolina Sérgi Gomes",
+              "raw_author_name": "Maria Carolina Sérgi Gomes",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Maria Luíza Abreu Nicoletto",
+              "raw_author_name": "Maria Luíza Abreu Nicoletto",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Caroline Casagrande Sípoli",
+              "raw_author_name": "Caroline Casagrande Sipoli",
+              "institutions": [
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            }
+          ],
+          "source": "The Canadian Journal of Chemical Engineering",
+          "topics": [
+            "Plant pathogens and resistance mechanisms",
+            "Plant-Microbe Interactions and Immunity",
+            "Plant tissue culture and regeneration"
+          ]
+        },
+        {
+          "id": "https://openalex.org/W4280534077",
+          "title": "Antifungal activity and genomic characterization of the isolate Bacillus velezensis CMRP 4489, a biocontrol agent for plant-pathogenic fungi",
+          "year": 2022,
+          "doi": "https://doi.org/10.21203/rs.3.rs-1619465/v1",
+          "cited_by_count": 1,
+          "authors": [
+            {
+              "author": "Júlia Baptista",
+              "raw_author_name": "Julia Pezarini Baptista",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Gustavo Manoel Teixeira",
+              "raw_author_name": "Gustavo Manoel Teixeira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Maria Luiza Abreu de Jesus",
+              "raw_author_name": "Maria Luiza Abreu Jesus",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Rosiana Bertê",
+              "raw_author_name": "Rosiana Bertê",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Allan Yukio Higashi",
+              "raw_author_name": "Allan Higashi",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Mirela Mosella",
+              "raw_author_name": "Mirela Mosella",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Daniel Vieira Silva",
+              "raw_author_name": "Daniel Vieira Silva",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "João Paulo Oliveira",
+              "raw_author_name": "João Paulo Oliveira",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Danilo Sipoli Sanches",
+              "raw_author_name": "Danilo Sipoli Sanches",
+              "institutions": [
+                "Universidade Estadual de Londrina",
+                "Universidade Tecnológica Federal do Paraná"
+              ]
+            },
+            {
+              "author": "Jacques Duílio Brancher",
+              "raw_author_name": "Jacques Duílio Brancher",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "María Isabel Balbi-Peña",
+              "raw_author_name": "Maria Isabel Balbi-Peña",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            },
+            {
+              "author": "Ulisses de Pádua Pereira",
+              "raw_author_name": "Ulisses Pereira Padua",
+              "institutions": [
+                "Universidade Estadual de Londrina"
+              ]
+            }
+          ],
+          "source": "Research Square",
+          "topics": [
+            "Plant-Microbe Interactions and Immunity",
+            "Plant tissue culture and regeneration",
+            "Mycotoxins in Agriculture and Food"
+          ]
+        }
+      ]
+    }
+  },
+  "next_questions": [
+    {
+      "question_id": "Q-REFORM-022",
+      "priority": "high",
+      "question": "Does the UEL-filtered Bacillus literature include the same team members (Mirela Mosela, Gustavo Teixeira or Admilton Oliveira) across multiple strains and technologies?",
+      "query_plan": [
+        "Audit UEL-filtered work authors",
+        "Normalize names",
+        "Map strains/technologies without merging distinct strains"
+      ],
+      "reason": "The corpus now shows a multi-strain UEL team corridor."
+    },
+    {
+      "question_id": "Q-REFORM-023",
+      "priority": "medium",
+      "question": "Does LABIM22 appear in any public source under an alternate strain identifier or Portuguese spelling?",
+      "query_plan": [
+        "OpenAlex Portuguese/English variants",
+        "Google Patents direct identifier search",
+        "Crossref title/author search if DOI emerges"
+      ],
+      "reason": "Exact-term retrieval is sensitive to naming and indexing."
+    },
+    {
+      "question_id": "Q-REFORM-024",
+      "priority": "medium",
+      "question": "Does the UEL corridor show a progression from strain characterization to formulation/bioreactor patenting across dates?",
+      "query_plan": [
+        "Order literature and patent records by date",
+        "Compare operational technology tags",
+        "Keep all strain IDs distinct"
+      ],
+      "reason": "This is an unexpected direction generated by the multi-source evidence."
+    }
+  ],
+  "metadata_only": true
+}

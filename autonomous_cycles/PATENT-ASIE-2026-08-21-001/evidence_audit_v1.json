@@ -1,0 +1,334 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "audit_version": 1,
+  "source_collection": "evidence_collection.json plus browser_evidence.json",
+  "collection_summary": {
+    "requests": 16,
+    "captured_http_2xx": 16,
+    "blocked_or_error": 0,
+    "openalex_rows": 8,
+    "google_patents_rows": 8
+  },
+  "google_patents_shell_duplicate_hashes": {
+    "bac2e980d4d9a04dbc2454d14aaeeb5f9c8d77a06c2f902ee1cd1b1175998b65": [
+      "https://patents.google.com/?q=(Pivot+Bio+nitrogen+fixation+phosphorus+formulation+Brazil)&country=BR",
+      "https://patents.google.com/?q=(Pivot+Bio+Brazil+bioinput)&country=BR",
+      "https://patents.google.com/?q=(Universidade+de+S%C3%A3o+Paulo+bioinsumo+Trichoderma+Brazil)&country=BR",
+      "https://patents.google.com/?q=(USP+microbial+inoculant+fermentation+Brazil)&country=BR",
+      "https://patents.google.com/?q=(Trichoderma+harzianum+sophorolipids+biocontrol+Brazil)&country=BR",
+      "https://patents.google.com/?q=(Trichoderma+fermentation+biofertilizer+Brazil)&country=BR",
+      "https://patents.google.com/?q=(Bacillus+biofertilizer+nematode+Brazil)&country=BR",
+      "https://patents.google.com/?q=(Bacillus+velezensis+bioreactor+formulation+Brazil)&country=BR"
+    ]
+  },
+  "openalex_by_track": {
+    "pivot_bio_cross_cluster": {
+      "queries": 2,
+      "observed_result_counts": [
+        37,
+        14
+      ],
+      "returned_items": 20,
+      "unique_top_record_ids": 19,
+      "top_titles": [
+        "Biofertilizers for Enhanced Nitrogen Use Efficiency: Mechanisms, Innovations, and Challenges",
+        "Biofertilizers for Enhanced Nitrogen Use Efficiency: Mechanisms, Innovations, and Challenges",
+        "Comprehensive Review of Microbial Inoculants: Agricultural Applications, Technology Trends in Patents, and Regulatory Frameworks",
+        "Nanozinc and plant growth-promoting bacteria improve biochemical and metabolic attributes of maize in tropical Cerrado",
+        "Wheat Improvement, Management and Utilization",
+        "Status of the biopesticide market and prospects for new bioherbicides",
+        "Agrochemicals and Biological Inputs in Soybean Farms in Brazil: Cases of Substitutive, Incremental, and Alternative Uses",
+        "Microbial Secondary Metabolites and Their Use in Achieving Sustainable Agriculture: Present Achievements and Future Challenges",
+        "The Nexus Between Innovation, Value Chains, and Social Sustainability in the Context of a Bioeconomy Upgrading",
+        "Improving startups through excellence initiatives: addressing circular economy and innovation"
+      ],
+      "evidence_classification": "LITERATURE_SEARCH_METADATA_ONLY"
+    },
+    "usp_cross_cluster": {
+      "queries": 2,
+      "observed_result_counts": [
+        124,
+        116
+      ],
+      "returned_items": 20,
+      "unique_top_record_ids": 20,
+      "top_titles": [
+        "BIOINSUMOS A PARTIR DAS CONTRIBUIÇÕES DA AGROECOLOGIA",
+        "Controle biológico de doenças de plantas.",
+        "Demandas tecnológicas: os bioinsumos para controle biológico no Brasil",
+        "BIOINSUMOS: UMA ALTERNATIVA VIÁVEL",
+        "Deep-Rooted Tropical Grasses as Preceding Crops Boost Soil Health and Soybean Yield in Brazil—A Meta-Analysis",
+        "Laboratory silo type and inoculation effects on nutritional composition, fermentation, and bacterial and fungal communities of oat silage",
+        "Fermentation, losses, and aerobic stability of sugarcane silages treated with chemical or bacterial additives",
+        "Microbial and fermentation profiles, losses and chemical composition of silages of buffel grass harvested at different cutting heights",
+        "Enhancing Sensory Quality of Coffee: The Impact of Fermentation Techniques on Coffea arabica cv. Catiguá MG2",
+        "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example"
+      ],
+      "evidence_classification": "LITERATURE_SEARCH_METADATA_ONLY"
+    },
+    "trichoderma_patent_literature_bridge": {
+      "queries": 2,
+      "observed_result_counts": [
+        16,
+        822
+      ],
+      "returned_items": 20,
+      "unique_top_record_ids": 20,
+      "top_titles": [
+        "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+        "Valorization of agro-industrial waste through solid-state fermentation: Mini review",
+        "Agricultural Bioinputs Obtained by Solid-State Fermentation: From Production in Biorefineries to Sustainable Agriculture",
+        "Freeze and Spray Drying Technologies to Produce Solid Microbial Formulations for Sustainable Agriculture",
+        "OIL PALM ECONOMIC PERFORMANCE IN MALAYSIA AND R&amp;D PROGRESS IN 2020",
+        "Trichoderma-based Products and their Widespread Use in Agriculture",
+        "Phosphorus-solubilizing Trichoderma spp. from Amazon soils improve soybean plant growth",
+        "Biofertilizers and Biocontrol Agents for Agriculture: How to Identify and Develop New Potent Microbial Strains and Traits",
+        "An overview of fermentation in the food industry - looking back from a new perspective",
+        "Design Aspects of Solid State Fermentation as Applied to Microbial Bioprocessing"
+      ],
+      "evidence_classification": "LITERATURE_SEARCH_METADATA_ONLY"
+    },
+    "bacillus_patent_literature_bridge": {
+      "queries": 2,
+      "observed_result_counts": [
+        1164,
+        108
+      ],
+      "returned_items": 20,
+      "unique_top_record_ids": 20,
+      "top_titles": [
+        "Biofertilizers function as key player in sustainable agriculture by improving soil fertility, plant tolerance and crop productivity",
+        "Biofertilizers: An ecofriendly technology for nutrient recycling and environmental sustainability",
+        "Bacillus: A Biological Tool for Crop Improvement through Bio-Molecular Changes in Adverse Environments",
+        "Rethinking Crop Nutrition in Times of Modern Microbiology: Innovative Biofertilizer Technologies",
+        "Mechanisms of action of plant growth promoting bacteria",
+        "Surfactin and poly–γ–glutamic acid co–production by Bacillus velezensis P#02 using a corn steep liquor–based medium",
+        "Bacillus-Loaded Biochar as Soil Amendment for Improved Germination of Maize Seeds",
+        "Biosurfactants: Production, properties, applications, trends, and general perspectives",
+        "Advances in utilization of renewable substrates for biosurfactant production",
+        "Biosurfactant Produced by Bacillus subtilis UCP 1533 Isolated from the Brazilian Semiarid Region: Characterization and Antimicrobial Potential"
+      ],
+      "evidence_classification": "LITERATURE_SEARCH_METADATA_ONLY"
+    }
+  },
+  "browser_evidence_records": 13,
+  "new_relations": [
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112021010947A2",
+      "assignee": "Pivot Bio, Inc.",
+      "inventor": "Farzaneh Rezaei",
+      "technology_tags": [
+        "nitrogen_fixation",
+        "stability_viability"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112020026676A2",
+      "assignee": "Pivot Bio, Inc.",
+      "inventor": "Sarah BLOCH",
+      "technology_tags": [
+        "microbial_remodeling"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112021000268A2",
+      "assignee": "Pivot Bio, Inc.",
+      "inventor": "Alvin Tamsir",
+      "technology_tags": [
+        "nitrogen_fixation",
+        "microbial_remodeling"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112020026771A2",
+      "assignee": "Pivot Bio, Inc.",
+      "inventor": "Mark Reisinger",
+      "technology_tags": [
+        "nitrogen_fixation",
+        "microbial_remodeling"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112020008002A2",
+      "assignee": "Pivot Bio, Inc.",
+      "inventor": "Alvin Tamsir",
+      "technology_tags": [
+        "nitrogen_fixation"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112022013753A2",
+      "assignee": "Pivot Bio Inc",
+      "inventor": "Temme Karsten",
+      "technology_tags": [
+        "microbial_remodeling"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112021015218A2",
+      "assignee": "Pivot Bio Inc",
+      "inventor": "Ernest Sanders",
+      "technology_tags": [
+        "nitrogen_fixation",
+        "plant_growth_or_yield"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112022021933A2",
+      "assignee": "Pivot Bio Inc",
+      "inventor": "Rezaei Farzaneh",
+      "technology_tags": [
+        "nitrogen_fixation"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112021005052A2",
+      "assignee": "Pivot Bio, Inc.",
+      "inventor": "Sarah BLOCH",
+      "technology_tags": [
+        "phosphate_solubilization"
+      ],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112021021357A2",
+      "assignee": "Pivot Bio Inc",
+      "inventor": "Alvin Tamsir",
+      "technology_tags": [],
+      "query": "Pivot Bio",
+      "source_url": "https://patents.google.com/?q=(Pivot+Bio)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR102023003698A2",
+      "assignee": "Universidade de São Paulo - USP",
+      "inventor": "Thiago Moura Rocha",
+      "technology_tags": [
+        "trichoderma_sophorolipids"
+      ],
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "source_url": "https://patents.google.com/?q=(Trichoderma+harzianum+sophorolipids+biocontrol+Brazil)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR112019009924A2",
+      "assignee": "Locus Agriculture IP Company, LLC",
+      "inventor": "Sean Farmer",
+      "technology_tags": [
+        "nematode_control"
+      ],
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "source_url": "https://patents.google.com/?q=(Trichoderma+harzianum+sophorolipids+biocontrol+Brazil)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    },
+    {
+      "relation_type": "observed_metadata_relation",
+      "publication": "BR102023003698A2",
+      "assignee": "Universidade de São Paulo - USP",
+      "inventor": "Thiago Moura Rocha",
+      "technology_tags": [],
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "source_url": "https://patents.google.com/?q=(Trichoderma+harzianum+sophorolipids+biocontrol+Brazil)&country=BR",
+      "source_status": "FACT_METADATA_RENDERED",
+      "provenance_boundary": "search-result metadata/snippet only"
+    }
+  ],
+  "question_updates": [
+    {
+      "question_id": "Q-ACTOR-001",
+      "status": "PARTIALLY_SUPPORTED",
+      "fact": "Rendered Google Patents metadata showed multiple Pivot Bio BR-publication records spanning nitrogen fixation, phosphate solubilization, microbial remodeling, stability and crop application.",
+      "unresolved": "The OpenAlex searches returned related literature, but the top metadata does not independently establish Pivot Bio as an author/affiliated institution in those works.",
+      "next_action": "Run an OpenAlex author/byline and institution-focused query for Pivot Bio; do not call the patent-literature bridge confirmed yet."
+    },
+    {
+      "question_id": "Q-ACTOR-002",
+      "status": "PARTIALLY_SUPPORTED",
+      "fact": "Rendered Google Patents metadata showed USP associated with BR102023003698A2, the Trichoderma–sophorolipid bioinput record.",
+      "unresolved": "The current OpenAlex work search is too broad to establish a matching USP literature record or the same technological bridge.",
+      "next_action": "Query OpenAlex by institution/author and exact bridge terms, then compare DOI/title/author metadata."
+    },
+    {
+      "question_id": "Q-BRIDGE-005",
+      "status": "PROMISING_METADATA_BRIDGE",
+      "fact": "The narrow patent query returned a specific USP record whose snippet contains Trichoderma harzianum, sophorolipids from Starmerella bombicola fermentation, pest control and plant-growth induction.",
+      "unresolved": "No independent literature record has yet been matched to this exact combination; the present result is not claim-level evidence.",
+      "next_action": "Search OpenAlex using exact phrases and the USP/author signal; preserve both positive and zero-result outcomes."
+    },
+    {
+      "question_id": "Q-BRIDGE-008",
+      "status": "OPEN",
+      "fact": "OpenAlex returned broad biofertilizer/nematode metadata, but the current browser patent query has not yet been rendered for this track.",
+      "unresolved": "Whether Bacillus is a genuine patent-literature bridge or broad lexical recall remains unresolved.",
+      "next_action": "Render the narrow Google Patents query and compare publication IDs/snippets with exact OpenAlex records."
+    }
+  ],
+  "paths_discarded": [
+    {
+      "path": "Direct shell parsing of Google Patents HTML",
+      "status": "DISCARDED_AS_EVIDENCE_ROUTE",
+      "reason": "All queried pages returned the same static application shell hash with no result identifiers; HTTP 200 alone is insufficient."
+    },
+    {
+      "path": "Treating all actor cross-cluster counts as strong bridge evidence",
+      "status": "DISCARDED_AS_OVERBROAD",
+      "reason": "1731 actors cross operational clusters under lexical membership; the count is a screening signal, not an independent technological relation."
+    },
+    {
+      "path": "Counting the English and Portuguese renderings of BR102023003698A2 as separate families",
+      "status": "DISCARDED_AS_DUPLICATE",
+      "reason": "The same publication identifier appears in both renderings."
+    }
+  ],
+  "epistemic_boundary": "No co-occurrence, search ranking, BR-filtered presence or snippet is treated as proof of origin, ownership, validity, efficacy, causality or commercial adoption."
+}

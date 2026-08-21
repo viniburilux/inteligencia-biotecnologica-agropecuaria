@@ -1,0 +1,161 @@
+{
+  "cycle_id": "PATENT-ASIE-2026-08-21-001",
+  "targets": [
+    "Mirela Mosela",
+    "Thiago Moura Rocha",
+    "Admilton Gonçalves de Oliveira Junior",
+    "Gustavo Manoel Teixeira"
+  ],
+  "results": {
+    "Mirela Mosela": [
+      {
+        "actor_id": "https://openalex.org/A5070500405",
+        "display_name": "Mirela Mosela",
+        "source": "openalex",
+        "works_count_in_relations": 3,
+        "sources": [
+          "openalex"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R2_nitrogen_phosphate_stability",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "works": [
+          {
+            "record_id": "https://openalex.org/W4295394560",
+            "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+            "source": "openalex",
+            "year": 2022,
+            "clusters": [
+              "R6_literature_agro_context",
+              "R2_nitrogen_phosphate_stability",
+              "R5_biocontrol_plant_health"
+            ]
+          },
+          {
+            "record_id": "https://openalex.org/W4399441291",
+            "title": "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+            "source": "openalex",
+            "year": 2024,
+            "clusters": [
+              "R5_biocontrol_plant_health",
+              "R6_literature_agro_context"
+            ]
+          },
+          {
+            "record_id": "https://openalex.org/W4413229110",
+            "title": "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+            "source": "openalex",
+            "year": 2025,
+            "clusters": [
+              "R1_local_production_quality",
+              "R3_trichoderma_bioprocess",
+              "R6_literature_agro_context"
+            ]
+          }
+        ]
+      }
+    ],
+    "Thiago Moura Rocha": [
+      {
+        "actor_id": "actor_0b36f92ab59038474b9b",
+        "display_name": "Thiago Moura Rocha",
+        "source": "google_patents",
+        "works_count_in_relations": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health"
+        ],
+        "works": [
+          {
+            "record_id": "patent:BR102023003698A2",
+            "title": "Bioinsumo à base de T. harzianum e soforolipídeos",
+            "source": "google_patents",
+            "year": null,
+            "clusters": [
+              "R1_local_production_quality",
+              "R3_trichoderma_bioprocess",
+              "R5_biocontrol_plant_health"
+            ]
+          }
+        ]
+      },
+      {
+        "actor_id": "actor_7d440dc1022263656c74",
+        "display_name": "Thiago Moura Rocha Universidade De São Paulo - Usp",
+        "source": "google_patents",
+        "works_count_in_relations": 1,
+        "sources": [
+          "google_patents"
+        ],
+        "clusters": [
+          "R1_local_production_quality",
+          "R3_trichoderma_bioprocess",
+          "R5_biocontrol_plant_health"
+        ],
+        "works": [
+          {
+            "record_id": "patent:BR102023003698A2",
+            "title": "Bioinsumo à base de T. harzianum e soforolipídeos",
+            "source": "google_patents",
+            "year": null,
+            "clusters": [
+              "R1_local_production_quality",
+              "R3_trichoderma_bioprocess",
+              "R5_biocontrol_plant_health"
+            ]
+          }
+        ]
+      }
+    ],
+    "Admilton Gonçalves de Oliveira Junior": [],
+    "Gustavo Manoel Teixeira": [
+      {
+        "actor_id": "https://openalex.org/A5012748418",
+        "display_name": "Gustavo Manoel Teixeira",
+        "source": "openalex",
+        "works_count_in_relations": 2,
+        "sources": [
+          "openalex"
+        ],
+        "clusters": [
+          "R2_nitrogen_phosphate_stability",
+          "R5_biocontrol_plant_health",
+          "R6_literature_agro_context"
+        ],
+        "works": [
+          {
+            "record_id": "https://openalex.org/W4295394560",
+            "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+            "source": "openalex",
+            "year": 2022,
+            "clusters": [
+              "R6_literature_agro_context",
+              "R2_nitrogen_phosphate_stability",
+              "R5_biocontrol_plant_health"
+            ]
+          },
+          {
+            "record_id": "https://openalex.org/W4399441291",
+            "title": "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum",
+            "source": "openalex",
+            "year": 2024,
+            "clusters": [
+              "R5_biocontrol_plant_health",
+              "R6_literature_agro_context"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata_only": true,
+  "interpretation_boundary": "Internal corpus actor matches and lexical cluster memberships are screening evidence, not identity proof or causal relationships."
+}
