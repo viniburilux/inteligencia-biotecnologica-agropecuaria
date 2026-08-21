@@ -1,0 +1,2382 @@
+{
+  "generated_at": "2026-08-21",
+  "corpus_label": "cumulative_v1_after_expansion_v1",
+  "metadata_only": true,
+  "corpus_counts": {
+    "works": 669,
+    "actors": 2380,
+    "institutions": 657,
+    "relations": 3515
+  },
+  "focus_work_count": 192,
+  "source_counts": {
+    "openalex": 371,
+    "crossref": 146,
+    "google_patents": 152
+  },
+  "query_counts": [
+    [
+      "bioinsumos agricultura",
+      50
+    ],
+    [
+      "biocontrole agrícola",
+      50
+    ],
+    [
+      "biopesticide agriculture Brazil",
+      50
+    ],
+    [
+      "microbial biocontrol crop Brazil",
+      49
+    ],
+    [
+      "plant growth promoting bacteria agriculture Brazil",
+      46
+    ],
+    [
+      "inoculante agrícola",
+      43
+    ],
+    [
+      "Trichoderma cellulase fermentation biofuel",
+      25
+    ],
+    [
+      "Brazilian bioinput fermentation agriculture",
+      24
+    ],
+    [
+      "biofertilizer kit smallholder Brazil",
+      24
+    ],
+    [
+      "Trichoderma sophorolipid agriculture Brazil",
+      23
+    ],
+    [
+      "biologicals agriculture Brazil",
+      20
+    ],
+    [
+      "bioinput quality monitoring bioreactor Brazil",
+      17
+    ],
+    [
+      "microbial nitrogen fixation formulation agriculture",
+      17
+    ],
+    [
+      "microbial phosphate solubilization rhizosphere agriculture",
+      17
+    ],
+    [
+      "Trichoderma industrial enzyme fermentation",
+      17
+    ],
+    [
+      "biofixation CO2 algae drilling waste Brazil",
+      16
+    ],
+    [
+      "Rhizobium inoculant formulation agriculture",
+      13
+    ],
+    [
+      "Trichoderma fermentation",
+      10
+    ],
+    [
+      "rhizosphere nutrient acquisition microbial BR",
+      10
+    ],
+    [
+      "Petrobras microalgae CO2 biofixation",
+      9
+    ],
+    [
+      "bioinsumo + BR",
+      9
+    ],
+    [
+      "Trichoderma cellulase ethanol BR",
+      9
+    ],
+    [
+      "Trichoderma + BR",
+      8
+    ],
+    [
+      "biofertilizer kit smallholder BR",
+      8
+    ],
+    [
+      "on farm bioinput fermentation Brazil",
+      7
+    ],
+    [
+      "biocontrole + BR",
+      7
+    ],
+    [
+      "biopesticida + BR",
+      7
+    ],
+    [
+      "biofertilizante + BR",
+      7
+    ],
+    [
+      "microbial inoculant + BR",
+      7
+    ],
+    [
+      "Trichoderma enzyme fermentation BR",
+      7
+    ],
+    [
+      "inoculante + BR",
+      6
+    ],
+    [
+      "Rhizobium + BR",
+      6
+    ],
+    [
+      "Trichoderma sophorolipid BR",
+      6
+    ],
+    [
+      "algal biomass drilling cuttings BR",
+      6
+    ],
+    [
+      "Bacillus thuringiensis + BR",
+      5
+    ],
+    [
+      "Trichoderma biocontrol",
+      5
+    ],
+    [
+      "Rhizobium inoculant formulation BR",
+      5
+    ],
+    [
+      "bioinput bioreactor",
+      4
+    ],
+    [
+      "fixação de nitrogênio + BR",
+      3
+    ],
+    [
+      "biological control + BR",
+      3
+    ]
+  ],
+  "organism_counts": [
+    [
+      "fungi",
+      109
+    ],
+    [
+      "bacteria",
+      86
+    ],
+    [
+      "Trichoderma",
+      46
+    ],
+    [
+      "microorganisms",
+      24
+    ],
+    [
+      "Bacillus",
+      22
+    ],
+    [
+      "algae",
+      14
+    ],
+    [
+      "yeast",
+      7
+    ],
+    [
+      "Rhizobium",
+      6
+    ],
+    [
+      "Pseudomonas",
+      6
+    ],
+    [
+      "Azospirillum",
+      5
+    ],
+    [
+      "Bacillus thuringiensis",
+      4
+    ],
+    [
+      "Bacillus megaterium",
+      3
+    ],
+    [
+      "Bradyrhizobium",
+      3
+    ],
+    [
+      "Streptomyces",
+      2
+    ],
+    [
+      "Metarhizium",
+      1
+    ],
+    [
+      "Beauveria",
+      1
+    ]
+  ],
+  "organism_contexts": {
+    "microorganisms": {
+      "work_count": 24,
+      "technology_contexts": [
+        [
+          "biocontrol",
+          4
+        ],
+        [
+          "on_farm",
+          3
+        ],
+        [
+          "rhizosphere",
+          3
+        ],
+        [
+          "bioinput",
+          2
+        ],
+        [
+          "formulation",
+          2
+        ],
+        [
+          "biofertilizer",
+          1
+        ],
+        [
+          "nematode",
+          1
+        ],
+        [
+          "industrial_bioprocess",
+          1
+        ],
+        [
+          "inoculant",
+          1
+        ],
+        [
+          "quality_monitoring",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W1557601831",
+        "https://openalex.org/W4393408103",
+        "https://openalex.org/W4404006716",
+        "https://openalex.org/W4393334944",
+        "https://openalex.org/W4411193469",
+        "https://openalex.org/W2073499909",
+        "https://openalex.org/W3158727828",
+        "https://openalex.org/W2597376791",
+        "https://openalex.org/W4409143998",
+        "https://openalex.org/W4385584690",
+        "https://openalex.org/W3185501724",
+        "https://openalex.org/W4387565289",
+        "https://openalex.org/W4312781865",
+        "https://openalex.org/W3131601433",
+        "https://openalex.org/W2058863224",
+        "https://openalex.org/W2043103313",
+        "https://openalex.org/W2948437456",
+        "https://openalex.org/W4291916400",
+        "https://openalex.org/W3131483066",
+        "https://doi.org/10.69570/mp.978-65-84548-43-5.c4"
+      ]
+    },
+    "Bacillus": {
+      "work_count": 22,
+      "technology_contexts": [
+        [
+          "biocontrol",
+          6
+        ],
+        [
+          "inoculant",
+          4
+        ],
+        [
+          "biopesticide",
+          2
+        ],
+        [
+          "phosphate_solubilization",
+          1
+        ],
+        [
+          "on_farm",
+          1
+        ],
+        [
+          "nematode",
+          1
+        ],
+        [
+          "biofertilizer",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W2943093195",
+        "https://openalex.org/W4318173973",
+        "https://openalex.org/W7120286473",
+        "https://openalex.org/W3204464130",
+        "https://openalex.org/W3214628111",
+        "https://openalex.org/W2753705152",
+        "https://openalex.org/W4295394560",
+        "https://openalex.org/W4406957856",
+        "https://openalex.org/W4404640309",
+        "https://openalex.org/W4383172255",
+        "https://openalex.org/W4308433470",
+        "https://doi.org/10.48021/978-65-252-0866-4-c5",
+        "https://doi.org/10.28998/rca.v16i3.4818",
+        "https://doi.org/10.51189/rema/1338",
+        "https://doi.org/10.33448/rsd-v12i6.42019",
+        "https://doi.org/10.1007/978-981-13-5862-3_11",
+        "patent:BR112015018853B1",
+        "patent:BR112015019289B1",
+        "patent:BR112015006330A2",
+        "patent:BR112019020253B1"
+      ]
+    },
+    "fungi": {
+      "work_count": 109,
+      "technology_contexts": [
+        [
+          "industrial_bioprocess",
+          23
+        ],
+        [
+          "biocontrol",
+          17
+        ],
+        [
+          "biopesticide",
+          8
+        ],
+        [
+          "fermentation",
+          8
+        ],
+        [
+          "inoculant",
+          7
+        ],
+        [
+          "nematode",
+          5
+        ],
+        [
+          "formulation",
+          3
+        ],
+        [
+          "phosphate_solubilization",
+          2
+        ],
+        [
+          "bioinput",
+          2
+        ],
+        [
+          "on_farm",
+          2
+        ],
+        [
+          "biofertilizer",
+          2
+        ],
+        [
+          "quality_monitoring",
+          2
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W2943093195",
+        "https://openalex.org/W3201023522",
+        "https://openalex.org/W3036202245",
+        "https://openalex.org/W4318173973",
+        "https://openalex.org/W7120286473",
+        "https://openalex.org/W2618397299",
+        "https://openalex.org/W1541240643",
+        "https://openalex.org/W3091992678",
+        "https://openalex.org/W3204464130",
+        "https://openalex.org/W2049394240",
+        "https://openalex.org/W3214628111",
+        "https://openalex.org/W2784238356",
+        "https://openalex.org/W2106854637",
+        "https://openalex.org/W2321265341",
+        "https://openalex.org/W3171507625",
+        "https://openalex.org/W3158345945",
+        "https://openalex.org/W2753705152",
+        "https://openalex.org/W2176807341",
+        "https://openalex.org/W4295394560",
+        "https://openalex.org/W3090291456"
+      ]
+    },
+    "bacteria": {
+      "work_count": 86,
+      "technology_contexts": [
+        [
+          "biocontrol",
+          14
+        ],
+        [
+          "inoculant",
+          9
+        ],
+        [
+          "biopesticide",
+          3
+        ],
+        [
+          "formulation",
+          3
+        ],
+        [
+          "bioinput",
+          2
+        ],
+        [
+          "industrial_bioprocess",
+          2
+        ],
+        [
+          "nematode",
+          2
+        ],
+        [
+          "rhizosphere",
+          1
+        ],
+        [
+          "biofertilizer",
+          1
+        ],
+        [
+          "phosphate_solubilization",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W4393408103",
+        "https://openalex.org/W4367624857",
+        "https://openalex.org/W4318173973",
+        "https://openalex.org/W7120702087",
+        "https://openalex.org/W7120286473",
+        "https://openalex.org/W3211233064",
+        "https://openalex.org/W2751185810",
+        "https://openalex.org/W2901704151",
+        "https://openalex.org/W3119458151",
+        "https://openalex.org/W2741843262",
+        "https://openalex.org/W1980267483",
+        "https://openalex.org/W2321265341",
+        "https://openalex.org/W2033221700",
+        "https://openalex.org/W2994946937",
+        "https://openalex.org/W3091536924",
+        "https://openalex.org/W2237531247",
+        "https://openalex.org/W2064383236",
+        "https://openalex.org/W2764166391",
+        "https://openalex.org/W3033643525",
+        "https://openalex.org/W2162307791"
+      ]
+    },
+    "Trichoderma": {
+      "work_count": 46,
+      "technology_contexts": [
+        [
+          "industrial_bioprocess",
+          22
+        ],
+        [
+          "biocontrol",
+          5
+        ],
+        [
+          "fermentation",
+          5
+        ],
+        [
+          "biopesticide",
+          4
+        ],
+        [
+          "inoculant",
+          1
+        ],
+        [
+          "nematode",
+          1
+        ],
+        [
+          "biofertilizer",
+          1
+        ],
+        [
+          "on_farm",
+          1
+        ],
+        [
+          "quality_monitoring",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W3201023522",
+        "https://openalex.org/W1541240643",
+        "https://openalex.org/W2106854637",
+        "https://openalex.org/W3158345945",
+        "https://openalex.org/W4412957658",
+        "https://openalex.org/W3145825842",
+        "https://openalex.org/W4308433470",
+        "https://openalex.org/W2419653649",
+        "https://openalex.org/W2618962964",
+        "https://openalex.org/W2017534621",
+        "https://openalex.org/W2147702766",
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2583248807",
+        "https://openalex.org/W2029868574",
+        "https://openalex.org/W2054447421",
+        "https://openalex.org/W2763993168",
+        "https://openalex.org/W2015911098",
+        "https://openalex.org/W3029519799",
+        "https://openalex.org/W2096858763",
+        "https://openalex.org/W3210560993"
+      ]
+    },
+    "Streptomyces": {
+      "work_count": 2,
+      "technology_contexts": [
+        [
+          "biocontrol",
+          2
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W7120702087",
+        "https://openalex.org/W2577409470"
+      ]
+    },
+    "Metarhizium": {
+      "work_count": 1,
+      "technology_contexts": [],
+      "evidence_work_ids": [
+        "https://openalex.org/W3091992678"
+      ]
+    },
+    "Bacillus megaterium": {
+      "work_count": 3,
+      "technology_contexts": [
+        [
+          "inoculant",
+          3
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W3204464130",
+        "https://doi.org/10.33448/rsd-v12i6.42019",
+        "patent:BR102016000130A2"
+      ]
+    },
+    "Rhizobium": {
+      "work_count": 6,
+      "technology_contexts": [
+        [
+          "inoculant",
+          3
+        ],
+        [
+          "phosphate_solubilization",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W2900704415",
+        "https://openalex.org/W2049394240",
+        "https://openalex.org/W3193683137",
+        "https://doi.org/10.30972/agr.0252471",
+        "patent:BRPI0817934B1",
+        "patent:BR112017000877B1"
+      ]
+    },
+    "Bradyrhizobium": {
+      "work_count": 3,
+      "technology_contexts": [
+        [
+          "inoculant",
+          2
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W2900704415",
+        "https://openalex.org/W2049394240",
+        "https://doi.org/10.30972/agr.0252471"
+      ]
+    },
+    "Azospirillum": {
+      "work_count": 5,
+      "technology_contexts": [
+        [
+          "inoculant",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W807988138",
+        "https://openalex.org/W2147536066",
+        "https://openalex.org/W4406957856",
+        "https://openalex.org/W4385655645",
+        "patent:BR112023005867B1"
+      ]
+    },
+    "Bacillus thuringiensis": {
+      "work_count": 4,
+      "technology_contexts": [
+        [
+          "biopesticide",
+          1
+        ],
+        [
+          "on_farm",
+          1
+        ],
+        [
+          "biocontrol",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W3214628111",
+        "https://openalex.org/W4404640309",
+        "https://doi.org/10.28998/rca.v16i3.4818",
+        "patent:BR112019020253B1"
+      ]
+    },
+    "yeast": {
+      "work_count": 7,
+      "technology_contexts": [
+        [
+          "industrial_bioprocess",
+          2
+        ],
+        [
+          "biofertilizer",
+          1
+        ],
+        [
+          "biopesticide",
+          1
+        ],
+        [
+          "biocontrol",
+          1
+        ],
+        [
+          "rhizosphere",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W3156929405",
+        "https://openalex.org/W2978213080",
+        "patent:BR112021001282A2",
+        "patent:BR112021010332A2",
+        "patent:BR112020001706A2",
+        "patent:BR112019025391A2",
+        "patent:BR112020024347A2"
+      ]
+    },
+    "Pseudomonas": {
+      "work_count": 6,
+      "technology_contexts": [
+        [
+          "inoculant",
+          2
+        ],
+        [
+          "biocontrol",
+          2
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W1528890864",
+        "https://openalex.org/W4406957856",
+        "https://openalex.org/W4308433470",
+        "https://doi.org/10.1016/b978-0-444-63987-5.00010-4",
+        "https://doi.org/10.1079/9781789249200.0006",
+        "patent:BR112020002388A2"
+      ]
+    },
+    "algae": {
+      "work_count": 14,
+      "technology_contexts": [
+        [
+          "bioreactor",
+          2
+        ],
+        [
+          "co2_biofixation",
+          2
+        ],
+        [
+          "fermentation",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://openalex.org/W4405441987",
+        "https://openalex.org/W4415716000",
+        "https://openalex.org/W4220809139",
+        "https://openalex.org/W4205488453",
+        "https://openalex.org/W2561375911",
+        "https://openalex.org/W4391045384",
+        "https://openalex.org/W2913852888",
+        "https://openalex.org/W4249606998",
+        "https://openalex.org/W2899068250",
+        "https://openalex.org/W3013575201",
+        "https://openalex.org/W2746666942",
+        "https://doi.org/10.1016/j.algal.2020.102156",
+        "patent:BR102022006198A2",
+        "patent:BR112013018377B1"
+      ]
+    },
+    "Beauveria": {
+      "work_count": 1,
+      "technology_contexts": [
+        [
+          "biopesticide",
+          1
+        ]
+      ],
+      "evidence_work_ids": [
+        "https://doi.org/10.5220/0010044504420445"
+      ]
+    }
+  },
+  "technology_counts": [
+    [
+      "biocontrol",
+      81
+    ],
+    [
+      "industrial_bioprocess",
+      76
+    ],
+    [
+      "bioinput",
+      58
+    ],
+    [
+      "inoculant",
+      58
+    ],
+    [
+      "biopesticide",
+      51
+    ],
+    [
+      "fermentation",
+      40
+    ],
+    [
+      "biofertilizer",
+      19
+    ],
+    [
+      "formulation",
+      16
+    ],
+    [
+      "nematode",
+      14
+    ],
+    [
+      "rhizosphere",
+      11
+    ],
+    [
+      "on_farm",
+      9
+    ],
+    [
+      "nitrogen_fixation",
+      8
+    ],
+    [
+      "bioreactor",
+      6
+    ],
+    [
+      "phosphate_solubilization",
+      5
+    ],
+    [
+      "stability",
+      5
+    ],
+    [
+      "release",
+      5
+    ],
+    [
+      "quality_monitoring",
+      3
+    ],
+    [
+      "co2_biofixation",
+      2
+    ]
+  ],
+  "technology_cooccurrences": [
+    [
+      "fermentation__industrial_bioprocess",
+      40
+    ],
+    [
+      "biocontrol__nematode",
+      8
+    ],
+    [
+      "formulation__inoculant",
+      6
+    ],
+    [
+      "bioreactor__fermentation",
+      6
+    ],
+    [
+      "bioreactor__industrial_bioprocess",
+      6
+    ],
+    [
+      "biofertilizer__biopesticide",
+      5
+    ],
+    [
+      "biocontrol__bioinput",
+      3
+    ],
+    [
+      "biopesticide__formulation",
+      3
+    ],
+    [
+      "biofertilizer__inoculant",
+      2
+    ],
+    [
+      "bioinput__fermentation",
+      2
+    ],
+    [
+      "bioinput__industrial_bioprocess",
+      2
+    ],
+    [
+      "bioinput__formulation",
+      2
+    ],
+    [
+      "bioinput__on_farm",
+      2
+    ],
+    [
+      "biofertilizer__rhizosphere",
+      2
+    ],
+    [
+      "biocontrol__inoculant",
+      2
+    ],
+    [
+      "biofertilizer__formulation",
+      2
+    ],
+    [
+      "biocontrol__biopesticide",
+      2
+    ],
+    [
+      "biofertilizer__quality_monitoring",
+      2
+    ],
+    [
+      "biopesticide__industrial_bioprocess",
+      2
+    ],
+    [
+      "biopesticide__inoculant",
+      1
+    ],
+    [
+      "biocontrol__biofertilizer",
+      1
+    ],
+    [
+      "biocontrol__phosphate_solubilization",
+      1
+    ],
+    [
+      "biocontrol__on_farm",
+      1
+    ],
+    [
+      "fermentation__formulation",
+      1
+    ],
+    [
+      "formulation__industrial_bioprocess",
+      1
+    ],
+    [
+      "bioreactor__co2_biofixation",
+      1
+    ],
+    [
+      "co2_biofixation__fermentation",
+      1
+    ],
+    [
+      "co2_biofixation__industrial_bioprocess",
+      1
+    ],
+    [
+      "biocontrol__industrial_bioprocess",
+      1
+    ],
+    [
+      "industrial_bioprocess__nematode",
+      1
+    ],
+    [
+      "biopesticide__release",
+      1
+    ],
+    [
+      "biocontrol__rhizosphere",
+      1
+    ],
+    [
+      "bioinput__quality_monitoring",
+      1
+    ],
+    [
+      "biofertilizer__fermentation",
+      1
+    ],
+    [
+      "biofertilizer__industrial_bioprocess",
+      1
+    ],
+    [
+      "biofertilizer__on_farm",
+      1
+    ],
+    [
+      "biopesticide__fermentation",
+      1
+    ],
+    [
+      "biopesticide__on_farm",
+      1
+    ],
+    [
+      "biopesticide__quality_monitoring",
+      1
+    ],
+    [
+      "fermentation__on_farm",
+      1
+    ],
+    [
+      "fermentation__quality_monitoring",
+      1
+    ],
+    [
+      "industrial_bioprocess__on_farm",
+      1
+    ],
+    [
+      "industrial_bioprocess__quality_monitoring",
+      1
+    ],
+    [
+      "on_farm__quality_monitoring",
+      1
+    ],
+    [
+      "industrial_bioprocess__inoculant",
+      1
+    ],
+    [
+      "industrial_bioprocess__release",
+      1
+    ],
+    [
+      "inoculant__release",
+      1
+    ],
+    [
+      "bioinput__inoculant",
+      1
+    ],
+    [
+      "biopesticide__phosphate_solubilization",
+      1
+    ],
+    [
+      "formulation__quality_monitoring",
+      1
+    ],
+    [
+      "formulation__rhizosphere",
+      1
+    ],
+    [
+      "inoculant__quality_monitoring",
+      1
+    ],
+    [
+      "inoculant__rhizosphere",
+      1
+    ],
+    [
+      "quality_monitoring__rhizosphere",
+      1
+    ],
+    [
+      "formulation__nitrogen_fixation",
+      1
+    ],
+    [
+      "biocontrol__formulation",
+      1
+    ]
+  ],
+  "top_actors": [
+    {
+      "actor_id": "https://openalex.org/A5103431726",
+      "display_name": "Christian P. Kubicek",
+      "focused_work_count": 3,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2054447421",
+        "https://openalex.org/W2157013134",
+        "https://openalex.org/W2618962964"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5051274419",
+      "display_name": "Fernando Ferrari Putti",
+      "focused_work_count": 3,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402309075",
+        "https://openalex.org/W4402311110",
+        "https://openalex.org/W4402856727"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5023901615",
+      "display_name": "Magali Christe Cammarota",
+      "focused_work_count": 3,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4391017874",
+        "https://openalex.org/W4391018110",
+        "https://openalex.org/W4391045384"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5085311088",
+      "display_name": "Giovani L. Zabot",
+      "focused_work_count": 2,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W4409143998",
+        "https://openalex.org/W7118757491"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5028719780",
+      "display_name": "Adnane Bargaz",
+      "focused_work_count": 2,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W3131667751",
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5025838846",
+      "display_name": "Márcio A. Mazutti",
+      "focused_work_count": 2,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4409143998",
+        "https://openalex.org/W7118757491"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5005281241",
+      "display_name": "Ofélia de Queiroz Fernandes Araújo",
+      "focused_work_count": 2,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4391018110",
+        "https://openalex.org/W4391045577"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5112373518",
+      "display_name": "Youssef Zeroual",
+      "focused_work_count": 2,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W3131667751",
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5111318000",
+      "display_name": "Ana Laura Paula de Oliveira",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402309075",
+        "https://openalex.org/W4402856727"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5070750713",
+      "display_name": "Bernhard Seiboth",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2157013134",
+        "https://openalex.org/W2419653649"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5100369790",
+      "display_name": "Chen Li",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2029868574"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5046398218",
+      "display_name": "Dongzhi Wei",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2794522775",
+        "https://openalex.org/W2921933698"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5076633040",
+      "display_name": "Eliziete Pereira de Souza",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4285376886",
+        "https://openalex.org/W4293801436"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5089733252",
+      "display_name": "Gillyene Bortoloti",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4290652190",
+        "https://openalex.org/W4402699137"
+      ]
+    },
+    {
+      "actor_id": "actor_894e4e32eeb34b8e905f",
+      "display_name": "Gillyene Bortoloti",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://doi.org/10.29327/9786527214786.1098126",
+        "https://doi.org/10.29327/9786527226680.1437480"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5031594629",
+      "display_name": "Gustavo H. Goldman",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2583248807",
+        "https://openalex.org/W575178529"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5043578051",
+      "display_name": "Hafiz M.N. Iqbal",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W1963912661",
+        "https://openalex.org/W2342321818"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5074016226",
+      "display_name": "Jorge Poveda",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3158345945",
+        "https://openalex.org/W4308433470"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5020694693",
+      "display_name": "João Pedro dos Santos",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402309075",
+        "https://openalex.org/W4402856727"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5024027358",
+      "display_name": "Leonardo Elias Ferreira",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4285376886",
+        "https://openalex.org/W4293801436"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5011503852",
+      "display_name": "Lijuan Ma",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2029868574"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5070213635",
+      "display_name": "Lucas Miranda Fonseca",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2583248807",
+        "https://openalex.org/W3029519799"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5112706155",
+      "display_name": "Mariane Carvalho Vidal",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W4320917824"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5113537300",
+      "display_name": "Markku Saloheimo",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2119824898",
+        "https://openalex.org/W2583248807"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5053537762",
+      "display_name": "Mingjie Jin",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2096858763",
+        "https://openalex.org/W2763993168"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5003978738",
+      "display_name": "Monika Schmoll",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2017534621",
+        "https://openalex.org/W2801229654"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5102877467",
+      "display_name": "P. M. Reddy",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2886636784",
+        "https://openalex.org/W4224020661"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5026759543",
+      "display_name": "Renata Martins Sampaio",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4290652190",
+        "https://openalex.org/W4402699137"
+      ]
+    },
+    {
+      "actor_id": "actor_059a48250ea8e1264ee3",
+      "display_name": "Renata Martins Sampaio",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://doi.org/10.29327/9786527214786.1098126",
+        "https://doi.org/10.29327/9786527226680.1437480"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5072617110",
+      "display_name": "Robert H. Bischof",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2157013134",
+        "https://openalex.org/W2419653649"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5060035651",
+      "display_name": "Ruth Rebeca Bonilla Buitrago",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W2269798405"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5100741550",
+      "display_name": "Shulin Chen",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2029868574"
+      ]
+    },
+    {
+      "actor_id": "actor_4b8e4cd813078bedb4dc",
+      "display_name": "Tais Ferreira de Almeida",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://doi.org/10.37885/260321344",
+        "https://doi.org/10.46898/rfb.560fd45f3136"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5109551255",
+      "display_name": "Wei Wang",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2794522775",
+        "https://openalex.org/W2921933698"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5100833753",
+      "display_name": "Yaling Shen",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2794522775",
+        "https://openalex.org/W2921933698"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5038930505",
+      "display_name": "Yumeng Chen",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2794522775",
+        "https://openalex.org/W2921933698"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5101951007",
+      "display_name": "Zhenhua Yang",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2029868574"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5047822664",
+      "display_name": "Zhihua Zhou",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2032878540",
+        "https://openalex.org/W2763993168"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5007864261",
+      "display_name": "Bernard R. Glick",
+      "focused_work_count": 1,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W3176392418"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5056185495",
+      "display_name": "F. C. G. Almeida",
+      "focused_work_count": 1,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W7125479604"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5014302695",
+      "display_name": "İbrahim M. Banat",
+      "focused_work_count": 1,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W3094166443"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5086095577",
+      "display_name": "Anderson O. de Medeiros",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W7125479604"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5001761494",
+      "display_name": "Gabriel Moura Mascarin",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402055438"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5059308368",
+      "display_name": "Carlos Ricardo Soccol",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2600604686"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5044037944",
+      "display_name": "Fernanda Gonçalves Barbosa",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4391262175"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5065428794",
+      "display_name": "Galdino Andrade",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4295394560"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5057916141",
+      "display_name": "Hassan Etesami",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3176392418"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5004811368",
+      "display_name": "José Luiz de Medeiros",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4391045577"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5110112690",
+      "display_name": "Leandro Simões Azeredo Gonçalves",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4295394560"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5036817630",
+      "display_name": "Marcus V. Tres",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W7118757491"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5070500405",
+      "display_name": "Mirela Mosela",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4295394560"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5056101577",
+      "display_name": "Silas Mian",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4295394560"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5060520081",
+      "display_name": "Subramaniam Gopalakrishnan",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3047765029"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5015637777",
+      "display_name": "Sílvio Silvério da Silva",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4391262175"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5072884418",
+      "display_name": "Éverton K. K. Fernandes",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402055438"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5033025249",
+      "display_name": "A. B. Bennett",
+      "focused_work_count": 1,
+      "total_work_count": 1,
+      "evidence_work_ids": [
+        "https://openalex.org/W4224020661"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5047210280",
+      "display_name": "A. R. Da Silva",
+      "focused_work_count": 1,
+      "total_work_count": 1,
+      "evidence_work_ids": [
+        "https://openalex.org/W3201023522"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5038677875",
+      "display_name": "Abdala Gamby Diédhiou",
+      "focused_work_count": 1,
+      "total_work_count": 1,
+      "evidence_work_ids": [
+        "https://openalex.org/W3047765029"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5052966763",
+      "display_name": "Abdellatif Barakat",
+      "focused_work_count": 1,
+      "total_work_count": 1,
+      "evidence_work_ids": [
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "actor_id": "https://openalex.org/A5067827187",
+      "display_name": "Abderrahim Aasfar",
+      "focused_work_count": 1,
+      "total_work_count": 1,
+      "evidence_work_ids": [
+        "https://openalex.org/W3131667751"
+      ]
+    }
+  ],
+  "top_institutions": [
+    {
+      "institution_id": "https://openalex.org/I199691007",
+      "display_name": "Brazilian Agricultural Research Corporation",
+      "country_code": "BR",
+      "type": "government",
+      "focused_work_count": 8,
+      "total_work_count": 28,
+      "evidence_work_ids": [
+        "https://openalex.org/W1980267483",
+        "https://openalex.org/W2019070729",
+        "https://openalex.org/W2147702766",
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W4320917824",
+        "https://openalex.org/W4402055438",
+        "https://openalex.org/W4412426724",
+        "https://openalex.org/W7160857387"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I17974374",
+      "display_name": "Universidade de São Paulo",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 4,
+      "total_work_count": 13,
+      "evidence_work_ids": [
+        "https://openalex.org/W2015911098",
+        "https://openalex.org/W2583248807",
+        "https://openalex.org/W4391262175",
+        "https://openalex.org/W575178529"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I33501960",
+      "display_name": "Universidade Federal de Santa Maria",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 4,
+      "total_work_count": 9,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402477725",
+        "https://openalex.org/W4409143998",
+        "https://openalex.org/W7118757491",
+        "https://openalex.org/W7125699480"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "country_code": "CN",
+      "type": "government",
+      "focused_work_count": 4,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2029868574",
+        "https://openalex.org/W2032878540",
+        "https://openalex.org/W2763993168"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I145847075",
+      "display_name": "TU Wien",
+      "country_code": "AT",
+      "type": "education",
+      "focused_work_count": 4,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W2017534621",
+        "https://openalex.org/W2157013134",
+        "https://openalex.org/W2419653649",
+        "https://openalex.org/W2618962964"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I122140584",
+      "display_name": "Universidade Federal do Rio de Janeiro",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 3,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W2015911098",
+        "https://openalex.org/W2913852888",
+        "https://openalex.org/W4405441987"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210131560",
+      "display_name": "Université Mohammed VI Polytechnique",
+      "country_code": "MA",
+      "type": "education",
+      "focused_work_count": 3,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W3047765029",
+        "https://openalex.org/W3131667751",
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I3020668385",
+      "display_name": "Instituto Federal Goiano",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 3,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W3201023522",
+        "https://openalex.org/W4405441987",
+        "https://openalex.org/W4407150430"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210138243",
+      "display_name": "Austrian Centre of Industrial Biotechnology (Austria)",
+      "country_code": "AT",
+      "type": "company",
+      "focused_work_count": 3,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2054447421",
+        "https://openalex.org/W2157013134",
+        "https://openalex.org/W2419653649"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I161460629",
+      "display_name": "Universidade Federal Rural do Rio de Janeiro",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 3,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W1980267483",
+        "https://openalex.org/W4320917824",
+        "https://openalex.org/W4402055438"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I879563668",
+      "display_name": "Universidade Estadual Paulista (Unesp)",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W2169255595",
+        "https://openalex.org/W4402856727"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I146165071",
+      "display_name": "Universidade Federal de Viçosa",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W2900704415",
+        "https://openalex.org/W4285376886"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I52418104",
+      "display_name": "Universidade Federal do Paraná",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W2600604686",
+        "https://openalex.org/W7153065505"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I25112270",
+      "display_name": "Universidade Federal de Pernambuco",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W3201023522",
+        "https://openalex.org/W7125479604"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I61623833",
+      "display_name": "University of Agriculture Faisalabad",
+      "country_code": "PK",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W1963912661",
+        "https://openalex.org/W2342321818"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210139738",
+      "display_name": "Center for Excellence in Molecular Plant Sciences",
+      "country_code": "CN",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2032878540",
+        "https://openalex.org/W2763993168"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210137294",
+      "display_name": "OCP Group (Morocco)",
+      "country_code": "MA",
+      "type": "company",
+      "focused_work_count": 2,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W3131667751",
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210152696",
+      "display_name": "Brazilian Center for Research in Energy and Materials",
+      "country_code": "BR",
+      "type": "other",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3029519799",
+        "https://openalex.org/W575178529"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I119856527",
+      "display_name": "Cadi Ayyad University",
+      "country_code": "MA",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3047765029",
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210131753",
+      "display_name": "Colombian Corporation for Agricultural Research - AGROSAVIA",
+      "country_code": "CO",
+      "type": "nonprofit",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W2269798405"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I143593769",
+      "display_name": "East China University of Science and Technology",
+      "country_code": "CN",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2794522775",
+        "https://openalex.org/W2921933698"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I1286858202",
+      "display_name": "Energy and Resources Institute",
+      "country_code": "IN",
+      "type": "nonprofit",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2886636784",
+        "https://openalex.org/W4224020661"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210108056",
+      "display_name": "Horta (Italy)",
+      "country_code": "IT",
+      "type": "company",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4214861432",
+        "https://openalex.org/W4320917824"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I145372079",
+      "display_name": "Instituto Tecnológico de Costa Rica",
+      "country_code": "CR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2225036768",
+        "https://openalex.org/W2269798405"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210099967",
+      "display_name": "Laboratório Nacional de Ciência e Tecnologia do Bioetanol",
+      "country_code": "BR",
+      "type": "other",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2015911098",
+        "https://openalex.org/W575178529"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210106477",
+      "display_name": "Shanghai Institutes for Biological Sciences",
+      "country_code": "CN",
+      "type": "facility",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2032878540",
+        "https://openalex.org/W2763993168"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210139473",
+      "display_name": "Tianjin Institute of Industrial Biotechnology",
+      "country_code": "CN",
+      "type": "nonprofit",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W1977625550",
+        "https://openalex.org/W2029868574"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I175051016",
+      "display_name": "Universidad Pública de Navarra (UPNA)",
+      "country_code": "ES",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3158345945",
+        "https://openalex.org/W4308433470"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I3130004620",
+      "display_name": "Universidade Federal da Fronteira Sul",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4415716000",
+        "https://openalex.org/W7125699480"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I80850581",
+      "display_name": "Universidade Federal de Uberlândia",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2913852888",
+        "https://openalex.org/W4417256728"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I87653560",
+      "display_name": "VTT Technical Research Centre of Finland",
+      "country_code": "FI",
+      "type": "nonprofit",
+      "focused_work_count": 2,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2119824898",
+        "https://openalex.org/W2583248807"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I221977067",
+      "display_name": "Universidade Católica de Pernambuco",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W7125479604"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I127110123",
+      "display_name": "Universidade Estadual de Londrina",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W4295394560"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I62921916",
+      "display_name": "Universidade Federal Rural de Pernambuco",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W7125479604"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I150729083",
+      "display_name": "Universidade de Brasília",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 6,
+      "evidence_work_ids": [
+        "https://openalex.org/W7160857387"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I173755004",
+      "display_name": "Universidad Michoacana de San Nicolás de Hidalgo",
+      "country_code": "MX",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W2131558643"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I68106152",
+      "display_name": "Universidade Federal de Goiás",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402055438"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4104125",
+      "display_name": "Universidade Federal de Santa Catarina",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402477725"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I151746483",
+      "display_name": "University of Waterloo",
+      "country_code": "CA",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 5,
+      "evidence_work_ids": [
+        "https://openalex.org/W3176392418"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210088668",
+      "display_name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "country_code": "FR",
+      "type": "government",
+      "focused_work_count": 1,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4405261014",
+      "display_name": "Instituto de Investigaciones Químico Biológicas",
+      "country_code": "MX",
+      "type": "facility",
+      "focused_work_count": 1,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W2131558643"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I99682543",
+      "display_name": "University of Minho",
+      "country_code": "PT",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W3092283536"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "country_code": "GB",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 4,
+      "evidence_work_ids": [
+        "https://openalex.org/W3094166443"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210086488",
+      "display_name": "Instituto Agronômico de Pernambuco",
+      "country_code": "BR",
+      "type": "facility",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W3201023522"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I134493880",
+      "display_name": "Instituto Biológico",
+      "country_code": "BR",
+      "type": "facility",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4402699137"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210157208",
+      "display_name": "Ministério da Agricultura",
+      "country_code": "PT",
+      "type": "government",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4214861432"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I193876067",
+      "display_name": "Universidade Estadual do Oeste do Paraná",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W7153065505"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I3130823459",
+      "display_name": "Universidade Federal Rural da Amazônia",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W4285376886"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I187420256",
+      "display_name": "Universidade Federal da Grande Dourados",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2019070729"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I177909021",
+      "display_name": "Universidade Federal de São Carlos",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2147702766"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I12859529",
+      "display_name": "University of Nairobi",
+      "country_code": "KE",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W1528890864"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I71267560",
+      "display_name": "University of Naples Federico II",
+      "country_code": "IT",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2106854637"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I19894307",
+      "display_name": "Université de Montpellier",
+      "country_code": "FR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W3194382763"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I193662353",
+      "display_name": "Utrecht University",
+      "country_code": "NL",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 3,
+      "evidence_work_ids": [
+        "https://openalex.org/W2032878540"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210133352",
+      "display_name": "AgroBio",
+      "country_code": "BR",
+      "type": "nonprofit",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W7125699480"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I132118926",
+      "display_name": "Austrian Institute of Technology",
+      "country_code": "AT",
+      "type": "facility",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2801229654"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I68368234",
+      "display_name": "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional",
+      "country_code": "MX",
+      "type": "facility",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W2131558643"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I1292875679",
+      "display_name": "Commonwealth Scientific and Industrial Research Organisation",
+      "country_code": "AU",
+      "type": "government",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4224020661"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I134820265",
+      "display_name": "Consejo Superior de Investigaciones Científicas",
+      "country_code": "ES",
+      "type": "government",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W3158345945"
+      ]
+    },
+    {
+      "institution_id": "https://openalex.org/I4210112416",
+      "display_name": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+      "country_code": "BR",
+      "type": "education",
+      "focused_work_count": 1,
+      "total_work_count": 2,
+      "evidence_work_ids": [
+        "https://openalex.org/W4285376886"
+      ]
+    }
+  ],
+  "notes": [
+    "Counts are lexical/metadata signals, not entity resolution or technology conclusions.",
+    "Actor and institution hubs are ranked by observed relations to focus works.",
+    "Patent filter country BR is not treated as proof of Brazilian origin."
+  ]
+}

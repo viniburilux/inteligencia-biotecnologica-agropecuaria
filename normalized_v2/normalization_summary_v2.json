@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-21T06:16:18.437203+00:00",
+  "metadata_only": true,
+  "source_manifests": [
+    "ingestion_manifest_v0.jsonl",
+    "ingestion_manifest_v1.jsonl",
+    "ingestion_manifest_v2.jsonl"
+  ],
+  "counts": {
+    "works": 763,
+    "actors": 2680,
+    "institutions": 767,
+    "relations": 4045,
+    "application_signals": 536
+  },
+  "duplicates_removed": {
+    "works": 161,
+    "actors": 953,
+    "institutions": 2496,
+    "relations": 2926,
+    "application_signals": 100
+  },
+  "source_mix": {
+    "openalex": 422,
+    "crossref": 146,
+    "google_patents": 195
+  },
+  "application_term_counts": {
+    "bioinsumo": 70,
+    "biocontrole": 94,
+    "milho": 20,
+    "fungo": 186,
+    "nematoide": 32,
+    "soja": 17,
+    "inoculante": 73,
+    "biofertilizante": 25,
+    "biopesticida": 47,
+    "promocao_crescimento": 49,
+    "solubilizacao_fosfato": 12,
+    "fixacao_nitrogenio": 26,
+    "fermentacao_bioprocesso": 89,
+    "saude_radicular": 26,
+    "monitoramento_qualidade": 11,
+    "sequestro_carbono": 5
+  },
+  "work_source_status": {
+    "openalex": 579,
+    "crossref": 150,
+    "google_patents": 195
+  },
+  "notes": [
+    "No PDFs, full-text patent documents, sequences, or scientific data files were downloaded.",
+    "Relations are observed only when returned by source authorship/affiliation metadata or visible patent result metadata.",
+    "Cross-source actor deduplication is conservative and not entity resolution.",
+    "Google Patents rows are parsed from browser-captured result metadata and preserve the BR search filter as context, not as origin proof."
+  ]
+}

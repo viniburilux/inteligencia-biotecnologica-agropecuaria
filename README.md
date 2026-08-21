@@ -41,7 +41,9 @@ O objetivo não é lançar um dashboard vazio nem produzir um relatório que nin
 
 A primeira rodada colocou no ar um corpus integrado com **379 obras e registros**, incluindo **71 publicações patentárias capturadas via Google Patents**, além de 1.345 atores, 353 instituições, 1.854 relações observadas e 270 sinais de aplicação. Essa base foi congelada como ponto de partida da Radiografia Exploratória V0. A camada científica combina OpenAlex e Crossref; a camada patentária preserva consultas, snippets, identificadores, hashes e o filtro BR sem transformar esse filtro em prova de origem brasileira.
 
-A segunda rodada, orientada pela radiografia, acrescentou **50 registros patentários únicos entre consultas** e **25 obras OpenAlex**. Após deduplicação conservadora entre fontes e consultas, o corpus integrado passou a **429 obras e registros**, com 97 registros patentários, 1.499 atores, 381 instituições, 2.093 relações observadas e 313 sinais de aplicação.
+A segunda rodada, orientada pela radiografia, acrescentou **50 registros patentários únicos entre consultas** e **25 obras OpenAlex**. Após deduplicação conservadora entre fontes e consultas, o corpus passou a **429 obras e registros**, com 97 registros patentários, 1.499 atores, 381 instituições, 2.093 relações observadas e 313 sinais de aplicação.
+
+A expansão V1/V2 seguiu atores, organismos, tecnologias e lacunas que apareceram no próprio corpus. Foram investigados biorreatores, fermentação asséptica, produção on-farm, controle de qualidade, Trichoderma, Bacillus, Rhizobium, Azospirillum, Pivot Bio, Locus, Novozymes e Petrobras. A Radiografia V1 incorporou cinco consultas OpenAlex, 12 consultas patentárias e três reformulações que abriram registros onde as perguntas originais eram insuficientes. O corpus cumulativo publicado passou a **763 obras**, com **195 registros patentários**, **2.680 atores**, **767 instituições**, **4.045 relações observadas** e **536 sinais de aplicação**. A camada regulatória adicionou fontes oficiais do MAPA sobre bioinsumos, sem misturar contexto regulatório com evidência de patente.
 
 | Entrega | Acesso |
 |---|---|
@@ -59,6 +61,17 @@ A segunda rodada, orientada pela radiografia, acrescentou **50 registros patent�
 | Plano da segunda rodada | [`SECOND_ROUND_PLAN_V0.json`](SECOND_ROUND_PLAN_V0.json) |
 | Achados patentários da segunda rodada | [`SECOND_ROUND_PATENT_FINDINGS_V0.md`](SECOND_ROUND_PATENT_FINDINGS_V0.md) |
 | Resumo da segunda rodada | [`SECOND_ROUND_INGESTION_SUMMARY_V0.md`](SECOND_ROUND_INGESTION_SUMMARY_V0.md) |
+| Perfil de expansão V1 | [`EXPANSION_PROFILE_V1.json`](EXPANSION_PROFILE_V1.json) |
+| Perfil cumulativo V2 | [`EXPANSION_PROFILE_V2.json`](EXPANSION_PROFILE_V2.json) |
+| Queries de expansão V1/V2 | [`EXPANSION_QUERIES_V1.json`](EXPANSION_QUERIES_V1.json) · [`EXPANSION_QUERIES_V2.json`](EXPANSION_QUERIES_V2.json) |
+| Achados patentários da expansão | [`EXPANSION_PATENT_FINDINGS_V1.md`](EXPANSION_PATENT_FINDINGS_V1.md) · [`EXPANSION_PATENT_FINDINGS_V2.md`](EXPANSION_PATENT_FINDINGS_V2.md) |
+| Radiografia Exploratória V1 | [`EXPLORATORY_RADIOGRAPHY_V1.md`](EXPLORATORY_RADIOGRAPHY_V1.md) |
+| Método da Radiografia V1 | [`RADIOGRAPHY_METHOD_V1.md`](RADIOGRAPHY_METHOD_V1.md) |
+| Execução das queries V1 | [`RADIOGRAPHY_V1_EXECUTION_SUMMARY.md`](RADIOGRAPHY_V1_EXECUTION_SUMMARY.md) · [`RADIOGRAPHY_V1_QUERY_EXECUTION.json`](RADIOGRAPHY_V1_QUERY_EXECUTION.json) |
+| Achados patentários da Radiografia V1 | [`RADIOGRAPHY_V1_PATENT_FINDINGS.md`](RADIOGRAPHY_V1_PATENT_FINDINGS.md) |
+| Resolução conservadora de entidades | [`ENTITY_RESOLUTION_V1.md`](ENTITY_RESOLUTION_V1.md) · [`ENTITY_RESOLUTION_V1.json`](ENTITY_RESOLUTION_V1.json) |
+| Fontes regulatórias e de aplicação | [`REGULATORY_APPLICATION_SOURCES_V1.md`](REGULATORY_APPLICATION_SOURCES_V1.md) |
+| Corpus cumulativo | [`normalized_v2/`](normalized_v2/) |
 
 A entrega não tenta encerrar a investigação. Ela cria uma base pública para perguntar **quem aparece**, **quais tecnologias se repetem**, **quais relações surgem** e **onde a evidência ainda não existe**.
 
@@ -104,19 +117,22 @@ A camada privada continuará reservada para credenciais, memória operacional, d
 | **21/08/2026** | Inventário Metadata-only V0 e Mapa de Sinais V0 publicados. |
 | **21/08/2026** | Radiografia Exploratória V0 executada sobre o corpus congelado de 379 registros. |
 | **21/08/2026** | Segunda rodada orientada pelo corpus: Trichoderma, nitrogênio, fosfato, fermentação, produção on-farm e controle de qualidade. |
-| Próximo marco | Normalizar e interpretar a segunda rodada, ampliar as trilhas que sobreviverem ao sinal e conectar fontes regulatórias e agropecuárias. |
+| **21/08/2026** | Expansão V1/V2: atores, organismos, tecnologias, relações, fontes regulatórias e consultas de contraste. |
+| **21/08/2026** | Radiografia Exploratória V1: 17 queries executadas; reformulações abriram lacunas antes insuficientes. |
+| **21/08/2026** | Corpus cumulativo atualizado para 763 obras, com proveniência e deduplicação publicadas. |
+| Próximo marco | Continuar o ciclo com as perguntas V2 derivadas da Radiografia V1, sem congelar as trilhas abertas. |
 
 A linha do tempo vai crescer junto com a investigação. O objetivo é preservar a arqueologia da descoberta, não apenas o resultado final.
 
 ## Status
 
-**Modo exploratório ativo.** O laboratório já tem uma camada pública de ingestão, normalização, radiografia e descoberta orientada por consultas. O corpus original de 379 registros foi usado para derivar a segunda rodada; a nova ingestão já foi capturada e está incorporada ao inventário atualizado de 429 registros.
+**Modo exploratório ativo.** O laboratório já tem uma camada pública de ingestão, normalização, resolução conservadora de entidades, radiografia e descoberta orientada por consultas. O corpus original de 379 registros derivou a segunda rodada; as expansões V1/V2 e a Radiografia V1 foram executadas e incorporadas ao corpus cumulativo de 763 obras.
 
 > Não estamos esperando as condições perfeitas para começar.
 
 ## Próximos passos
 
-O ciclo agora é **corpus → radiografia → próximas consultas → nova ingestão**. A próxima etapa é normalizar e interpretar os achados da segunda rodada, investigar a ponte brasileira entre fermentação, biorreatores, produção on-farm e bioinsumos, manter separada a trilha internacional de fixação/solubilização microbiana e preservar os sinais inesperados de bioenergia, biofixação de CO2 e bioprocessos industriais.
+O ciclo agora é **corpus → radiografia → pergunta → ingestão → nova radiografia**. A expansão já investigou a ponte brasileira entre fermentação, biorreatores, produção on-farm e bioinsumos; a trilha internacional de fixação/solubilização, formulação e estabilidade; o corredor Trichoderma–enzimas–bioprocessos; e o sinal Petrobras–microalgas–CO₂–fertilizante. As próximas perguntas serão derivadas do corpus cumulativo, preservando as trilhas fortes, as reformulações que funcionaram e as lacunas que ainda precisam de fonte.
 
 ## Licença e uso
 

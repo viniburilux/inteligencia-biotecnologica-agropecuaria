@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-08-21T05:48:19.014848+00:00",
+  "metadata_only": true,
+  "source": "google_patents",
+  "round": "expansion_v1",
+  "queries": {
+    "L01": {
+      "query": "bioinput fermentation aseptic BR",
+      "observed_result_count": null,
+      "unique_records": 7,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_l01_bioinput_fermentation_aseptic_br.jsonl"
+    },
+    "L02": {
+      "query": "Trichoderma sophorolipid BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_l02_trichoderma_sophorolipid_br.jsonl"
+    },
+    "L03": {
+      "query": "bioinput bioreactor rural property BR",
+      "observed_result_count": null,
+      "unique_records": 9,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_l03_bioinput_bioreactor_rural_property_br.jsonl"
+    },
+    "L04": {
+      "query": "biofertilizer kit smallholder BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_l04_biofertilizer_kit_smallholder_br.jsonl"
+    },
+    "L05": {
+      "query": "bioinput quality monitoring termochromia BR",
+      "observed_result_count": null,
+      "unique_records": 1,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_l05_bioinput_quality_monitoring_termochromia_br.jsonl"
+    },
+    "I01": {
+      "query": "Pivot Bio nitrogen fixation phosphate BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_i01_pivot_bio_nitrogen_fixation_phosphate_br.jsonl"
+    },
+    "I02": {
+      "query": "microbial nitrogen fixation polymer formulation BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_i02_microbial_nitrogen_fixation_polymer_formulation_br.jsonl"
+    },
+    "I03": {
+      "query": "rhizosphere nutrient acquisition microbial BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_i03_rhizosphere_nutrient_acquisition_microbial_br.jsonl"
+    },
+    "I04": {
+      "query": "Rhizobium inoculant formulation BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_i04_rhizobium_inoculant_formulation_br.jsonl"
+    },
+    "T01": {
+      "query": "Trichoderma cellulase ethanol BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_t01_trichoderma_cellulase_ethanol_br.jsonl"
+    },
+    "T02": {
+      "query": "Trichoderma enzyme fermentation BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_t02_trichoderma_enzyme_fermentation_br.jsonl"
+    },
+    "C01": {
+      "query": "biofixation CO2 algae Petrobras BR",
+      "observed_result_count": 2,
+      "unique_records": 2,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_c01_biofixation_co2_algae_petrobras_br.jsonl"
+    },
+    "C02": {
+      "query": "algal biomass drilling cuttings BR",
+      "observed_result_count": null,
+      "unique_records": 10,
+      "saved_path": "raw_v1/google_patents_expansion/expansion_c02_algal_biomass_drilling_cuttings_br.jsonl"
+    }
+  },
+  "unique_records_across_queries": 87,
+  "query_count": 13
+}

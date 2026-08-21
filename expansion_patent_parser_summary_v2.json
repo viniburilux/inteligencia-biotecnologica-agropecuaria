@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-08-21T05:58:52.104723+00:00",
+  "metadata_only": true,
+  "source": "google_patents",
+  "round": "expansion_v2",
+  "queries": {
+    "L06": {
+      "query": "bioinput fermentation aseptic bioreactor Brazil",
+      "trail": "brazil_local_production",
+      "observed_result_count": 2,
+      "unique_records": 2,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_l06_bioinput_fermentation_aseptic_bioreactor_brazil.jsonl"
+    },
+    "L07": {
+      "query": "biofertilizer inoculant polymer stability Brazil",
+      "trail": "brazil_local_production",
+      "observed_result_count": 10,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_l07_biofertilizer_inoculant_polymer_stability_brazil.jsonl"
+    },
+    "L08": {
+      "query": "bioinput quality control spectroscopy Brazil",
+      "trail": "brazil_local_production",
+      "observed_result_count": 6,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_l08_bioinput_quality_control_spectroscopy_brazil.jsonl"
+    },
+    "L09": {
+      "query": "Bacillus biofertilizer nematode formulation Brazil",
+      "trail": "brazil_local_production",
+      "observed_result_count": 8,
+      "unique_records": 8,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_l09_bacillus_biofertilizer_nematode_formulation_brazil.jsonl"
+    },
+    "L11": {
+      "query": "bioinput on farm fermentation smallholder Brazil",
+      "trail": "brazil_local_production",
+      "observed_result_count": 4,
+      "unique_records": 4,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_l11_bioinput_on_farm_fermentation_smallholder_brazil.jsonl"
+    },
+    "I05": {
+      "query": "Pivot Bio microbial nitrogen fixation formulation stability",
+      "trail": "international_microbe_platform",
+      "observed_result_count": 32,
+      "unique_records": 7,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_i05_pivot_bio_microbial_nitrogen_fixation_formulation_stability.jsonl"
+    },
+    "I06": {
+      "query": "microbial phosphate solubilization formulation shelf life",
+      "trail": "international_microbe_platform",
+      "observed_result_count": 183,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_i06_microbial_phosphate_solubilization_formulation_shelf_life.jsonl"
+    },
+    "L10": {
+      "query": "Azospirillum inoculant polymer stability Brazil",
+      "trail": "brazil_local_production",
+      "observed_result_count": 66,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_l10_azospirillum_inoculant_polymer_stability_brazil.jsonl"
+    },
+    "I07": {
+      "query": "Rhizobium inoculant polymer stability shelf life",
+      "trail": "international_microbe_platform",
+      "observed_result_count": 277,
+      "unique_records": 7,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_i07_rhizobium_inoculant_polymer_stability_shelf_life.jsonl"
+    },
+    "I08": {
+      "query": "Pseudomonas rhizosphere biocontrol formulation",
+      "trail": "international_microbe_platform",
+      "observed_result_count": 151,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_i08_pseudomonas_rhizosphere_biocontrol_formulation.jsonl"
+    },
+    "T03": {
+      "query": "Trichoderma harzianum cellulase fermentation Brazil",
+      "trail": "trichoderma_industrial_bridge",
+      "observed_result_count": 60,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_t03_trichoderma_harzianum_cellulase_fermentation_brazil.jsonl"
+    },
+    "T04": {
+      "query": "Trichoderma sophorolipid fermentation biocontrol",
+      "trail": "trichoderma_industrial_bridge",
+      "observed_result_count": 8,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_t04_trichoderma_sophorolipid_fermentation_biocontrol.jsonl"
+    },
+    "T05": {
+      "query": "Trichoderma enzyme bioreactor Brazil",
+      "trail": "trichoderma_industrial_bridge",
+      "observed_result_count": 73,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_t05_trichoderma_enzyme_bioreactor_brazil.jsonl"
+    },
+    "T06": {
+      "query": "Trichoderma industrial enzyme Novozymes",
+      "trail": "trichoderma_industrial_bridge",
+      "observed_result_count": 506,
+      "unique_records": 8,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_t06_trichoderma_industrial_enzyme_novozymes.jsonl"
+    },
+    "C03": {
+      "query": "microalgae CO2 biofixation industrial waste Brazil",
+      "trail": "co2_algae_industrial_waste",
+      "observed_result_count": 5,
+      "unique_records": 5,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_c03_microalgae_co2_biofixation_industrial_waste_brazil.jsonl"
+    },
+    "C04": {
+      "query": "Petrobras microalgae biomass fertilizer",
+      "trail": "co2_algae_industrial_waste",
+      "observed_result_count": 3,
+      "unique_records": 3,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_c04_petrobras_microalgae_biomass_fertilizer.jsonl"
+    },
+    "C05": {
+      "query": "algal bioreactor drilling waste fertilizer Brazil",
+      "trail": "co2_algae_industrial_waste",
+      "observed_result_count": 1,
+      "unique_records": 0,
+      "saved_path": "raw_v2/google_patents_expansion/expansion_c05_algal_bioreactor_drilling_waste_fertilizer_brazil.jsonl"
+    }
+  },
+  "unique_records_across_queries": 65,
+  "notes": [
+    "Parsed from browser-captured public result metadata and the V2 finding notebook.",
+    "No patent PDF or full text downloaded.",
+    "IDs are deduplicated within each query and across the summary only."
+  ],
+  "query_count": 17,
+  "captured_records_across_queries": 92
+}

@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-08-21T05:52:51.390436+00:00",
+  "round": "expansion_v2",
+  "metadata_only": true,
+  "query_count": 4,
+  "captured_queries": 4,
+  "blocked_queries": 0,
+  "total_observed": 3446,
+  "total_returned": 79,
+  "queries": [
+    {
+      "round": "expansion_v2",
+      "query_id": "OLV2_01",
+      "trail": "brazil_local_production",
+      "query": "Brazil bioinput fermentation bioreactor quality control",
+      "source": "openalex",
+      "source_url": "https://api.openalex.org/works?search=Brazil+bioinput+fermentation+bioreactor+quality+control&filter=from_publication_date%3A2010-01-01%2Cto_publication_date%3A2026-12-31&per-page=25",
+      "retrieved_at": "2026-08-21T05:52:41.328082+00:00",
+      "status": "captured",
+      "observed_total": 33,
+      "returned_items": 25,
+      "raw_path": "raw_v2/openalex/olv2_01_brazil_bioinput_fermentation_bioreactor_quality_control.json",
+      "raw_sha256": "e317f78221910d749837a0048063803bc4f55eba77c0e27197dfb5ae4362ca4e",
+      "evidence_ids": [
+        "https://openalex.org/W4409143998",
+        "https://openalex.org/W7118757491"
+      ]
+    },
+    {
+      "round": "expansion_v2",
+      "query_id": "OLV2_02",
+      "trail": "international_microbe_platform",
+      "query": "Bacillus phosphate solubilization inoculant Brazil",
+      "source": "openalex",
+      "source_url": "https://api.openalex.org/works?search=Bacillus+phosphate+solubilization+inoculant+Brazil&filter=from_publication_date%3A2010-01-01%2Cto_publication_date%3A2026-12-31&per-page=25",
+      "retrieved_at": "2026-08-21T05:52:45.166658+00:00",
+      "status": "captured",
+      "observed_total": 2520,
+      "returned_items": 25,
+      "raw_path": "raw_v2/openalex/olv2_02_bacillus_phosphate_solubilization_inoculant_brazil.json",
+      "raw_sha256": "591ed497f56487adc52829358ec8ee15b9134d206fad261d96cf1d3f5f6881d5",
+      "evidence_ids": [
+        "https://openalex.org/W4406957856",
+        "https://openalex.org/W4308433470"
+      ]
+    },
+    {
+      "round": "expansion_v2",
+      "query_id": "OLV2_03",
+      "trail": "trichoderma_industrial_bridge",
+      "query": "Trichoderma harzianum cellulase fermentation Brazil",
+      "source": "openalex",
+      "source_url": "https://api.openalex.org/works?search=Trichoderma+harzianum+cellulase+fermentation+Brazil&filter=from_publication_date%3A2010-01-01%2Cto_publication_date%3A2026-12-31&per-page=25",
+      "retrieved_at": "2026-08-21T05:52:47.728911+00:00",
+      "status": "captured",
+      "observed_total": 889,
+      "returned_items": 25,
+      "raw_path": "raw_v2/openalex/olv2_03_trichoderma_harzianum_cellulase_fermentation_brazil.json",
+      "raw_sha256": "d62158d39f2378407496d74501f88e0f5e98c8abbd6824e310d14a4c1c6487e1",
+      "evidence_ids": [
+        "https://openalex.org/W2054447421",
+        "https://openalex.org/W2157013134"
+      ]
+    },
+    {
+      "round": "expansion_v2",
+      "query_id": "OLV2_04",
+      "trail": "co2_algae_industrial_waste",
+      "query": "Petrobras microalgae CO2 biofixation fertilizer",
+      "source": "openalex",
+      "source_url": "https://api.openalex.org/works?search=Petrobras+microalgae+CO2+biofixation+fertilizer&filter=from_publication_date%3A2010-01-01%2Cto_publication_date%3A2026-12-31&per-page=25",
+      "retrieved_at": "2026-08-21T05:52:49.788580+00:00",
+      "status": "captured",
+      "observed_total": 4,
+      "returned_items": 4,
+      "raw_path": "raw_v2/openalex/olv2_04_petrobras_microalgae_co2_biofixation_fertilizer.json",
+      "raw_sha256": "d89c2e4b84f95910306a1b650abfef6983e29284f5bf67cce9d4591dd0028d58",
+      "evidence_ids": [
+        "https://openalex.org/W4405441987",
+        "https://openalex.org/W4415716000"
+      ]
+    }
+  ],
+  "notes": [
+    "No full texts or scientific data were downloaded.",
+    "This manifest is separate from V0, second-round V0 and expansion V1 manifests."
+  ]
+}

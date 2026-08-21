@@ -1,0 +1,301 @@
+{
+  "version": "entity_resolution_v1",
+  "metadata_only": true,
+  "source_corpus": "normalized_v2",
+  "policy": "Only high-confidence observed aliases are grouped; candidate corporate families remain unmerged.",
+  "safe_aliases": [
+    {
+      "canonical_name": "Universidade de São Paulo",
+      "entity_type": "institution",
+      "status": "observed_alias",
+      "confidence": "high",
+      "aliases": [
+        {
+          "alias": "Universidade de São Paulo",
+          "folded": "universidade de sao paulo",
+          "observed_count": 3,
+          "records": [
+            {
+              "id": "actor_e0ea62b2ab1cf6e113ff",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v0.jsonl",
+                "raw_path": "raw_v0/google_patents/bioinsumo_br.jsonl",
+                "raw_sha256": "c3578948c16a93ebdda20163283c6b0050df9216a37c0f83457f515c1a68dae8",
+                "retrieved_at": "2026-08-21T00:00:00+00:00",
+                "source_url": "https://patents.google.com/?q=(bioinsumo)&country=BR"
+              }
+            },
+            {
+              "id": "https://openalex.org/I17974374",
+              "source": "openalex",
+              "source_id": "https://openalex.org/I17974374",
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v0.jsonl",
+                "raw_path": "raw_v0/openalex/biopesticide_agriculture_brazil.json",
+                "raw_sha256": "5b3ce4eb41dc7c8ddf83e347e30d7e48f2c8ac0f47b38ce25e4b76fe8da9bbe8"
+              }
+            },
+            {
+              "id": "institution_e0ea62b2ab1cf6e113ff",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v0.jsonl",
+                "raw_path": "raw_v0/google_patents/bioinsumo_br.jsonl",
+                "raw_sha256": "c3578948c16a93ebdda20163283c6b0050df9216a37c0f83457f515c1a68dae8",
+                "retrieved_at": "2026-08-21T00:00:00+00:00",
+                "source_url": "https://patents.google.com/?q=(bioinsumo)&country=BR"
+              }
+            }
+          ]
+        },
+        {
+          "alias": "Universidade de São Paulo — USP",
+          "folded": "universidade de sao paulo usp",
+          "observed_count": 2,
+          "records": [
+            {
+              "id": "actor_a77de800fe84bb7297bf",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v2.jsonl",
+                "raw_path": "raw_v2/google_patents_expansion/expansion_l06_bioinput_fermentation_aseptic_bioreactor_brazil.jsonl",
+                "raw_sha256": "3c2b5ea1c5f35ee0bd8b73126909344590ecce8e8fd9a529eac29d6f996f79ad",
+                "retrieved_at": "2026-08-21T05:58:52.104723+00:00",
+                "source_url": "https://patents.google.com/?q=bioinput+fermentation+aseptic+bioreactor+Brazil&country=BR"
+              }
+            },
+            {
+              "id": "institution_a77de800fe84bb7297bf",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v2.jsonl",
+                "raw_path": "raw_v2/google_patents_expansion/expansion_l06_bioinput_fermentation_aseptic_bioreactor_brazil.jsonl",
+                "raw_sha256": "3c2b5ea1c5f35ee0bd8b73126909344590ecce8e8fd9a529eac29d6f996f79ad",
+                "retrieved_at": "2026-08-21T05:58:52.104723+00:00",
+                "source_url": "https://patents.google.com/?q=bioinput+fermentation+aseptic+bioreactor+Brazil&country=BR"
+              }
+            }
+          ]
+        },
+        {
+          "alias": "USP",
+          "folded": "usp",
+          "observed_count": 2,
+          "records": [
+            {
+              "id": "actor_a712790b5efb9f1dd54e",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v2.jsonl",
+                "raw_path": "raw_v2/google_patents_expansion/expansion_t04_trichoderma_sophorolipid_fermentation_biocontrol.jsonl",
+                "raw_sha256": "12449e6b1b29d50da53fb5ced2c34488db105527201941aa18c6c969b5f081bf",
+                "retrieved_at": "2026-08-21T05:58:52.104723+00:00",
+                "source_url": "https://patents.google.com/?q=Trichoderma+sophorolipid+fermentation+biocontrol&country=BR"
+              }
+            },
+            {
+              "id": "institution_a712790b5efb9f1dd54e",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v2.jsonl",
+                "raw_path": "raw_v2/google_patents_expansion/expansion_t04_trichoderma_sophorolipid_fermentation_biocontrol.jsonl",
+                "raw_sha256": "12449e6b1b29d50da53fb5ced2c34488db105527201941aa18c6c969b5f081bf",
+                "retrieved_at": "2026-08-21T05:58:52.104723+00:00",
+                "source_url": "https://patents.google.com/?q=Trichoderma+sophorolipid+fermentation+biocontrol&country=BR"
+              }
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        "As três formas aparecem no corpus V2 em registros de literatura e patentes.",
+        "A forma expandida e a sigla aparecem associadas ao mesmo contexto institucional no caderno de expansão."
+      ]
+    },
+    {
+      "canonical_name": "Empresa Brasileira de Pesquisa Agropecuária (Embrapa)",
+      "entity_type": "institution",
+      "status": "observed_alias",
+      "confidence": "high",
+      "aliases": [
+        {
+          "alias": "Embrapa",
+          "folded": "embrapa",
+          "observed_count": 0,
+          "records": []
+        },
+        {
+          "alias": "Embrapa Pesquisa Agropecuaria",
+          "folded": "embrapa pesquisa agropecuaria",
+          "observed_count": 0,
+          "records": []
+        }
+      ],
+      "evidence": [
+        "As formas aparecem em registros patentários V1/V2 ligados a formulações, biorreatores e biofertilizantes.",
+        "A abreviação é explicitamente usada como forma curta da instituição nos próprios resultados capturados."
+      ]
+    },
+    {
+      "canonical_name": "Pivot Bio, Inc.",
+      "entity_type": "organization",
+      "status": "observed_alias",
+      "confidence": "high",
+      "aliases": [
+        {
+          "alias": "Pivot Bio",
+          "folded": "pivot bio",
+          "observed_count": 2,
+          "records": [
+            {
+              "id": "actor_8bfcd13f24e78e791e92",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v0.jsonl",
+                "raw_path": "raw_v0/google_patents/rhizobium_br.jsonl",
+                "raw_sha256": "a1e7552897d0f554b68cb60f82cedb22888d3bd7f05cf6ff82d17441c404e907",
+                "retrieved_at": "2026-08-21T00:00:00+00:00",
+                "source_url": "https://patents.google.com/?q=(Rhizobium)&country=BR"
+              }
+            },
+            {
+              "id": "institution_8bfcd13f24e78e791e92",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v0.jsonl",
+                "raw_path": "raw_v0/google_patents/rhizobium_br.jsonl",
+                "raw_sha256": "a1e7552897d0f554b68cb60f82cedb22888d3bd7f05cf6ff82d17441c404e907",
+                "retrieved_at": "2026-08-21T00:00:00+00:00",
+                "source_url": "https://patents.google.com/?q=(Rhizobium)&country=BR"
+              }
+            }
+          ]
+        },
+        {
+          "alias": "Pivot Bio, Inc",
+          "folded": "pivot bio inc",
+          "observed_count": 2,
+          "records": [
+            {
+              "id": "actor_7995a1eec5dd9e418417",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v2.jsonl",
+                "raw_path": "raw_v2/google_patents_radiography_v1/radiography_q05_azospirillum_inoculant_polymer_stability_brazil.jsonl",
+                "raw_sha256": "9f5a4f8f60d3887bd8838855d032b14242f02ad44794679938715fdc72a25252",
+                "retrieved_at": "2026-08-21T06:16:14.092249+00:00",
+                "source_url": "https://patents.google.com/?q=Azospirillum+inoculant+polymer+stability+Brazil&country=BR"
+              }
+            },
+            {
+              "id": "institution_7995a1eec5dd9e418417",
+              "source": "google_patents",
+              "source_id": null,
+              "provenance": {
+                "manifest_path": "ingestion_manifest_v2.jsonl",
+                "raw_path": "raw_v2/google_patents_radiography_v1/radiography_q05_azospirillum_inoculant_polymer_stability_brazil.jsonl",
+                "raw_sha256": "9f5a4f8f60d3887bd8838855d032b14242f02ad44794679938715fdc72a25252",
+                "retrieved_at": "2026-08-21T06:16:14.092249+00:00",
+                "source_url": "https://patents.google.com/?q=Azospirillum+inoculant+polymer+stability+Brazil&country=BR"
+              }
+            }
+          ]
+        },
+        {
+          "alias": "Pivot Bio, Inc.",
+          "folded": "pivot bio inc",
+          "observed_count": 0,
+          "records": []
+        }
+      ],
+      "evidence": [
+        "O mesmo portfólio aparece repetidamente em registros sobre fixação de nitrogênio, fósforo, formulação e estabilidade.",
+        "As variações de pontuação e sufixo corporativo são observadas nos resultados capturados."
+      ]
+    }
+  ],
+  "candidate_groups": [
+    {
+      "group_id": "locus_family",
+      "label": "Locus / Locus IP / Locus Agriculture / Locus Oil",
+      "status": "candidate_group_not_merged",
+      "members": [
+        "Locus",
+        "Locus IP",
+        "Locus Agriculture",
+        "Locus Oil"
+      ],
+      "reason": "A recorrência conjunta é forte, mas o corpus metadata-only não prova identidade jurídica única; mantidos separados.",
+      "evidence_queries": [
+        "Trichoderma sophorolipid fermentation biocontrol",
+        "Locus microbial phosphate enzyme organic matter Brazil"
+      ]
+    },
+    {
+      "group_id": "novozymes_family",
+      "label": "Novozymes / Novozymes BioAg",
+      "status": "candidate_group_not_merged",
+      "members": [
+        "Novozymes",
+        "Novozymes Bioag"
+      ],
+      "reason": "A semelhança nominal e a recorrência em enzimas/bioprocessos motivam expansão, mas não autorizam fusão automática.",
+      "evidence_queries": [
+        "Trichoderma fermentation",
+        "Trichoderma enzyme fermentation",
+        "Trichoderma industrial enzyme Novozymes"
+      ]
+    },
+    {
+      "group_id": "basf_family",
+      "label": "BASF / BASF Corporation / BASF Agrochemical Products",
+      "status": "candidate_group_not_merged",
+      "members": [
+        "BASF",
+        "BASF Corporation",
+        "BASF Agrochemical Products"
+      ],
+      "reason": "Possível grupo corporativo, porém o corpus atual não contém prova suficiente para resolver a entidade jurídica.",
+      "evidence_queries": [
+        "biocontrole BR",
+        "Bacillus thuringiensis BR"
+      ]
+    }
+  ],
+  "unresolved_examples": [
+    {
+      "name": "BASF Agrochemical Products",
+      "count": 2
+    },
+    {
+      "name": "BASF Corporation",
+      "count": 2
+    },
+    {
+      "name": "BASF Agro",
+      "count": 2
+    },
+    {
+      "name": "BASF Corporation; e",
+      "count": 2
+    },
+    {
+      "name": "Monsanto Technology",
+      "count": 2
+    },
+    {
+      "name": "BASF",
+      "count": 2
+    }
+  ]
+}

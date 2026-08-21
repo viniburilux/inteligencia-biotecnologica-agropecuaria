@@ -1,0 +1,97 @@
+{
+  "batch": "radiography_v1_followup",
+  "queries": 5,
+  "returned_items": 50,
+  "rows": [
+    {
+      "manifest_version": "v2",
+      "batch": "radiography_v1_followup",
+      "query_id": "q13_trichoderma_sophorolipids_biocontrol_brazil",
+      "source": "openalex",
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "url": "https://api.openalex.org/works?search=Trichoderma%20harzianum%20sophorolipids%20biocontrol%20Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:06:02.686320+00:00",
+      "status": "captured",
+      "raw_path": "raw_v2/openalex_followup/q13_trichoderma_sophorolipids_biocontrol_brazil.json",
+      "raw_sha256": "6efd5e87496101f1c1a6eaedf8bda4685e9443334f511e3988cbf5c0afecc1ad",
+      "returned_items": 10,
+      "observed_result_count": 16,
+      "metadata_only": true,
+      "notes": [
+        "OpenAlex metadata response only; no full text or scientific data downloaded."
+      ]
+    },
+    {
+      "manifest_version": "v2",
+      "batch": "radiography_v1_followup",
+      "query_id": "q14_microbial_inoculant_polymer_stability_nitrogen",
+      "source": "openalex",
+      "query": "microbial inoculant polymer stability nitrogen fixation",
+      "url": "https://api.openalex.org/works?search=microbial%20inoculant%20polymer%20stability%20nitrogen%20fixation&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:06:11.848127+00:00",
+      "status": "captured",
+      "raw_path": "raw_v2/openalex_followup/q14_microbial_inoculant_polymer_stability_nitrogen.json",
+      "raw_sha256": "4edfda311a1ef54f6156bebe97d803384b307df0cce0bfa9a2ba6c2e380d0dcb",
+      "returned_items": 10,
+      "observed_result_count": 1601,
+      "metadata_only": true,
+      "notes": [
+        "OpenAlex metadata response only; no full text or scientific data downloaded."
+      ]
+    },
+    {
+      "manifest_version": "v2",
+      "batch": "radiography_v1_followup",
+      "query_id": "q15_on_farm_bioinput_fermentation_brazil",
+      "source": "openalex",
+      "query": "on farm bioinput fermentation Brazil",
+      "url": "https://api.openalex.org/works?search=on%20farm%20bioinput%20fermentation%20Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:06:14.519107+00:00",
+      "status": "captured",
+      "raw_path": "raw_v2/openalex_followup/q15_on_farm_bioinput_fermentation_brazil.json",
+      "raw_sha256": "65c01230a470e3c5afa381b83ad8fcb3b5181fa2cd74f3c963ec3c493851a269",
+      "returned_items": 10,
+      "observed_result_count": 67,
+      "metadata_only": true,
+      "notes": [
+        "OpenAlex metadata response only; no full text or scientific data downloaded."
+      ]
+    },
+    {
+      "manifest_version": "v2",
+      "batch": "radiography_v1_followup",
+      "query_id": "q16_microalgae_co2_industrial_waste_fertilizer_brazil",
+      "source": "openalex",
+      "query": "microalgae CO2 fixation industrial waste fertilizer Brazil",
+      "url": "https://api.openalex.org/works?search=microalgae%20CO2%20fixation%20industrial%20waste%20fertilizer%20Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:06:16.718486+00:00",
+      "status": "captured",
+      "raw_path": "raw_v2/openalex_followup/q16_microalgae_co2_industrial_waste_fertilizer_brazil.json",
+      "raw_sha256": "5782aa73dc79ec1811fae0c5257f307478daeca5e44d73baad5e6ad6560699da",
+      "returned_items": 10,
+      "observed_result_count": 431,
+      "metadata_only": true,
+      "notes": [
+        "OpenAlex metadata response only; no full text or scientific data downloaded."
+      ]
+    },
+    {
+      "manifest_version": "v2",
+      "batch": "radiography_v1_followup",
+      "query_id": "q17_bacillus_velezensis_biofertilizer_nematode_brazil",
+      "source": "openalex",
+      "query": "Bacillus velezensis biofertilizer nematode Brazil",
+      "url": "https://api.openalex.org/works?search=Bacillus%20velezensis%20biofertilizer%20nematode%20Brazil&per-page=10&mailto=viniburilux@gmail.com",
+      "retrieved_at": "2026-08-21T06:06:18.749125+00:00",
+      "status": "captured",
+      "raw_path": "raw_v2/openalex_followup/q17_bacillus_velezensis_biofertilizer_nematode_brazil.json",
+      "raw_sha256": "2881438273abc46ca55142168dcf0c854974fed87da9a107e86a95b34979b76f",
+      "returned_items": 10,
+      "observed_result_count": 210,
+      "metadata_only": true,
+      "notes": [
+        "OpenAlex metadata response only; no full text or scientific data downloaded."
+      ]
+    }
+  ]
+}

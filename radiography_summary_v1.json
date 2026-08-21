@@ -1,0 +1,1798 @@
+{
+  "generated_at": "2026-08-21T06:16:36.670272+00:00",
+  "source_corpus": "normalized_v2",
+  "work_count": 763,
+  "source_mix": {
+    "openalex": 422,
+    "crossref": 146,
+    "google_patents": 195
+  },
+  "cluster_summary": [
+    {
+      "cluster_id": "R1_local_production_quality",
+      "label": "Biorreatores, fermentação, produção on-farm e qualidade",
+      "description": "Cadeia de produção, formulação, controle e aplicação local de bioinsumos.",
+      "work_count": 246,
+      "sources": {
+        "openalex": 144,
+        "crossref": 25,
+        "google_patents": 77
+      },
+      "years": {
+        "2018": 9,
+        "2024": 22,
+        "2022": 9,
+        "2015": 5,
+        "2023": 17,
+        "2026": 8,
+        "2021": 16,
+        "2020": 20,
+        "2025": 29,
+        "2014": 8,
+        "2012": 9,
+        "2017": 6,
+        "2016": 5,
+        "2011": 7,
+        "2010": 5,
+        "2013": 7,
+        "2019": 6
+      },
+      "origin_states": {
+        "not_applicable": 169,
+        "origin_unresolved": 20,
+        "brazilian_signal_observed": 20,
+        "international_presence_in_BR": 37
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W3134803042",
+          "title": "Bioinsumos: componentes claves de una agricultura sostenible",
+          "source": "openalex",
+          "year": 2018
+        },
+        {
+          "record_id": "https://openalex.org/W4402856727",
+          "title": "Bioinsumos na agricultura: panorama tecnológico das patentes biológicas",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4293801436",
+          "title": "USO E EFEITO DOS BIOINSUMOS NA AGRICULTURA",
+          "source": "openalex",
+          "year": 2022
+        },
+        {
+          "record_id": "https://openalex.org/W4214861432",
+          "title": "Bioinsumos: a Construção de um Programa Nacional pela Sustentabilidade do Agro Brasileiro",
+          "source": "openalex",
+          "year": 2022
+        },
+        {
+          "record_id": "https://openalex.org/W2269798405",
+          "title": "Industria de bioinsumos de uso agrícola en Colombia",
+          "source": "openalex",
+          "year": 2015
+        },
+        {
+          "record_id": "https://openalex.org/W4320917824",
+          "title": "BIOINSUMOS A PARTIR DAS CONTRIBUIÇÕES DA AGROECOLOGIA",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "record_id": "https://openalex.org/W4402699137",
+          "title": "Desafios e estratégias no desenvolvimento dos bioinsumos para controle biológico no Brasil",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4388339317",
+          "title": "A importância da automação no processo de multiplicação de Bioinsumos Onfarm",
+          "source": "openalex",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "cluster_id": "R2_nitrogen_phosphate_stability",
+      "label": "Nitrogênio, fosfato, formulação, estabilidade e liberação",
+      "description": "Plataforma de aquisição de nutrientes e entrega estável de microrganismos ou compostos.",
+      "work_count": 159,
+      "sources": {
+        "openalex": 83,
+        "crossref": 22,
+        "google_patents": 54
+      },
+      "years": {
+        "2019": 10,
+        "2012": 3,
+        "2016": 5,
+        "2010": 3,
+        "2017": 11,
+        "2020": 13,
+        "2021": 21,
+        "2018": 8,
+        "2024": 3,
+        "2013": 4,
+        "2011": 4,
+        "2015": 3,
+        "2025": 5,
+        "2022": 9,
+        "2023": 4,
+        "2014": 4,
+        "2005": 1
+      },
+      "origin_states": {
+        "not_applicable": 105,
+        "origin_unresolved": 14,
+        "international_presence_in_BR": 32,
+        "brazilian_signal_observed": 8
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W3013121513",
+          "title": "Inoculante micorrízico a base de Rhizophagus intraradices no crescimento e nutrição de culturas de importância agrícola",
+          "source": "openalex",
+          "year": 2019
+        },
+        {
+          "record_id": "https://openalex.org/W1491111545",
+          "title": "Aplicación de la metodología “Análisis de Producto Tecnológico” en la enseñanza de Microbiología Agrícola empleando inoculantes microbianos",
+          "source": "openalex",
+          "year": 2012
+        },
+        {
+          "record_id": "https://openalex.org/W2255259412",
+          "title": "Esterco bovino, biofertilizante, inoculante e combinações no desempenho produtivo do feijão comum",
+          "source": "openalex",
+          "year": 2016
+        },
+        {
+          "record_id": "https://openalex.org/W2102162320",
+          "title": "Biofertilizantes en el desarrollo agrícola de México",
+          "source": "openalex",
+          "year": 2010
+        },
+        {
+          "record_id": "https://openalex.org/W2739336444",
+          "title": "Inoculantes microbianos: piezas de un rompecabezas que aún requiere ser ensamblado",
+          "source": "openalex",
+          "year": 2017
+        },
+        {
+          "record_id": "https://openalex.org/W2968745535",
+          "title": "Impacto Econômico dos Inoculantes na Soja: Uma Análise Insumo-Produto",
+          "source": "openalex",
+          "year": 2019
+        },
+        {
+          "record_id": "https://openalex.org/W3119458151",
+          "title": "Diversidade, mecanismos de atuação e potencial agrícola de bactérias promotoras de crescimento de plantas, usando milho como cultura exemplo",
+          "source": "openalex",
+          "year": 2020
+        },
+        {
+          "record_id": "https://openalex.org/W2782885849",
+          "title": "Gestão do uso agrícola do lodo de esgoto: estudo de caso do estado do Paraná, Brasil",
+          "source": "openalex",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "cluster_id": "R3_trichoderma_bioprocess",
+      "label": "Trichoderma, biocontrole, enzimas e bioprocessos",
+      "description": "Organismo transversal atravessando agricultura, biossurfactantes, enzimas, biomassa e indústria.",
+      "work_count": 230,
+      "sources": {
+        "openalex": 130,
+        "crossref": 6,
+        "google_patents": 94
+      },
+      "years": {
+        "2021": 29,
+        "2010": 5,
+        "2024": 17,
+        "2014": 8,
+        "2025": 18,
+        "2023": 19,
+        "2026": 5,
+        "2018": 11,
+        "2020": 19,
+        "2017": 6,
+        "2022": 11,
+        "2016": 4,
+        "2011": 7,
+        "2012": 9,
+        "2013": 8,
+        "2019": 5,
+        "2015": 2
+      },
+      "origin_states": {
+        "not_applicable": 136,
+        "origin_unresolved": 28,
+        "brazilian_signal_observed": 13,
+        "international_presence_in_BR": 53
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W3201023522",
+          "title": "Potencial de biocontrole de Trichodermaspp. contra Macrophomina phaseolina do Feijão-caupi",
+          "source": "openalex",
+          "year": 2021
+        },
+        {
+          "record_id": "https://openalex.org/W1541240643",
+          "title": "Presença de Trichoderma spp em composto e suas características para o controle de fitopatógenos.",
+          "source": "openalex",
+          "year": 2010
+        },
+        {
+          "record_id": "https://openalex.org/W4403823318",
+          "title": "Efecto de los agroquímicos en la actividad enzimática del suelo agrícola: Una revisión bibliográfica",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W2106854637",
+          "title": "Trichoderma-based Products and their Widespread Use in Agriculture",
+          "source": "openalex",
+          "year": 2014
+        },
+        {
+          "record_id": "https://openalex.org/W3158345945",
+          "title": "Trichoderma as biocontrol agent against pests: New uses for a mycoparasite",
+          "source": "openalex",
+          "year": 2021
+        },
+        {
+          "record_id": "https://openalex.org/W4391262175",
+          "title": "Agricultural Bioinputs Obtained by Solid-State Fermentation: From Production in Biorefineries to Sustainable Agriculture",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4409143998",
+          "title": "Endophytic and Rhizospheric Microorganisms: An Alternative for Sustainable, Organic, and Regenerative Bioinput Formulations for Modern Agriculture",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "record_id": "https://openalex.org/W4412426724",
+          "title": "Biological resources driving productivity: bioinputs for sustainable plant agriculture in Brazil",
+          "source": "openalex",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "cluster_id": "R4_carbon_algae_industrial_waste",
+      "label": "Biofixação de CO2, microalgas, resíduos e Petrobras",
+      "description": "Corredor inesperado entre carbono, biomassa algal, resíduos de processo e aplicação agronômica.",
+      "work_count": 66,
+      "sources": {
+        "openalex": 41,
+        "google_patents": 25
+      },
+      "years": {
+        "2024": 12,
+        "2023": 4,
+        "2025": 3,
+        "2018": 3,
+        "2020": 5,
+        "2022": 4,
+        "2015": 1,
+        "2016": 2,
+        "2019": 4,
+        "2021": 12,
+        "2010": 2,
+        "2017": 1,
+        "2014": 1
+      },
+      "origin_states": {
+        "not_applicable": 41,
+        "international_presence_in_BR": 2,
+        "brazilian_signal_observed": 11,
+        "origin_unresolved": 12
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W4405441987",
+          "title": "Exploring the Potential and Challenges of Fermentation in Creating Foods: A Spotlight on Microalgae",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4405893516",
+          "title": "Valorization of agro-industrial waste through solid-state fermentation: Mini review",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4320729794",
+          "title": "Advances in Agroindustrial Waste as a Substrate for Obtaining Eco-Friendly Microbial Products",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "record_id": "https://openalex.org/W4415716000",
+          "title": "EXTRACTION OF BIOPRODUCTS FROM MICROALGAE: A REVIEW OF METHODOLOGIES AND SCALE-UP STRATEGIES",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "record_id": "https://openalex.org/W2898515061",
+          "title": "A Review on Bioconversion of Agro-Industrial Wastes to Industrially Important Enzymes",
+          "source": "openalex",
+          "year": 2018
+        },
+        {
+          "record_id": "https://openalex.org/W3092283536",
+          "title": "Recent advances in production of lignocellulolytic enzymes by solid-state fermentation of agro-industrial wastes",
+          "source": "openalex",
+          "year": 2020
+        },
+        {
+          "record_id": "https://openalex.org/W3036801971",
+          "title": "Cultivation of Mushrooms and Their Lignocellulolytic Enzyme Production Through the Utilization of Agro-Industrial Waste",
+          "source": "openalex",
+          "year": 2020
+        },
+        {
+          "record_id": "https://openalex.org/W4220809139",
+          "title": "Industrial CO2 Capture by Algae: A Review and Recent Advances",
+          "source": "openalex",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "cluster_id": "R5_biocontrol_plant_health",
+      "label": "Biocontrole, nematoides e saúde vegetal",
+      "description": "Controle biológico, sanidade vegetal, nematoides e promoção de crescimento.",
+      "work_count": 272,
+      "sources": {
+        "openalex": 121,
+        "crossref": 100,
+        "google_patents": 51
+      },
+      "years": {
+        "2019": 7,
+        "2012": 5,
+        "2014": 7,
+        "2021": 27,
+        "2020": 16,
+        "2023": 13,
+        "2024": 8,
+        "2017": 9,
+        "2010": 4,
+        "2018": 11,
+        "2022": 14,
+        "2025": 6,
+        "2011": 2,
+        "2015": 10,
+        "2016": 2,
+        "2013": 3,
+        "2026": 1
+      },
+      "origin_states": {
+        "not_applicable": 221,
+        "origin_unresolved": 17,
+        "brazilian_signal_observed": 10,
+        "international_presence_in_BR": 24
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W2994797709",
+          "title": "Agentes de biocontrole no manejo de Pratylenchus brachyurus na cultura da soja",
+          "source": "openalex",
+          "year": 2019
+        },
+        {
+          "record_id": "https://openalex.org/W2747948221",
+          "title": "Produtos comerciais à base de agentes de biocontrole de doenças de plantas.",
+          "source": "openalex",
+          "year": 2012
+        },
+        {
+          "record_id": "https://openalex.org/W1517910127",
+          "title": "Biocontrole de Fusarium verticillioides em milho e trigo",
+          "source": "openalex",
+          "year": 2014
+        },
+        {
+          "record_id": "https://openalex.org/W3201023522",
+          "title": "Potencial de biocontrole de Trichodermaspp. contra Macrophomina phaseolina do Feijão-caupi",
+          "source": "openalex",
+          "year": 2021
+        },
+        {
+          "record_id": "https://openalex.org/W3036202245",
+          "title": "Nematophagous and endomycorrhizal fungi in the control of Meloidogyne incognita in soybean",
+          "source": "openalex",
+          "year": 2020
+        },
+        {
+          "record_id": "https://openalex.org/W4313493506",
+          "title": "Biofábricas no cenário atual agrícola brasileiro: revisão",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "record_id": "https://openalex.org/W4367624857",
+          "title": "Bactérias endofíticas associadas a Paspalum vaginatum Swartz com potencial para promoção de crescimento vegetal e biocontrole",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "record_id": "https://openalex.org/W4327637546",
+          "title": "BIOCONTROLE DE FITOPATÓGENOS EM SEMENTES: SUSTENTABILIDADE PARA A PRODUÇÃO AGRÍCOLA",
+          "source": "openalex",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "cluster_id": "R6_literature_agro_context",
+      "label": "Literatura, culturas e contexto agropecuário",
+      "description": "Literatura e registros ligados a culturas, campo, rizosfera e aplicação agropecuária.",
+      "work_count": 401,
+      "sources": {
+        "openalex": 252,
+        "crossref": 83,
+        "google_patents": 66
+      },
+      "years": {
+        "2018": 26,
+        "2024": 26,
+        "2022": 21,
+        "2015": 13,
+        "2023": 28,
+        "2026": 6,
+        "2021": 42,
+        "2020": 28,
+        "2025": 24,
+        "2014": 14,
+        "2012": 4,
+        "2017": 14,
+        "2019": 13,
+        "2016": 8,
+        "2010": 6,
+        "2013": 6,
+        "2011": 7,
+        "2005": 1
+      },
+      "origin_states": {
+        "not_applicable": 335,
+        "origin_unresolved": 26,
+        "international_presence_in_BR": 22,
+        "brazilian_signal_observed": 18
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W3134803042",
+          "title": "Bioinsumos: componentes claves de una agricultura sostenible",
+          "source": "openalex",
+          "year": 2018
+        },
+        {
+          "record_id": "https://openalex.org/W4402856727",
+          "title": "Bioinsumos na agricultura: panorama tecnológico das patentes biológicas",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4293801436",
+          "title": "USO E EFEITO DOS BIOINSUMOS NA AGRICULTURA",
+          "source": "openalex",
+          "year": 2022
+        },
+        {
+          "record_id": "https://openalex.org/W4214861432",
+          "title": "Bioinsumos: a Construção de um Programa Nacional pela Sustentabilidade do Agro Brasileiro",
+          "source": "openalex",
+          "year": 2022
+        },
+        {
+          "record_id": "https://openalex.org/W2269798405",
+          "title": "Industria de bioinsumos de uso agrícola en Colombia",
+          "source": "openalex",
+          "year": 2015
+        },
+        {
+          "record_id": "https://openalex.org/W4320917824",
+          "title": "BIOINSUMOS A PARTIR DAS CONTRIBUIÇÕES DA AGROECOLOGIA",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "record_id": "https://openalex.org/W4402699137",
+          "title": "Desafios e estratégias no desenvolvimento dos bioinsumos para controle biológico no Brasil",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "record_id": "https://openalex.org/W4388339317",
+          "title": "A importância da automação no processo de multiplicação de Bioinsumos Onfarm",
+          "source": "openalex",
+          "year": 2023
+        }
+      ]
+    }
+  ],
+  "actor_hubs": [
+    {
+      "id": "https://openalex.org/A5032515655",
+      "name": "Olubukola Oluranti Babalola",
+      "relation_count": 7,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Utilization of Microbial Consortia as Biofertilizers and Biopesticides for the Production of Feasible Agricultural Product",
+        "Mechanisms of action of plant growth promoting bacteria",
+        "Metagenomics Reveals the Microbiome Multifunctionalities of Environmental Importance From Termite Mound Soils",
+        "Microbial Phosphorus Solubilization and Its Potential for Use in Sustainable Agriculture",
+        "Agricultural Sustainability: Microbial Biofertilizers in Rhizosphere Management"
+      ]
+    },
+    {
+      "id": "actor_8bfcd13f24e78e791e92",
+      "name": "Pivot Bio",
+      "relation_count": 6,
+      "sources": [
+        "google_patents"
+      ],
+      "examples": [
+        "Methods and compositions to improve phosphate solubilization",
+        "Polymer compositions with improved stability for microbial nitrogen-fixing products",
+        "Agricultural compositions using remodeled nitrogen-fixation microbes",
+        "alvos gênicos para fixação de nitrogênio para aprimorar traços de plantas",
+        "Dynamic nitrogen release driven by remodeled microbes"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5007864261",
+      "name": "Bernard R. Glick",
+      "relation_count": 5,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Plant Growth Stimulation by Microbial Consortia",
+        "Mechanisms of action of plant growth promoting bacteria",
+        "Microbial Phosphorus Solubilization and Its Potential for Use in Sustainable Agriculture",
+        "Contribution of Arbuscular Mycorrhizal Fungi, Phosphate–Solubilizing Bacteria, and Silicon to P Uptake by Plant",
+        "Bioencapsulation of Microbial Inoculants: Mechanisms, Formulation Types and Application Techniques"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5085311088",
+      "name": "Giovani L. Zabot",
+      "relation_count": 5,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Endophytic and Rhizospheric Microorganisms: An Alternative for Sustainable, Organic, and Regenerative Bioinput Formulations for Modern Agriculture",
+        "Applications and Market of Microorganism-Based and Plant-Based Inputs in Brazilian Agriculture",
+        "Plant-Based Bioherbicides: Review of Eco-Friendly Strategies for Weed Control in Organic Bean and Corn Farming",
+        "The Effects of Trichilia claussenii Extract on the Efficacy of Entomopathogenic Fungi Produced by Submerged Fermentation",
+        "Co-Fermentation of Trichoderma Strains as a Biotechnological Strategy to Enhance Enzyme Production and Plant Growth-Promoting Metabolites for Agricultural Applications"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5056185495",
+      "name": "F. C. G. Almeida",
+      "relation_count": 5,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Next-Generation Bioinputs: A Systematic Review of Biosurfactants in Sustainable Agriculture and Research Frontiers with Bacterial Cellulose",
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Production of green surfactants: Market prospects",
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Application of Green Surfactants in the Remediation of Soils Contaminated by Hydrocarbons"
+      ]
+    },
+    {
+      "id": "actor_e0ea62b2ab1cf6e113ff",
+      "name": "Universidade de São Paulo",
+      "relation_count": 5,
+      "sources": [
+        "google_patents"
+      ],
+      "examples": [
+        "Bacterial Composition and Its Uses",
+        "Bioinsumo à base de T. harzianum e soforolipídeos",
+        "inoculant composition, methods, coated plant propagation material, and, kit",
+        "Registro capturado: BR102021001046A2",
+        "coquetel enzimático obtido por co-cultivo de Trichoderma reesei RP698 e Mycothermus thermophilus usando palha de milho"
+      ]
+    },
+    {
+      "id": "actor_4116021088d010670a2f",
+      "name": "Novozymes",
+      "relation_count": 5,
+      "sources": [
+        "google_patents"
+      ],
+      "examples": [
+        "yeast expressing enzymes for ethanol production",
+        "mutante de Trichoderma reesei para produção de enzimas",
+        "variantes de subtilase",
+        "processes to increase yeast growth and productivity",
+        "variantes de alfa-amilase"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5044664094",
+      "name": "Mariangela Hungría",
+      "relation_count": 4,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Pointing Out Opportunities to Increase Grassland Pastures Productivity via Microbial Inoculants: Attending the Society’s Demands for Meat Production with Sustainability",
+        "Microbial inoculants: reviewing the past, discussing the present and previewing an outstanding future for the use of beneficial bacteria in agriculture",
+        "Inoculation with selected strains of Azospirillum brasilense and A. lipoferum improves yields of maize and wheat in Brazil",
+        "Microbial Secondary Metabolites and Their Use in Achieving Sustainable Agriculture: Present Achievements and Future Challenges"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5079904833",
+      "name": "Gustavo Santoyo",
+      "relation_count": 4,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Plant Growth Stimulation by Microbial Consortia",
+        "Plant growth-promoting bacterial endophytes as biocontrol agents of pre- and post-harvest diseases: Fundamentals, methods of application and future perspectives",
+        "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions",
+        "Bioencapsulation of Microbial Inoculants: Mechanisms, Formulation Types and Application Techniques"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5025838846",
+      "name": "Márcio A. Mazutti",
+      "relation_count": 4,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Endophytic and Rhizospheric Microorganisms: An Alternative for Sustainable, Organic, and Regenerative Bioinput Formulations for Modern Agriculture",
+        "Freeze and Spray Drying Technologies to Produce Solid Microbial Formulations for Sustainable Agriculture",
+        "The Effects of Trichilia claussenii Extract on the Efficacy of Entomopathogenic Fungi Produced by Submerged Fermentation",
+        "Co-Fermentation of Trichoderma Strains as a Biotechnological Strategy to Enhance Enzyme Production and Plant Growth-Promoting Metabolites for Agricultural Applications"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5015934081",
+      "name": "Attílio Converti",
+      "relation_count": 4,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Production of green surfactants: Market prospects",
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Application of Green Surfactants in the Remediation of Soils Contaminated by Hydrocarbons"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5073575695",
+      "name": "Leonie Asfora Sarubbo",
+      "relation_count": 4,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Production of green surfactants: Market prospects",
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Application of Green Surfactants in the Remediation of Soils Contaminated by Hydrocarbons"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5014302695",
+      "name": "İbrahim M. Banat",
+      "relation_count": 4,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Production of green surfactants: Market prospects",
+        "Fungal biosurfactants, from nature to biotechnological product: bioprospection, production and potential applications",
+        "Biosurfactants: The green generation of speciality chemicals and potential production using Solid-State fermentation (SSF) technology",
+        "Harnessing the Potential of Biosurfactants for Biomedical and Pharmaceutical Applications"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5051274419",
+      "name": "Fernando Ferrari Putti",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Bioinsumos na agricultura: panorama tecnológico das patentes biológicas",
+        "Desenvolvimento agrícola com a introdução dos bioinsumos",
+        "Uso de bioinsumos como possibilidade de atenuação dos efeitos do estresse hídrico"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5007912936",
+      "name": "Marco Antônio Nogueira",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Pointing Out Opportunities to Increase Grassland Pastures Productivity via Microbial Inoculants: Attending the Society’s Demands for Meat Production with Sustainability",
+        "Microbial inoculants: reviewing the past, discussing the present and previewing an outstanding future for the use of beneficial bacteria in agriculture",
+        "Microbial Secondary Metabolites and Their Use in Achieving Sustainable Agriculture: Present Achievements and Future Challenges"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5001761494",
+      "name": "Gabriel Moura Mascarin",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Current status and perspectives of fungal entomopathogens used for microbial control of arthropod pests in Brazil",
+        "On-farm Production of Microbial Entomopathogens for use in Agriculture: Brazil as a Case Study",
+        "Advances in submerged liquid fermentation and formulation of entomopathogenic fungi"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5078536879",
+      "name": "Fannie Isela Parra-Cota",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Plant Growth Stimulation by Microbial Consortia",
+        "Plant growth-promoting bacterial endophytes as biocontrol agents of pre- and post-harvest diseases: Fundamentals, methods of application and future perspectives",
+        "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5020102299",
+      "name": "Sergio de los Santos‐Villalobos",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Plant Growth Stimulation by Microbial Consortia",
+        "Plant growth-promoting bacterial endophytes as biocontrol agents of pre- and post-harvest diseases: Fundamentals, methods of application and future perspectives",
+        "Microbial Inoculants in Sustainable Agriculture: Advancements, Challenges, and Future Directions"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5059115627",
+      "name": "Ma. del Carmen Orozco-Mosqueda",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Plant Growth Stimulation by Microbial Consortia",
+        "Plant growth-promoting bacterial endophytes as biocontrol agents of pre- and post-harvest diseases: Fundamentals, methods of application and future perspectives",
+        "Bioencapsulation of Microbial Inoculants: Mechanisms, Formulation Types and Application Techniques"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5070500405",
+      "name": "Mirela Mosela",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+        "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+        "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5056101577",
+      "name": "Silas Mian",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops",
+        "The current increase and future perspectives of the microbial pesticides market in agriculture: the Brazilian example",
+        "Complete genome sequence of Bacillus velezensis strain Ag109, a biocontrol agent against plant-parasitic nematodes and Sclerotinia sclerotiorum"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5028783394",
+      "name": "T. M. Rocha",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Agricultural Bioinputs Obtained by Solid-State Fermentation: From Production in Biorefineries to Sustainable Agriculture",
+        "Síntese microbiana de bioestimulantes de crescimento vegetal para aplicação na agricultura",
+        "Microbial synthesis of plant growth biostimulants for application in agriculture"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5075926881",
+      "name": "Frédéric Goulet",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "On-farm agricultural inputs and changing boundaries: Innovations around production of microorganisms in Brazil",
+        "The emergence of microbiological inputs and the challenging laboratorisation of agriculture: lessons from Brazil and Mexico",
+        "Biofactories: new models for production and access to agricultural inputs in Latin America"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5086095577",
+      "name": "Anderson O. de Medeiros",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Next-Generation Bioinputs: A Systematic Review of Biosurfactants in Sustainable Agriculture and Research Frontiers with Bacterial Cellulose",
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications",
+        "Biosurfactants: Promising Biomolecules for Agricultural Applications"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5028719780",
+      "name": "Adnane Bargaz",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Soil Microbial Resources for Improving Fertilizers Efficiency in an Integrated Plant Nutrient Management System",
+        "Nitrogen Fixing Azotobacter Species as Potential Soil Biological Enhancers for Crop Nutrition and Yield Stability",
+        "Phosphate bacterial solubilization: A key rhizosphere driving force enabling higher P use efficiency and crop productivity"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5112373518",
+      "name": "Youssef Zeroual",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Soil Microbial Resources for Improving Fertilizers Efficiency in an Integrated Plant Nutrient Management System",
+        "Nitrogen Fixing Azotobacter Species as Potential Soil Biological Enhancers for Crop Nutrition and Yield Stability",
+        "Phosphate bacterial solubilization: A key rhizosphere driving force enabling higher P use efficiency and crop productivity"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5103431726",
+      "name": "Christian P. Kubicek",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Genetic engineering of Trichoderma reesei cellulases and their production",
+        "Systems biological approaches towards understanding cellulase production by Trichoderma reesei",
+        "Comparative analysis of the Trichoderma reeseitranscriptome during growth on the cellulase inducing substrates wheat straw and lactose"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5050327846",
+      "name": "Aline Machado de Castro",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Enzymatic hydrolysis of pretreated sugar cane bagasse using Penicillium funiculosum and Trichoderma harzianum cellulases",
+        "Trichoderma harzianum IOC-4038: A Promising Strain for the Production of a Cellulolytic Complex with Significant β-Glucosidase Activity from Sugarcane Bagasse Cellulignin",
+        "High-Yield Endoglucanase Production by<i>Trichoderma harzianum</i>IOC-3844 Cultivated in Pretreated Sugarcane Mill Byproduct"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5006609469",
+      "name": "Nei Pereira",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "Enzymatic hydrolysis of pretreated sugar cane bagasse using Penicillium funiculosum and Trichoderma harzianum cellulases",
+        "Trichoderma harzianum IOC-4038: A Promising Strain for the Production of a Cellulolytic Complex with Significant β-Glucosidase Activity from Sugarcane Bagasse Cellulignin",
+        "High-Yield Endoglucanase Production by<i>Trichoderma harzianum</i>IOC-3844 Cultivated in Pretreated Sugarcane Mill Byproduct"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5005281241",
+      "name": "Ofélia de Queiroz Fernandes Araújo",
+      "relation_count": 3,
+      "sources": [
+        "openalex"
+      ],
+      "examples": [
+        "THERMODYNAMICALLY AND ENVIRONMENTALLY EFFICIENT OFFSHORE GAS-TO-WIRE FROM CO2-RICH NATURAL GAS WITH CARBON CAPTURE",
+        "Production, processing, distribution and use of gas with high CO2 content: biogas and pre-salt natural gas",
+        "BIOENERGY WITH CARBON CAPTURE AND STORAGE VIA LANDFILL GAS OXY-COMBUSTION"
+      ]
+    }
+  ],
+  "organism_hubs": [
+    {
+      "organism": "trichoderma",
+      "work_count": 175,
+      "sources": {
+        "openalex": 93,
+        "crossref": 5,
+        "google_patents": 77
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W3201023522",
+          "title": "Potencial de biocontrole de Trichodermaspp. contra Macrophomina phaseolina do Feijão-caupi"
+        },
+        {
+          "record_id": "https://openalex.org/W1541240643",
+          "title": "Presença de Trichoderma spp em composto e suas características para o controle de fitopatógenos."
+        },
+        {
+          "record_id": "https://openalex.org/W2106854637",
+          "title": "Trichoderma-based Products and their Widespread Use in Agriculture"
+        },
+        {
+          "record_id": "https://openalex.org/W3158345945",
+          "title": "Trichoderma as biocontrol agent against pests: New uses for a mycoparasite"
+        },
+        {
+          "record_id": "https://openalex.org/W4412957658",
+          "title": "Global trends in Trichoderma secondary metabolites in sustainable agricultural bioprotection"
+        },
+        {
+          "record_id": "https://openalex.org/W4390582744",
+          "title": "Biosurfactants: Promising Biomolecules for Agricultural Applications"
+        },
+        {
+          "record_id": "https://openalex.org/W3145825842",
+          "title": "Biosurfactants from Trichoderma Filamentous Fungi—A Preliminary Study"
+        },
+        {
+          "record_id": "https://openalex.org/W2894347729",
+          "title": "Toxicity and Bioremediation of Heavy Metals Contaminated Ecosystem from Tannery Wastewater: A Review"
+        }
+      ]
+    },
+    {
+      "organism": "bacillus",
+      "work_count": 62,
+      "sources": {
+        "openalex": 29,
+        "crossref": 5,
+        "google_patents": 28
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W2943093195",
+          "title": "Actividad antagonista de bacillus sp frente a fusarium oxysporum: un aporte a la agricultura sostenible"
+        },
+        {
+          "record_id": "https://openalex.org/W4318173973",
+          "title": "&lt;em&gt;Bacillus amyloliquefaciens, Microbacterium Resistens&lt;/em&gt; e &lt;em&gt;Stenotrophomonas Maltophilia&lt;/em&gt; no biocontrole de &lt;em&gt;Corynespora Cassiicola&lt;/em&gt; na cultura do tomate"
+        },
+        {
+          "record_id": "https://openalex.org/W7120286473",
+          "title": "Potencial de bactérias do gênero Bacillus para o biocontrole de fitopatógenos de interesse agrícola."
+        },
+        {
+          "record_id": "https://openalex.org/W3204464130",
+          "title": "Eficiência de inoculante contendo Bacillus megaterium (B119) e Bacillus subitilis (B2084) para a cultura do milho, associado à fertilização fosfatada"
+        },
+        {
+          "record_id": "https://openalex.org/W3214628111",
+          "title": "Adoption of Bacillus thuringiensis-based biopesticides in agricultural systems and new approaches to improve their use in Brazil"
+        },
+        {
+          "record_id": "https://openalex.org/W2753705152",
+          "title": "Bacillus: A Biological Tool for Crop Improvement through Bio-Molecular Changes in Adverse Environments"
+        },
+        {
+          "record_id": "https://openalex.org/W4295394560",
+          "title": "Bacillus velezensis strain Ag75 as a new multifunctional agent for biocontrol, phosphate solubilization and growth promotion in maize and soybean crops"
+        },
+        {
+          "record_id": "https://openalex.org/W4406957856",
+          "title": "Improving Soybean Development and Grain Yield by Complementary Inoculation with Growth-Promoting Bacteria Azospirillum, Pseudomonas, Priestia, and Bacillus"
+        }
+      ]
+    },
+    {
+      "organism": "rhizobium",
+      "work_count": 43,
+      "sources": {
+        "openalex": 16,
+        "crossref": 1,
+        "google_patents": 26
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W2900704415",
+          "title": "RESPOSTA DO FEIJÃO-CAUPI À INOCULAÇÃO DE Bradyrhizobium japonicum, ADUBAÇÃO NITROGENADA E NITROGÊNIO DO SOLO"
+        },
+        {
+          "record_id": "https://openalex.org/W2049394240",
+          "title": "AVALIAÇÃO DA SOBREVIVÊNCIA DE BRADYRHIZOBIUM SPP EM SEMENTES DE SOJA TRATADAS COM FUNGICIDAS, PROTETOR CELULAR E INOCULANTE"
+        },
+        {
+          "record_id": "https://openalex.org/W1976404078",
+          "title": "Bio-encapsulation of microbial cells for targeted agricultural delivery"
+        },
+        {
+          "record_id": "https://openalex.org/W2899085381",
+          "title": "Development of low-cost formulations of plant growth-promoting bacteria to be used as inoculants in beneficial agricultural technologies"
+        },
+        {
+          "record_id": "https://openalex.org/W3193683137",
+          "title": "Competition, Nodule Occupancy, and Persistence of Inoculant Strains: Key Factors in the Rhizobium-Legume Symbioses"
+        },
+        {
+          "record_id": "https://openalex.org/W3011794347",
+          "title": "Tailoring plant-associated microbial inoculants in agriculture: a roadmap for successful application"
+        },
+        {
+          "record_id": "https://openalex.org/W3010788259",
+          "title": "Formulation of Microbial Inoculants by Encapsulation in Natural Polysaccharides: Focus on Beneficial Properties of Carrier Additives and Derivatives"
+        },
+        {
+          "record_id": "https://openalex.org/W2892093129",
+          "title": "Microbial Inoculants for Improving Crop Quality and Human Health in Africa"
+        }
+      ]
+    },
+    {
+      "organism": "microalga",
+      "work_count": 35,
+      "sources": {
+        "openalex": 23,
+        "google_patents": 12
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W4405441987",
+          "title": "Exploring the Potential and Challenges of Fermentation in Creating Foods: A Spotlight on Microalgae"
+        },
+        {
+          "record_id": "https://openalex.org/W4415716000",
+          "title": "EXTRACTION OF BIOPRODUCTS FROM MICROALGAE: A REVIEW OF METHODOLOGIES AND SCALE-UP STRATEGIES"
+        },
+        {
+          "record_id": "https://openalex.org/W4205488453",
+          "title": "Biological-Based Produced Water Treatment Using Microalgae: Challenges and Efficiency"
+        },
+        {
+          "record_id": "https://openalex.org/W2561375911",
+          "title": "Salt Stress in Two Chlamydomonas Species: Novel Insights into Biofuel Production from Microalgae"
+        },
+        {
+          "record_id": "https://openalex.org/W4391045384",
+          "title": "PRETREATMENT METHODS OF MICROALGAE BIOMASS FOR BIOGAS PRODUCTION"
+        },
+        {
+          "record_id": "https://openalex.org/W2913852888",
+          "title": "Photobioreactor of Microalgas for CO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; Biofixation"
+        },
+        {
+          "record_id": "https://openalex.org/W4395104047",
+          "title": "CO2 utilization: a brief review of main routes and the potential to Brazilian scenario industry"
+        },
+        {
+          "record_id": "https://openalex.org/W4249606998",
+          "title": "The Application of Catalytic Processes on the Production of Algae-Based Biofuels: A Review"
+        }
+      ]
+    },
+    {
+      "organism": "microalgae",
+      "work_count": 31,
+      "sources": {
+        "openalex": 23,
+        "google_patents": 8
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W4405441987",
+          "title": "Exploring the Potential and Challenges of Fermentation in Creating Foods: A Spotlight on Microalgae"
+        },
+        {
+          "record_id": "https://openalex.org/W4415716000",
+          "title": "EXTRACTION OF BIOPRODUCTS FROM MICROALGAE: A REVIEW OF METHODOLOGIES AND SCALE-UP STRATEGIES"
+        },
+        {
+          "record_id": "https://openalex.org/W4205488453",
+          "title": "Biological-Based Produced Water Treatment Using Microalgae: Challenges and Efficiency"
+        },
+        {
+          "record_id": "https://openalex.org/W2561375911",
+          "title": "Salt Stress in Two Chlamydomonas Species: Novel Insights into Biofuel Production from Microalgae"
+        },
+        {
+          "record_id": "https://openalex.org/W4391045384",
+          "title": "PRETREATMENT METHODS OF MICROALGAE BIOMASS FOR BIOGAS PRODUCTION"
+        },
+        {
+          "record_id": "https://openalex.org/W2913852888",
+          "title": "Photobioreactor of Microalgas for CO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; Biofixation"
+        },
+        {
+          "record_id": "https://openalex.org/W4395104047",
+          "title": "CO2 utilization: a brief review of main routes and the potential to Brazilian scenario industry"
+        },
+        {
+          "record_id": "https://openalex.org/W4249606998",
+          "title": "The Application of Catalytic Processes on the Production of Algae-Based Biofuels: A Review"
+        }
+      ]
+    },
+    {
+      "organism": "pseudomonas",
+      "work_count": 13,
+      "sources": {
+        "openalex": 3,
+        "crossref": 2,
+        "google_patents": 8
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W1528890864",
+          "title": "Plant growth promotion induced by phosphate solubilizing endophytic Pseudomonas isolates"
+        },
+        {
+          "record_id": "https://openalex.org/W4406957856",
+          "title": "Improving Soybean Development and Grain Yield by Complementary Inoculation with Growth-Promoting Bacteria Azospirillum, Pseudomonas, Priestia, and Bacillus"
+        },
+        {
+          "record_id": "https://openalex.org/W4308433470",
+          "title": "Combined use of Trichoderma and beneficial bacteria (mainly Bacillus and Pseudomonas): Development of microbial synergistic bio-inoculants in sustainable agriculture"
+        },
+        {
+          "record_id": "https://doi.org/10.1016/b978-0-444-63987-5.00010-4",
+          "title": "Pseudomonas fluorescens : A Plant-Growth-Promoting Rhizobacterium (PGPR) With Potential Role in Biocontrol of Pests of Crops"
+        },
+        {
+          "record_id": "https://doi.org/10.1079/9781789249200.0006",
+          "title": "The Gram-negative Side of Microbial Biocontrol Agents:<i>Pseudomonas</i>spp."
+        },
+        {
+          "record_id": "patent:BR112021005052A2",
+          "title": "Methods and compositions to improve phosphate solubilization"
+        },
+        {
+          "record_id": "patent:BR112021010947A2",
+          "title": "Polymer compositions with improved stability for microbial nitrogen-fixing products"
+        },
+        {
+          "record_id": "patent:BR112020026771A2",
+          "title": "Agricultural compositions using remodeled nitrogen-fixation microbes"
+        }
+      ]
+    },
+    {
+      "organism": "azospirillum",
+      "work_count": 11,
+      "sources": {
+        "openalex": 4,
+        "google_patents": 7
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W807988138",
+          "title": "Protocol for the Quality Control of Azospirillum spp. Inoculants"
+        },
+        {
+          "record_id": "https://openalex.org/W2147536066",
+          "title": "Inoculation with selected strains of Azospirillum brasilense and A. lipoferum improves yields of maize and wheat in Brazil"
+        },
+        {
+          "record_id": "https://openalex.org/W4406957856",
+          "title": "Improving Soybean Development and Grain Yield by Complementary Inoculation with Growth-Promoting Bacteria Azospirillum, Pseudomonas, Priestia, and Bacillus"
+        },
+        {
+          "record_id": "https://openalex.org/W4385655645",
+          "title": "DETERMINATION OF THE VIABILITY OF AZOSPIRILLUM SYRUPS, MULTIPLIED IN DIFFERENT CULTURE MEDIA"
+        },
+        {
+          "record_id": "patent:BR112020026771A2",
+          "title": "Agricultural compositions using remodeled nitrogen-fixation microbes"
+        },
+        {
+          "record_id": "patent:BR112015018853B1",
+          "title": "mistura com Bacillus subtilis FB17 e biopesticida"
+        },
+        {
+          "record_id": "patent:BR112015019289B1",
+          "title": "mistura para tratamento de sementes com Bacillus subtilis FB17"
+        },
+        {
+          "record_id": "patent:BR112021011024A2",
+          "title": "método para melhorar crescimento e sobrevivência de microrganismos"
+        }
+      ]
+    },
+    {
+      "organism": "microalgas",
+      "work_count": 10,
+      "sources": {
+        "openalex": 3,
+        "google_patents": 7
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W2913852888",
+          "title": "Photobioreactor of Microalgas for CO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; Biofixation"
+        },
+        {
+          "record_id": "https://openalex.org/W2899068250",
+          "title": "Modelagem do crescimento de microalgas: Um estudo bibliométrico"
+        },
+        {
+          "record_id": "https://openalex.org/W3013575201",
+          "title": "Sistema de iluminação de fotobiorreator baseado em POF para cultivo de microalgas"
+        },
+        {
+          "record_id": "patent:BR102015025497A2",
+          "title": "composição inoculante"
+        },
+        {
+          "record_id": "patent:BR102017006046B1",
+          "title": "cobertura polimérica de sementes para veiculação de microrganismos"
+        },
+        {
+          "record_id": "patent:BR102024016682A2",
+          "title": "processo fermentativo em biorreator e formulação de bionematicida/inoculante"
+        },
+        {
+          "record_id": "patent:BR112021007997A2",
+          "title": "microalgas transgênicas para produção de enzimas celulolíticas"
+        },
+        {
+          "record_id": "patent:BR102014017697A2",
+          "title": "adsorção de CO2 em pellets de cinza para cultivo de microalgas"
+        }
+      ]
+    },
+    {
+      "organism": "starmerella bombicola",
+      "work_count": 4,
+      "sources": {
+        "openalex": 1,
+        "google_patents": 3
+      },
+      "examples": [
+        {
+          "record_id": "https://openalex.org/W7120907328",
+          "title": "Produção e aplicação de soforolipídio de Starmerella bombicola como agente antifúngico e no desenvolvimento de revestimento ativo para conservação de vegetais"
+        },
+        {
+          "record_id": "patent:BR112019004428B1",
+          "title": "sistema para produção e uso de produto microbiano/caldo de fermentação"
+        },
+        {
+          "record_id": "patent:BR112019009924B1",
+          "title": "/A2, controle de nematoides"
+        },
+        {
+          "record_id": "patent:BR112019011720B1",
+          "title": "levedura Wickerhamomyces anomalus em produtos microbianos para recuperação de óleo"
+        }
+      ]
+    },
+    {
+      "organism": "wickerhamomyces anomalus",
+      "work_count": 1,
+      "sources": {
+        "google_patents": 1
+      },
+      "examples": [
+        {
+          "record_id": "patent:BR112019011720B1",
+          "title": "levedura Wickerhamomyces anomalus em produtos microbianos para recuperação de óleo"
+        }
+      ]
+    }
+  ],
+  "technology_hubs": [
+    {
+      "term": "fermentation",
+      "work_count": 151,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "cellulase",
+      "work_count": 63,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "enzyme",
+      "work_count": 54,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "phosphate",
+      "work_count": 53,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "sophorolipid",
+      "work_count": 41,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "bioreactor",
+      "work_count": 41,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "microalga",
+      "work_count": 35,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "nitrogen fixation",
+      "work_count": 34,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "biofixation",
+      "work_count": 32,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste"
+      ]
+    },
+    {
+      "term": "microalgae",
+      "work_count": 31,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "polymer",
+      "work_count": 25,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "stability",
+      "work_count": 23,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "fermentacao",
+      "work_count": 22,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "enzima",
+      "work_count": 21,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "industrial waste",
+      "work_count": 19,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "on farm",
+      "work_count": 18,
+      "sources": [
+        "crossref",
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "release",
+      "work_count": 15,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "shelf life",
+      "work_count": 14,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "quality control",
+      "work_count": 11,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "fixacao de nitrogenio",
+      "work_count": 8,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "aseptic",
+      "work_count": 7,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "soforolipid",
+      "work_count": 5,
+      "sources": [
+        "google_patents",
+        "openalex"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "spectrometry",
+      "work_count": 5,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health"
+      ]
+    },
+    {
+      "term": "fosfato",
+      "work_count": 5,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R2_nitrogen_phosphate_stability",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "estabilidade",
+      "work_count": 5,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "phytase",
+      "work_count": 5,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "polimero",
+      "work_count": 4,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R4_carbon_algae_industrial_waste",
+        "R5_biocontrol_plant_health",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "celulase",
+      "work_count": 4,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R2_nitrogen_phosphate_stability",
+        "R3_trichoderma_bioprocess",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "controle de qualidade",
+      "work_count": 1,
+      "sources": [
+        "crossref"
+      ],
+      "clusters": [
+        "R1_local_production_quality",
+        "R6_literature_agro_context"
+      ]
+    },
+    {
+      "term": "liberacao",
+      "work_count": 1,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R2_nitrogen_phosphate_stability"
+      ]
+    },
+    {
+      "term": "biofixacao",
+      "work_count": 1,
+      "sources": [
+        "google_patents"
+      ],
+      "clusters": [
+        "R4_carbon_algae_industrial_waste"
+      ]
+    }
+  ],
+  "origin_states": {
+    "not_applicable": 568,
+    "origin_unresolved": 75,
+    "brazilian_signal_observed": 35,
+    "international_presence_in_BR": 85
+  },
+  "years": {
+    "2018": 38,
+    "2024": 47,
+    "2022": 38,
+    "2015": 19,
+    "2023": 45,
+    "2026": 9,
+    "2021": 75,
+    "2020": 53,
+    "2025": 41,
+    "2014": 22,
+    "2012": 19,
+    "2017": 29,
+    "2019": 30,
+    "2010": 13,
+    "2016": 16,
+    "2013": 15,
+    "2011": 16,
+    "2005": 1
+  },
+  "queries_generated": 17,
+  "notes": [
+    "Clusters são operacionais e derivam de termos observados em títulos, abstracts, queries e atores.",
+    "A divisão brasileiro/internacional é contextual: filtro BR não prova origem brasileira.",
+    "Entity resolution segura está separada em ENTITY_RESOLUTION_V1; nomes originais permanecem preservados.",
+    "Ausências e resultados ruidosos viram lacunas de investigação, não conclusões negativas."
+  ]
+}

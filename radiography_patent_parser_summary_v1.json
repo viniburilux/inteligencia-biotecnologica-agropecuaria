@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-08-21T06:16:14.092249+00:00",
+  "metadata_only": true,
+  "source": "google_patents",
+  "round": "radiography_v1_followup",
+  "queries": {
+    "Q01": {
+      "query": "USP Trichoderma harzianum sophorolipid Brazil",
+      "base_query_id": "Q01",
+      "reformulated": false,
+      "block": "local_trichoderma_bridge",
+      "status": "captured",
+      "observed_result_count": 2,
+      "unique_records": 1,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q01_usp_trichoderma_harzianum_sophorolipid_brazil.jsonl"
+    },
+    "Q02": {
+      "query": "Embrapa Bacillus velezensis bioreactor formulation Brazil",
+      "base_query_id": "Q02",
+      "reformulated": false,
+      "block": "local_bioreactor",
+      "status": "insufficient",
+      "observed_result_count": null,
+      "unique_records": 0,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q02_embrapa_bacillus_velezensis_bioreactor_formulation_brazil.jsonl"
+    },
+    "Q02R": {
+      "query": "Bacillus velezensis CMRP 4490 bioreactor Brazil",
+      "base_query_id": "Q02",
+      "reformulated": true,
+      "block": "local_bioreactor",
+      "status": "captured",
+      "observed_result_count": 2,
+      "unique_records": 1,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q02r_bacillus_velezensis_cmrp_4490_bioreactor_brazil.jsonl"
+    },
+    "Q03": {
+      "query": "Simple Agro bioinput quality control Brazil patent",
+      "base_query_id": "Q03",
+      "reformulated": false,
+      "block": "local_quality_onfarm",
+      "status": "captured",
+      "observed_result_count": 3,
+      "unique_records": 3,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q03_simple_agro_bioinput_quality_control_brazil_patent.jsonl"
+    },
+    "Q04": {
+      "query": "Solubio on farm bioinput production Brazil patent",
+      "base_query_id": "Q04",
+      "reformulated": false,
+      "block": "local_quality_onfarm",
+      "status": "insufficient",
+      "observed_result_count": null,
+      "unique_records": 0,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q04_solubio_on_farm_bioinput_production_brazil_patent.jsonl"
+    },
+    "Q05": {
+      "query": "Azospirillum inoculant polymer stability Brazil",
+      "base_query_id": "Q05",
+      "reformulated": false,
+      "block": "local_stability",
+      "status": "captured",
+      "observed_result_count": 66,
+      "unique_records": 3,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q05_azospirillum_inoculant_polymer_stability_brazil.jsonl"
+    },
+    "Q06": {
+      "query": "Rhizobium inoculant polymer shelf life Brazil",
+      "base_query_id": "Q06",
+      "reformulated": false,
+      "block": "local_stability",
+      "status": "captured",
+      "observed_result_count": 94,
+      "unique_records": 5,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q06_rhizobium_inoculant_polymer_shelf_life_brazil.jsonl"
+    },
+    "Q07": {
+      "query": "Bacillus megaterium phosphorus biofertilizer Brazil",
+      "base_query_id": "Q07",
+      "reformulated": false,
+      "block": "local_nutrition",
+      "status": "captured",
+      "observed_result_count": 17,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q07_bacillus_megaterium_phosphorus_biofertilizer_brazil.jsonl"
+    },
+    "Q08": {
+      "query": "Pivot Bio nitrogen fixation phosphorus formulation",
+      "base_query_id": "Q08",
+      "reformulated": false,
+      "block": "international_platform",
+      "status": "captured",
+      "observed_result_count": 2,
+      "unique_records": 2,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q08_pivot_bio_nitrogen_fixation_phosphorus_formulation.jsonl"
+    },
+    "Q09": {
+      "query": "Locus phytase phosphorus microbial agriculture",
+      "base_query_id": "Q09",
+      "reformulated": false,
+      "block": "international_platform",
+      "status": "captured",
+      "observed_result_count": 27,
+      "unique_records": 5,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q09_locus_phytase_phosphorus_microbial_agriculture.jsonl"
+    },
+    "Q10": {
+      "query": "Novozymes Trichoderma cellulase fermentation Brazil",
+      "base_query_id": "Q10",
+      "reformulated": false,
+      "block": "industrial_trichoderma",
+      "status": "captured",
+      "observed_result_count": 63,
+      "unique_records": 6,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q10_novozymes_trichoderma_cellulase_fermentation_brazil.jsonl"
+    },
+    "Q11": {
+      "query": "Petrobras microalgae CO2 fixation fertilizer Brazil",
+      "base_query_id": "Q11",
+      "reformulated": false,
+      "block": "carbon_algae",
+      "status": "captured",
+      "observed_result_count": 2,
+      "unique_records": 2,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q11_petrobras_microalgae_co2_fixation_fertilizer_brazil.jsonl"
+    },
+    "Q12": {
+      "query": "microalgae industrial waste biofertilizer Brazil",
+      "base_query_id": "Q12",
+      "reformulated": false,
+      "block": "carbon_algae",
+      "status": "insufficient",
+      "observed_result_count": null,
+      "unique_records": 0,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q12_microalgae_industrial_waste_biofertilizer_brazil.jsonl"
+    },
+    "Q04R": {
+      "query": "Solubio bioinsumo fermentação produção propriedade rural",
+      "base_query_id": "Q04",
+      "reformulated": true,
+      "block": "local_quality_onfarm",
+      "status": "captured",
+      "observed_result_count": 1,
+      "unique_records": 1,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q04r_solubio_bioinsumo_fermenta_o_produ_o_propriedade_rural.jsonl"
+    },
+    "Q12R": {
+      "query": "microalga cascalho perfuração biofixação fertilizante",
+      "base_query_id": "Q12",
+      "reformulated": true,
+      "block": "carbon_algae",
+      "status": "captured",
+      "observed_result_count": 1,
+      "unique_records": 1,
+      "saved_path": "raw_v2/google_patents_radiography_v1/radiography_q12r_microalga_cascalho_perfura_o_biofixa_o_fertilizante.jsonl"
+    }
+  },
+  "captured_records_across_queries": 36,
+  "unique_records_across_queries": 30,
+  "notes": [
+    "Parsed from browser-captured public result metadata and RADIOGRAPHY_V1_PATENT_FINDINGS.md.",
+    "No patent PDF or full text downloaded.",
+    "Insufficient or no-result pages are preserved as query status, not interpreted as absence."
+  ],
+  "query_count": 15
+}

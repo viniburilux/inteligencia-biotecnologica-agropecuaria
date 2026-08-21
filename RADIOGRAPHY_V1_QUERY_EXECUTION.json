@@ -1,0 +1,424 @@
+{
+  "generated_at": "2026-08-21T06:17:11.894839+00:00",
+  "source_query_file": "next_queries_v1.json",
+  "metadata_only": true,
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query": "USP Trichoderma harzianum sophorolipid Brazil",
+      "source": "google_patents",
+      "block": "local_trichoderma_bridge",
+      "priority_score": 99,
+      "status": "planned",
+      "reason": "A família USP reaparece com Trichoderma harzianum, soforolipídeos e fermentação de Starmerella bombicola.",
+      "target_gap": "Confirmar a família e localizar atores/instituições associados sem tratar a ponte como produto único.",
+      "evidence_terms": [
+        "Trichoderma",
+        "sophorolipid",
+        "USP"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 2,
+        "unique_records": 1,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q01_usp_trichoderma_harzianum_sophorolipid_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q02",
+      "query": "Embrapa Bacillus velezensis bioreactor formulation Brazil",
+      "source": "google_patents",
+      "block": "local_bioreactor",
+      "priority_score": 98,
+      "status": "planned",
+      "reason": "Bacillus velezensis, Embrapa e biorreator apareceram juntos na V2.",
+      "target_gap": "Expandir a cadeia local de organismo a processo e formulação.",
+      "evidence_terms": [
+        "Bacillus velezensis",
+        "Embrapa",
+        "bioreactor"
+      ],
+      "execution": {
+        "status": "executed_reformulated",
+        "original_status": "insufficient",
+        "reformulation": "Bacillus velezensis CMRP 4490 bioreactor Brazil",
+        "observed_result_count": 2,
+        "unique_records": 1,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q02r_bacillus_velezensis_cmrp_4490_bioreactor_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q03",
+      "query": "Simple Agro bioinput quality control Brazil patent",
+      "source": "google_patents",
+      "block": "local_quality_onfarm",
+      "priority_score": 96,
+      "status": "planned",
+      "reason": "Simple Agro reapareceu em controle de qualidade e sistemas on-farm.",
+      "target_gap": "Testar se qualidade é capacidade própria de processo ou apenas ocorrência isolada.",
+      "evidence_terms": [
+        "Simple Agro",
+        "quality control",
+        "bioinput"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 3,
+        "unique_records": 3,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q03_simple_agro_bioinput_quality_control_brazil_patent.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q04",
+      "query": "Solubio on farm bioinput production Brazil patent",
+      "source": "google_patents",
+      "block": "local_quality_onfarm",
+      "priority_score": 95,
+      "status": "planned",
+      "reason": "Solubio e produção on-farm apareceram no mesmo corredor de automação rural.",
+      "target_gap": "Verificar arquitetura de produção/aplicação e atores recorrentes.",
+      "evidence_terms": [
+        "Solubio",
+        "on-farm",
+        "bioinput"
+      ],
+      "execution": {
+        "status": "executed_reformulated",
+        "original_status": "insufficient",
+        "reformulation": "Solubio bioinsumo fermentação produção propriedade rural",
+        "observed_result_count": 1,
+        "unique_records": 1,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q04r_solubio_bioinsumo_fermenta_o_produ_o_propriedade_rural.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q05",
+      "query": "Azospirillum inoculant polymer stability Brazil",
+      "source": "google_patents",
+      "block": "local_stability",
+      "priority_score": 94,
+      "status": "planned",
+      "reason": "Azospirillum entrou na expansão V2 junto de inoculantes e estabilidade.",
+      "target_gap": "Conectar o organismo a shelf life e formulação.",
+      "evidence_terms": [
+        "Azospirillum",
+        "inoculant",
+        "polymer",
+        "stability"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 66,
+        "unique_records": 3,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q05_azospirillum_inoculant_polymer_stability_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q06",
+      "query": "Rhizobium inoculant polymer shelf life Brazil",
+      "source": "google_patents",
+      "block": "local_stability",
+      "priority_score": 93,
+      "status": "planned",
+      "reason": "Rhizobium apareceu na trilha de inoculante-polímero-estabilidade.",
+      "target_gap": "Verificar convergência de formulação entre organismos.",
+      "evidence_terms": [
+        "Rhizobium",
+        "inoculant",
+        "shelf life"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 94,
+        "unique_records": 5,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q06_rhizobium_inoculant_polymer_shelf_life_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q07",
+      "query": "Bacillus megaterium phosphorus biofertilizer Brazil",
+      "source": "google_patents",
+      "block": "local_nutrition",
+      "priority_score": 92,
+      "status": "planned",
+      "reason": "Bacillus megaterium e fósforo reapareceram em famílias locais.",
+      "target_gap": "Expandir aquisição de fósforo e aplicações agronômicas.",
+      "evidence_terms": [
+        "Bacillus megaterium",
+        "phosphorus",
+        "biofertilizer"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 17,
+        "unique_records": 6,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q07_bacillus_megaterium_phosphorus_biofertilizer_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q08",
+      "query": "Pivot Bio nitrogen fixation phosphorus formulation",
+      "source": "google_patents",
+      "block": "international_platform",
+      "priority_score": 98,
+      "status": "planned",
+      "reason": "Pivot Bio forma o hub internacional mais coerente de nitrogênio, fósforo e formulação.",
+      "target_gap": "Mapear famílias e possíveis continuidades do portfólio.",
+      "evidence_terms": [
+        "Pivot Bio",
+        "nitrogen fixation",
+        "phosphorus",
+        "formulation"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 2,
+        "unique_records": 2,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q08_pivot_bio_nitrogen_fixation_phosphorus_formulation.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q09",
+      "query": "Locus phytase phosphorus microbial agriculture",
+      "source": "google_patents",
+      "block": "international_platform",
+      "priority_score": 91,
+      "status": "planned",
+      "reason": "Locus reaparece em liberação de fósforo por enzimas e matéria orgânica.",
+      "target_gap": "Separar aplicação agrícola de biorremediação/óleo.",
+      "evidence_terms": [
+        "Locus",
+        "phytase",
+        "phosphorus"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 27,
+        "unique_records": 5,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q09_locus_phytase_phosphorus_microbial_agriculture.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q10",
+      "query": "Novozymes Trichoderma cellulase fermentation Brazil",
+      "source": "google_patents",
+      "block": "industrial_trichoderma",
+      "priority_score": 95,
+      "status": "planned",
+      "reason": "Novozymes e Trichoderma atravessam enzimas, celulose e fermentação.",
+      "target_gap": "Testar se existe família comum ou apenas hub de bioprocessos.",
+      "evidence_terms": [
+        "Novozymes",
+        "Trichoderma",
+        "cellulase",
+        "fermentation"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 63,
+        "unique_records": 6,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q10_novozymes_trichoderma_cellulase_fermentation_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q11",
+      "query": "Petrobras microalgae CO2 fixation fertilizer Brazil",
+      "source": "google_patents",
+      "block": "carbon_algae",
+      "priority_score": 97,
+      "status": "planned",
+      "reason": "Petrobras, microalgas, biofixação e fertilizante reapareceram no corredor inesperado.",
+      "target_gap": "Verificar se o corredor chega a produto/agricultura ou termina em processo industrial.",
+      "evidence_terms": [
+        "Petrobras",
+        "microalgae",
+        "CO2",
+        "fertilizer"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 2,
+        "unique_records": 2,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q11_petrobras_microalgae_co2_fixation_fertilizer_brazil.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q12",
+      "query": "microalgae industrial waste biofertilizer Brazil",
+      "source": "google_patents",
+      "block": "carbon_algae",
+      "priority_score": 90,
+      "status": "planned",
+      "reason": "Resíduos industriais e biomassa algal abriram famílias adjacentes.",
+      "target_gap": "Testar o elo de valorização de resíduos e fertilizante.",
+      "evidence_terms": [
+        "microalgae",
+        "industrial waste",
+        "biofertilizer"
+      ],
+      "execution": {
+        "status": "executed_reformulated",
+        "original_status": "insufficient",
+        "reformulation": "microalga cascalho perfuração biofixação fertilizante",
+        "observed_result_count": 1,
+        "unique_records": 1,
+        "source_artifacts": [
+          "raw_v2/google_patents_radiography_v1/radiography_q12r_microalga_cascalho_perfura_o_biofixa_o_fertilizante.jsonl"
+        ]
+      }
+    },
+    {
+      "query_id": "Q13",
+      "query": "Trichoderma harzianum sophorolipids biocontrol Brazil",
+      "source": "openalex",
+      "block": "literature_local_bridge",
+      "priority_score": 96,
+      "status": "planned",
+      "reason": "A ponte USP–Trichoderma–soforolipídeos exige contraste bibliográfico.",
+      "target_gap": "Encontrar literatura que confirme, refine ou contradiga a ponte patentária.",
+      "evidence_terms": [
+        "Trichoderma harzianum",
+        "sophorolipids",
+        "biocontrol"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 16,
+        "unique_records": 10,
+        "source_artifacts": [
+          "raw_v2/openalex_followup/q13_trichoderma_sophorolipids_biocontrol_brazil.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q14",
+      "query": "microbial inoculant polymer stability nitrogen fixation",
+      "source": "openalex",
+      "block": "literature_stability",
+      "priority_score": 94,
+      "status": "planned",
+      "reason": "A formulação polimérica é recorrente na patente internacional.",
+      "target_gap": "Verificar base científica para estabilidade e viabilidade.",
+      "evidence_terms": [
+        "microbial inoculant",
+        "polymer",
+        "stability",
+        "nitrogen fixation"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 1601,
+        "unique_records": 10,
+        "source_artifacts": [
+          "raw_v2/openalex_followup/q14_microbial_inoculant_polymer_stability_nitrogen.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q15",
+      "query": "on farm bioinput fermentation Brazil",
+      "source": "openalex",
+      "block": "literature_local_production",
+      "priority_score": 93,
+      "status": "planned",
+      "reason": "O núcleo brasileiro de biorreator e produção on-farm precisa de literatura de aplicação.",
+      "target_gap": "Preencher lacuna entre arquitetura patentária e evidência técnico-agronômica.",
+      "evidence_terms": [
+        "on farm",
+        "bioinput",
+        "fermentation",
+        "Brazil"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 67,
+        "unique_records": 10,
+        "source_artifacts": [
+          "raw_v2/openalex_followup/q15_on_farm_bioinput_fermentation_brazil.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q16",
+      "query": "microalgae CO2 fixation industrial waste fertilizer Brazil",
+      "source": "openalex",
+      "block": "literature_carbon",
+      "priority_score": 89,
+      "status": "planned",
+      "reason": "A trilha Petrobras–microalgas–resíduos precisa de contraste fora das patentes.",
+      "target_gap": "Verificar se há literatura sobre conversão de resíduos e destino agronômico.",
+      "evidence_terms": [
+        "microalgae",
+        "CO2 fixation",
+        "industrial waste",
+        "fertilizer"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 431,
+        "unique_records": 10,
+        "source_artifacts": [
+          "raw_v2/openalex_followup/q16_microalgae_co2_industrial_waste_fertilizer_brazil.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q17",
+      "query": "Bacillus velezensis biofertilizer nematode Brazil",
+      "source": "openalex",
+      "block": "literature_local_organism",
+      "priority_score": 90,
+      "status": "planned",
+      "reason": "Bacillus atravessa biorreator, biofertilizante e nematoide.",
+      "target_gap": "Comparar as funções de biocontrole e promoção de crescimento.",
+      "evidence_terms": [
+        "Bacillus velezensis",
+        "biofertilizer",
+        "nematode"
+      ],
+      "execution": {
+        "status": "executed",
+        "observed_result_count": 210,
+        "unique_records": 10,
+        "source_artifacts": [
+          "raw_v2/openalex_followup/q17_bacillus_velezensis_biofertilizer_nematode_brazil.json"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "planned_queries": 17,
+    "executed": 17,
+    "executed_direct": 14,
+    "executed_reformulated": 3,
+    "insufficient_direct": 0,
+    "not_found": 0
+  },
+  "notes": [
+    "Execution status is derived from browser-captured Google Patents metadata and OpenAlex metadata manifests.",
+    "Reformulated queries are preserved as separate executions and do not erase the original insufficient result.",
+    "No patent PDFs, full text, or scientific data were downloaded."
+  ]
+}
