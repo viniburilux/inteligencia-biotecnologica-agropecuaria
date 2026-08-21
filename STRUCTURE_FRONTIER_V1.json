@@ -1,0 +1,41 @@
+{
+  "artifact": "STRUCTURE_FRONTIER_V1",
+  "status": "future_questions_only",
+  "source_state": "STATE_VERSION_6",
+  "questions": [
+    {
+      "id": "SF1",
+      "question": "Os mesmos autores e instituições UEL reaparecem em CMRP 4490, LABIM22, Ag75, Ag109, CMRP 4489, LABIM40 e CMRP 6330 em camadas tecnológicas diferentes?",
+      "signal": "corredor institucional multi-strain observado, identidade legal ainda não consolidada",
+      "operation": "entity_resolution + institutional_expansion",
+      "source": "TECHNOLOGY_STRUCTURE_V1.jsonl#REL-V1-005",
+      "decision": "future_audit"
+    },
+    {
+      "id": "SF2",
+      "question": "A temporalidade dos registros mostra recorrência de caracterização → mecanismo → aplicação → processo/formulação sem presumir um único projeto?",
+      "signal": "ordenação 2020–2024 com duas pontes de continuidade e uma hipótese de progressão",
+      "operation": "temporal_ordering + independent_contrast",
+      "source": "TECHNOLOGY_STRUCTURE_V1.jsonl#REL-V1-007",
+      "decision": "future_audit"
+    },
+    {
+      "id": "SF3",
+      "question": "A mesma estrutura entidade → caracterização → mecanismo → aplicação → processo → formulação aparece em um domínio não agropecuário já existente?",
+      "signal": "estrutura candidata reutilizável, ainda demonstrada apenas no corredor UEL",
+      "operation": "domain_transfer + contrast_independent",
+      "source": "TECHNOLOGY_STRUCTURE_V1.jsonl#OPP-V1-001",
+      "decision": "future_audit"
+    },
+    {
+      "id": "SF4",
+      "question": "A ponte CMRP 4490 literatura → biorreator → formulação se mantém quando documentos, claims e eventos legais forem avaliados?",
+      "signal": "continuidade metadata/texto observada, mas claims e eventos legais bloqueados",
+      "operation": "source_switch + modality_upgrade",
+      "source": "TECHNOLOGY_STRUCTURE_V1.jsonl#GAP-V1-002",
+      "decision": "requires_new_scope"
+    }
+  ],
+  "not_executed": true,
+  "reason": "A etapa atual reconstrói estrutura a partir do corpus congelado; não reabre coleta nem revisão de texto integral."
+}

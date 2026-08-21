@@ -1,0 +1,69 @@
+{
+  "artifact": "STRUCTURE_PROVENANCE_MANIFEST_V1",
+  "status": "metadata_only_reconstruction",
+  "source_state": "STATE_VERSION_6",
+  "new_collection": false,
+  "engine_implemented": false,
+  "entries": [
+    {
+      "path": "TECHNOLOGY_STRUCTURE_RECONSTRUCTION_V1.md",
+      "exists": true,
+      "sha256": "a90231000525099383bd865c313b0de5328623ea18dfa8c2442a9061a169095e"
+    },
+    {
+      "path": "TECHNOLOGY_STRUCTURE_V1.jsonl",
+      "exists": true,
+      "sha256": "83176b41023c80d4678bd53568a84099ae3fa0b29647b30c9bdade21b37c8097"
+    },
+    {
+      "path": "STRUCTURE_FRONTIER_V1.json",
+      "exists": true,
+      "sha256": "ef1dcf6a580bb5bfcbb45d52773f1b851d17a335b1b462b36fe3c077d8186205"
+    },
+    {
+      "path": "STRUCTURAL_REUSE_TEST_V1.md",
+      "exists": true,
+      "sha256": "9e84e50f9aa288a413ca395830430cbaa805cfc74ec33a09371bf3e66c49f292"
+    },
+    {
+      "path": "STRUCTURAL_REUSE_TEST_V1.jsonl",
+      "exists": true,
+      "sha256": "c63331b82a52429635bc6b7ad1d210c1aac025e28f9e80e0f8f4e7e5c5ee7c3e"
+    },
+    {
+      "path": "autonomous_cycles/PATENT-ASIE-2026-08-21-001/state_final.json",
+      "exists": true,
+      "sha256": "6c97dae6a20fe968e2e930a7c124eb518615bd52e14ef0abec6668618beba06a"
+    },
+    {
+      "path": "autonomous_cycles/PATENT-ASIE-2026-08-21-001/next_questions.json",
+      "exists": true,
+      "sha256": "99019689d0fd02eaa0f9b023ea7e9c78b221ef7c428f95ada6e6832d83bfcc28"
+    },
+    {
+      "path": "autonomous_cycles/PATENT-ASIE-2026-08-21-001/new_relations.json",
+      "exists": true,
+      "sha256": "e85e288bdb56a67411eb507823372871c81963be480a7a8f7db5eeaa1d79e02d"
+    },
+    {
+      "path": "autonomous_cycles/PATENT-ASIE-2026-08-21-001/key_records_v1.json",
+      "exists": true,
+      "sha256": "8f02e3e72a1f9e8472e34af639cd858711b029935804e338e5bf307486d9c880"
+    },
+    {
+      "path": "autonomous_cycles/PATENT-ASIE-2026-08-21-001/EXECUTIVE_MAP_UPDATE.md",
+      "exists": true,
+      "sha256": "79f86db6c00cbe6ec8f6987b807b7d7aabd4dfd5b7b232c95bf9e2c5b46d7cce"
+    },
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1.jsonl",
+      "exists": true,
+      "sha256": "888809a3a6b57bb12b9190d788686f60cd98ca1dd35cf30dc2b0a94ea70513cc"
+    },
+    {
+      "path": "AUTONOMOUS_INVESTIGATION_V1_CYCLE_01_EVIDENCE.md",
+      "exists": true,
+      "sha256": "8f98f51d82c374113502f8082631908a0197b72c6ed6c858e13576e5839e8dc2"
+    }
+  ]
+}
