@@ -1,35 +1,44 @@
 {
-  "generated_at": "2026-08-21T04:50:32.918823+00:00",
+  "generated_at": "2026-08-21T05:14:24.820330+00:00",
   "metadata_only": true,
   "corpus": {
-    "works": 379,
-    "actors": 1345,
-    "institutions": 353,
-    "relations": 1854,
-    "application_signals": 270
+    "works": 429,
+    "actors": 1499,
+    "institutions": 381,
+    "relations": 2093,
+    "application_signals": 313
   },
   "source_mix": {
-    "openalex": 162,
+    "openalex": 186,
     "crossref": 146,
-    "google_patents": 71
+    "google_patents": 97
   },
   "entity_mix": {
-    "work": 308,
-    "patent": 71
+    "work": 332,
+    "patent": 97
   },
   "patent_query_unique_work_counts": {
     "bioinsumo + BR": 9,
     "inoculante + BR": 7,
     "bioinput + BR": 9,
+    "bioinput fermentation": 9,
+    "bioinput bioreactor": 10,
+    "bioinput rural property production": 9,
+    "bioinput quality monitoring spectrometry": 5,
     "biocontrole + BR": 7,
     "biological control + BR": 7,
     "Rhizobium + BR": 9,
+    "Trichoderma biocontrol": 10,
+    "phosphate solubilization microbial": 6,
+    "nitrogen fixation microbial release": 10,
     "Bacillus thuringiensis + BR": 7,
     "fixação de nitrogênio + BR": 7,
+    "microbial nitrogen fixation formulation": 7,
     "biopesticida + BR": 7,
     "biofertilizante + BR": 7,
     "microbial inoculant + BR": 10,
-    "Trichoderma + BR": 10
+    "Trichoderma + BR": 10,
+    "Trichoderma fermentation": 10
   },
   "patent_query_capture_counts": [
     {
@@ -115,93 +124,159 @@
       "returned_items": 10,
       "url": "https://patents.google.com/?q=(microbial+inoculant)&country=BR",
       "saved_path": "raw_v0/google_patents/microbial_inoculant_br.jsonl"
+    },
+    {
+      "query": "Trichoderma fermentation",
+      "observed_result_count": 1907,
+      "returned_items": 10,
+      "url": "https://patents.google.com/?q=(Trichoderma+fermentation)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq01_trichoderma_fermentation.jsonl"
+    },
+    {
+      "query": "Trichoderma biocontrol",
+      "observed_result_count": 446,
+      "returned_items": 10,
+      "url": "https://patents.google.com/?q=(Trichoderma+biocontrol)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq02_trichoderma_biocontrol.jsonl"
+    },
+    {
+      "query": "microbial nitrogen fixation formulation",
+      "observed_result_count": 3415,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(microbial+nitrogen+fixation+formulation)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq04_microbial_nitrogen_fixation_formulation.jsonl"
+    },
+    {
+      "query": "phosphate solubilization microbial",
+      "observed_result_count": 12970,
+      "returned_items": 6,
+      "url": "https://patents.google.com/?q=(phosphate+solubilization+microbial)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq06_phosphate_solubilization_microbial.jsonl"
+    },
+    {
+      "query": "nitrogen fixation microbial release",
+      "observed_result_count": 2791,
+      "returned_items": 10,
+      "url": "https://patents.google.com/?q=(nitrogen+fixation+microbial+release)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq05_nitrogen_fixation_microbial_release.jsonl"
+    },
+    {
+      "query": "bioinput bioreactor",
+      "observed_result_count": 13,
+      "returned_items": 10,
+      "url": "https://patents.google.com/?q=(bioinput+bioreactor)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq07_bioinput_bioreactor.jsonl"
+    },
+    {
+      "query": "bioinput fermentation",
+      "observed_result_count": 19,
+      "returned_items": 9,
+      "url": "https://patents.google.com/?q=(bioinput+fermentation)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq08_bioinput_fermentation.jsonl"
+    },
+    {
+      "query": "bioinput rural property production",
+      "observed_result_count": 34,
+      "returned_items": 9,
+      "url": "https://patents.google.com/?q=(bioinput+rural+property+production)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq10_bioinput_rural_property_production.jsonl"
+    },
+    {
+      "query": "bioinput quality monitoring spectrometry",
+      "observed_result_count": 5,
+      "returned_items": 5,
+      "url": "https://patents.google.com/?q=(bioinput+quality+monitoring+spectrometry)&country=BR",
+      "saved_path": "raw_v0/google_patents/second_round_nq09_bioinput_quality_monitoring_spectrometry.jsonl"
     }
   ],
   "application_signal_counts": {
-    "bioinsumo": 52,
-    "biocontrole": 78,
-    "milho": 8,
-    "fungo": 52,
-    "nematoide": 14,
-    "soja": 11,
-    "inoculante": 40,
-    "biofertilizante": 13,
-    "biopesticida": 45,
-    "promocao_crescimento": 38,
-    "solubilizacao_fosfato": 4,
-    "fixacao_nitrogenio": 5,
-    "saude_radicular": 4,
+    "bioinsumo": 62,
+    "biocontrole": 80,
+    "milho": 9,
+    "fungo": 72,
+    "nematoide": 15,
+    "soja": 12,
+    "inoculante": 42,
+    "biofertilizante": 15,
+    "biopesticida": 47,
+    "promocao_crescimento": 39,
+    "solubilizacao_fosfato": 10,
+    "fixacao_nitrogenio": 15,
+    "fermentacao_bioprocesso": 18,
+    "saude_radicular": 10,
     "monitoramento_qualidade": 5,
-    "fermentacao_bioprocesso": 4,
     "sequestro_carbono": 2
   },
   "application_signal_by_source": {
     "biocontrole": {
       "openalex": 34,
       "crossref": 38,
-      "google_patents": 6
+      "google_patents": 8
     },
     "biofertilizante": {
       "openalex": 6,
       "crossref": 1,
-      "google_patents": 6
-    },
-    "bioinsumo": {
-      "openalex": 21,
-      "crossref": 23,
       "google_patents": 8
     },
+    "bioinsumo": {
+      "openalex": 27,
+      "crossref": 23,
+      "google_patents": 12
+    },
     "biopesticida": {
-      "openalex": 18,
+      "openalex": 19,
       "crossref": 25,
-      "google_patents": 2
+      "google_patents": 3
     },
     "fermentacao_bioprocesso": {
-      "google_patents": 4
+      "openalex": 4,
+      "google_patents": 14
     },
     "fixacao_nitrogenio": {
       "openalex": 1,
-      "google_patents": 4
+      "google_patents": 14
     },
     "fungo": {
-      "openalex": 21,
+      "openalex": 26,
       "crossref": 15,
-      "google_patents": 16
+      "google_patents": 31
     },
     "inoculante": {
-      "openalex": 21,
+      "openalex": 23,
       "crossref": 11,
       "google_patents": 8
     },
     "milho": {
       "openalex": 6,
-      "crossref": 2
+      "crossref": 2,
+      "google_patents": 1
     },
     "monitoramento_qualidade": {
       "google_patents": 5
     },
     "nematoide": {
       "openalex": 5,
-      "crossref": 9
+      "crossref": 9,
+      "google_patents": 1
     },
     "promocao_crescimento": {
-      "openalex": 11,
+      "openalex": 12,
       "crossref": 27
     },
     "saude_radicular": {
       "crossref": 1,
-      "google_patents": 3
+      "google_patents": 9
     },
     "sequestro_carbono": {
       "google_patents": 2
     },
     "soja": {
-      "openalex": 8,
+      "openalex": 9,
       "crossref": 3
     },
     "solubilizacao_fosfato": {
       "openalex": 1,
-      "google_patents": 3
+      "google_patents": 9
     }
   },
   "work_year_counts_by_source": {
@@ -225,13 +300,15 @@
       "2026": 15
     },
     "google_patents": {
-      "2020": 3,
-      "2021": 8,
-      "2022": 5,
-      "2023": 1,
-      "2024": 2,
+      "2019": 1,
+      "2020": 8,
+      "2021": 15,
+      "2022": 9,
+      "2023": 4,
+      "2024": 3,
+      "2025": 3,
       "2026": 1,
-      "unknown": 51
+      "unknown": 53
     },
     "openalex": {
       "2010": 5,
@@ -245,18 +322,18 @@
       "2018": 12,
       "2019": 10,
       "2020": 17,
-      "2021": 16,
+      "2021": 20,
       "2022": 11,
-      "2023": 13,
-      "2024": 11,
-      "2025": 4,
-      "2026": 2
+      "2023": 17,
+      "2024": 15,
+      "2025": 14,
+      "2026": 4
     }
   },
   "relation_predicate_counts": {
-    "authored_by": 1286,
-    "has_institution": 404,
-    "invented_by": 71,
+    "authored_by": 1415,
+    "has_institution": 468,
+    "invented_by": 117,
     "assigned_to": 61,
     "assigned_to_institution": 32
   },
@@ -271,6 +348,13 @@
       ]
     },
     {
+      "id": "https://openalex.org/A5044664094",
+      "display_name": "Mariangela Hungría",
+      "count": 4,
+      "source": "openalex",
+      "roles": []
+    },
+    {
       "id": "https://openalex.org/A5051274419",
       "display_name": "Fernando Ferrari Putti",
       "count": 3,
@@ -278,8 +362,15 @@
       "roles": []
     },
     {
-      "id": "https://openalex.org/A5044664094",
-      "display_name": "Mariangela Hungría",
+      "id": "https://openalex.org/A5007912936",
+      "display_name": "Marco Antônio Nogueira",
+      "count": 3,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5001761494",
+      "display_name": "Gabriel Moura Mascarin",
       "count": 3,
       "source": "openalex",
       "roles": []
@@ -336,6 +427,24 @@
       ]
     },
     {
+      "id": "actor_68d47cd559cf14e1d571",
+      "display_name": "Sarah BLOCH Pivot Bio, Inc",
+      "count": 3,
+      "source": "google_patents",
+      "roles": [
+        "inventor"
+      ]
+    },
+    {
+      "id": "actor_7a058098fc61e3226847",
+      "display_name": "Alvin Tamsir Pivot Bio, Inc",
+      "count": 3,
+      "source": "google_patents",
+      "roles": [
+        "inventor"
+      ]
+    },
+    {
       "id": "https://openalex.org/A5020694693",
       "display_name": "João Pedro dos Santos",
       "count": 2,
@@ -383,47 +492,25 @@
       "count": 2,
       "source": "openalex",
       "roles": []
-    },
-    {
-      "id": "https://openalex.org/A5026759543",
-      "display_name": "Renata Martins Sampaio",
-      "count": 2,
-      "source": "openalex",
-      "roles": []
-    },
-    {
-      "id": "https://openalex.org/A5023577001",
-      "display_name": "Paulo Teixeira Lacava",
-      "count": 2,
-      "source": "openalex",
-      "roles": []
-    },
-    {
-      "id": "https://openalex.org/A5122457668",
-      "display_name": "V. C. da MENDES",
-      "count": 2,
-      "source": "openalex",
-      "roles": []
-    },
-    {
-      "id": "actor_4a5b94258548f2e64fd7",
-      "display_name": "Ana Paula Gramulha Garcia",
-      "count": 2,
-      "source": "openalex",
-      "roles": []
     }
   ],
   "top_institutions_by_observed_relations": [
     {
       "id": "https://openalex.org/I199691007",
       "display_name": "Brazilian Agricultural Research Corporation",
-      "count": 14,
+      "count": 22,
       "source": "openalex"
     },
     {
       "id": "https://openalex.org/I17974374",
       "display_name": "Universidade de São Paulo",
-      "count": 7,
+      "count": 8,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I127110123",
+      "display_name": "Universidade Estadual de Londrina",
+      "count": 6,
       "source": "openalex"
     },
     {
@@ -433,14 +520,20 @@
       "source": "google_patents"
     },
     {
+      "id": "https://openalex.org/I33501960",
+      "display_name": "Universidade Federal de Santa Maria",
+      "count": 5,
+      "source": "openalex"
+    },
+    {
       "id": "https://openalex.org/I879563668",
       "display_name": "Universidade Estadual Paulista (Unesp)",
       "count": 4,
       "source": "openalex"
     },
     {
-      "id": "https://openalex.org/I127110123",
-      "display_name": "Universidade Estadual de Londrina",
+      "id": "https://openalex.org/I150729083",
+      "display_name": "Universidade de Brasília",
       "count": 4,
       "source": "openalex"
     },
@@ -451,14 +544,44 @@
       "source": "openalex"
     },
     {
+      "id": "https://openalex.org/I161460629",
+      "display_name": "Universidade Federal Rural do Rio de Janeiro",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I134493880",
+      "display_name": "Instituto Biológico",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
       "id": "https://openalex.org/I146165071",
       "display_name": "Universidade Federal de Viçosa",
       "count": 3,
       "source": "openalex"
     },
     {
+      "id": "https://openalex.org/I4104125",
+      "display_name": "Universidade Federal de Santa Catarina",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I3020668385",
+      "display_name": "Instituto Federal Goiano",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
       "id": "https://openalex.org/I187420256",
       "display_name": "Universidade Federal da Grande Dourados",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I62921916",
+      "display_name": "Universidade Federal Rural de Pernambuco",
       "count": 3,
       "source": "openalex"
     },
@@ -475,63 +598,21 @@
       "source": "openalex"
     },
     {
+      "id": "https://openalex.org/I130442723",
+      "display_name": "Universidade Federal do Rio Grande do Sul",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I131077856",
+      "display_name": "Centre de Coopération Internationale en Recherche Agronomique pour le Développement",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
       "id": "https://openalex.org/I1294671590",
       "display_name": "Centre National de la Recherche Scientifique",
       "count": 3,
-      "source": "openalex"
-    },
-    {
-      "id": "institution_c760303873a9208bbb4a",
-      "display_name": "Syngenta",
-      "count": 3,
-      "source": "google_patents"
-    },
-    {
-      "id": "https://openalex.org/I4210108056",
-      "display_name": "Horta (Italy)",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I145372079",
-      "display_name": "Instituto Tecnológico de Costa Rica",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I4210131753",
-      "display_name": "Colombian Corporation for Agricultural Research - AGROSAVIA",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I161460629",
-      "display_name": "Universidade Federal Rural do Rio de Janeiro",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I134493880",
-      "display_name": "Instituto Biológico",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I33501960",
-      "display_name": "Universidade Federal de Santa Maria",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I4210112416",
-      "display_name": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
-      "count": 2,
-      "source": "openalex"
-    },
-    {
-      "id": "https://openalex.org/I3130823459",
-      "display_name": "Universidade Federal Rural da Amazônia",
-      "count": 2,
       "source": "openalex"
     }
   ],

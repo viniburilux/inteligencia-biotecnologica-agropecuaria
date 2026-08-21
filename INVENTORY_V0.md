@@ -1,25 +1,25 @@
 # Inventário Metadata-only V0
 
 **Laboratório:** Inteligência Biotecnológica Agropecuária  
-**Gerado em:** 2026-08-21T04:50:32.918823+00:00
+**Gerado em:** 2026-08-21T05:14:24.820330+00:00
 
-O inventário V0 reúne **379 obras/registros**, **1345 atores**, **353 instituições**, **1854 relações** e **270 sinais de aplicação**. A mistura de fontes é: openalex=162, crossref=146, google_patents=71.
+O inventário V0 reúne **429 obras/registros**, **1499 atores**, **381 instituições**, **2093 relações** e **313 sinais de aplicação**. A mistura de fontes é: openalex=186, crossref=146, google_patents=97.
 
 ## Entregáveis
 
 | Camada | Arquivo | Registros |
 |---|---|---:|
-| Obras e patentes | `normalized_v0/works_v0.jsonl` | 379 |
-| Atores | `normalized_v0/actors_v0.jsonl` | 1345 |
-| Instituições | `normalized_v0/institutions_v0.jsonl` | 353 |
-| Relações | `normalized_v0/relations_v0.jsonl` | 1854 |
-| Sinais de aplicação | `normalized_v0/application_signals_v0.jsonl` | 270 |
+| Obras e patentes | `normalized_v0/works_v0.jsonl` | 429 |
+| Atores | `normalized_v0/actors_v0.jsonl` | 1499 |
+| Instituições | `normalized_v0/institutions_v0.jsonl` | 381 |
+| Relações | `normalized_v0/relations_v0.jsonl` | 2093 |
+| Sinais de aplicação | `normalized_v0/application_signals_v0.jsonl` | 313 |
 | Mapa computável | `signal_map_v0.json` | 1 |
 | Mapa legível | `SIGNAL_MAP_V0.md` | 1 |
 
 ## Cobertura
 
-O escopo de ingestão cobre bioinsumos, biocontrole, inoculantes, biofertilizantes, biopesticidas, fixação de nitrogênio, solubilização de fosfato, saúde radicular, fermentação e monitoramento de bioinputs. A camada patentária contém **71 registros de publicação BR normalizados**, deduplicados por identificador de publicação no corpus integrado.
+O escopo de ingestão cobre bioinsumos, biocontrole, inoculantes, biofertilizantes, biopesticidas, fixação de nitrogênio, solubilização de fosfato, saúde radicular, fermentação e monitoramento de bioinputs. A camada patentária contém **97 registros de publicação BR normalizados**, deduplicados por identificador de publicação no corpus integrado.
 
 ## Proveniência e limites
 

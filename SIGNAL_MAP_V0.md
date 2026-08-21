@@ -1,7 +1,7 @@
 # Mapa de Sinais V0
 
-**Laboratório:** Inteligência Biotecnológica Agropecuária  
-**Gerado em:** 2026-08-21T04:50:32.918823+00:00  
+**Laboratório:** Inteligência Biotecnológica Agropecuária
+**Gerado em:** 2026-08-21T05:14:24.820330+00:00
 **Modo:** metadata-only
 
 O Mapa de Sinais V0 é uma leitura computável do primeiro corpus integrado. Ele combina literatura capturada via OpenAlex e Crossref com registros patentários capturados da página pública do Google Patents. Os números abaixo descrevem o que foi ingerido e normalizado; não são estimativas de mercado, validade jurídica, eficácia agronômica ou origem nacional.
@@ -10,11 +10,11 @@ O Mapa de Sinais V0 é uma leitura computável do primeiro corpus integrado. Ele
 
 | Fonte | Obras/registros | Participação |
 | --- | --- | --- |
-| openalex | 162 | 42.7% |
-| crossref | 146 | 38.5% |
-| google_patents | 71 | 18.7% |
+| openalex | 186 | 43.4% |
+| crossref | 146 | 34.0% |
+| google_patents | 97 | 22.6% |
 
-O corpus contém **379 obras/registros**, **1345 atores**, **353 instituições**, **1854 relações observadas** e **270 sinais de aplicação**.
+O corpus contém **429 obras/registros**, **1499 atores**, **381 instituições**, **2093 relações observadas** e **313 sinais de aplicação**.
 
 ## Consultas patentárias
 
@@ -34,26 +34,35 @@ A tabela separa o volume total observado na página de resultados (`observed_res
 | biological control + BR | 56223 | 7 | 7 | raw_v0/google_patents/biological_control_br.jsonl |
 | bioinput + BR | 49 | 9 | 9 | raw_v0/google_patents/bioinput_br.jsonl |
 | microbial inoculant + BR | 4975 | 10 | 10 | raw_v0/google_patents/microbial_inoculant_br.jsonl |
+| Trichoderma fermentation | 1907 | 10 | 10 | raw_v0/google_patents/second_round_nq01_trichoderma_fermentation.jsonl |
+| Trichoderma biocontrol | 446 | 10 | 10 | raw_v0/google_patents/second_round_nq02_trichoderma_biocontrol.jsonl |
+| microbial nitrogen fixation formulation | 3415 | 7 | 7 | raw_v0/google_patents/second_round_nq04_microbial_nitrogen_fixation_formulation.jsonl |
+| phosphate solubilization microbial | 12970 | 6 | 6 | raw_v0/google_patents/second_round_nq06_phosphate_solubilization_microbial.jsonl |
+| nitrogen fixation microbial release | 2791 | 10 | 10 | raw_v0/google_patents/second_round_nq05_nitrogen_fixation_microbial_release.jsonl |
+| bioinput bioreactor | 13 | 10 | 10 | raw_v0/google_patents/second_round_nq07_bioinput_bioreactor.jsonl |
+| bioinput fermentation | 19 | 9 | 9 | raw_v0/google_patents/second_round_nq08_bioinput_fermentation.jsonl |
+| bioinput rural property production | 34 | 9 | 9 | raw_v0/google_patents/second_round_nq10_bioinput_rural_property_production.jsonl |
+| bioinput quality monitoring spectrometry | 5 | 5 | 5 | raw_v0/google_patents/second_round_nq09_bioinput_quality_monitoring_spectrometry.jsonl |
 
 ## Eixos tecnológicos observados
 
 | Sinal de aplicação | Ocorrências | Distribuição por fonte |
 | --- | --- | --- |
-| biocontrole | 78 | crossref: 38, openalex: 34, google_patents: 6 |
-| bioinsumo | 52 | crossref: 23, openalex: 21, google_patents: 8 |
-| fungo | 52 | openalex: 21, google_patents: 16, crossref: 15 |
-| biopesticida | 45 | crossref: 25, openalex: 18, google_patents: 2 |
-| inoculante | 40 | openalex: 21, crossref: 11, google_patents: 8 |
-| promocao_crescimento | 38 | crossref: 27, openalex: 11 |
-| nematoide | 14 | crossref: 9, openalex: 5 |
-| biofertilizante | 13 | openalex: 6, google_patents: 6, crossref: 1 |
-| soja | 11 | openalex: 8, crossref: 3 |
-| milho | 8 | openalex: 6, crossref: 2 |
-| fixacao_nitrogenio | 5 | google_patents: 4, openalex: 1 |
+| biocontrole | 80 | crossref: 38, openalex: 34, google_patents: 8 |
+| fungo | 72 | google_patents: 31, openalex: 26, crossref: 15 |
+| bioinsumo | 62 | openalex: 27, crossref: 23, google_patents: 12 |
+| biopesticida | 47 | crossref: 25, openalex: 19, google_patents: 3 |
+| inoculante | 42 | openalex: 23, crossref: 11, google_patents: 8 |
+| promocao_crescimento | 39 | crossref: 27, openalex: 12 |
+| fermentacao_bioprocesso | 18 | google_patents: 14, openalex: 4 |
+| nematoide | 15 | crossref: 9, openalex: 5, google_patents: 1 |
+| biofertilizante | 15 | google_patents: 8, openalex: 6, crossref: 1 |
+| fixacao_nitrogenio | 15 | google_patents: 14, openalex: 1 |
+| soja | 12 | openalex: 9, crossref: 3 |
+| solubilizacao_fosfato | 10 | google_patents: 9, openalex: 1 |
+| saude_radicular | 10 | google_patents: 9, crossref: 1 |
+| milho | 9 | openalex: 6, crossref: 2, google_patents: 1 |
 | monitoramento_qualidade | 5 | google_patents: 5 |
-| solubilizacao_fosfato | 4 | google_patents: 3, openalex: 1 |
-| saude_radicular | 4 | google_patents: 3, crossref: 1 |
-| fermentacao_bioprocesso | 4 | google_patents: 4 |
 | sequestro_carbono | 2 | google_patents: 2 |
 
 Os sinais são derivados de termos encontrados em títulos, assuntos ou snippets capturados. Eles funcionam como ponte para exploração posterior, não como classificação definitiva de tecnologia.
@@ -63,40 +72,40 @@ Os sinais são derivados de termos encontrados em títulos, assuntos ou snippets
 | Ator | Relações observadas | Papéis | Fonte do registro |
 | --- | --- | --- | --- |
 | Pivot Bio | 6 | assignee | google_patents |
+| Mariangela Hungría | 4 |  | openalex |
 | Fernando Ferrari Putti | 3 |  | openalex |
-| Mariangela Hungría | 3 |  | openalex |
+| Marco Antônio Nogueira | 3 |  | openalex |
+| Gabriel Moura Mascarin | 3 |  | openalex |
 | L. S. AMARAL | 3 |  | crossref |
 | E. O. ARAÚJO | 3 |  | crossref |
 | Frederico Keller | 3 | inventor, assignee | google_patents |
 | Syngenta | 3 | assignee | google_patents |
 | Sean Farmer | 3 | inventor | google_patents |
 | Alvin Tamsir | 3 | inventor | google_patents |
+| Sarah BLOCH Pivot Bio, Inc | 3 | inventor | google_patents |
+| Alvin Tamsir Pivot Bio, Inc | 3 | inventor | google_patents |
 | João Pedro dos Santos | 2 |  | openalex |
 | Ana Laura Paula de Oliveira | 2 |  | openalex |
-| Leonardo Elias Ferreira | 2 |  | openalex |
-| Eliziete Pereira de Souza | 2 |  | openalex |
-| Mariane Carvalho Vidal | 2 |  | openalex |
-| Ruth Rebeca Bonilla Buitrago | 2 |  | openalex |
 
 ## Instituições mais conectadas
 
 | Instituição | Relações observadas | Fonte do registro |
 | --- | --- | --- |
-| Brazilian Agricultural Research Corporation | 14 | openalex |
-| Universidade de São Paulo | 7 | openalex |
+| Brazilian Agricultural Research Corporation | 22 | openalex |
+| Universidade de São Paulo | 8 | openalex |
+| Universidade Estadual de Londrina | 6 | openalex |
 | Pivot Bio | 6 | google_patents |
+| Universidade Federal de Santa Maria | 5 | openalex |
 | Universidade Estadual Paulista (Unesp) | 4 | openalex |
-| Universidade Estadual de Londrina | 4 | openalex |
+| Universidade de Brasília | 4 | openalex |
 | Ministério da Agricultura | 3 | openalex |
+| Universidade Federal Rural do Rio de Janeiro | 3 | openalex |
+| Instituto Biológico | 3 | openalex |
 | Universidade Federal de Viçosa | 3 | openalex |
+| Universidade Federal de Santa Catarina | 3 | openalex |
+| Instituto Federal Goiano | 3 | openalex |
 | Universidade Federal da Grande Dourados | 3 | openalex |
-| North-West University | 3 | openalex |
-| University of Nairobi | 3 | openalex |
-| Centre National de la Recherche Scientifique | 3 | openalex |
-| Syngenta | 3 | google_patents |
-| Horta (Italy) | 2 | openalex |
-| Instituto Tecnológico de Costa Rica | 2 | openalex |
-| Colombian Corporation for Agricultural Research - AGROSAVIA | 2 | openalex |
+| Universidade Federal Rural de Pernambuco | 3 | openalex |
 
 ## Distribuição temporal
 
@@ -126,11 +135,13 @@ Os sinais são derivados de termos encontrados em títulos, assuntos ou snippets
 
 | Ano | Registros |
 | --- | --- |
-| 2020 | 3 |
-| 2021 | 8 |
-| 2022 | 5 |
-| 2023 | 1 |
-| 2024 | 2 |
+| 2019 | 1 |
+| 2020 | 8 |
+| 2021 | 15 |
+| 2022 | 9 |
+| 2023 | 4 |
+| 2024 | 3 |
+| 2025 | 3 |
 | 2026 | 1 |
 
 ### openalex
@@ -148,12 +159,12 @@ Os sinais são derivados de termos encontrados em títulos, assuntos ou snippets
 | 2018 | 12 |
 | 2019 | 10 |
 | 2020 | 17 |
-| 2021 | 16 |
+| 2021 | 20 |
 | 2022 | 11 |
-| 2023 | 13 |
-| 2024 | 11 |
-| 2025 | 4 |
-| 2026 | 2 |
+| 2023 | 17 |
+| 2024 | 15 |
+| 2025 | 14 |
+| 2026 | 4 |
 
 ## Leitura operacional
 
@@ -188,3 +199,12 @@ O primeiro mapa já permite trabalhar com quatro trilhas de exploração: **bioi
 [10]: https://patents.google.com/?q=(biological+control)&country=BR — Google Patents, consulta `biological control + BR`.
 [11]: https://patents.google.com/?q=(bioinput)&country=BR — Google Patents, consulta `bioinput + BR`.
 [12]: https://patents.google.com/?q=(microbial+inoculant)&country=BR — Google Patents, consulta `microbial inoculant + BR`.
+[13]: https://patents.google.com/?q=(Trichoderma+fermentation)&country=BR — Google Patents, consulta `Trichoderma fermentation`.
+[14]: https://patents.google.com/?q=(Trichoderma+biocontrol)&country=BR — Google Patents, consulta `Trichoderma biocontrol`.
+[15]: https://patents.google.com/?q=(microbial+nitrogen+fixation+formulation)&country=BR — Google Patents, consulta `microbial nitrogen fixation formulation`.
+[16]: https://patents.google.com/?q=(phosphate+solubilization+microbial)&country=BR — Google Patents, consulta `phosphate solubilization microbial`.
+[17]: https://patents.google.com/?q=(nitrogen+fixation+microbial+release)&country=BR — Google Patents, consulta `nitrogen fixation microbial release`.
+[18]: https://patents.google.com/?q=(bioinput+bioreactor)&country=BR — Google Patents, consulta `bioinput bioreactor`.
+[19]: https://patents.google.com/?q=(bioinput+fermentation)&country=BR — Google Patents, consulta `bioinput fermentation`.
+[20]: https://patents.google.com/?q=(bioinput+rural+property+production)&country=BR — Google Patents, consulta `bioinput rural property production`.
+[21]: https://patents.google.com/?q=(bioinput+quality+monitoring+spectrometry)&country=BR — Google Patents, consulta `bioinput quality monitoring spectrometry`.

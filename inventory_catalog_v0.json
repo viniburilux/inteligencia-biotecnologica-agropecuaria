@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-21T04:50:32.918823+00:00",
+  "generated_at": "2026-08-21T05:14:24.820330+00:00",
   "metadata_only": true,
   "inventory_version": "v0",
   "counts": {
-    "works": 379,
-    "actors": 1345,
-    "institutions": 353,
-    "relations": 1854,
-    "application_signals": 270
+    "works": 429,
+    "actors": 1499,
+    "institutions": 381,
+    "relations": 2093,
+    "application_signals": 313
   },
   "source_mix": {
-    "openalex": 162,
+    "openalex": 186,
     "crossref": 146,
-    "google_patents": 71
+    "google_patents": 97
   },
   "files": {
     "works": "normalized_v0/works_v0.jsonl",
