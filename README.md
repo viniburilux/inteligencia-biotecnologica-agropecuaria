@@ -1,4 +1,13 @@
-# Inteligência Biotecnológica Agropecuária
+# Inteligência Biotecnológica Agropecuária — O Laboratório de Fronteira
+
+> "Não estamos esperando as condições perfeitas. Estamos mapeando a evidência."
+
+## A História por trás do Código
+A biotecnologia agrícola e industrial avança em ritmos vertiginosos, mas a maior parte do conhecimento global está enterrada em milhões de patentes opacas e literatura fragmentada. Este laboratório nasceu para resolver esse problema. Usando agentes autônomos e motores de busca semântica, mapeamos em tempo real o que as gigantes internacionais e as instituições de ponta estão construindo — da proteção de cultivos ao aproveitamento de biorreatores.
+
+Para quem busca entender a soberania biológica brasileira, este repositório é a porta de entrada.
+
+---
 
 ## Início:
 

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência Biotecnológica Agropecuária | Laboratório de Fronteira</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.15);
+            --border: #334155;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+            border-left: 4px solid var(--accent);
+            padding-left: 0.75rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px -1px var(--accent-glow);
+        }
+        .card h3 {
+            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
+        }
+        .card p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Inteligência Biotecnológica</h1>
+            <p>Laboratório autônomo de investigação de patentes, literatura e soberania biológica.</p>
+        </header>
+
+        <section>
+            <h2>A Filosofia</h2>
+            <div class="card">
+                <h3>Não estamos esperando as condições perfeitas.</h3>
+                <p>Este laboratório utiliza agentes autônomos e busca semântica para varrer milhares de registros globais, transformando dados dispersos de patentes (Google Patents) e literatura científica (OpenAlex) em inteligência acionável e verificável.</p>
+                <span class="badge">763 Obras Catalogadas</span>
+                <span class="badge">Corpus Cumulativo V2</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Achados em Destaque</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>O Corredor Trichoderma</h3>
+                    <p>Como o organismo mais recorrente do corpus (175 obras) funciona como uma ponte crítica entre biocontrole radicular na soja e biossurfactantes industriais.</p>
+                </div>
+                <div class="card">
+                    <h3>Revolução On-farm</h3>
+                    <p>A infraestrutura técnica e patentária que sustenta a descentralização da produção de bioinsumos diretamente na propriedade rural brasileira.</p>
+                </div>
+                <div class="card">
+                    <h3>Sinal Petrobras-Microalgas</h3>
+                    <p>O elo estreito entre biofixação de CO2 industrial, aproveitamento de resíduos e fertilizantes organominerais no Brasil.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Explorar o Ecossistema</h2>
+            <div class="card">
+                <h3>Repositório Oficial</h3>
+                <p>Todo o código, os parsers em Python, os JSONLs normalizados e as radiografias metodológicas estão abertos e disponíveis no GitHub.</p>
+                <a href="https://github.com/viniburilux/inteligencia-biotecnologica-agropecuaria" target="_blank">Acessar Repositório →</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>Construído pela LuxVerso Research Initiative • Salvador, Bahia</p>
+        </footer>
+    </div>
+</body>
+</html>
