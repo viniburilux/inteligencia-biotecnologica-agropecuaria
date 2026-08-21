@@ -1,0 +1,544 @@
+{
+  "generated_at": "2026-08-21T04:50:32.918823+00:00",
+  "metadata_only": true,
+  "corpus": {
+    "works": 379,
+    "actors": 1345,
+    "institutions": 353,
+    "relations": 1854,
+    "application_signals": 270
+  },
+  "source_mix": {
+    "openalex": 162,
+    "crossref": 146,
+    "google_patents": 71
+  },
+  "entity_mix": {
+    "work": 308,
+    "patent": 71
+  },
+  "patent_query_unique_work_counts": {
+    "bioinsumo + BR": 9,
+    "inoculante + BR": 7,
+    "bioinput + BR": 9,
+    "biocontrole + BR": 7,
+    "biological control + BR": 7,
+    "Rhizobium + BR": 9,
+    "Bacillus thuringiensis + BR": 7,
+    "fixação de nitrogênio + BR": 7,
+    "biopesticida + BR": 7,
+    "biofertilizante + BR": 7,
+    "microbial inoculant + BR": 10,
+    "Trichoderma + BR": 10
+  },
+  "patent_query_capture_counts": [
+    {
+      "query": "bioinsumo + BR",
+      "observed_result_count": 50,
+      "returned_items": 9,
+      "url": "https://patents.google.com/?q=(bioinsumo)&country=BR",
+      "saved_path": "raw_v0/google_patents/bioinsumo_br.jsonl"
+    },
+    {
+      "query": "biocontrole + BR",
+      "observed_result_count": 1186,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(biocontrole)&country=BR",
+      "saved_path": "raw_v0/google_patents/biocontrole_br.jsonl"
+    },
+    {
+      "query": "inoculante + BR",
+      "observed_result_count": 889,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(inoculante)&country=BR",
+      "saved_path": "raw_v0/google_patents/inoculante_br.jsonl"
+    },
+    {
+      "query": "biopesticida + BR",
+      "observed_result_count": 6712,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(biopesticida)&country=BR",
+      "saved_path": "raw_v0/google_patents/biopesticida_br.jsonl"
+    },
+    {
+      "query": "biofertilizante + BR",
+      "observed_result_count": 6633,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(biofertilizante)&country=BR",
+      "saved_path": "raw_v0/google_patents/biofertilizante_br.jsonl"
+    },
+    {
+      "query": "Rhizobium + BR",
+      "observed_result_count": 3402,
+      "returned_items": 9,
+      "url": "https://patents.google.com/?q=(Rhizobium)&country=BR",
+      "saved_path": "raw_v0/google_patents/rhizobium_br.jsonl"
+    },
+    {
+      "query": "Bacillus thuringiensis + BR",
+      "observed_result_count": 14887,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(Bacillus+thuringiensis)&country=BR",
+      "saved_path": "raw_v0/google_patents/bacillus_thuringiensis_br.jsonl"
+    },
+    {
+      "query": "Trichoderma + BR",
+      "observed_result_count": 6524,
+      "returned_items": 10,
+      "url": "https://patents.google.com/?q=(Trichoderma)&country=BR",
+      "saved_path": "raw_v0/google_patents/trichoderma_br.jsonl"
+    },
+    {
+      "query": "fixação de nitrogênio + BR",
+      "observed_result_count": 8956,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(fixa%C3%A7%C3%A3o+de+nitrog%C3%AAnio)&country=BR",
+      "saved_path": "raw_v0/google_patents/fixa_o_de_nitrog_nio_br.jsonl"
+    },
+    {
+      "query": "biological control + BR",
+      "observed_result_count": 56223,
+      "returned_items": 7,
+      "url": "https://patents.google.com/?q=(biological+control)&country=BR",
+      "saved_path": "raw_v0/google_patents/biological_control_br.jsonl"
+    },
+    {
+      "query": "bioinput + BR",
+      "observed_result_count": 49,
+      "returned_items": 9,
+      "url": "https://patents.google.com/?q=(bioinput)&country=BR",
+      "saved_path": "raw_v0/google_patents/bioinput_br.jsonl"
+    },
+    {
+      "query": "microbial inoculant + BR",
+      "observed_result_count": 4975,
+      "returned_items": 10,
+      "url": "https://patents.google.com/?q=(microbial+inoculant)&country=BR",
+      "saved_path": "raw_v0/google_patents/microbial_inoculant_br.jsonl"
+    }
+  ],
+  "application_signal_counts": {
+    "bioinsumo": 52,
+    "biocontrole": 78,
+    "milho": 8,
+    "fungo": 52,
+    "nematoide": 14,
+    "soja": 11,
+    "inoculante": 40,
+    "biofertilizante": 13,
+    "biopesticida": 45,
+    "promocao_crescimento": 38,
+    "solubilizacao_fosfato": 4,
+    "fixacao_nitrogenio": 5,
+    "saude_radicular": 4,
+    "monitoramento_qualidade": 5,
+    "fermentacao_bioprocesso": 4,
+    "sequestro_carbono": 2
+  },
+  "application_signal_by_source": {
+    "biocontrole": {
+      "openalex": 34,
+      "crossref": 38,
+      "google_patents": 6
+    },
+    "biofertilizante": {
+      "openalex": 6,
+      "crossref": 1,
+      "google_patents": 6
+    },
+    "bioinsumo": {
+      "openalex": 21,
+      "crossref": 23,
+      "google_patents": 8
+    },
+    "biopesticida": {
+      "openalex": 18,
+      "crossref": 25,
+      "google_patents": 2
+    },
+    "fermentacao_bioprocesso": {
+      "google_patents": 4
+    },
+    "fixacao_nitrogenio": {
+      "openalex": 1,
+      "google_patents": 4
+    },
+    "fungo": {
+      "openalex": 21,
+      "crossref": 15,
+      "google_patents": 16
+    },
+    "inoculante": {
+      "openalex": 21,
+      "crossref": 11,
+      "google_patents": 8
+    },
+    "milho": {
+      "openalex": 6,
+      "crossref": 2
+    },
+    "monitoramento_qualidade": {
+      "google_patents": 5
+    },
+    "nematoide": {
+      "openalex": 5,
+      "crossref": 9
+    },
+    "promocao_crescimento": {
+      "openalex": 11,
+      "crossref": 27
+    },
+    "saude_radicular": {
+      "crossref": 1,
+      "google_patents": 3
+    },
+    "sequestro_carbono": {
+      "google_patents": 2
+    },
+    "soja": {
+      "openalex": 8,
+      "crossref": 3
+    },
+    "solubilizacao_fosfato": {
+      "openalex": 1,
+      "google_patents": 3
+    }
+  },
+  "work_year_counts_by_source": {
+    "crossref": {
+      "2010": 2,
+      "2011": 6,
+      "2012": 5,
+      "2013": 2,
+      "2014": 1,
+      "2015": 2,
+      "2016": 3,
+      "2017": 7,
+      "2018": 5,
+      "2019": 8,
+      "2020": 5,
+      "2021": 24,
+      "2022": 15,
+      "2023": 8,
+      "2024": 16,
+      "2025": 22,
+      "2026": 15
+    },
+    "google_patents": {
+      "2020": 3,
+      "2021": 8,
+      "2022": 5,
+      "2023": 1,
+      "2024": 2,
+      "2026": 1,
+      "unknown": 51
+    },
+    "openalex": {
+      "2010": 5,
+      "2011": 6,
+      "2012": 9,
+      "2013": 4,
+      "2014": 9,
+      "2015": 13,
+      "2016": 5,
+      "2017": 15,
+      "2018": 12,
+      "2019": 10,
+      "2020": 17,
+      "2021": 16,
+      "2022": 11,
+      "2023": 13,
+      "2024": 11,
+      "2025": 4,
+      "2026": 2
+    }
+  },
+  "relation_predicate_counts": {
+    "authored_by": 1286,
+    "has_institution": 404,
+    "invented_by": 71,
+    "assigned_to": 61,
+    "assigned_to_institution": 32
+  },
+  "top_actors_by_observed_relations": [
+    {
+      "id": "actor_8bfcd13f24e78e791e92",
+      "display_name": "Pivot Bio",
+      "count": 6,
+      "source": "google_patents",
+      "roles": [
+        "assignee"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5051274419",
+      "display_name": "Fernando Ferrari Putti",
+      "count": 3,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5044664094",
+      "display_name": "Mariangela Hungría",
+      "count": 3,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "actor_721c02a237b4195401fa",
+      "display_name": "L. S. AMARAL",
+      "count": 3,
+      "source": "crossref",
+      "roles": []
+    },
+    {
+      "id": "actor_d5b1005dab6295946cee",
+      "display_name": "E. O. ARAÚJO",
+      "count": 3,
+      "source": "crossref",
+      "roles": []
+    },
+    {
+      "id": "actor_873e28a060e6337ade58",
+      "display_name": "Frederico Keller",
+      "count": 3,
+      "source": "google_patents",
+      "roles": [
+        "inventor",
+        "assignee"
+      ]
+    },
+    {
+      "id": "actor_c760303873a9208bbb4a",
+      "display_name": "Syngenta",
+      "count": 3,
+      "source": "google_patents",
+      "roles": [
+        "assignee"
+      ]
+    },
+    {
+      "id": "actor_7ce12ba550b39107d951",
+      "display_name": "Sean Farmer",
+      "count": 3,
+      "source": "google_patents",
+      "roles": [
+        "inventor"
+      ]
+    },
+    {
+      "id": "actor_b86094f16b5faf8f4f0f",
+      "display_name": "Alvin Tamsir",
+      "count": 3,
+      "source": "google_patents",
+      "roles": [
+        "inventor"
+      ]
+    },
+    {
+      "id": "https://openalex.org/A5020694693",
+      "display_name": "João Pedro dos Santos",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5111318000",
+      "display_name": "Ana Laura Paula de Oliveira",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5024027358",
+      "display_name": "Leonardo Elias Ferreira",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5076633040",
+      "display_name": "Eliziete Pereira de Souza",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5112706155",
+      "display_name": "Mariane Carvalho Vidal",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5060035651",
+      "display_name": "Ruth Rebeca Bonilla Buitrago",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5089733252",
+      "display_name": "Gillyene Bortoloti",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5026759543",
+      "display_name": "Renata Martins Sampaio",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5023577001",
+      "display_name": "Paulo Teixeira Lacava",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "https://openalex.org/A5122457668",
+      "display_name": "V. C. da MENDES",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    },
+    {
+      "id": "actor_4a5b94258548f2e64fd7",
+      "display_name": "Ana Paula Gramulha Garcia",
+      "count": 2,
+      "source": "openalex",
+      "roles": []
+    }
+  ],
+  "top_institutions_by_observed_relations": [
+    {
+      "id": "https://openalex.org/I199691007",
+      "display_name": "Brazilian Agricultural Research Corporation",
+      "count": 14,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I17974374",
+      "display_name": "Universidade de São Paulo",
+      "count": 7,
+      "source": "openalex"
+    },
+    {
+      "id": "institution_8bfcd13f24e78e791e92",
+      "display_name": "Pivot Bio",
+      "count": 6,
+      "source": "google_patents"
+    },
+    {
+      "id": "https://openalex.org/I879563668",
+      "display_name": "Universidade Estadual Paulista (Unesp)",
+      "count": 4,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I127110123",
+      "display_name": "Universidade Estadual de Londrina",
+      "count": 4,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I4210157208",
+      "display_name": "Ministério da Agricultura",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I146165071",
+      "display_name": "Universidade Federal de Viçosa",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I187420256",
+      "display_name": "Universidade Federal da Grande Dourados",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I27765905",
+      "display_name": "North-West University",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I12859529",
+      "display_name": "University of Nairobi",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I1294671590",
+      "display_name": "Centre National de la Recherche Scientifique",
+      "count": 3,
+      "source": "openalex"
+    },
+    {
+      "id": "institution_c760303873a9208bbb4a",
+      "display_name": "Syngenta",
+      "count": 3,
+      "source": "google_patents"
+    },
+    {
+      "id": "https://openalex.org/I4210108056",
+      "display_name": "Horta (Italy)",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I145372079",
+      "display_name": "Instituto Tecnológico de Costa Rica",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I4210131753",
+      "display_name": "Colombian Corporation for Agricultural Research - AGROSAVIA",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I161460629",
+      "display_name": "Universidade Federal Rural do Rio de Janeiro",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I134493880",
+      "display_name": "Instituto Biológico",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I33501960",
+      "display_name": "Universidade Federal de Santa Maria",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I4210112416",
+      "display_name": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+      "count": 2,
+      "source": "openalex"
+    },
+    {
+      "id": "https://openalex.org/I3130823459",
+      "display_name": "Universidade Federal Rural da Amazônia",
+      "count": 2,
+      "source": "openalex"
+    }
+  ],
+  "notes": [
+    "Counts are generated from normalized metadata-only JSONL files.",
+    "Patent query counts represent unique normalized publication records matched to each query; the same patent can match multiple queries.",
+    "Actor and institution rankings count observed relations, not market share, legal ownership, activity, or commercial success.",
+    "Google Patents country BR remains a search context and is not treated as proof of Brazilian origin."
+  ]
+}

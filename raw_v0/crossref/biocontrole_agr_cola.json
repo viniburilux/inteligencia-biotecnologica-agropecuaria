@@ -1,0 +1,1411 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.29327/sustentare_wipis_2022.577162",
+        "URL": "https://doi.org/10.29327/sustentare_wipis_2022.577162",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Costa Ferreira",
+            "given": "Thiago",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Livro de Memórias do IV SUSTENTARE e VII WIPIS: Workshop internancional de Sustentabilidade, Indicadores e Gestão de Recursos Hídricos"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "title": [
+          "BIOCONTROLE DE FITOPATÓGENOS EM SEMENTES: SUSTENTABILIDADE PARA A PRODUÇÃO AGRÍCOLA"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c1",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c1",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "ALVES",
+            "given": "P. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "ALMEIDA",
+            "given": "K. A.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Trichoderma no biocontrole de fitonematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c5",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c5",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "AMARAL",
+            "given": "L. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "MILAGRES",
+            "given": "C. A.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "BASSO",
+            "given": "M. F.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Bacillus spp. Como agentes de biocontrole de fitonematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.28998/rca.v16i3.4818",
+        "URL": "https://doi.org/10.28998/rca.v16i3.4818",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Spolaor Fantinel",
+            "given": "Vinícius",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Brião Muniz",
+            "given": "Marlove Fátima",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Poletto",
+            "given": "Tales",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Falcão Dutra",
+            "given": "Adriana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Tomm Krahn",
+            "given": "Jaqueline",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Fontana Favaretto",
+            "given": "Renata",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Silva Sarzi",
+            "given": "Janaina",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Ciência Agrícola"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              31
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.seer.ufal.br/index.php/revistacienciaagricola/article/download/4818/4809",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.seer.ufal.br/index.php/revistacienciaagricola/article/download/4818/4809",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              31
+            ]
+          ]
+        },
+        "title": [
+          "Biocontrole in vitro de Colletotrichum siamense utilizando Trichoderma spp. e Bacillus thuringiensis var. kurstaki"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.56238/arev6n3-001",
+        "URL": "https://doi.org/10.56238/arev6n3-001",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Garcia",
+            "given": "Ana Paula Gramulha",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Lima",
+            "given": "Cleia da Silva",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Schneider",
+            "given": "Giovana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Dos Santos",
+            "given": "Wallyson Silva",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Inoue",
+            "given": "Miriam Hiroko",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "ARACÊ"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://periodicos.newsciencepubl.com/arace/article/download/1100/1651",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://periodicos.newsciencepubl.com/arace/article/download/1100/1651",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ]
+        },
+        "title": [
+          "MICRORGANISMOS ENDOFÍTICOS COMO AGENTES DE BIOCONTROLE: UMA ALTERNATIVA PARA O SISTEMA DE PRODUÇÃO AGRÍCOLA SUSTENTÁVEL",
+          "ENDOPHYTIC MICROORGANISMS AS BIOCONTROL AGENTS: AN ALTERNATIVE FOR THE SUSTAINABLE AGRICULTURAL PRODUCTION SYSTEM"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "ARAÚJO",
+            "given": "E. O.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "AMARAL",
+            "given": "L. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "type": "book"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c4",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c4",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "ARAÚJO",
+            "given": "E. O.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "AMARAL",
+            "given": "L. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Outros fungos no manejo de fitonematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.12661/pap.sbc.2020",
+        "URL": "https://doi.org/10.12661/pap.sbc.2020",
+        "container-title": [
+          "Pesquisa Agropecuária Pernambucana"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://doi.editoracubo.com.br/10.4322/SBC.2020",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "title": [
+          "ANAIS DO SEMINÁRIO DE BIOCONTROLE 2020"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c6",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c6",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "PODESTÁ",
+            "given": "G. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "FARIAS",
+            "given": "O. R.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "PORCINO",
+            "given": "M. M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "FREITAS",
+            "given": "L. G.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Pasteuria spp."
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.46898/home.af4f6b78-aa85-45b4-ad6d-fa1952b3cf5f",
+        "URL": "https://doi.org/10.46898/home.af4f6b78-aa85-45b4-ad6d-fa1952b3cf5f",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Alves",
+            "given": "Amanda Lucia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "ESTUDOS EM CIÊNCIAS AGRÁRIAS-Volume 4"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              7
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              7
+            ]
+          ]
+        },
+        "title": [
+          "Efeito in vitro de Clonostachys rosea no biocontrole de Macrophomina phaseolina"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.51189/rema/1338",
+        "URL": "https://doi.org/10.51189/rema/1338",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Montino",
+            "given": "Sindy Pereira",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Anais do I Congresso de Engenharia de Biotecnologia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              3
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              3
+            ]
+          ]
+        },
+        "title": [
+          "USO DO BACILLUS SUBTILIS COMO AGENTE DE BIOCONTROLE DE FITOPATÓGENOS DA CULTURA DE SOJA"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c10",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c10",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "OLIVEIRA",
+            "given": "R. V.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "ANDRADE",
+            "given": "J. C.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Bioprocessos na produção de microrganismos para controle biológico de nematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c8",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c8",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "CORRÊA",
+            "given": "B. O.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "SOUZA JUNIOR",
+            "given": "I. T.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "COSTA",
+            "given": "R. F.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Gêneros bacterianos emergentes no controle biológico de fitonematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c3",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c3",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "ARAÚJO",
+            "given": "E. O.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "ARRUDA",
+            "given": "F. V. F.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Aplicação de pochonia chlamydosporia no manejo de fitonematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.52832/wed.116.728",
+        "URL": "https://doi.org/10.52832/wed.116.728",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Russi",
+            "given": "Alessandra",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Pesquisas Agronômicas: aspectos gerais e avanços tecnológicos"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "title": [
+          "AGENTES BACTERIANOS NO BIOCONTROLE DA PODRIDÃO CINZENTA EM MORANGUEIROS"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c7",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c7",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "BEZERRA",
+            "given": "A. C. C.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "MONTEIRO",
+            "given": "J. M. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Actinobactérias aplicadas ao manejo de nematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.70860/ufnt.rbec.e20152",
+        "URL": "https://doi.org/10.70860/ufnt.rbec.e20152",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0655-9249",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Ochoa Manrique",
+            "given": "Ana Isabel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5781-8781",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Peña Ramos",
+            "given": "Martha Olivia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Brasileira de Educação do Campo"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              24
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://periodicos.ufnt.edu.br/index.php/campo/article/download/20152/22871",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://periodicos.ufnt.edu.br/index.php/campo/article/download/20152/22871",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              24
+            ]
+          ]
+        },
+        "title": [
+          "Formación agrícola rural y cambio climático"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.37423/2021.edcl256",
+        "URL": "https://doi.org/10.37423/2021.edcl256",
+        "container-title": [
+          "Engenharia agrícola: princípios fundamentais"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Engenharia agrícola: princípios fundamentais"
+        ],
+        "type": "book"
+      },
+      {
+        "DOI": "10.14422/rib.i03.y2017.006",
+        "URL": "https://doi.org/10.14422/rib.i03.y2017.006",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Myszczuk",
+            "given": "Ana Paula",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Leal de Meirelles",
+            "given": "Jussara Maria",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Iberoamericana de Bioética"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              31
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://revistas.comillas.edu/index.php/bioetica-revista-iberoamericana/article/download/7655/7474",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              31
+            ]
+          ]
+        },
+        "title": [
+          "Políticas de biocontrole genético e a contratação do trabalho no brasil"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c11",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c11",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "NUNES",
+            "given": "J. J.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "JOSÉ",
+            "given": "W. L. S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "FREITAS",
+            "given": "M. A. M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Tecnologia de aplicação de produtos fitossanitários"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.48021/978-65-252-0866-4-c9",
+        "URL": "https://doi.org/10.48021/978-65-252-0866-4-c9",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "MONNERAT",
+            "given": "R.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "MONTALVÃO",
+            "given": "S. C. L.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "CASTRO",
+            "given": "M. T.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrole de fitonematoides: atualidades e perspectivas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Legislação de produtos biológicos para controle de nematoides"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.29372/rab202319",
+        "URL": "https://doi.org/10.29372/rab202319",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Marcuzzo",
+            "given": "Leandro Luiz",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Bechtold",
+            "given": "Tiago Leandro",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Agronomia Brasileira"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "title": [
+          "Efeito de inoculantes comerciais no biocontrole da ferrugem e produtividade do alho"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.37423/2021.edcl397",
+        "URL": "https://doi.org/10.37423/2021.edcl397",
+        "container-title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "type": "book"
+      },
+      {
+        "DOI": "10.37423/211205149",
+        "URL": "https://doi.org/10.37423/211205149",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Lima",
+            "given": "Neuza Rejane Wille",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "QUANTIFICANDO CONHECIMENTOS CONSTRUÍDOS POR ALUNOS DE ENGENHARIA AGRÍCOLA E AMBIENTAL SOBRE AS NOVAS PRÁTICAS AGRÍCOLAS"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.61164/rmnm.v9i1.2807",
+        "URL": "https://doi.org/10.61164/rmnm.v9i1.2807",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Coelho",
+            "given": "Lazaro",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Revista Multidisciplinar do Nordeste Mineiro"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              30
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://revista.unipacto.com.br/index.php/multidisciplinar/article/download/2807/2994",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://revista.unipacto.com.br/index.php/multidisciplinar/article/download/2807/2994",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              30
+            ]
+          ]
+        },
+        "title": [
+          "USO POSITIVO DE FUNGOS ENDOFÍTICOS PARA BIOCONTROLE DE PATÓGENOS NA CULTURA DO TOMATE"
+        ],
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 25,
+    "query": {
+      "search-terms": "biocontrole agrícola",
+      "start-index": 0
+    },
+    "total-results": 10606
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

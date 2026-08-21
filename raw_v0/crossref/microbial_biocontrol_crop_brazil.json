@@ -1,0 +1,2134 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.1016/j.cropro.2016.08.012",
+        "URL": "https://doi.org/10.1016/j.cropro.2016.08.012",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Larkin",
+            "given": "Robert P.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Crop Protection"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              12
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0261219416302125?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0261219416302125?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Impacts of biocontrol products on Rhizoctonia disease of potato and soil microbial communities, and their persistence in soil"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.20944/preprints202509.2358.v1",
+        "URL": "https://doi.org/10.20944/preprints202509.2358.v1",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Danesh",
+            "given": "Younes Rezaee",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9087-3838",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Mulet",
+            "given": "Jose M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8068-741X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Porcel",
+            "given": "Rosa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ]
+        },
+        "relation": {
+          "is-preprint-of": [
+            {
+              "asserted-by": "subject",
+              "id": "10.3390/plants14223453",
+              "id-type": "doi"
+            }
+          ]
+        },
+        "title": [
+          "Bridging Microbial Biocontrol and Phytochemical Biopesticides: Synergistic Approaches for Sustainable Crop Protection"
+        ],
+        "type": "posted-content"
+      },
+      {
+        "DOI": "10.1016/j.cropro.2011.10.001",
+        "URL": "https://doi.org/10.1016/j.cropro.2011.10.001",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Gnanamangai",
+            "given": "Balasubramanian Mythili",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Ponmurugan",
+            "given": "Ponnusamy",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Crop Protection"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              2
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0261219411003231?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0261219411003231?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              2
+            ]
+          ]
+        },
+        "title": [
+          "Evaluation of various fungicides and microbial based biocontrol agents against bird’s eye spot disease of tea plants"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-16-0049-4_13",
+        "URL": "https://doi.org/10.1007/978-981-16-0049-4_13",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Minakshi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Sharma",
+            "given": "Shilpa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sharma",
+            "given": "Rashmi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Chauhan",
+            "given": "Anjali",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbial Biotechnology in Crop Protection"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-16-0049-4_13",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Plant–Microbe Interactions: Promoting Biocontrol of Phytopathogens of Cereal Grains"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.3390/plants14223453",
+        "URL": "https://doi.org/10.3390/plants14223453",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1060-0264",
+            "affiliation": [
+              {
+                "name": "Department of Plant Protection, Faculty of Agriculture, Van Yuzuncu Yil University, Van 65090, Türkiye"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Rezaee Danesh",
+            "given": "Younes",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9087-3838",
+            "affiliation": [
+              {
+                "name": "Instituto de Biología Molecular y Celular de Plantas, Universitat Politècnica de València-Consejo Superior de Investigaciones Científicas, 46022 Valencia, Spain"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Mulet",
+            "given": "Jose Miguel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8068-741X",
+            "affiliation": [
+              {
+                "name": "Instituto de Biología Molecular y Celular de Plantas, Universitat Politècnica de València-Consejo Superior de Investigaciones Científicas, 46022 Valencia, Spain"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Porcel",
+            "given": "Rosa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Plants"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              12
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2223-7747/14/22/3453/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Bridging Microbial Biocontrol and Phytochemical Biopesticides: Synergistic Approaches for Sustainable Crop Protection"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.3390/agriculture10040128",
+        "URL": "https://doi.org/10.3390/agriculture10040128",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0826-8098",
+            "affiliation": [
+              {
+                "name": "USDA, ARS, New England Plant, Soil, and Water Laboratory, University of Maine, Orono, ME 04469, USA"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Larkin",
+            "given": "Robert P.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Plant Pathology, University of Georgia, Athens, GA 30602, USA"
+              }
+            ],
+            "family": "Brewer",
+            "given": "Marin T.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              14
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2077-0472/10/4/128/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              14
+            ]
+          ]
+        },
+        "title": [
+          "Effects of Crop Rotation and Biocontrol Amendments on Rhizoctonia Disease of Potato and Soil Microbial Communities"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-16-0049-4_1",
+        "URL": "https://doi.org/10.1007/978-981-16-0049-4_1",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Walia",
+            "given": "Abhishek",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Putatunda",
+            "given": "Chayanika",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sharma",
+            "given": "Rashmi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sharma",
+            "given": "Samriti",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Thakur",
+            "given": "Abhishek",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbial Biotechnology in Crop Protection"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-16-0049-4_1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Biocontrol: A Sustainable Agricultural Solution for Management of Plant Diseases"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1016/b978-0-12-822122-8.00020-0",
+        "URL": "https://doi.org/10.1016/b978-0-12-822122-8.00020-0",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Johnston-Monje",
+            "given": "David",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Arévalo",
+            "given": "Ashly Lisset",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Bolaños",
+            "given": "Ana Cristina",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbiome Stimulants for Crops"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780128221228000200?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780128221228000200?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Friends in low places: Soil derived microbial inoculants for biostimulation and biocontrol in crop production"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.2139/ssrn.4744630",
+        "URL": "https://doi.org/10.2139/ssrn.4744630",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Cezar",
+            "given": "Raul  Matias",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Vezzani",
+            "given": "Fabiane  Machado",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Joris",
+            "given": "Helio  Antonio Wood",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Barth",
+            "given": "Gabriel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Kaschuk",
+            "given": "Glaciela",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "title": [
+          "Crop Rotation Enhances Crop Richness and Restructures Soil Microbial Community Structure in Subtropical Red Latosol, South Brazil"
+        ],
+        "type": "posted-content"
+      },
+      {
+        "DOI": "10.1007/978-3-642-18357-7_6",
+        "URL": "https://doi.org/10.1007/978-3-642-18357-7_6",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Karunaratne",
+            "given": "Anjani M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Bacteria in Agrobiology: Crop Ecosystems"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-642-18357-7_6",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "title": [
+          "Biocontrol Mechanisms Employed by PGPR and Strategies of Microbial Antagonists in Disease Control on the Postharvest Environment of Fruits"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/978-981-13-6321-4_17",
+        "URL": "https://doi.org/10.1007/978-981-13-6321-4_17",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Shastri",
+            "given": "Beenu",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Kumar",
+            "given": "Anil",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Kumar",
+            "given": "Rajesh",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Advances in Plant &amp; Microbial Biotechnology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-981-13-6321-4_17",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "title": [
+          "Exploration of Biocontrol and Growth-Promoting Activity of Bacterial Strains Isolated from the Sugarcane Crop"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1016/j.cropro.2024.106648",
+        "URL": "https://doi.org/10.1016/j.cropro.2024.106648",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0067-7903",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Pressecq",
+            "given": "Thomas",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Nicot",
+            "given": "Philippe C.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Bourgeay",
+            "given": "Jean François",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rousselin",
+            "given": "Aurélie",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Goillon",
+            "given": "Claire",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2803-7695",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Bardin",
+            "given": "Marc",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Tchamitchian",
+            "given": "Marc",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Crop Protection"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0261219424000760?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0261219424000760?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "title": [
+          "Using microbial biocontrol for disease control in French vegetable production: An analysis of the perspectives of farmers and farm advisors"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/b978-0-444-63987-5.00010-4",
+        "URL": "https://doi.org/10.1016/b978-0-444-63987-5.00010-4",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "David",
+            "given": "Baliah V.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Chandrasehar",
+            "given": "Govindan",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Selvam",
+            "given": "Pamila N.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Crop Improvement Through Microbial Biotechnology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780444639875000104?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780444639875000104?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "title": [
+          "Pseudomonas fluorescens : A Plant-Growth-Promoting Rhizobacterium (PGPR) With Potential Role in Biocontrol of Pests of Crops"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/978-3-030-87512-1_14",
+        "URL": "https://doi.org/10.1007/978-3-030-87512-1_14",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Hada",
+            "given": "Alkesh",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Jaabir",
+            "given": "M. S. Mohamed",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Velmurugan",
+            "given": "S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Changwal",
+            "given": "Chunoti",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Kumar",
+            "given": "Anil",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbial Biocontrol: Sustainable Agriculture and Phytopathogen Management"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-87512-1_14",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "Molecular Genetics of Biotic Stress Management for Crop Improvement"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.19103/as.2024.0149.13",
+        "URL": "https://doi.org/10.19103/as.2024.0149.13",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Lincoln University, New Zealand",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Glare",
+            "given": "Travis R.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Burleigh Dodds Series in Agricultural Science",
+          "Advances in biocontrol of crop insect pests"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ]
+        },
+        "title": [
+          "Challenges in commercialising microbial-based biopesticides for controlling insect pests"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1016/b978-0-323-88478-5.00009-2",
+        "URL": "https://doi.org/10.1016/b978-0-323-88478-5.00009-2",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Singh",
+            "given": "Pooja",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Rale",
+            "given": "Vinay",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrol Mechanisms of Endophytic Microorganisms"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780323884785000092?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780323884785000092?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "Applications of microbial biosurfactants in biocontrol management"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.4265/bio.21.215",
+        "URL": "https://doi.org/10.4265/bio.21.215",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Laboratory of Veterinary Public Health, Faculty of Agriculture, Tokyo University of Agriculture and Technology"
+              }
+            ],
+            "family": "FUJIKAWA",
+            "given": "HIROSHI",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Biocontrol Science"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.jstage.jst.go.jp/article/bio/21/4/21_215/_pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "title": [
+          "Prediction of Competitive Microbial Growth"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1079/9781789249200.0003",
+        "URL": "https://doi.org/10.1079/9781789249200.0003",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "INRAE, Pathologie Végétale, Montfavet, France"
+              },
+              {
+                "name": "Groupe Eléphant Vert France, Serris, France"
+              },
+              {
+                "name": "INRAE, Ecodéveloppement, Avignon, France"
+              }
+            ],
+            "family": "Turc",
+            "given": "Estelle",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "INRAE, Pathologie Végétale, Montfavet, France"
+              },
+              {
+                "name": "Groupe Eléphant Vert France, Serris, France"
+              },
+              {
+                "name": "INRAE, Ecodéveloppement, Avignon, France"
+              }
+            ],
+            "family": "Pressecq",
+            "given": "Thomas",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "INRAE, Pathologie Végétale, Montfavet, France"
+              },
+              {
+                "name": "Groupe Eléphant Vert France, Serris, France"
+              },
+              {
+                "name": "INRAE, Ecodéveloppement, Avignon, France"
+              }
+            ],
+            "family": "Nicot",
+            "given": "Philippe C.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "INRAE, Pathologie Végétale, Montfavet, France"
+              },
+              {
+                "name": "Groupe Eléphant Vert France, Serris, France"
+              },
+              {
+                "name": "INRAE, Ecodéveloppement, Avignon, France"
+              }
+            ],
+            "family": "Bardin",
+            "given": "Marc",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbial Biocontrol Agents"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "title": [
+          "Modes of Action of Microbial Biocontrol Agents against Plant Diseases"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1079/9781789249200.0006",
+        "URL": "https://doi.org/10.1079/9781789249200.0006",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Department of Biology, University of Fribourg, Chemin du musée 10, CH-1700 Fribourg, Switzerland"
+              }
+            ],
+            "family": "Anand",
+            "given": "Abhishek",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Biology, University of Fribourg, Chemin du musée 10, CH-1700 Fribourg, Switzerland"
+              }
+            ],
+            "family": "Weisskopf",
+            "given": "Laure",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Biology, University of Fribourg, Chemin du musée 10, CH-1700 Fribourg, Switzerland"
+              }
+            ],
+            "family": "Vrieze",
+            "given": "Mout De",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbial Biocontrol Agents"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "title": [
+          "The Gram-negative Side of Microbial Biocontrol Agents:<i>Pseudomonas</i>spp."
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/s10526-011-9435-x",
+        "URL": "https://doi.org/10.1007/s10526-011-9435-x",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "D’Alberto",
+            "given": "Clare F.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Hoffmann",
+            "given": "Ary A.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Thomson",
+            "given": "Linda J.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "BioControl"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              28
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10526-011-9435-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s10526-011-9435-x/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10526-011-9435-x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              28
+            ]
+          ]
+        },
+        "title": [
+          "Limited benefits of non-crop vegetation on spiders in Australian vineyards: regional or crop differences?"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1080/09583157.2011.594952",
+        "URL": "https://doi.org/10.1080/09583157.2011.594952",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Scheepmaker",
+            "given": "Jacqueline W.A.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Kassteele",
+            "given": "Jan van de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrol Science and Technology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              10
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/09583157.2011.594952",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              10
+            ]
+          ]
+        },
+        "title": [
+          "Effects of chemical control agents and microbial biocontrol agents on numbers of non-target microbial soil organisms: a meta-analysis"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.9734/jsrr/2026/v32i23999",
+        "URL": "https://doi.org/10.9734/jsrr/2026/v32i23999",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Kumar",
+            "given": "Vijay",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Chauhan",
+            "given": "Akanshu",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Pant",
+            "given": "Aaushi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rawat",
+            "given": "Ashwani",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Garkoti",
+            "given": "Ankita",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Dhiman",
+            "given": "Shiwali",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Journal of Scientific Research and Reports"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.journaljsrr.com/index.php/JSRR/article/download/3999/9617",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.journaljsrr.com/index.php/JSRR/article/download/3999/9618",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.journaljsrr.com/index.php/JSRR/article/download/3999/9619",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.journaljsrr.com/index.php/JSRR/article/download/3999/9617",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "title": [
+          "Biocontrol Reimagined: Microbial Allies for Resilient and Sustainable Crop Protection"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.3390/jof12010022",
+        "URL": "https://doi.org/10.3390/jof12010022",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4552-1710",
+            "affiliation": [
+              {
+                "name": "Institute of Chemical Engineering, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Armenova",
+            "given": "Nadya",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6123-2719",
+            "affiliation": [
+              {
+                "name": "Institute of Chemical Engineering, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Tsigoriyna",
+            "given": "Lidia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4733-9530",
+            "affiliation": [
+              {
+                "name": "Institute of Microbiology, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Arsov",
+            "given": "Alexander",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3448-4088",
+            "affiliation": [
+              {
+                "name": "Institute of Chemical Engineering, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Stefanov",
+            "given": "Stefan",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9197-0894",
+            "affiliation": [
+              {
+                "name": "Institute of Chemical Engineering, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Petrov",
+            "given": "Kaloyan",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6597-527X",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Food Science and Technology, Jiangnan University, Wuxi 214122, China"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Mu",
+            "given": "Wanmeng",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7861-0170",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Food Science and Technology, Jiangnan University, Wuxi 214122, China"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Zhang",
+            "given": "Wenli",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7356-5799",
+            "affiliation": [
+              {
+                "name": "Institute of Microbiology, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Petrova",
+            "given": "Penka",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Journal of Fungi"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              27
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2309-608X/12/1/22/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              27
+            ]
+          ]
+        },
+        "title": [
+          "Antifungal Biocontrol in Sustainable Crop Protection: Microbial Lipopeptides, Polyketides, and Plant-Derived Agents"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1201/9781003187844-9",
+        "URL": "https://doi.org/10.1201/9781003187844-9",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Kumari",
+            "given": "Nidhi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Chaudhary",
+            "given": "Sneha",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Dhiman",
+            "given": "Shiwali",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Shukla",
+            "given": "P. K.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Gundappa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Innovative Approaches in Diagnosis and Management of Crop Diseases"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              28
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              28
+            ]
+          ]
+        },
+        "title": [
+          "Biological Management of Horticultural Crop Diseases Using Phyllosphere-, Rhizosphere-, and Endosphere-Derived Biocontrol Agents"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/s10526-012-9498-3",
+        "URL": "https://doi.org/10.1007/s10526-012-9498-3",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Sundh",
+            "given": "Ingvar",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Goettel",
+            "given": "Mark S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "BioControl"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              12,
+              8
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10526-012-9498-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s10526-012-9498-3/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10526-012-9498-3",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              12,
+              8
+            ]
+          ]
+        },
+        "title": [
+          "Regulating biocontrol agents: a historical perspective and a critical examination comparing microbial and macrobial agents"
+        ],
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 25,
+    "query": {
+      "search-terms": "microbial biocontrol crop Brazil",
+      "start-index": 0
+    },
+    "total-results": 562562
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

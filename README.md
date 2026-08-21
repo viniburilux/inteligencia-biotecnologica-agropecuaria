@@ -31,6 +31,22 @@ Uma infraestrutura aberta para:
 
 O objetivo não é lançar um dashboard vazio nem produzir um relatório que ninguém lê. É construir algo que possa ser usado para descobrir, comparar, decidir e criar valor.
 
+## Primeira entrega: Inventário Metadata-only V0
+
+A primeira rodada já colocou no ar um corpus integrado com **379 obras e registros**, incluindo **71 publicações patentárias capturadas via Google Patents**, além de 1.345 atores, 353 instituições, 1.854 relações observadas e 270 sinais de aplicação. A camada científica combina OpenAlex e Crossref; a camada patentária preserva consultas, snippets, identificadores, hashes e o filtro BR sem transformar esse filtro em prova de origem brasileira.
+
+| Entrega | Acesso |
+|---|---|
+| Inventário legível | [`INVENTORY_V0.md`](INVENTORY_V0.md) |
+| Mapa de Sinais V0 | [`SIGNAL_MAP_V0.md`](SIGNAL_MAP_V0.md) |
+| Mapa computável | [`signal_map_v0.json`](signal_map_v0.json) |
+| Corpus normalizado | [`normalized_v0/`](normalized_v0/) |
+| Contrato de ingestão | [`INGESTION_CONTRACT_V0.md`](INGESTION_CONTRACT_V0.md) |
+| Registro da coleta patentária | [`PATENT_SOURCE_FINDINGS_V0.md`](PATENT_SOURCE_FINDINGS_V0.md) |
+| Parser patentário | [`parse_google_patents_v0.py`](parse_google_patents_v0.py) |
+
+A entrega não tenta encerrar a investigação. Ela cria uma base pública para perguntar **quem aparece**, **quais tecnologias se repetem**, **quais relações surgem** e **onde a evidência ainda não existe**.
+
 ## Sem esperar condições perfeitas
 
 Esta investigação não nasceu para parecer acadêmica, nem para esperar milhões em investimento antes de começar. Ela será construída com dados públicos, automação, inteligência artificial, computação disponível e método.
@@ -69,20 +85,21 @@ A camada privada continuará reservada para credenciais, memória operacional, d
 | Data | Marco |
 |---|---|
 | **21/08/2026** | Dia zero: nascimento do laboratório e publicação da origem. |
-| Próximo marco | Primeira coleta pública de patentes e literatura. |
-| Depois | Primeira taxonomia, primeiro mapa, primeira anomalia e primeira hipótese. |
+| **21/08/2026** | Primeira ingestão heterogênea: OpenAlex, Crossref e Google Patents. |
+| **21/08/2026** | Inventário Metadata-only V0 e Mapa de Sinais V0 publicados. |
+| Próximo marco | Expandir cobertura, deduplicar famílias e conectar sinais regulatórios e agropecuários. |
 
 A linha do tempo vai crescer junto com a investigação. O objetivo é preservar a arqueologia da descoberta, não apenas o resultado final.
 
 ## Status
 
-**Dia zero.** O laboratório acaba de começar. A primeira pergunta está formulada. A coleta, a taxonomia e os critérios de análise serão construídos publicamente a partir daqui.
+**V0 publicado.** O laboratório já tem uma primeira camada pública de ingestão, normalização e descoberta. O próximo trabalho é ampliar a cobertura e deixar o próprio corpus revelar os recortes que merecem aprofundamento.
 
 > Não estamos esperando as condições perfeitas para começar.
 
 ## Próximos passos
 
-A próxima etapa será definir o primeiro recorte investigativo, as fontes públicas, o protocolo de coleta metadata-only e a estrutura mínima para registrar famílias, atores, tecnologias, aplicações e provenance. Nenhum resultado será antecipado antes que a pergunta e os critérios sejam fixados.
+A próxima etapa é ampliar a ingestão com novas fontes públicas, melhorar a resolução de famílias patentárias, incorporar sinais regulatórios e agropecuários e transformar os agrupamentos observados em trilhas de investigação. O laboratório seguirá separando captura, interpretação e hipótese sem interromper a coleta para produzir documentação vazia.
 
 ## Licença e uso
 

@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-08-21T04:50:32.918823+00:00",
+  "metadata_only": true,
+  "inventory_version": "v0",
+  "counts": {
+    "works": 379,
+    "actors": 1345,
+    "institutions": 353,
+    "relations": 1854,
+    "application_signals": 270
+  },
+  "source_mix": {
+    "openalex": 162,
+    "crossref": 146,
+    "google_patents": 71
+  },
+  "files": {
+    "works": "normalized_v0/works_v0.jsonl",
+    "actors": "normalized_v0/actors_v0.jsonl",
+    "institutions": "normalized_v0/institutions_v0.jsonl",
+    "relations": "normalized_v0/relations_v0.jsonl",
+    "application_signals": "normalized_v0/application_signals_v0.jsonl",
+    "normalization_summary": "normalized_v0/normalization_summary_v0.json",
+    "signal_map_json": "signal_map_v0.json",
+    "signal_map_markdown": "SIGNAL_MAP_V0.md",
+    "patent_raw": "raw_v0/google_patents/",
+    "manifest": "ingestion_manifest_v0.jsonl"
+  },
+  "scope": [
+    "biotecnologia agropecuaria brasileira",
+    "bioinsumos",
+    "biocontrole",
+    "inoculantes",
+    "biofertilizantes",
+    "biopesticidas",
+    "fixação de nitrogênio",
+    "solubilização de fosfato",
+    "saúde radicular",
+    "fermentação e monitoramento de bioinputs"
+  ],
+  "limits": [
+    "metadata-only",
+    "sem PDFs ou texto integral",
+    "sem desserialização de dados científicos",
+    "sem resolução de entidades entre fontes",
+    "filtro BR do Google Patents não implica origem brasileira"
+  ]
+}

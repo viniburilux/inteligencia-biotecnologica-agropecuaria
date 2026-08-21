@@ -1,0 +1,1839 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.36560/19320262195",
+        "URL": "https://doi.org/10.36560/19320262195",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Sebkhi",
+            "given": "Zahia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Pedreira",
+            "given": "Bruno Carneiro e",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Scientific Electronic Archives"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              13
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://scientificelectronicarchives.org/index.php/SEA/article/download/2195/2178",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://scientificelectronicarchives.org/index.php/SEA/article/download/2195/2178",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              13
+            ]
+          ]
+        },
+        "title": [
+          "Plant growth-promoting bacteria: Advancing sustainable agriculture in north Africa"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-3-642-13612-2_7",
+        "URL": "https://doi.org/10.1007/978-3-642-13612-2_7",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Akhtar",
+            "given": "Mohd. Sayeed",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Siddiqui",
+            "given": "Zaki A.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Microbiology Monographs",
+          "Plant Growth and Health Promoting Bacteria"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-13612-2_7",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "title": [
+          "Role of Plant Growth Promoting Rhizobacteria in Biocontrol of Plant Diseases and Sustainable Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.3390/bacteria3020005",
+        "URL": "https://doi.org/10.3390/bacteria3020005",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Toxicology Laboratory, Department of Zoology, Government Raza P.G. College, Rampur 244901, UP, India"
+              },
+              {
+                "name": "Department of Animal Science/Zoology, Mahatma Jyotibha Phule Rohilkhand University, Bareilly 243005, UP, India"
+              }
+            ],
+            "family": "Hasan",
+            "given": "Asma",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6377-6696",
+            "affiliation": [
+              {
+                "name": "Toxicology Laboratory, Department of Zoology, Government Raza P.G. College, Rampur 244901, UP, India"
+              },
+              {
+                "name": "Department of Animal Science/Zoology, Mahatma Jyotibha Phule Rohilkhand University, Bareilly 243005, UP, India"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Tabassum",
+            "given": "Baby",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8470-8027",
+            "affiliation": [
+              {
+                "name": "Toxicology Laboratory, Department of Zoology, Government Raza P.G. College, Rampur 244901, UP, India"
+              },
+              {
+                "name": "Department of Biochemistry, Mohammad Ali Jauhar University, Rampur 244901, UP, India"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Hashim",
+            "given": "Mohammad",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Toxicology Laboratory, Department of Zoology, Government Raza P.G. College, Rampur 244901, UP, India"
+              },
+              {
+                "name": "Department of Animal Science/Zoology, Mahatma Jyotibha Phule Rohilkhand University, Bareilly 243005, UP, India"
+              }
+            ],
+            "family": "Khan",
+            "given": "Nagma",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Bacteria"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2674-1334/3/2/5/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ]
+        },
+        "title": [
+          "Role of Plant Growth Promoting Rhizobacteria (PGPR) as a Plant Growth Enhancer for Sustainable Agriculture: A Review"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-95-9682-9_13",
+        "URL": "https://doi.org/10.1007/978-981-95-9682-9_13",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Kumari",
+            "given": "Poonam",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Kumar",
+            "given": "Prafull",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Diazotrophic Plant Growth-Promoting Microorganisms and Green Energy – Volume I"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-95-9682-9_13",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "title": [
+          "Diazotrophic Plant Growth Promoting Bacteria: A Reliable Tool for Sustainable Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.3390/agriculture13051089",
+        "URL": "https://doi.org/10.3390/agriculture13051089",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Bayer CropScience Inc., 810-180 Kent St., Ottawa, ON K1P 0B6, Canada"
+              }
+            ],
+            "family": "Reed",
+            "given": "Lucy",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1729-4258",
+            "affiliation": [
+              {
+                "name": "Department of Biology, University of Waterloo, Waterloo, ON N2L 3G1, Canada"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Glick",
+            "given": "Bernard R.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              19
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2077-0472/13/5/1089/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              19
+            ]
+          ]
+        },
+        "title": [
+          "The Recent Use of Plant-Growth-Promoting Bacteria to Promote the Growth of Agricultural Food Crops"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-13-7553-8_1",
+        "URL": "https://doi.org/10.1007/978-981-13-7553-8_1",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Abod",
+            "given": "Éva",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Laslo",
+            "given": "Éva",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Szentes",
+            "given": "Sarolta",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Lányi",
+            "given": "Szabolcs",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Mara",
+            "given": "Gyöngyvér",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Plant Growth Promoting Rhizobacteria for Agricultural Sustainability"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-981-13-7553-8_1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "title": [
+          "Plant Growth-Promoting Bacteria: Strategies to Improve Wheat Growth and Development Under Sustainable Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/978-981-13-6790-8_14",
+        "URL": "https://doi.org/10.1007/978-981-13-6790-8_14",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Sonawane",
+            "given": "Rohit",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Jadhav",
+            "given": "Ashok S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Dakhore",
+            "given": "Kailash",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Plant Growth Promoting Rhizobacteria (PGPR): Prospects for Sustainable Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-981-13-6790-8_14",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "title": [
+          "Yield Maximization in Pigeon Pea (Cajanus cajan L. Millsp.) Through the Application of Plant Growth-Promoting Bacteria"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/978-94-007-5961-9_10",
+        "URL": "https://doi.org/10.1007/978-94-007-5961-9_10",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Prashar",
+            "given": "Pratibha",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Kapoor",
+            "given": "Neera",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sachdeva",
+            "given": "Sarita",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Sustainable Agriculture Reviews"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-94-007-5961-9_10",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        },
+        "title": [
+          "Biocontrol of Plant Pathogens Using Plant Growth Promoting Bacteria"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.3390/agriculture7050040",
+        "URL": "https://doi.org/10.3390/agriculture7050040",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Department of Physical, Chemical and Natural Systems, University Pablo de Olavide, Seville 41013, Spain"
+              }
+            ],
+            "family": "Pérez-Fernández",
+            "given": "María",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7995-0900",
+            "affiliation": [
+              {
+                "name": "Botany and Zoology Department, University of Stellenbosch, Private Bag X1, Matieland 7602, South Africa"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Alexander",
+            "given": "Valentine",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              2
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2077-0472/7/5/40/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              2
+            ]
+          ]
+        },
+        "relation": {
+          "has-preprint": [
+            {
+              "asserted-by": "object",
+              "id": "10.20944/preprints201703.0018.v1",
+              "id-type": "doi"
+            }
+          ]
+        },
+        "title": [
+          "Enhanced Plant Performance in Cicer arietinum L. Due to the Addition of a Combination of Plant Growth-Promoting Bacteria"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-3-642-27515-9_10",
+        "URL": "https://doi.org/10.1007/978-3-642-27515-9_10",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Pandey",
+            "given": "Piyush",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Bisht",
+            "given": "Sandeep",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sood",
+            "given": "Anchal",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Aeron",
+            "given": "Abhinav",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sharma",
+            "given": "G. D.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Maheshwari",
+            "given": "D. K.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Bacteria in Agrobiology: Plant Probiotics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-642-27515-9_10",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "title": [
+          "Consortium of Plant-Growth-Promoting Bacteria: Future Perspective in Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1016/j.algal.2020.102156",
+        "URL": "https://doi.org/10.1016/j.algal.2020.102156",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Peng",
+            "given": "Haixin",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "de- Bashan",
+            "given": "Luz E.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Higgins",
+            "given": "Brendan T.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Algal Research"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2211926420310249?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2211926420310249?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "title": [
+          "Comparison of algae growth and symbiotic mechanisms in the presence of plant growth promoting bacteria and non-plant growth promoting bacteria"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.19080/aibm.2017.05.555671",
+        "URL": "https://doi.org/10.19080/aibm.2017.05.555671",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Nath Yadav",
+            "given": "Ajar",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Advances in Biotechnology &amp; Microbiology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              24
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              24
+            ]
+          ]
+        },
+        "title": [
+          "Plant Growth Promoting Bacteria: Biodiversity and Multifunctional Attributes for Sustainable Agriculture"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-97-3473-3_9",
+        "URL": "https://doi.org/10.1007/978-981-97-3473-3_9",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Hasan",
+            "given": "Nor’Aishah",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Zainal Abidina",
+            "given": "Nur Hamimah",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Soil Bacteria"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-97-3473-3_9",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "title": [
+          "Plant Growth-Promoting Rhizobacteria and Sustainable Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/978-981-13-6790-8_2",
+        "URL": "https://doi.org/10.1007/978-981-13-6790-8_2",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Wani",
+            "given": "Suhas P.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Gopalakrishnan",
+            "given": "S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Plant Growth Promoting Rhizobacteria (PGPR): Prospects for Sustainable Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-981-13-6790-8_2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "title": [
+          "Plant Growth-Promoting Microbes for Sustainable Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.14692/jfi.21.1.38-50",
+        "URL": "https://doi.org/10.14692/jfi.21.1.38-50",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Ridho",
+            "given": "Muhammad Arif",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Rahma",
+            "given": "Haliatur",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Martinius",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Trisno",
+            "given": "Jumsu",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Jurnal Fitopatologi Indonesia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              10
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://journal.ipb.ac.id/jfiti/article/download/51190/31965",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journal.ipb.ac.id/jfiti/article/download/51190/31965",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              10
+            ]
+          ]
+        },
+        "title": [
+          "Potensi Plant Growth-Promoting Bacteria Menekan Cucumber mosaic virus pada Tanaman Mentimun"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-13-5862-3_11",
+        "URL": "https://doi.org/10.1007/978-981-13-5862-3_11",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Sansinenea",
+            "given": "Estibaliz",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Secondary Metabolites of Plant Growth Promoting Rhizomicroorganisms"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-981-13-5862-3_11",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "title": [
+          "Bacillus spp.: As Plant Growth-Promoting Bacteria"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.3390/bacteria3040030",
+        "URL": "https://doi.org/10.3390/bacteria3040030",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0761-6233",
+            "affiliation": [
+              {
+                "name": "Department of Molecular Genetics, College of Arts and Sciences, The Ohio State University, Columbus, OH 43210, USA"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Yang",
+            "given": "Piao",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Molecular Genetics, College of Arts and Sciences, The Ohio State University, Columbus, OH 43210, USA"
+              }
+            ],
+            "family": "Condrich",
+            "given": "Abraham",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Molecular Genetics, College of Arts and Sciences, The Ohio State University, Columbus, OH 43210, USA"
+              }
+            ],
+            "family": "Scranton",
+            "given": "Sean",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Molecular Genetics, College of Arts and Sciences, The Ohio State University, Columbus, OH 43210, USA"
+              }
+            ],
+            "family": "Hebner",
+            "given": "Camina",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Molecular Genetics, College of Arts and Sciences, The Ohio State University, Columbus, OH 43210, USA"
+              }
+            ],
+            "family": "Lu",
+            "given": "Ling",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, Virtual University of Pakistan, Lahore 55150, Pakistan"
+              }
+            ],
+            "family": "Ali",
+            "given": "Muhammad Azam",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Bacteria"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              3
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2674-1334/3/4/30/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              3
+            ]
+          ]
+        },
+        "title": [
+          "Utilizing Plant Growth-Promoting Rhizobacteria (PGPR) to Advance Sustainable Agriculture"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.5513/jcea01/23.3.3577",
+        "URL": "https://doi.org/10.5513/jcea01/23.3.3577",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "ERMAN",
+            "given": "Murat",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "ÇIĞ",
+            "given": "Fatih",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "CERITOGLU",
+            "given": "Figen",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "CERITOGLU",
+            "given": "Mustafa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Journal of Central European Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "Plant growth promoting bacteria enhances photosynthesis, nodulation and root system architecture in lentil under lead toxicity"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1201/b18892-19",
+        "URL": "https://doi.org/10.1201/b18892-19",
+        "container-title": [
+          "Sustainable Approaches to Controlling Plant Pathogenic Bacteria"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              8
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              8
+            ]
+          ]
+        },
+        "title": [
+          "Plant Growth-Promoting Rhizobacteria as a Tool to Combat Plant Pathogenic Bacteria"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.47278/journal.ijab/2026.133",
+        "URL": "https://doi.org/10.47278/journal.ijab/2026.133",
+        "container-title": [
+          "International Journal of Agriculture and Biosciences"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              28
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              28
+            ]
+          ]
+        },
+        "title": [
+          "Isolation, Characterization and Plant Growth-promoting Potential of Endophytic Bacteria Associated with the Medicinal Plant Tribulus terrestris L."
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1201/9780429284137-3",
+        "URL": "https://doi.org/10.1201/9780429284137-3",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Pitiwittayakul",
+            "given": "Nittaya",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Tanasupawat",
+            "given": "Somboon",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Beneficial Microbes for Sustainable Agriculture and Environmental Management"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              27
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              27
+            ]
+          ]
+        },
+        "title": [
+          "Plant Growth-Promoting Endophytic Bacteria and Their Potential Benefits in Asian Countries"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1016/b978-0-443-13193-6.00017-8",
+        "URL": "https://doi.org/10.1016/b978-0-443-13193-6.00017-8",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "de-Bashan",
+            "given": "Luz",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Nannipieri",
+            "given": "Paolo",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Beneficial Microbes for Sustainable Agriculture Under Stress Conditions"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780443131936000178?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780443131936000178?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "title": [
+          "Methodological and interpretational problems in plant growth-promoting bacteria inoculation studies"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.14719/pst.2018.5.1.352",
+        "URL": "https://doi.org/10.14719/pst.2018.5.1.352",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Patni",
+            "given": "B",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Panwar",
+            "given": "A S",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Negi",
+            "given": "P",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Joshi",
+            "given": "Gopal Krishna",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Plant Science Today"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              4
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://horizonepublishing.com/journals/index.php/PST/article/download/352/206",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://horizonepublishing.com/journals/index.php/PST/article/download/352/206",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              4
+            ]
+          ]
+        },
+        "title": [
+          "Plant growth promoting traits of psychrotolerant bacteria: A boon for agriculture in hilly terrains"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/b978-0-443-15199-6.00017-8",
+        "URL": "https://doi.org/10.1016/b978-0-443-15199-6.00017-8",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Saleem",
+            "given": "Seerat",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Mushtaq",
+            "given": "Naveed Ul",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Shah",
+            "given": "Wasifa Hafiz",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rasool",
+            "given": "Aadil",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rehman",
+            "given": "Reiaz Ul",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biocontrol Agents for Improved Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780443151996000178?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780443151996000178?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "title": [
+          "Plant growth-promoting bacteria in food security and plant disease management"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.15407/biotech15.04.005",
+        "URL": "https://doi.org/10.15407/biotech15.04.005",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Kyiv National University of Technologies and Design",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Bortyanuy",
+            "given": "I.O.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Biotechnologia Acta"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              31
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              31
+            ]
+          ]
+        },
+        "title": [
+          "PLANT GROWTH-PROMOTING TRAITS OF ANTARCTIC ENDOPHYTIC BACTERIA"
+        ],
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 25,
+    "query": {
+      "search-terms": "plant growth promoting bacteria agriculture Brazil",
+      "start-index": 0
+    },
+    "total-results": 2398318
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

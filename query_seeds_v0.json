@@ -1,0 +1,39 @@
+{
+  "scope": "bioinsumos_biocontrole_agropecuario",
+  "period": "2010-01-01/2026-12-31",
+  "queries": {
+    "openalex": [
+      "bioinsumos agricultura",
+      "biocontrole agrícola",
+      "inoculante agrícola",
+      "biopesticide agriculture Brazil",
+      "microbial biocontrol crop Brazil",
+      "plant growth promoting bacteria agriculture Brazil",
+      "biologicals agriculture Brazil"
+    ],
+    "crossref": [
+      "bioinsumos agricultura",
+      "biocontrole agrícola",
+      "inoculante agrícola",
+      "biopesticide agriculture Brazil",
+      "microbial biocontrol crop Brazil",
+      "plant growth promoting bacteria agriculture Brazil"
+    ],
+    "patentsview": [
+      "bioinsumo",
+      "biocontrole",
+      "inoculante agrícola",
+      "biopesticide",
+      "microbial biocontrol",
+      "plant growth promoting bacteria"
+    ],
+    "agroapi_context": [
+      "Bioinsumos",
+      "Agrofit",
+      "PlantAnnot"
+    ]
+  },
+  "metadata_only": true,
+  "download_scientific_files": false,
+  "full_text_patent_download": false
+}

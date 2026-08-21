@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-08-21T04:50:21.998482+00:00",
+  "metadata_only": true,
+  "source": "google_patents",
+  "query_count": 12,
+  "occurrences_parsed": 103,
+  "unique_records_across_queries": 71,
+  "unique_records_by_query_sum": 96,
+  "queries": {
+    "bioinsumo + BR": {
+      "occurrences": 16,
+      "unique_records": 9,
+      "observed_result_count": 50,
+      "saved_path": "raw_v0/google_patents/bioinsumo_br.jsonl"
+    },
+    "biocontrole + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 1186,
+      "saved_path": "raw_v0/google_patents/biocontrole_br.jsonl"
+    },
+    "inoculante + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 889,
+      "saved_path": "raw_v0/google_patents/inoculante_br.jsonl"
+    },
+    "biopesticida + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 6712,
+      "saved_path": "raw_v0/google_patents/biopesticida_br.jsonl"
+    },
+    "biofertilizante + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 6633,
+      "saved_path": "raw_v0/google_patents/biofertilizante_br.jsonl"
+    },
+    "Rhizobium + BR": {
+      "occurrences": 9,
+      "unique_records": 9,
+      "observed_result_count": 3402,
+      "saved_path": "raw_v0/google_patents/rhizobium_br.jsonl"
+    },
+    "Bacillus thuringiensis + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 14887,
+      "saved_path": "raw_v0/google_patents/bacillus_thuringiensis_br.jsonl"
+    },
+    "Trichoderma + BR": {
+      "occurrences": 10,
+      "unique_records": 10,
+      "observed_result_count": 6524,
+      "saved_path": "raw_v0/google_patents/trichoderma_br.jsonl"
+    },
+    "fixação de nitrogênio + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 8956,
+      "saved_path": "raw_v0/google_patents/fixa_o_de_nitrog_nio_br.jsonl"
+    },
+    "biological control + BR": {
+      "occurrences": 7,
+      "unique_records": 7,
+      "observed_result_count": 56223,
+      "saved_path": "raw_v0/google_patents/biological_control_br.jsonl"
+    },
+    "bioinput + BR": {
+      "occurrences": 9,
+      "unique_records": 9,
+      "observed_result_count": 49,
+      "saved_path": "raw_v0/google_patents/bioinput_br.jsonl"
+    },
+    "microbial inoculant + BR": {
+      "occurrences": 10,
+      "unique_records": 10,
+      "observed_result_count": 4975,
+      "saved_path": "raw_v0/google_patents/microbial_inoculant_br.jsonl"
+    }
+  },
+  "parser_notes": [
+    "The parser preserves source snippets and query-level provenance.",
+    "Publication numbers are deduplicated within each query and later merged conservatively by the normalizer.",
+    "Actor extraction is best-effort from visible result text; it is not entity resolution.",
+    "Country BR is retained as the search filter and not interpreted as inventor or assignee origin."
+  ]
+}

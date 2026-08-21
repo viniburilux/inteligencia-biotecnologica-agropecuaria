@@ -1,0 +1,1909 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.3390/agriculture13061141",
+        "URL": "https://doi.org/10.3390/agriculture13061141",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Instituto de Ciencias Agrarias, CSIC, Serrano 115-dpdo, 28006 Madrid, Spain"
+              }
+            ],
+            "family": "Gonzalez-Coloma",
+            "given": "Azucena",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              29
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2077-0472/13/6/1141/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              29
+            ]
+          ]
+        },
+        "title": [
+          "Essential Oils as Biopesticide Ingredients"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.3390/agriculture8010013",
+        "URL": "https://doi.org/10.3390/agriculture8010013",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1330-0128",
+            "affiliation": [
+              {
+                "name": "Department of Agricultural Development, Democritus University of Thrace, GR-682 00 Orestiada, Greece"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Damalas",
+            "given": "Christos",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Agricultural Development, Democritus University of Thrace, GR-682 00 Orestiada, Greece"
+              }
+            ],
+            "family": "Koutroubas",
+            "given": "Spyridon",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              12
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2077-0472/8/1/13/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Current Status and Recent Developments in Biopesticide Use"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1080/29932106.2026.2670889",
+        "URL": "https://doi.org/10.1080/29932106.2026.2670889",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6599-1173",
+            "affiliation": [
+              {
+                "name": "Department of Applied Microbiology and Brewing, Faculty of Biosciences, Nnamdi Azikiwe University",
+                "place": [
+                  "Awka, Nigeria"
+                ]
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Mbachu",
+            "given": "Augustine Ebele",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7600-3537",
+            "affiliation": [
+              {
+                "name": "Department of Human Biochemistry, Faculty of Basic Medical Sciences, Nnamdi Azikiwe University",
+                "place": [
+                  "Nnewi Campus, Nigeria"
+                ]
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Mbachu",
+            "given": "Nancy Amalachukwu",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Critical Insights in Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              28
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/29932106.2026.2670889",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              28
+            ]
+          ]
+        },
+        "title": [
+          "Biopesticide formulation, registration norms, and application for sustainable agriculture"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1201/9781003284055-2",
+        "URL": "https://doi.org/10.1201/9781003284055-2",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Gunjal",
+            "given": "Aparna B.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Organic Farming for Sustainable Development"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              30
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              30
+            ]
+          ]
+        },
+        "title": [
+          "Trichoderma: An Eco-Friendly Biopesticide for Sustainable Agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.18805/ag.d-5281",
+        "URL": "https://doi.org/10.18805/ag.d-5281",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Jagadesh",
+            "given": "R.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Agricultural Science Digest - A Research Journal"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              31
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://arccarticles.s3.amazonaws.com/PublishedArticle/Final-attachment-published-D-5281-6089603e9087340b9bdcbbb1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://arccarticles.s3.amazonaws.com/PublishedArticle/Final-attachment-published-D-5281-6089603e9087340b9bdcbbb1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              31
+            ]
+          ]
+        },
+        "title": [
+          "​Role of Biofertilizer or Biopesticide in Agriculture Development and Novel Nano Bioformulation for Sustainable Agriculture"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1564/22dec10",
+        "URL": "https://doi.org/10.1564/22dec10",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Bettiol",
+            "given": "Wagner",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Outlooks on Pest Management"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              1
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.ingentaconnect.com/content/resinf/opm/2011/00000022/00000006/art00010",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              1
+            ]
+          ]
+        },
+        "title": [
+          "Biopesticide Use and Research in Brazil"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.22161/ijeab/2.6.23",
+        "URL": "https://doi.org/10.22161/ijeab/2.6.23",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Acharya",
+            "given": "Preeti",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Mir",
+            "given": "Showkat Ahmad",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Nayak",
+            "given": "Binata",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "International Journal of Environment, Agriculture and Biotechnology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "title": [
+          "Competence of Biopesticide and Neem in Agriculture"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.47310/srjals.2022.v02i01.002",
+        "URL": "https://doi.org/10.47310/srjals.2022.v02i01.002",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Jayson Olayta",
+            "given": "N.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Scientific Research Journal of Agriculture and Life Sciences"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              25
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              25
+            ]
+          ]
+        },
+        "title": [
+          "Utilization of Different Plant Extract as Biopesticide On Tomato (Solanum lycpersicum)"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.3390/insects16040395",
+        "URL": "https://doi.org/10.3390/insects16040395",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "International Centre of Insect Physiology and Ecology, Nairobi P.O. Box 30772-00100, Kenya"
+              },
+              {
+                "name": "Department of Biochemistry, School of Biomedical Sciences, Jomo Kenyatta University of Agriculture and Technology, Nairobi P.O. Box 62000-00200, Kenya"
+              }
+            ],
+            "family": "Mbuta",
+            "given": "Dennis M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "International Centre of Insect Physiology and Ecology, Nairobi P.O. Box 30772-00100, Kenya"
+              }
+            ],
+            "family": "Sokame",
+            "given": "Bonoukpoè M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9593-9525",
+            "affiliation": [
+              {
+                "name": "International Centre of Insect Physiology and Ecology, Nairobi P.O. Box 30772-00100, Kenya"
+              },
+              {
+                "name": "Department of Zoology and Entomology, University of Pretoria, Private Bag X20, Hatfield 0028, South Africa"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Khamis",
+            "given": "Fathiya M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2124-1626",
+            "affiliation": [
+              {
+                "name": "International Centre of Insect Physiology and Ecology, Nairobi P.O. Box 30772-00100, Kenya"
+              },
+              {
+                "name": "Unit for Environmental Sciences and Management, North-West University, Potchefstroom 2520, South Africa"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Akutse",
+            "given": "Komivi S.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Insects"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              9
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2075-4450/16/4/395/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              9
+            ]
+          ]
+        },
+        "title": [
+          "Know Where You Go: Infestation Dynamics and Potential Distribution of Two Bed Bug Species (Hemiptera: Cimicidae) in Africa"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.11594/jaab.01.02.08",
+        "URL": "https://doi.org/10.11594/jaab.01.02.08",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Adhikari",
+            "given": "Kripa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Bhandari",
+            "given": "Sudip",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Niraula",
+            "given": "Dikshya",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Shrestha",
+            "given": "Jiban",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Journal of Agriculture and Applied Biology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              28
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://jaabjournal.org/index.php/jaab/article/view/99/21",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              28
+            ]
+          ]
+        },
+        "title": [
+          "Use of neem (Azadirachta indica A. Juss) as a biopesticide in agriculture: A review"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.3390/agriculture12030338",
+        "URL": "https://doi.org/10.3390/agriculture12030338",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Field Test d.o.o., Vinogradska 150b, 11000 Belgrade, Serbia"
+              }
+            ],
+            "family": "Milićević",
+            "given": "Zoran",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5278-4589",
+            "affiliation": [
+              {
+                "name": "Institute for Multidisciplinary Research, University of Belgrade, Kneza Višeslava 1, 11030 Belgrade, Serbia"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Krnjajić",
+            "given": "Slobodan",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Faculty of Agriculture, University of Belgrade, Nemanjina 6, 11080 Belgrade, Serbia"
+              }
+            ],
+            "family": "Stević",
+            "given": "Milan",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Institute for Multidisciplinary Research, University of Belgrade, Kneza Višeslava 1, 11030 Belgrade, Serbia"
+              }
+            ],
+            "family": "Ćirković",
+            "given": "Jovana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0488-6182",
+            "affiliation": [
+              {
+                "name": "Institute for Multidisciplinary Research, University of Belgrade, Kneza Višeslava 1, 11030 Belgrade, Serbia"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Jelušić",
+            "given": "Aleksandra",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6985-1167",
+            "affiliation": [
+              {
+                "name": "Faculty of Environmental Protection, Educons University, Vojvode Putnika 85-87, 21208 Sremska Kamenica, Serbia"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Pucarević",
+            "given": "Mira",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0125-5905",
+            "affiliation": [
+              {
+                "name": "Department of Plant Diseases, Institute for Plant Protection and Environment, Teodora Drajzera 9, 11040 Belgrade, Serbia"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Popović",
+            "given": "Tatjana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              27
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2077-0472/12/3/338/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              27
+            ]
+          ]
+        },
+        "title": [
+          "Encapsulated Clove Bud Essential Oil: A New Perspective as an Eco-Friendly Biopesticide"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.5220/0010044504420445",
+        "URL": "https://doi.org/10.5220/0010044504420445",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Lecturer of Faculty of Teacher Training and Education  Islamic University of Sumatera Utara, Indonesia"
+              }
+            ],
+            "family": "Sularno",
+            "given": ".",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Lecturer of Faculty of Teacher Training and Education Islamic University of Sumatera Utara., --- Select a Country ---"
+              }
+            ],
+            "family": "Azwar",
+            "given": "Edi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 3rd International Conference of Computer, Environment, Agriculture, Social Science, Health Science, Engineering and Technology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "title": [
+          "Development of Biopesticide Beauveria bassiana Bals. (Vuill.) Fungi for Pest Control Vegetable in Berastagi"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.1016/b978-0-443-44486-9.00007-0",
+        "URL": "https://doi.org/10.1016/b978-0-443-44486-9.00007-0",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Ahmadi",
+            "given": "Zahed",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Fathi",
+            "given": "Fariba",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Green Microbial Nanotechnology for Food and Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780443444869000070?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780443444869000070?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "title": [
+          "Nanobiosensors for early pest detection, safe and efficient herbicide delivery and biopesticide enhancement in green microbial nanotechnology for food and agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.9734/arja/2017/32274",
+        "URL": "https://doi.org/10.9734/arja/2017/32274",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Mbelo",
+            "given": "Mvuenga",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Luhata",
+            "given": "Lokadi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Asian Research Journal of Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              10
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.sciencedomain.org/download/MTg2MDlAQHBm.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              10
+            ]
+          ]
+        },
+        "title": [
+          "Evaluation of Ricinus communis Extracts as a Biopesticide for Nisotra gemella Control"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/b978-0-323-85577-8.00005-6",
+        "URL": "https://doi.org/10.1016/b978-0-323-85577-8.00005-6",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Mondal",
+            "given": "Sananda",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Panda",
+            "given": "Debasish",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Bose",
+            "given": "Bandana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "New and Future Developments in Microbial Biotechnology and Bioengineering"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780323855778000056?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:B9780323855778000056?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "Seed biopriming with biopesticide: A key to sustainability of agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.21608/jdea.2023.207241.1018",
+        "URL": "https://doi.org/10.21608/jdea.2023.207241.1018",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Abo Elela",
+            "given": "Mohamed",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Journal of Desert and Environmental Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://jdea.journals.ekb.eg/article_300163_63c92e34829cb5950b3181840e06493d.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ]
+        },
+        "title": [
+          "Effectiveness of A Biopesticide and Chitin Synthesis Inhibitor on the Biological and Biochemical Traits of Agrotis Ipsilon (H.) (Lepidoptera: Noctuidae)"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.5772/intechopen.82885",
+        "URL": "https://doi.org/10.5772/intechopen.82885",
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "title": [
+          "Agriculture in Brazil [Working Title]"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.58905/demeter.v3i3.694",
+        "URL": "https://doi.org/10.58905/demeter.v3i3.694",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Devitasari",
+            "given": "Azarine Sade",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Sutarman",
+            "given": "S",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Demeter: Journal of Farming and Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              30
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://journal.mediadigitalpublikasi.com/index.php/jfa/article/download/694/411",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journal.mediadigitalpublikasi.com/index.php/jfa/article/download/694/411",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              30
+            ]
+          ]
+        },
+        "title": [
+          "Application of Trichoderma Biopesticide on Chili Plants (Capsicum frutescens L.) Catas Variety"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.15373/22778160/august2014/35",
+        "URL": "https://doi.org/10.15373/22778160/august2014/35",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "(M. Sc. Ag.) Dept. of Entomology, College of Agriculture, ANGRAU",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "JAVED",
+            "given": "SHAIK",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Global Journal For Research Analysis"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              15
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              15
+            ]
+          ]
+        },
+        "title": [
+          "Evaluation of Biopesticide Formulations on Per Cent Adult Mortality And Fecundity of Pulse Beetle in Redgram"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/978-981-16-3989-0_1",
+        "URL": "https://doi.org/10.1007/978-981-16-3989-0_1",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Fenibo",
+            "given": "Emmanuel O.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Ijoma",
+            "given": "Grace N.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Matambo",
+            "given": "Tonderayi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "New and Future Development in Biopesticide Research: Biotechnological Exploration"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-16-3989-0_1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "Biopesticides in Sustainable Agriculture: Current Status and Future Prospects"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.3897/ia.2025.145975",
+        "URL": "https://doi.org/10.3897/ia.2025.145975",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8890-1396",
+            "affiliation": [
+              {
+                "name": "International Maize and Wheat Improvement Center, Dhaka, Bangladesh"
+              }
+            ],
+            "authenticated-orcid": true,
+            "family": "Harun-Or-Rashid",
+            "given": "Md.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Bangladesh Agricultural University, Mymensingh, Bangladesh"
+              }
+            ],
+            "family": "Abu Hasan",
+            "given": "Md.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Bangladesh Agricultural Research Institute, Gazipur, Bangladesh"
+              }
+            ],
+            "family": "Kobir",
+            "given": "Md. Shahriar",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Bangladesh Agricultural Research Institute, Gazipur, Bangladesh"
+              }
+            ],
+            "family": "Uddine Khan",
+            "given": "Md Shihab",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Bangladesh Agricultural University, Mymensingh, Bangladesh"
+              }
+            ],
+            "family": "Meah",
+            "given": "M. Bahadur",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Innovations in Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              17
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://innovationsagriculture.pensoft.net/article/145975/download/pdf/",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://innovationsagriculture.pensoft.net/article/145975/download/xml/",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://innovationsagriculture.pensoft.net/article_preview.php?id=145975&skip_redirect=1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              17
+            ]
+          ]
+        },
+        "title": [
+          "Trichoderma to the rescue: Overcoming bacterial wilt in eggplants with a natural biopesticide"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.5339/qfarf.2010.eep2",
+        "URL": "https://doi.org/10.5339/qfarf.2010.eep2",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Texas A&M University at Qatar, Doha, Qatar"
+              },
+              {
+                "name": "Centre of Biotechnology of Sfax, Sfax, Tunisia"
+              }
+            ],
+            "family": "Jaoua",
+            "given": "Samir",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Texas A&M University at Qatar, Doha, Qatar"
+              },
+              {
+                "name": "Centre of Biotechnology of Sfax, Sfax, Tunisia"
+              }
+            ],
+            "family": "Al Thani",
+            "given": "Roda",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Texas A&M University at Qatar, Doha, Qatar"
+              },
+              {
+                "name": "Centre of Biotechnology of Sfax, Sfax, Tunisia"
+              }
+            ],
+            "family": "Tounsi",
+            "given": "Slim",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Texas A&M University at Qatar, Doha, Qatar"
+              },
+              {
+                "name": "Centre of Biotechnology of Sfax, Sfax, Tunisia"
+              }
+            ],
+            "family": "Al Thani",
+            "given": "Dhabia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Texas A&M University at Qatar, Doha, Qatar"
+              },
+              {
+                "name": "Centre of Biotechnology of Sfax, Sfax, Tunisia"
+              }
+            ],
+            "family": "Al Saadi",
+            "given": "Fatma",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Qatar Foundation Annual Research Forum Proceedings"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              12,
+              13
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.qscience.com/view/journals/qfarf/2010/1/article-EEP2.xml",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.qscience.com/downloadpdf/journals/qfarf/2010/1/article-EEP2.xml",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://www.qscience.com/downloadpdf/journals/qfarf/2010/1/article-EEP2.xml",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              12,
+              13
+            ]
+          ]
+        },
+        "title": [
+          "Biopesticide research and development: for safer agriculture, food and environment"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.55278/aiza1729",
+        "URL": "https://doi.org/10.55278/aiza1729",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "College of Agriculture, IGKV, Raipur, Chhattisgarh, India",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Ganguli",
+            "given": "Nandita Paul",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Nishad",
+            "given": "Subuhi",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Insect Environment"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              16
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              16
+            ]
+          ]
+        },
+        "title": [
+          "Empowering Farmers Through Biopesticide Awareness: Strengthening Ecosystem Health for Sustainable Farming"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.19103/as.2024.152.06",
+        "URL": "https://doi.org/10.19103/as.2024.152.06",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Embrapa Digital Agriculture, Brazil",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Arnal Barbedo",
+            "given": "Jayme Garcia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Teixeira Santos",
+            "given": "Thiago",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "name": "Embrapa Digital Agriculture, Brazil",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Burleigh Dodds Series in Agricultural Science",
+          "Precision agriculture for sustainability: Second edition"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              11
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              11
+            ]
+          ]
+        },
+        "title": [
+          "Developments in multi-sensor fusion in precision agriculture"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1007/s44279-024-00045-y",
+        "URL": "https://doi.org/10.1007/s44279-024-00045-y",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Kannan",
+            "given": "Keerthana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Raju",
+            "given": "Pavithra",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Keerthy",
+            "given": "B. N.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rajagopal",
+            "given": "Ananya",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Sabat",
+            "given": "Sasmita",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Discover Agriculture"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              18
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s44279-024-00045-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s44279-024-00045-y/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s44279-024-00045-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              18
+            ]
+          ]
+        },
+        "title": [
+          "Biopesticide effect on crops for the bioactive components extracted from Tagetes erecta and Tagetes patula"
+        ],
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 25,
+    "query": {
+      "search-terms": "biopesticide agriculture Brazil",
+      "start-index": 0
+    },
+    "total-results": 684715
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

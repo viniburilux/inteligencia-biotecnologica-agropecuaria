@@ -1,0 +1,2057 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.11606/9786589722885",
+        "URL": "https://doi.org/10.11606/9786589722885",
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              12
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos por uma agricultura sustentável: o caso do controle biológico"
+        ],
+        "type": "monograph"
+      },
+      {
+        "DOI": "10.46898/rfb.560fd45f3136",
+        "URL": "https://doi.org/10.46898/rfb.560fd45f3136",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Almeida",
+            "given": "Tais Ferreira de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Amaral",
+            "given": "Alliny das Graças",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "ESTUDOS EM CIÊNCIAS AGRÁRIAS-Volume 5"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              11
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              11
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos: sustentabilidade e inovação na agricultura"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.69570/mp.978-65-84548-43-5.c4",
+        "URL": "https://doi.org/10.69570/mp.978-65-84548-43-5.c4",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Rodrigues Trindade",
+            "given": "Ayla",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Conversando sobre meio ambiente e saúde: uma abordagem popular. Volume III"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "title": [
+          "Bioquímica dos Bioinsumos: Ação de Microrganismos na Agricultura Sustentável"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.29327/9786527214786.1098126",
+        "URL": "https://doi.org/10.29327/9786527214786.1098126",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Bortoloti",
+            "given": "Gillyene",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Sampaio",
+            "given": "Renata Martins",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Anais do 63º Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural (SOBER)"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "title": [
+          "AGRICULTURA SUSTENTÁVEL: BIOINSUMOS EM PROGRAMAS E SUBPROGRAMAS DE CRÉDITO RURAL NO BRASIL"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.48207/9786587065250-10",
+        "URL": "https://doi.org/10.48207/9786587065250-10",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Goulet",
+            "given": "Frédéric",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "A ação pública de adaptação da agricultura à mudança climática no Nordeste semiárido brasileiro"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "As políticas de promoção dos bioinsumos no Brasil. Entre alternativas e alinhamentos"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.51896/tlatemoani.v16i50.1105",
+        "URL": "https://doi.org/10.51896/tlatemoani.v16i50.1105",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9409-3014",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "asserted-by": "publisher",
+                    "id": "https://ror.org/000917t60",
+                    "id-type": "ROR"
+                  }
+                ],
+                "name": "Autonomous University of San Luis Potosí"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Arcudia Hernández",
+            "given": "Carlos Ernesto",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Autonomous University of San Luis Potosí"
+              }
+            ],
+            "family": "Martínez Padrón",
+            "given": "Adriana Dinora",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Autonomous University of San Luis Potosí"
+              }
+            ],
+            "family": "Martínez Alvarado",
+            "given": "Eunice",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "TLATEMOANI Revista Académica de Investigación"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              20
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              20
+            ]
+          ]
+        },
+        "title": [
+          "Marco regulatorio de los bioinsumos en la agricultura orgánica en México"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.7769/gesec.v15i9.4137",
+        "URL": "https://doi.org/10.7769/gesec.v15i9.4137",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8214-6916",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Santos",
+            "given": "João Pedro dos",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-9875-5250",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Oliveira",
+            "given": "Ana Laura Paula de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0555-9271",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Putti",
+            "given": "Fernando Ferrari",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista de Gestão e Secretariado"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              24
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://ojs.revistagesec.org.br/secretariado/article/download/4137/2710",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.revistagesec.org.br/secretariado/article/download/4137/2710",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              24
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos na agricultura: panorama tecnológico das patentes biológicas"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.52138/sitec.v5i1.523",
+        "URL": "https://doi.org/10.52138/sitec.v5i1.523",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "SILVA",
+            "given": "Adrieli Alesca Ferreira da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "TOLEDO",
+            "given": "Nanci de Lima Parola",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "VIEIRA",
+            "given": "Rita de Cássia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Simpósio de Tecnologia Fatec Jaboticabal"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              6
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              6
+            ]
+          ]
+        },
+        "title": [
+          "POTENCIAL DOS BIOINSUMOS NA AGRICULTURA SUSTENTÁVEL"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.29327/9786527226680.1437480",
+        "URL": "https://doi.org/10.29327/9786527226680.1437480",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Bortoloti",
+            "given": "Gillyene",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Sampaio",
+            "given": "Renata Martins",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Anais do 64º Congresso da SOBER e XVI Congresso Mundial de Sociologia Rural (IRSA)"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "title": [
+          "Produção on-farm de bioinsumos e transferência de conhecimento: caminhos de inovação e extensão na agricultura sustentável"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.37885/220709308",
+        "URL": "https://doi.org/10.37885/220709308",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Silva",
+            "given": "Ana Caroline Batista da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Coelho",
+            "given": "Naima da Trindade",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Ferreira",
+            "given": "Leonardo Elias",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Souza",
+            "given": "Eliziete Pereira de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Ciências Agrárias: o avanço da ciência no Brasil - Volume 4"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://downloads.editoracientifica.com.br/articles/220709308.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "USO E EFEITO DOS BIOINSUMOS NA AGRICULTURA"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.28940/terra.v43i.2045",
+        "URL": "https://doi.org/10.28940/terra.v43i.2045",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-1182-2597",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Rosales-Castillo",
+            "given": "Rocio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Velázquez-de Lucio",
+            "given": "Brianda Susana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Hernández-Domínguez",
+            "given": "Edna María",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Álvarez-Cervantes",
+            "given": "Jorge",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "REVISTA TERRA LATINOAMERICANA"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              31
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.terralatinoamericana.org.mx/index.php/terra/article/download/2045/1909",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.terralatinoamericana.org.mx/index.php/terra/article/download/2045/1909",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              31
+            ]
+          ]
+        },
+        "title": [
+          "Bio-inputs: An Alternative to Achieve Sustainable Agriculture",
+          "Bioinsumos: Una Alternativa para Lograr una Agricultura Sostenible"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.33936/latecnica.v15i1.6908",
+        "URL": "https://doi.org/10.33936/latecnica.v15i1.6908",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2949-9055",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "López Castro",
+            "given": "Jennifer Milena",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7990-6590",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Soledispa Bernita",
+            "given": "Zully Nathaly",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6006-8988",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Añazco Chávez",
+            "given": "Joffre",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5691-6320",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Ruilova Narváez",
+            "given": "Favio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5910-546X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Ortiz Dueñas",
+            "given": "Xavier",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-8308-679X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Tumbaco Vera",
+            "given": "Jorge",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8116-1708",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Cobeña Ruíz",
+            "given": "Gloria",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-1845-8680",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Park",
+            "given": "Chang Hwan",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "La Técnica. Revista de las Agrociencias. ISSN 2477-8982"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              20
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://revistas.utm.edu.ec/index.php/latecnica/article/download/6908/9965",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://revistas.utm.edu.ec/index.php/latecnica/article/download/6908/9726",
+            "content-type": "application/zip",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://revistas.utm.edu.ec/index.php/latecnica/article/download/6908/9724",
+            "content-type": "application/epub+zip",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://revistas.utm.edu.ec/index.php/latecnica/article/download/6908/9723",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              20
+            ]
+          ]
+        },
+        "title": [
+          "Respuesta del cultivo de camote (Ipomoea batatas) a la aplicación de bioinsumos edáficos",
+          "Response of the sweet potato crop (Ipomoea batatas) to the application of edaphic bioinputs",
+          "Resposta do cultivo da batata-doce (Ipomoea batatas) à aplicação de bioinsumos edáficos"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.37885/260321344",
+        "URL": "https://doi.org/10.37885/260321344",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6102-4781",
+            "affiliation": [],
+            "authenticated-orcid": true,
+            "family": "Almeida",
+            "given": "Taís Ferreira de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-3603-5232",
+            "affiliation": [],
+            "authenticated-orcid": true,
+            "family": "Cintra",
+            "given": "Gabriella Souza",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-6655-1630",
+            "affiliation": [],
+            "authenticated-orcid": true,
+            "family": "Divina",
+            "given": "Nara Lucy Apolinário de Jesus",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Campos",
+            "given": "Denízia Fabiana De Souza",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Tecnologias Aplicadas a Agricultura"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://downloads.editoracientifica.com.br/articles/260321344.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "title": [
+          "BIOINSUMOS NO MANEJO INTEGRADO DE DOENÇAS DOS CITROS: CONTRIBUIÇÕES BIOLÓGICAS, SUSTENTABILIDADE E DESAFIOS DE ADOÇÃO"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.70773/revistatopicos/781365493",
+        "URL": "https://doi.org/10.70773/revistatopicos/781365493",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Lima",
+            "given": "Pedro Soares de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Agra",
+            "given": "Mário Diniz",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Silva",
+            "given": "Josilene Pereira",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Nunes",
+            "given": "José Vitor da Silva",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Souza",
+            "given": "Giselle Silva de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Tópicos"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              14
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              14
+            ]
+          ]
+        },
+        "title": [
+          "USO DE BIOINSUMOS NA AGRICULTURA: UMA REVISÃO SOBRE SUSTENTABILIDADE E PROCESSOS QUÍMICOS DO SOLO"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.54033/cadpedv23n5-008",
+        "URL": "https://doi.org/10.54033/cadpedv23n5-008",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Soares",
+            "given": "Eveline Ferreira",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Silva",
+            "given": "Alieze Nascimento da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Machado",
+            "given": "Nicolas Lemos",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Moreira",
+            "given": "Thainá Fogliatto",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Veiga",
+            "given": "Jayne Deboni da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Giuseppe",
+            "given": "Maria Fernanda Eraso Di",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Caderno Pedagógico"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://ojs.studiespublicacoes.com.br/ojs/index.php/cadped/article/download/23568/13094",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.studiespublicacoes.com.br/ojs/index.php/cadped/article/download/23568/13094",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos na agricultura: desafios de padronização, con-sistência em campo e marcos regulatórios"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1590/0101-31572026-3739",
+        "URL": "https://doi.org/10.1590/0101-31572026-3739",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-2260-8366",
+            "affiliation": [
+              {
+                "name": "Universidade de Brasília,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "ABBUD",
+            "given": "JOÃO MARCELO",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0490-9241",
+            "affiliation": [
+              {
+                "name": "Universidade de Brasília,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "CECHIN",
+            "given": "ANDREI",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Brazilian Journal of Political Economy"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.scielo.br/scielo.php?script=sci_pdf&pid=S0101-31572026000100616&tlng=en",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "title": [
+          "Bio-inputs for agriculture in Brazil: why can’t the alternative become mainstream?"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.56001/25.9786501378923.06",
+        "URL": "https://doi.org/10.56001/25.9786501378923.06",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Perina",
+            "given": "Pedro Octavio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Silva",
+            "given": "Jean Carlos Sousa da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Shimada",
+            "given": "Joji",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Azenha",
+            "given": "Rian Albanez",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2230-1747",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Silva",
+            "given": "Alasse Oliveira da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Silva",
+            "given": "Alane Oliveira da",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Leão",
+            "given": "Eduarda Pacheco",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7102-7580",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Silva",
+            "given": "Dioclea Almeida Seabra",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Reis",
+            "given": "Lenize Oliveira Dos",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Santos",
+            "given": "Gustavo Goes dos",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "O Universo das Ciências Agrárias"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "title": [
+          "BIOINSUMOS: USO E APLICAÇÃO NA AGRICULTURA BRASILEIRA"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.18378/rebagro.v12i1.9172",
+        "URL": "https://doi.org/10.18378/rebagro.v12i1.9172",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Brasil",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Vanessa SAUER",
+            "given": "Aline",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "L. CANCELLIER",
+            "given": "Eduardo",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Takemi Trugillo MUTTA",
+            "given": "Fabio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Tiago KÖLLN",
+            "given": "Oriel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rubén COHEN",
+            "given": "Néstor",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Brasileira de Agrotecnologia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              2
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://www.gvaa.com.br/revista/index.php/REBAGRO/article/download/9172/11060",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.gvaa.com.br/revista/index.php/REBAGRO/article/download/9172/11060",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              2
+            ]
+          ]
+        },
+        "title": [
+          "IMPACTO ECONÓMICO Y SOCIAL DEL USO DE BIOINSUMOS EN LA AGRICULTURA FAMILIAR CON ÉNFASIS EN EL CULTIVO DE ALFALFA"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.4060/cc9060pt",
+        "URL": "https://doi.org/10.4060/cc9060pt",
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              26
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              26
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos: oportunidades de investimento na América Latina"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.22533/at.ed.341251807",
+        "URL": "https://doi.org/10.22533/at.ed.341251807",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Monnerat",
+            "given": "Rose Gomes",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Castro",
+            "given": "Marcelo Tavares de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Montalvão",
+            "given": "Sandro Coelho Linhares",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Ferreira",
+            "given": "Antônia Débora Camila de Lima",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Nascimento",
+            "given": "Izabela Nunes do",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Rocha",
+            "given": "Gabriela Teodoro",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Moreira",
+            "given": "Flávia Melo",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Celestino",
+            "given": "Matheus Felipe",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Filho",
+            "given": "Magno Rodrigues de Carvalho",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ]
+        },
+        "title": [
+          "Produção e controle de qualidade de bioinsumos à base de bactérias e fungos para uso na agricultura"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.21071/c3b.vi5.17771",
+        "URL": "https://doi.org/10.21071/c3b.vi5.17771",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Medina Morales",
+            "given": "Paula",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Morales Ibarra",
+            "given": "Marcel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "González Monterrubio",
+            "given": "César",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "C3-BIOECONOMY: Circular and Sustainable Bioeconomy"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://journals.uco.es/bioeconomy/article/download/17771/15823",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.uco.es/bioeconomy/article/download/17771/15823",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos y bioeconomía circular contra el cambio climático: Alianza para la productividad, regeneración de suelos y captura de carbono en la agricultura de México, Biofábrica Siglo XXI"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.51260/revista_espamciencia.v15i1.499",
+        "URL": "https://doi.org/10.51260/revista_espamciencia.v15i1.499",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Instituto Nacional de Investigaciones Agrícolas Monagas, San Agustín de la Pica, Estado Monagas, Venezuela.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Barrios Maestre",
+            "given": "Renny",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Silva Acuña",
+            "given": "Ramón",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "name": "Universidad de Oriente, Postgrado de Agricultura Tropical, Campus Juanico, Maturín, Monagas, Venezuela.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Romero Marcano",
+            "given": "Guillermo",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "name": "Universidad de Oriente, Postgrado de Agricultura Tropical, Campus Juanico, Maturín, Monagas, Venezuela.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista ESPAMCIENCIA"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              14
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              14
+            ]
+          ]
+        },
+        "title": [
+          "Germinación de semillas de leguminosas inoculadas con diferentes dosis de bioinsumos"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.4060/cc9060es",
+        "URL": "https://doi.org/10.4060/cc9060es",
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              16
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.fao.org/3/cc9060es/cc9060es.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              16
+            ]
+          ]
+        },
+        "title": [
+          "Bioinsumos: Oportunidades de inversión en América Latina"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.53287/uirs8059og50f",
+        "URL": "https://doi.org/10.53287/uirs8059og50f",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Universidad Mayor de San Andrés",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Macias Villalobos",
+            "given": "Milton Indalicio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              12
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Manual Elaboración y Uso de Bioinsumos"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.1590/1983-40632023v5376326",
+        "URL": "https://doi.org/10.1590/1983-40632023v5376326",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8979-5484",
+            "affiliation": [
+              {
+                "name": "Universidade Federal de Alagoas,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Oliveira",
+            "given": "Vanuze Costa de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3719-2873",
+            "affiliation": [
+              {
+                "name": "Universidade Federal de Alagoas,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Melo",
+            "given": "Luan Danilo Ferreira de Andrade",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4162-8729",
+            "affiliation": [
+              {
+                "name": "Universidade Federal de Alagoas,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Melo Júnior",
+            "given": "João Luciano de Andrade",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6194-8028",
+            "affiliation": [
+              {
+                "name": "Universidade Federal de Alagoas,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Massahud",
+            "given": "Regla Toujaguez La Rosa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9794-2162",
+            "affiliation": [
+              {
+                "name": "Universidade Federal de Alagoas,  Brazil"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Grugiki",
+            "given": "Marília Alves",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Pesquisa Agropecuária Tropical"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.scielo.br/scielo.php?script=sci_pdf&pid=S1983-40632023000101101&tlng=en",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "title": [
+          "Bioinputs and organic production in Brazil: a study based on the Embrapa’s Bioinsumos application1"
+        ],
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 25,
+    "query": {
+      "search-terms": "bioinsumos agricultura",
+      "start-index": 0
+    },
+    "total-results": 18843
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

@@ -1,0 +1,1449 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.1590/s1415-43662014000600001",
+        "URL": "https://doi.org/10.1590/s1415-43662014000600001",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Instituto Federal de Educação, Ciência e Tecnologia de Rondônia"
+              }
+            ],
+            "family": "Matoso",
+            "given": "Stella C. G.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Universidade Federal do Acre"
+              }
+            ],
+            "family": "Kusdra",
+            "given": "Jorge F.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Brasileira de Engenharia Agrícola e Ambiental"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.scielo.br/pdf/rbeaa/v18n6/v18n6a01.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "title": [
+          "Nodulação e crescimento do feijoeiro em resposta à aplicação de molibdênio e inoculante rizobiano"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.66205/mabra.v2i3.56",
+        "URL": "https://doi.org/10.66205/mabra.v2i3.56",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6124-0898",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Sousa",
+            "given": "Valéria Fernandes de Oliveira",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Meio Ambiente (Brasil)"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              5
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://meioambientebrasil.com.br/index.php/MABRA/article/download/56/48",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://meioambientebrasil.com.br/index.php/MABRA/article/download/56/48",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              5
+            ]
+          ]
+        },
+        "title": [
+          "Uso de bactérias como inoculante e fonte de fertilizante na cultura do milho"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.70860/ufnt.rbec.e20152",
+        "URL": "https://doi.org/10.70860/ufnt.rbec.e20152",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0655-9249",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Ochoa Manrique",
+            "given": "Ana Isabel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5781-8781",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Peña Ramos",
+            "given": "Martha Olivia",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Brasileira de Educação do Campo"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              24
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://periodicos.ufnt.edu.br/index.php/campo/article/download/20152/22871",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://periodicos.ufnt.edu.br/index.php/campo/article/download/20152/22871",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              24
+            ]
+          ]
+        },
+        "title": [
+          "Formación agrícola rural y cambio climático"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.37423/2021.edcl256",
+        "URL": "https://doi.org/10.37423/2021.edcl256",
+        "container-title": [
+          "Engenharia agrícola: princípios fundamentais"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Engenharia agrícola: princípios fundamentais"
+        ],
+        "type": "book"
+      },
+      {
+        "DOI": "10.48075/actaiguaz.v1i2.7038",
+        "URL": "https://doi.org/10.48075/actaiguaz.v1i2.7038",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Luiz Calescura",
+            "given": "Pedrinho",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Gai",
+            "given": "Vivian Fernanda",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Acta Iguazu"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              9,
+              24
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://e-revista.unioeste.br/index.php/actaiguazu/article/download/7038/5190",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://e-revista.unioeste.br/index.php/actaiguazu/article/download/7038/5190",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              9,
+              24
+            ]
+          ]
+        },
+        "title": [
+          "USO DE INOCULANTE MICROBIANO EM SILAGEM DE MILHO"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.37423/2021.edcl397",
+        "URL": "https://doi.org/10.37423/2021.edcl397",
+        "container-title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "type": "book"
+      },
+      {
+        "DOI": "10.37423/211205149",
+        "URL": "https://doi.org/10.37423/211205149",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Lima",
+            "given": "Neuza Rejane Wille",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "QUANTIFICANDO CONHECIMENTOS CONSTRUÍDOS POR ALUNOS DE ENGENHARIA AGRÍCOLA E AMBIENTAL SOBRE AS NOVAS PRÁTICAS AGRÍCOLAS"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.5151/2594-5327-17748",
+        "URL": "https://doi.org/10.5151/2594-5327-17748",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Arango",
+            "given": "Diego Alfonso Pineda",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Martorano",
+            "given": "Marcelo Aquino",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "ABM Proceedings"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              8
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              8
+            ]
+          ]
+        },
+        "title": [
+          "EFEITO DA ADIÇÃO DE INOCULANTE NA MACROESTRUTURA DE LIGAS Al-Si OBTIDAS POR SOLIDIFICAÇÃO UNIDIRECIONAL"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.19180/1809-2667.v24n22022p267-280",
+        "URL": "https://doi.org/10.19180/1809-2667.v24n22022p267-280",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0066-7038",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Souza",
+            "given": "Ana Cláudia Ribeiro de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0942-585X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Cruz",
+            "given": "Naasson Barbossa",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Revista Vértices"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              16
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://editoraessentia.iff.edu.br/index.php/vertices/article/download/16986/16092",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://editoraessentia.iff.edu.br/index.php/vertices/article/download/16986/16610",
+            "content-type": "application/zip",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://editoraessentia.iff.edu.br/index.php/vertices/article/download/16986/16611",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://editoraessentia.iff.edu.br/index.php/vertices/article/download/16986/16092",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              16
+            ]
+          ]
+        },
+        "title": [
+          "Educação Profissional Agrícola no Amazonas: uma análise histórica sobre o Aprendizado Agrícola Rio Branco (1941-1946)",
+          "Vocational Agricultural Education in Amazonas: a historical analysis of Aprendizado Agrícola Rio Branco (1941-1946)",
+          "Educación Agrícola Profesional en Amazonas: un análisis histórico del Aprendizado Agrícola Rio Branco (1941-1946)"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.36229/978-65-5866-474-1",
+        "URL": "https://doi.org/10.36229/978-65-5866-474-1",
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "title": [
+          "Agronomia e climatologia agrícola - Volume 1"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.32457/2050012728/9801201969",
+        "URL": "https://doi.org/10.32457/2050012728/9801201969",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Salas",
+            "given": "Humberto",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              23
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              23
+            ]
+          ]
+        },
+        "title": [
+          "El devenir del sector agrícola en la zona sur"
+        ],
+        "type": "report"
+      },
+      {
+        "DOI": "10.32457/2050012728/9759202156",
+        "URL": "https://doi.org/10.32457/2050012728/9759202156",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Salas",
+            "given": "Humberto",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Venegas",
+            "given": "Víctor",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              24
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              24
+            ]
+          ]
+        },
+        "title": [
+          "Confianza empresarial del sector agrícola en La Araucanía"
+        ],
+        "type": "report"
+      },
+      {
+        "DOI": "10.47820/recima21.v6i1.7027",
+        "URL": "https://doi.org/10.47820/recima21.v6i1.7027",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Aparecido Cespedes Estevo",
+            "given": "Gabriel",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Luiz da Silva",
+            "given": "André",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Florian",
+            "given": "Fabiana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://recima21.com.br/recima21/article/download/7027/4662",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://recima21.com.br/recima21/article/download/7027/4662",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "title": [
+          "APLICAÇÃO PARA GERENCIAMENTO AGRÍCOLA",
+          "APPLICATION FOR AGRICULTURAL MANAGEMENT",
+          "APLICACIÓN PARA LA GESTIÓN AGRÍCOLA"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.30972/agr.0252471",
+        "URL": "https://doi.org/10.30972/agr.0252471",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Bruno",
+            "given": "Carla V.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Thuar",
+            "given": "Alicia M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Castro",
+            "given": "Stella M.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Agrotecnia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              30
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://revistas.unne.edu.ar/index.php/agr/article/viewFile/2471/2183",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              30
+            ]
+          ]
+        },
+        "title": [
+          "Bradyrhizobium sp. Per 3.61: un aporte promisorio para su uso como inoculante en el cultivo de soja"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.5747/ca.2013.v09.nesp.000128",
+        "URL": "https://doi.org/10.5747/ca.2013.v09.nesp.000128",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Hespanhol",
+            "given": "Rafael Medeiros",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Colloquium Agrariae"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              10,
+              25
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://www.unoeste.br/site/enepe/2013/suplementos/area/Agrariae/Ci%C3%AAncia%20e%20Tecnologia/AVIA%C3%87%C3%83O%20AGR%C3%8DCOLA%20LIGA%C3%87%C3%83O%20ENTRE%20REGULAMENTA%C3%87%C3%83O%20AERON%C3%81UTICA%20E%20AGR%C3%8DCOLA.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              10,
+              25
+            ]
+          ]
+        },
+        "title": [
+          "AVIAÇÃO AGRÍCOLA: LIGAÇÃO ENTRE REGULAMENTAÇÃO AERONÁUTICA E AGRÍCOLA"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.22533/at.ed.3161916041",
+        "URL": "https://doi.org/10.22533/at.ed.3161916041",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Diaz",
+            "given": "Daniel Campos Ruiz",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Meio Ambiente, Sustentabilidade e Agroecologia 5"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              16
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              16
+            ]
+          ]
+        },
+        "title": [
+          "AGRICULTURA AGRÍCOLA AGRÍCOLA: BASE DA SOBERANIA ALIMENTAR E ENERGÉTICA"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.5154/r.inagbi.2009.07.015",
+        "URL": "https://doi.org/10.5154/r.inagbi.2009.07.015",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Posgrado en Ingeniería Agrícola y Uso Integral del Agua, Mecanización Agrícola, Universidad Autónoma Chapingo.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Morelos-Moreno",
+            "given": "Álvaro",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Romantchik-Kriuchkova",
+            "given": "Eugenio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "name": "Departamento de Ingeniería Mecánica Agrícola, Universidad Autónoma Chapingo.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Gaytán-Ruelas",
+            "given": "José G.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "name": "Departamento de Ingeniería Mecánica Agrícola, Universidad Autónoma Chapingo.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Villaseñor-Perea",
+            "given": "Carlos A.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "name": "Departamento de Ingeniería Mecánica Agrícola, Universidad Autónoma Chapingo.",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Ingeniería Agrícola y Biosistemas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2015
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2015
+            ]
+          ]
+        },
+        "title": [
+          "TIRES PULL FORCE OF A TRACTOR IN THE 4X2 AND 4x4 SCHEMES WHEN IT MAKES A TUR"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.22463/0122820x.382",
+        "URL": "https://doi.org/10.22463/0122820x.382",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Contreras Roa",
+            "given": "Blanca",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "López Pérez",
+            "given": "Sandra",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Reyes",
+            "given": "Juan Pablo",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Cárdenas-Caro",
+            "given": "Diana",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Respuestas"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              15
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://revistas.ufps.edu.co/index.php/respuestas/article/download/382/407",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://revistas.ufps.edu.co/index.php/respuestas/article/download/382/407",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              15
+            ]
+          ]
+        },
+        "title": [
+          "Producción de un inoculante a base de rizobacterias promotoras del crecimiento vegetal"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.56468/1983-7747.erea112015",
+        "URL": "https://doi.org/10.56468/1983-7747.erea112015",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Irmão",
+            "given": "Loreta",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Revista de Economia Agrícola"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "title": [
+          "Modernização agrícola na região norte: comparativo dos censos de 1995 e 2005."
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.22201/pued.9786070295584e.2017.ca",
+        "URL": "https://doi.org/10.22201/pued.9786070295584e.2017.ca",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0255-677X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Mohar Ponce",
+            "given": "Alejandro",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3623-6851",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Galeana Pizaña",
+            "given": "Mauricio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Perspectivas del desarrollo a 2030"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://132.248.170.14/publicaciones/34/CA.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "title": [
+          "Sistema agrícola sostenible a 2030: Frontera agrícola y preservación del capital natural"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.36229/978-65-5866-474-1.cap.04",
+        "URL": "https://doi.org/10.36229/978-65-5866-474-1.cap.04",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3455-9876",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Matos",
+            "given": "Rigoberto Moreira de",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Agronomia e climatologia agrícola - Volume 1"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "title": [
+          "Categorização dos tipos climáticos do Triângulo Crajubar"
+        ],
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.37885/978-65-5360-968-6",
+        "URL": "https://doi.org/10.37885/978-65-5360-968-6",
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://s3.amazonaws.com/downloads.editoracientifica.com.br/review/978-65-5360-968-6.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "title": [
+          "Sistemas Sustentáveis de Produção Agrícola: Estratégias Mitigatórias das Atividades Antrópicas, Resiliência Agrícola e Conservação da Biodiversidade"
+        ],
+        "type": "edited-book"
+      },
+      {
+        "DOI": "10.63021/vcontec.978-6589249313.2024.art024",
+        "URL": "https://doi.org/10.63021/vcontec.978-6589249313.2024.art024",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-7122-0535",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Gonçalves",
+            "given": "Silmo",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6204-8702",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Aparecido Navarrete",
+            "given": "Acácio",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0957-329X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Herbst Vazquez",
+            "given": "Gisele",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Anais do V Congresso Acadêmico e Tecnológico da Universidade Brasil"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "USO DE INOCULANTE MICORRÍZICO E SEUS EFEITOS EM CANAPLANTA E EM CANA-SOCA"
+        ],
+        "type": "proceedings-article"
+      },
+      {
+        "DOI": "10.33448/rsd-v12i6.42019",
+        "URL": "https://doi.org/10.33448/rsd-v12i6.42019",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7117-1905",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Guimarães",
+            "given": "Vandeir Francisco",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2075-362X",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Klein",
+            "given": "Jeferson",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Research, Society and Development"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              12
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://rsdjournal.org/index.php/rsd/article/download/42019/34085",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://rsdjournal.org/index.php/rsd/article/download/42019/34085",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Inoculante líquido contendo Bacillus megaterium e B. subitilis é eficiente em promover crescimento e disponibilizar fósforo para a para soja"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.37423/220105198",
+        "URL": "https://doi.org/10.37423/220105198",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Ascoli",
+            "given": "Carla Aparecida",
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ],
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Tópicos em engenharia agrícola e agronomia"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "title": [
+          "TESTE DE TETRAZÓLIO PARA AVALIAÇÃO DA VIABILIDADE DE SEMENTES DE ARROZ"
+        ],
+        "type": "book-chapter"
+      }
+    ],
+    "items-per-page": 25,
+    "query": {
+      "search-terms": "inoculante agrícola",
+      "start-index": 0
+    },
+    "total-results": 10587
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}
