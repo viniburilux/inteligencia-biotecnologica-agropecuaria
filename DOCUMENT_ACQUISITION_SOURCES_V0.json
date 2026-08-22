@@ -1,0 +1,12 @@
+{
+  "registry_version": "public-document-acquisition-v0",
+  "classification": "PUBLICABLE_DERIVED_METHOD",
+  "sources": [
+    {"name": "Google Patents", "domains": ["patents"], "role": "acquisition", "validation_required": ["identity", "technical_sections", "format", "hash"]},
+    {"name": "Publisher PDF", "domains": ["papers"], "role": "acquisition_when_accessible", "validation_required": ["pdf_signature", "text_extraction", "size", "hash"]},
+    {"name": "Crossref", "domains": ["papers"], "role": "discovery_and_routing", "full_text_guaranteed": false},
+    {"name": "OpenAlex", "domains": ["papers"], "role": "discovery_and_routing", "full_text_guaranteed": false},
+    {"name": "Unpaywall", "domains": ["papers"], "role": "discovery_and_routing", "full_text_guaranteed": false}
+  ],
+  "rule": "A link, landing page, abstract, metadata response or HTTP 200 alone is not full text. Full text requires acquired content and independent validation."
+}

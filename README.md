@@ -42,16 +42,20 @@ Patentes serão uma das principais fontes. Não serão a única. A investigaçã
 
 ## O que estamos construindo
 
-Uma infraestrutura aberta para:
+Uma infraestrutura aberta para investigação documental e inteligência aplicada em biotecnologia agropecuária. Metadata é apenas uma camada de entrada; a capacidade agora inclui resolver identificadores, localizar documentos, adquirir conteúdo quando a rota permite, validar identidade e integridade, preservar provenance e preparar o corpus para extração técnica e análises posteriores.
 
-- coletar e organizar metadata pública de patentes e literatura;
-- acompanhar famílias tecnológicas, depositantes, inventores, instituições e aplicações;
-- comparar tecnologias e sinais de atividade;
-- tornar relações, lacunas e anomalias investigáveis;
-- registrar como perguntas se transformam em evidência, análise e descoberta;
-- publicar resultados reproduzíveis sem fingir certeza onde existe apenas hipótese.
+A camada pública registra:
 
-O objetivo não é lançar um dashboard vazio nem produzir um relatório que ninguém lê. É construir algo que possa ser usado para descobrir, comparar, decidir e criar valor.
+- descoberta e organização de metadata pública de patentes e literatura;
+- resolução de documentos, famílias, depositantes, inventores, instituições e aplicações;
+- roteamento para fontes de conteúdo e classificação explícita de acesso;
+- validação documental por formato, assinatura, identidade, conteúdo e hash;
+- manifestos que conectam identificador → fonte → documento → status → provenance;
+- relações entre documentos, famílias, tecnologias e evidências;
+- preparação de corpus para IA, retrieval, comparação e investigação posterior;
+- resultados reproduzíveis sem transformar hipótese em certeza.
+
+A aquisição e o processamento documental detalhado permanecem no Lux-Lab privado. O objetivo não é lançar um dashboard vazio nem produzir um relatório que ninguém lê. É construir uma máquina de investigação que possa ser auditada, reutilizada e aplicada a novos domínios.
 
 ## Primeira entrega: Inventário Metadata-only V0
 
@@ -89,8 +93,18 @@ A expansão V1/V2 seguiu atores, organismos, tecnologias e lacunas que aparecera
 | Fontes regulatórias e de aplicação | [`REGULATORY_APPLICATION_SOURCES_V1.md`](REGULATORY_APPLICATION_SOURCES_V1.md) |
 | Corpus cumulativo | [`normalized_v2/`](normalized_v2/) |
 | Resultados em movimento | [`results/`](results/) |
+| Método público de aquisição documental | [`DOCUMENT_ACQUISITION_METHOD_V0.md`](DOCUMENT_ACQUISITION_METHOD_V0.md) |
+| Fontes e limites dos adapters | [`DOCUMENT_ACQUISITION_SOURCES_V0.json`](DOCUMENT_ACQUISITION_SOURCES_V0.json) |
+| Schema público de manifesto | [`DOCUMENT_ACQUISITION_MANIFEST_SCHEMA_V0.json`](DOCUMENT_ACQUISITION_MANIFEST_SCHEMA_V0.json) |
+| Checkpoint público da execução Agro | [`DOCUMENT_ACQUISITION_CHECKPOINT_V0.md`](DOCUMENT_ACQUISITION_CHECKPOINT_V0.md) · [`DOCUMENT_ACQUISITION_CHECKPOINT_V0.json`](DOCUMENT_ACQUISITION_CHECKPOINT_V0.json) |
 
-A entrega não tenta encerrar a investigação. Ela cria uma base pública para perguntar **quem aparece**, **quais tecnologias se repetem**, **quais relações surgem** e **onde a evidência ainda não existe**. A camada [Resultados em movimento](results/) mostra como uma trilha passa de corpus a sinal, documento, relação e próxima pergunta.
+## Inteligência documental
+
+A execução documental do corpus atual foi realizada em uma camada privada de aquisição. O checkpoint público registra **718 identificadores** — **175 patentes e 543 papers** — com estados separados para `FULL_TEXT_VERIFIED`, `LINK_FOUND`, `METADATA_ONLY`, `ACCESS_RESTRICTED` e `NOT_PROVEN_FULL_TEXT`. Os documentos integrais, textos, logs operacionais e código de aquisição não são redistribuídos aqui.
+
+O método não chama um link de documento. HTTP 200, landing page, abstract ou URL terminada em `.pdf` não bastam. A confirmação depende de conteúdo recebido, formato ou assinatura coerente, identidade, conteúdo técnico mínimo, hash e provenance. A aquisição patentária já foi demonstrada para publicações BR, US, WO/PCT e EP; uma rota publisher PDF também foi demonstrada para uma classe de paper open access. Essas afirmações são limitadas às rotas e amostras registradas nos checkpoints.
+
+A entrega não tenta encerrar a investigação. A camada [Resultados em movimento](results/) mostra como uma trilha passa de corpus a sinal, documento, relação e próxima pergunta. O projeto cria uma base pública para perguntar **quem aparece**, **quais tecnologias se repetem**, **quais relações surgem**, **quais documentos podem ser verificados** e **onde a evidência ainda não existe**.
 
 ## Sem esperar condições perfeitas
 
@@ -137,19 +151,22 @@ A camada privada continuará reservada para credenciais, memória operacional, d
 | **21/08/2026** | Expansão V1/V2: atores, organismos, tecnologias, relações, fontes regulatórias e consultas de contraste. |
 | **21/08/2026** | Radiografia Exploratória V1: 17 queries executadas; reformulações abriram lacunas antes insuficientes. |
 | **21/08/2026** | Corpus cumulativo atualizado para 763 obras, com proveniência e deduplicação publicadas. |
-| Próximo marco | Continuar o ciclo com as perguntas V2 derivadas da Radiografia V1, sem congelar as trilhas abertas. |
+| **21/08/2026** | Início da Inteligência Documental: arquitetura de aquisição, validação documental, hashes e provenance preservada no Lux-Lab privado. |
+| **22/08/2026** | Acquisition Probe internacional: Google Patents validado em publicações US, WO/PCT e EP; rota publisher PDF validada em paper OA. |
+| **22/08/2026** | Primeira execução documental no corpus Agro: 175 patentes e 543 papers roteados, adquiridos quando possível e classificados por evidência. |
+| Próximo marco | Reutilização do layer para uma nova execução controlada e, depois, extração técnica apenas sobre documentos que passarem o gate documental. |
 
 A linha do tempo vai crescer junto com a investigação. O objetivo é preservar a arqueologia da descoberta, não apenas o resultado final.
 
 ## Status
 
-**Modo exploratório ativo.** O laboratório já tem uma camada pública de ingestão, normalização, resolução conservadora de entidades, radiografia e descoberta orientada por consultas. O corpus original de 379 registros derivou a segunda rodada; as expansões V1/V2 e a Radiografia V1 foram executadas e incorporadas ao corpus cumulativo de 763 obras.
+**Modo exploratório ativo.** O laboratório já tem uma camada pública de ingestão, normalização, resolução conservadora de entidades, radiografia, descoberta orientada por consultas e registro sanitizado de aquisição documental. A execução privada atual adicionou validação de formato, identidade, conteúdo, hashes, status e provenance ao corpus Agro. A camada de extração técnica continua condicionada à disponibilidade e à qualidade documental; nenhuma inferência é liberada apenas porque existe metadata ou um link.
 
 > Não estamos esperando as condições perfeitas para começar.
 
 ## Próximos passos
 
-O ciclo agora é **corpus → radiografia → pergunta → ingestão → nova radiografia**. A expansão já investigou a ponte brasileira entre fermentação, biorreatores, produção on-farm e bioinsumos; a trilha internacional de fixação/solubilização, formulação e estabilidade; o corredor Trichoderma–enzimas–bioprocessos; e o sinal Petrobras–microalgas–CO₂–fertilizante. As próximas perguntas serão derivadas do corpus cumulativo, preservando as trilhas fortes, as reformulações que funcionaram e as lacunas que ainda precisam de fonte.
+O ciclo agora é **corpus → descoberta → aquisição/roteamento → validação → evidência → pergunta**. A expansão já investigou a ponte brasileira entre fermentação, biorreatores, produção on-farm e bioinsumos; a trilha internacional de fixação/solubilização, formulação e estabilidade; o corredor Trichoderma–enzimas–bioprocessos; e o sinal Petrobras–microalgas–CO₂–fertilizante. A próxima etapa é aplicar o layer a execuções controladas, mantendo separados metadata, links, documentos adquiridos, conteúdo não comprovado e evidência técnica.
 
 ## Licença e uso
 
