@@ -88,8 +88,9 @@ A expansão V1/V2 seguiu atores, organismos, tecnologias e lacunas que aparecera
 | Resolução conservadora de entidades | [`ENTITY_RESOLUTION_V1.md`](ENTITY_RESOLUTION_V1.md) · [`ENTITY_RESOLUTION_V1.json`](ENTITY_RESOLUTION_V1.json) |
 | Fontes regulatórias e de aplicação | [`REGULATORY_APPLICATION_SOURCES_V1.md`](REGULATORY_APPLICATION_SOURCES_V1.md) |
 | Corpus cumulativo | [`normalized_v2/`](normalized_v2/) |
+| Resultados em movimento | [`results/`](results/) |
 
-A entrega não tenta encerrar a investigação. Ela cria uma base pública para perguntar **quem aparece**, **quais tecnologias se repetem**, **quais relações surgem** e **onde a evidência ainda não existe**.
+A entrega não tenta encerrar a investigação. Ela cria uma base pública para perguntar **quem aparece**, **quais tecnologias se repetem**, **quais relações surgem** e **onde a evidência ainda não existe**. A camada [Resultados em movimento](results/) mostra como uma trilha passa de corpus a sinal, documento, relação e próxima pergunta.
 
 ## Sem esperar condições perfeitas
 
